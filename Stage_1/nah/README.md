@@ -4,64 +4,64 @@
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **[Python] (explained as [tequipanoliztli in tlatzontequiliztli]) yachaca tlahtolchihualiztli, ahmo tlahtolli ixquichca.**
-> Inin ha'e **Coding5s** interactive curriculum [English version] (explained as [Inglés tlahtolli ipan otlachihuiliztli]) nisqava, [Livebook] (explained as [yoliliztli tlahtolcuilolli]) interactive environment ipan core scripting itech technical mastery anhuic motecpana.
+> **Ximomachti Python xitlahcuiloa [code] (amatlacuilolli ica tlamatiliztli), ahmo zanyeno xiamoxpohua.**
+> Inin yezqui in Ingléstlahtolli tlamantli tlen **Coding5s** tlamachtiliztli, tlen tlachihchiuhtli pampa mitzhuicaz tlen pehualiztli [scripting] (tlahcuiloa tepoztequiti) canapa hueyi tlamatiliztli ica Livebook.
 
 ---
 
-## 🚀 Queniuhqui opehua?
+## 🚀 ¿Quenami pehuaz?
 
-Inin lab interactive quichihuazqui, **[Livebook] (explained as [yoliliztli tlahtolcuilolli])** otlachihuiliztli nequi [computer] (explained as [tequitl yollotl]) ipan [Python] (explained as [tequipanoliztli in tlatzontequiliztli]) runtime integration ihuan.
+Pampa ticmatiz inin tlamachtiloyan, monequi ticpiyaz **Livebook** ipan motepozcuilol ica Python.
 
-1. **[Livebook] (explained as [yoliliztli tlahtolcuilolli]) otitlachihuilti:** Tiquinhuaz [livebook.dev](https://livebook.dev) ipan.
-2. **Lab otitlahcuilo:** Tiquimixtia carpetas itechpa huan ticpitzoa **"Run in Livebook"** botón sapa archivo ipan, ahnozo ticimporta URL directo Livebook session ipan.
+1. **Xictlali Livebook:** Xicnequi ipan [livebook.dev](https://livebook.dev).
+2. **Xictlapo ce Tlamachtiloyan:** Xiquitta in amatl tlen nican tlani huan xicpachoa in **"Run in Livebook"** ipan cece amatl, zo xiquihcuilo in URL ipan moLivebook.
 
 ---
 
-## 📚 Coding5s Methodology (5 Stages)
+## 📚 Coding5s Tlamachtiliztli (5 Tlamantli)
 
-Toquich approach ha'e **[Controlled Cognitive Friction] (explained as [yoliliztli yollotl tlatzontequiliztli]) ipan otlachihuiliztli**. Sapa lab motecpana:
+Totlamachtiliz mopitza ica **[Controlled Cognitive Friction] (tlamatiliztli tlen moixnamiqui)**. Cece tlamachtiloyan mitzyecanaz:
 
-| Stage | Name | Objective |
+| Tlamantli | Toca | Tlen quichihuaz |
 |-------|------|-----------|
-| **1** | Practice | [Code] (explained as [tequipanoliztli in tlatzontequiliztli]) opehua itechpa tlahtolcuilolli |
-| **2** | Debug | Intentional [syntax] (explained as [tlahtolli tlatzontequiliztli]) [errors] (explained as [pantiliztli]) logic ipan tiquimixtia |
-| **3** | Complete | Architectural algorithmic gaps otlachihuiliztli |
-| **4** | Refactor | Existing [scripts] (explained as [tequipanoliztli in tlatzontequiliztli]) optimize ruwa (flat vs. modular structure) |
-| **5** | Extend | Musuq production-ready functionalities otlachihuiliztli ihuan |
+| **1** | Yeyecoliztli | Xitlahcuilo [code] tlen yancuic |
+| **2** | [Debug] (Yectlalia) | Xictemo ahmo cualli tlahcuilolli huan tlamatiliztli |
+| **3** | Tzonquixtia | Xictemi tlen poliui ipan [algorithms] (tlahcuilol-ohtli) |
+| **4** | [Refactor] (Yancuilia) | Xicyectlali tlen yitlahcuilolli (huehueyi zo tlamantli) |
+| **5** | Hueyiya | Xicchiua yancuic tlamantli pampa tequitl |
 
-*Inin repository ha'e **Stage 1 (Practice)** ipan otlachihuiliztli*.
+*Inin amoxcalli quipiya **Tlamantli 1 (Yeyecoliztli)**.
 ---
 
-## 🛠️ Queniuhqui sapa Livebook otlachihuiliztli?
+## 🛠️ Quenami tictequitiltiz cece Livebook
 
-Sapa `.livemd` archivo ipan, inin simple workflow motecpana:
+Ipan cece `.livemd` amatl, xicchihua inin:
 
-1. Archivo [Livebook] (explained as [yoliliztli tlahtolcuilolli]) ipan otitlahcuilo (desktop ahnozo browser version).
-2. **Stage 1 prompt** tictlaliz, upan preferred AI chat (ChatGPT, Gemini, Claude, etc.) ipan tictlali.
-3. AI **3 itechpa 5 executable micro‑examples** topic ipan otigenera.
-4. Inin examples Livebook **execution cell** ipan tictlaliz, upan erun.
-5. [Code] (explained as [tequipanoliztli in tlatzontequiliztli]) emodifica, experimenta, upan output real time ipan otlachihuiliztli tiquimixtia.
-
----
-
-## 🧠 The Socratic Mentor (AI)
-
-Sapa Livebook **[Mentor prompt] (explained as [yanahuiliztli tapetlahtolli tlatzontequiliztli])** ipan otlachihuiliztli. Inin same AI chat ipan [code] (explained as [tequipanoliztli in tlatzontequiliztli]) logic explanation ihuan tictlali. Mentor:
-
-- **Ahmo kutichĩ ome'ẽva directamente** (ñepyrũ guive)
-- Socratic questions tapu pantã descubrihaguã
-- Real‑world analogies **[programming concepts] (explained as [tequipanoliztli tlahtolli ypykue])** otlachihuiliztli oipuru
-- "Vibe Coding" chinkachĩ, upan true engineering intuition otlachihuiliztli
-- Senior‑level answers specific questions tapu ipan ome'ẽ
-
-⚠️ CRITICAL INFRASTRUCTURE NOTE FOR MAYAN OR NATIVE LANGUAGES: Maximum language insulation, robust inline comment logic, upan precise dynamic glossaries localized versions ipan (Mayan languages ipan otlachihuiliztli) asegurahaguã, Gemini Pro (ahnozo aswan hatan) oipuru va'erã. Free-tier models syntactic attention ahmo oguereko kóva lenguajes procesahaguã, paykuera limited training data AI models ipan oguereko. America Continentepy Mayan upan native languages ipan, context seed prompts ipan embedasqa outputs calidad maximizahaguã; upévare, premium model recomendá mejores resultados otlachihuiliztli.
+1. Xictlapo in amatl ipan **Livebook**.
+2. Xiccopina in **Tlamantli 1 [prompt] (tlahtlaniliztli)** huan xictlali ipan moAI (ChatGPT, Gemini, Claude, h.o.c.).
+3. In AI quichihuaz **3 cana 5 [micro-examples] (tepiton yeyecoliztli)**.
+4. Xiccopina inon yeyecoliztli ipan Livebook huan xictequitilti.
+5. Xicpatla in [code], xicyeyeco, huan xiquitta quenami mopatla.
 
 ---
 
-## 🛠️ Interactive Curriculum — Stage 1: Practice Lab
+## 🧠 In Socratic Tlamachtiani (AI)
 
-**Run in Livebook** badge ticpitzoa sapa lab directo environment ipan otitlahcuilo haguã.
+Cece Livebook no quipiya ce **[Mentor prompt] (tlamachtiani tlahtlaniliztli)**. Hueliz tictequitiltiz ipan moAI ica mo[code] huan ce tepiton tlahtolli tlen motlamatiliz. In tlamachtiani:
+
+- **Ahmo mitzmacaz in tlananquiliztli nimantzin**
+- Mitztlahtlaniz ica Socratic tlahtlaniliztli pampa tehhuatl tictemoz in ahmo cualli
+- Quitequitiltiz neli tlamantli pampa mitziluiz **[programming concepts] (tlahcuilolli tlamatiliztli)**
+- Mitzpalehuiz pampa ahmo ticchihuaz "Vibe Coding" huan ticpiyaz neli tlamatiliztli
+- Mitzmacaz hueyi tlananquiliztli quema tictlahtlaniz ce tlamantli
+
+⚠️ HUEYI TLAHTOLLI PAMPA MAYA ZO NATIVE TLAHTOLLI: Pampa cualli mopiyaz in tlahtolli, cualli [inline comments] (tlahtolli ipan tlahcuilolli), huan cualli [dynamic glossaries] (tlahtolamoxtli) ipan miac tlahtolli (no in Maya tlahtolli), monequi tictequitiltiz Gemini Pro. In ahmo-patiuh AI ahmo quipiya in tlamatiliztli pampa inin tlahtolli. Pampa Maya huan Native tlahtolli tlen America, ce [context seed] (xinachtli tlamatiliztli) mocahte ipan in tlahtlaniliztli pampa cualli yezqui in tlananquiliztli; pampa inin, monequi ce hueyi AI pampa cualli yezqui.
+
+---
+
+## 🛠️ Tlamachtiloyan — Tlamantli 1: Yeyecoliztli
+
+Xicpachoa in **Run in Livebook** pampa tictlapoz cece tlamachtiloyan.
 
 | # |  Level |  Type |Topic Name | Interactive Lab |
 | :--- | :--- | :--- | :--- | :--- |
@@ -178,41 +178,41 @@ Sapa Livebook **[Mentor prompt] (explained as [yanahuiliztli tapetlahtolli tlatz
 | 111 | 🔴Advanced | Topic | Icel ID Tlachihualiztli ica uuid (uuid4) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/111_topic_icel_id_tlachihualiztli_ica_uuid_uuid4.livemd) |
 | 112 | 🔴Advanced | PROJECT | Tlaueyili Tlachihualiztli Yeyantli | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/112_project_tlaueyili_tlachihualiztli_yeyantli.livemd) |
 
-*Complete table of contents (112 topics + projects) sapa language folder ipan disponible otlachihuiliztli*.
+*In tzonquizqui tlahtolamoxtli (112 tlamantli + tequitl) ca ipan cece tlahtolli amoxcalli.*
 
 ---
 
-## 🏛️ Architecture & Mentors
+## 🏛️ Tlachihchiuhtli & Tlamachtianih
 
-Sapa lab **[Explanation Gate] (explained as [tlachihuiliztli punku])** ipan otlachihuiliztli, maypichus specialized AI Mentor yachay process motecpana. Sapa stage mentor personality otlachihuiliztli, phase psychological pedagogical needs match ruva diseñadasqa:
+Cece tlamachtiloyan quipiya ce **Explanation Gate** canin ce AI Tlamachtiani mitzyecanaz ipan motlamachtiliz. Cece tlamantli quipiya iyuhcatiliz, tlachihchiuhtli pampa motlamachtiliz:
 
-| Stage | Mentor | Personality | What It Teaches |
+| Tlamantli | Tlamachtiani | Iyuhcatiliz | Tlen Mitzmachtia |
 |-------|--------|-------------|------------------|
-| **1** | The Safe Guide | Warm, patient, like an older sibling | Safe [syntax] (explained as [tlahtolli tlatzontequiliztli]) exploration, "vibe coding" chinkachĩ |
-| **2** | The Analytical Partner | Curious, coffee‑fueled "log detective" | [Error] (explained as [pantiliztli]) traces tiquimixtia, crashes entiendẽ |
-| **3** | The Logical Scaffold | Methodical, encouraging "senior builder" | Data flow visualizã (Input → Transform → Output) |
-| **4** | The Elegant Critic | Sarcastic, purist, "tough love" | Idiomatic [code] (explained as [tequipanoliztli in tlatzontequiliztli]), functional patterns, malos hábitos chinkachĩ |
-| **5** | The Strategic Partner | Visionary, professional "system architect" | Edge cases, fault tolerance, business logic alignment |
+| **1** | Cualli Tlayecanqui | Pacqui, quen ce teachcauh | Cualli [syntax] (tlahcuilol-ohtli), ahmo "vibe coding" |
+| **2** | Tlamatqui Icnicauh | Tlamatqui, quen "[log detective]" | Quipohua ahmo cualli [error traces], quimati tlen ahmo cualli |
+| **3** | Tlamatqui Tlachihchiuhqui | Cualli, quen "senior builder" | Quitta quenami yauh in tlamatiliztli (Input → Transform → Output) |
+| **4** | Cualli Tlahtoani | Sarcastic, "tough love" | Cualli [code], [functional patterns], quiquixtia ahmo cualli tlamantli |
+| **5** | Hueyi Icnicauh | Hueyi, "system architect" | [Edge cases], [fault tolerance], tequitl tlamatiliztli |
 
-*Inin repository **Stage 1 (The Safe Guide)** ipan otlachihuiliztli*.
+*Inin amoxcalli quipiya **Tlamantli 1 (Cualli Tlayecanqui)**.
 
 ---
 
-## 🔗 Useful Links
+## 🔗 Cualli Ohtli (Useful Links)
 
 [Coding5s.com](https://coding5s.com) | [Udemy (Coding5s Premium)](https://www.udemy.com/user/wilbarrios/) | [GitHub](https://github.com/WilfredoBarrios)
 
 ---
 
-## 🤝 Contributions
+## 🤝 Tlapalehuiliztli (Contributions)
 
-Feedback ahnozo feature suggestions py'ápe otlachihuiliztli? Issue otitlahcuilo ahnozo contribute proyecto apoyahaguã ima hinapipas!
+¿Ticpiya ce tlahtolli zo ticnequi ticpalehuiz? ¡Hueliz tictlapoz ce issue zo ticpalehuiz quema ticnequi!
 
 ---
 
-## 📄 License
+## 📄 Tlanahuatilli (License)
 
 MIT © [Wil Barrios](https://github.com/WilfredoBarrios)
 
 ---
-⚡ *Coding5s System — Yachay technical mastery ipan diseñadasqa.*
+⚡ *Coding5s System — Tlamachtiliztli tlachihchiuhtli pampa hueyi tlamatiliztli.*
