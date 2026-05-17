@@ -1,108 +1,105 @@
-# 🧪 Python Core & Scripting Interactive Lab — English 🇺🇸
+# 🧪 Iyara-Ikọni Alagbese lori Python Core & Scripting — Yorùbá 🇳🇬
 
 [![Livebook](https://img.shields.io/badge/Livebook-FF6B6B?logo=livebook&logoColor=white)](https://livebook.dev)
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **Learn Python by writing code, not just by reading it.**
-> This is the English version of the **Coding5s** interactive curriculum, designed to take you from core scripting to technical mastery using Livebook's interactive environment.
+> **Kọ ẹkọ Python nipa kikọ koodu (code), kii ṣe nipa kika rẹ nikan.**
+> Eyi ni ẹya èdè Yorùbá fun eto-ẹkọ alagbese **Coding5s**, ti a ṣe lati mu ọ lati ipele kikọ koodu ipilẹ (core scripting) lọ si ipele ogbontarigi onimọ-ẹrọ nipa lilo eto alagbese ti Livebook.
 
 ---
 
-## 🚀 How to get started?
+## 🚀 Bawo ni lati bẹrẹ?
 
-To experience this lab interactively, you need to have **Livebook** installed on your computer with the Python runtime integration.
+Lati le ni iriri kikun ti iyara-ikọni yi, o nilo lati ni **Livebook** lori kọnputa rẹ pẹlu eto isisẹ (runtime) ti Python.
 
-1. **Install Livebook:** Download it at [livebook.dev](https://livebook.dev).
-2. **Open a Lab:** Browse the folders below and click the **"Run in Livebook"** button inside each file, or import the URL directly into your Livebook session.
+1. **Fi Livebook sori kọnputa:** Gba lati ayelujara ni [livebook.dev](https://livebook.dev).
+2. **Ṣii Iyara-Ikọni kan:** Wa ninu awọn folda ti o wa ni isalẹ ki o tẹ bọtini **"Run in Livebook"** ninu faili kọọkan, tabi mu URL rẹ wọle taara sinu Livebook rẹ.
 
 ---
 
-## 📚 Coding5s Methodology (5 Stages)
+## 📚 Ilana Coding5s (Ipele 5)
 
-Our approach is based on **Controlled Cognitive Friction**. Each lab guides you through:
+Ilana wa da lori **Ikọni ti o ni Ijakadi Ọpọlọ** (Controlled Cognitive Friction). Iyara-ikọni kọọkan yoo mu ọ lọ nipasẹ:
 
-| Stage | Name | Objective |
+| Ipele | Orukọ | Idi |
 |-------|------|-----------|
-| **1** | Practice | Write code from scratch |
-| **2** | Debug | Find intentional syntax and logic errors |
-| **3** | Complete | Fill in architectural and algorithmic gaps |
-| **4** | Refactor | Optimize existing scripts (flat vs. modular structure) |
-| **5** | Extend | Add new production-ready functionalities |
+| **1** | Atunṣe (Practice) | Kikọ koodu lati ibẹrẹ pẹpẹ |
+| **2** | Wiwa-Asise (Debug) | Wiwa awọn aṣiṣe mọọmọ ti girama koodu ati ti ọpọlọ |
+| **3** | Pipari (Complete) | Kikun awọn ela ti igbekalẹ ati ti ilana koodu |
+| **4** | Atunṣe-Igbekalẹ (Refactor) | Mu awọn koodu ti o wa tẹlẹ rọrun (igbekalẹ pẹti vs. igbekalẹ alarun/modular) |
+| **5** | Imugbòòrò (Extend) | Fikun awọn iṣẹ titun ti o ṣetan fun lilo gidi (production-ready) |
 
-*This repository contains **Stage 1 (Practice)**.
-
----
-
-## 🛠️ How to use each Livebook
-
-Inside each `.livemd` file, follow this simple workflow:
-
-1. Open the file in **Livebook** (desktop or browser version).
-2. Copy the **Stage 1 prompt** and paste it into your preferred AI chat (ChatGPT, Gemini, Claude, etc.).
-3. The AI will generate **3 to 5 executable micro‑examples** for that topic.
-4. Copy those examples into the Livebook's **execution cell** and run them.
-5. Modify the code, experiment, and watch the output change in real time.
+*Ibi-itọju (repository) yi ni **Ipele 1 (Atunṣe)** nikan.*
 
 ---
 
-## 🧠 The Socratic Mentor (AI)
+## 🛠️ Bawo ni lati lo Livebook kọọkan?
 
-Each Livebook also includes a **Mentor prompt**. You can paste it into the same AI chat alongside your code and a short explanation of your logic. The mentor will:
+Ninu faili `.livemd` kọọkan, tẹle ilana iṣẹ ti o rọrun yi:
 
-- **Not give you the answer directly** (at first)
-- Ask you Socratic questions so you discover the error yourself
-- Use real‑world analogies to explain **programming concepts**
-- Help you eliminate "Vibe Coding" and build true engineering intuition
-- Provide senior‑level answers when you ask specific questions
-
----
-
-## 🛠️ Interactive Curriculum — Stage 1: Practice Lab
-
-Click the **Run in Livebook** badge to open each lab directly in your environment.
-
-| # | Level | Type | Topic / Project Name | Prereqs (#) | Priority | CPF-Risk | Interactive Lab |
-|:-:|:---|:---|:---|:-:|:---|:-:|:---|
-| 1 | 🟢 Beginner | Topic | Global Environment Diagnostics (`sys.version`, `sys.platform`) | - | Core | 1 | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](./Stage_1/en/beginner/1_sys_diagnostics.livemd) |
-| 2 | 🟢 Beginner | Topic | Variables & Dynamic Typing | 1 | Core | 1 | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](./Stage_1/en/beginner/2_variables.livemd) |
-| 3 | 🟢 Beginner | Topic | Primitive Data Types (`int`, `float`, `str`, `bool`) | 2 | Core | 1 | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](./Stage_1/en/beginner/3_data_types.livemd) |
-
-*The complete table of contents (112 topics + projects) is available inside each language folder.*
+1. Ṣii faili naa ni **Livebook** (ẹya ori kọnputa tabi ti ori ayelujara).
+2. Daakọ (copy) **itọni (prompt) ti Ipele 1** ki o lẹ mọọ (paste) ninu AI chat ti o fẹ (ChatGPT, Gemini, Claude, abbl.).
+3. AI yoo ṣe afihan **awọn apẹẹrẹ koodu kekere 3 si 5 ti o le ṣiṣẹ** fun akori yẹn.
+4. Daakọ awọn apẹẹrẹ koodu yẹn sinu **apoti iṣẹ** (execution cell) ti Livebook ki o tẹ lati ṣiṣẹ.
+5. Yi koodu naa pada, ṣe idanwo, ki o wo bi abajade ṣe n yipada ni akoko gidi (real-time).
 
 ---
 
-## 🏛️ Architecture & Mentors
+## 🧠 Olukọni Socratic (AI)
 
-Each lab includes an **Explanation Gate** where a specialized AI Mentor guides you through the learning process. Each stage has its own mentor personality, designed to match the psychological and pedagogical needs of that phase:
+Livebook kọọkan tun ni **itọni Olukọni (Mentor prompt)** ninu. O le lẹ mọọ ninu AI chat kanna pẹlu koodu rẹ ati alaye kukuru ti ohun ti o fẹ ki koodu naa ṣe. Olukọni naa yoo:
 
-| Stage | Mentor | Personality | What It Teaches |
+- **Kii yoo fun ọ ni idahun taara** (ni akọkọ)
+- Beere awọn ibeere Socratic lọwọ rẹ ki o le wa aṣiṣe naa funrararẹ
+- Lo awọn apẹẹrẹ aye gidi lati ṣalaye **awọn imọran kikọ koodu** (programming concepts)
+- Ran ọ lọwọ lati dẹkun "Vibe Coding" (kikọ koodu nipa amoro/fífi sọ́kà) ki o le kọ ọgbọn onimọ-ẹrọ gidi
+- Pese awọn idahun ti ipele giga (Senior-level) nigbati o ba beere awọn ibeere patश्ती
+
+---
+
+## 🛠️ Eto-Ẹkọ Alagbese — Ipele 1: Iyara-Ikọni Atunṣe
+
+Tẹ baaji **Run in Livebook** lati ṣii iyara-ikọni kọọkan taara ninu eto rẹ.
+
+| # |  Ipele |  Iru | Orukọ Akori | Iyara-Ikọni Alagbese |
+| :--- | :--- | :--- | :--- | :--- |
+
+*Gbogbo atokọ ti awọn ohun ti o wa ninu rẹ (awọn akori 112 + awọn iṣẹ akanṣe) wa ninu folda ti èdè kọọkan.*
+
+---
+
+## 🏛️ Igbekalẹ & Awọn Olukọni
+
+Iyara-ikọni kọọkan pẹlu **Ẹnu-ọna Alaye** (Explanation Gate) nibiti Olukọni AI patश्ती yoo ti mu ọ lọ nipasẹ ilana ikọni. Ipele kọọkan ni iwa ti olukọni tirẹ, ti a ṣe lati ba iyasọtọ ọpọlọ ati ti ikọni mu fun ipele yẹn:
+
+| Ipele | Olukọni | Iwa rẹ | Ohun ti o n kọni |
 |-------|--------|-------------|------------------|
-| **1** | The Safe Guide | Warm, patient, like an older sibling | Safe syntax exploration, eliminating "vibe coding" |
-| **2** | The Analytical Partner | Curious, coffee‑fueled "log detective" | Reading error traces, understanding crashes |
-| **3** | The Logical Scaffold | Methodical, encouraging "senior builder" | Visualizing data flow (Input → Transform → Output) |
-| **4** | The Elegant Critic | Sarcastic, purist, "tough love" | Idiomatic code, functional patterns, eliminating bad habits |
-| **5** | The Strategic Partner | Visionary, professional "system architect" | Edge cases, fault tolerance, business logic alignment |
+| **1** | Atọnisọna to Daju | Onisuru, bii ẹgbọn nla si aburo | Wiwa girama koodu pẹlu aabo, dídẹ́kun "vibe coding" |
+| **2** | Alabaṣepọ Onitupalẹ | Oluyadi, ti o n rìn lori kọfi, "ọlọpa log" | Kika awọn itọpa aṣiṣe (error traces), agbọye idi ti eto fi dẹkun |
+| **3** | Atilẹyin Ọpọlọ | Onitẹle, olumú-ọkàn-le, "olùkọ́ giga" | Wiwo bi data ṣe n ṣan (Input → Transform → Output) |
+| **4** | Oluyatọ to Muna | Oniyangan, pẹlu "ifẹ lile" (tough love) | Kikọ koodu ti o mọ (idiomatic code), didẹkun awọn iwa buburu |
+| **5** | Alabaṣepọ Onitọju | Oniranran, alamọdaju, "onimọ-ẹrọ igbekalẹ" | Awọn ọran pataki (edge cases), ifarada aṣiṣe, mimu koodu ba iṣẹ-owo mu |
 
-*This repository contains **Stage 1 (The Safe Guide)**. Stages 2–5 mentors are available in the premium version.*
+*Ibi-itọju yi ni **Ipele 1 (Atọnisọna to Daju)** nikan.*
 
 ---
 
-## 🔗 Useful Links
+## 🔗 Awọn Ọna Asopọ to Wulo
 
 [Coding5s.com](https://coding5s.com) | [Udemy (Coding5s Premium)](https://www.udemy.com/user/wilbarrios/) | [GitHub](https://github.com/WilfredoBarrios)
 
 ---
 
-## 🤝 Contributions
+## 🤝 Atunṣe & Iranwọ (Contributions)
 
-Do you have any feedback or feature suggestions? Feel free to open an issue or contribute if you want to support the project in any way!
-
----
-
-## 📄 License
-
-MIT © [Wilfredo Barrios](https://github.com/WilfredoBarrios)
+Ṣe o ni esi tabi awọn aba fun awọn ẹya tuntun? Lero ọfẹ lati ṣii 'issue' tabi ṣe iranwọ ti o ba fẹ ṣe atilẹyin fun iṣẹ akanṣe yi ni eyikeyi ọna!
 
 ---
-⚡ *Coding5s System — Learning designed for technical mastery.*
+
+## 📄 Iwe-Aṣẹ
+
+MIT © [Wil Barrios](https://github.com/WilfredoBarrios)
+
+---
+⚡ *Eto Coding5s — Atunṣe ikọni ti a ṣe fun ogbontarigi onimọ-ẹrọ.*
