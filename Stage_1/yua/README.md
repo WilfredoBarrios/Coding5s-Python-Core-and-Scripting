@@ -1,4 +1,4 @@
-# 🧪 Python Core & Scripting [Interactive Lab] (Múul xooknajil) — Inglés T'aan 🇲🇽
+# 🧪 Python Core & Scripting [Interactive Lab] (Múul xooknajil) — Maya Yucateco 🇲🇽
 
 [![Livebook](https://img.shields.io/badge/Livebook-FF6B6B?logo=livebook&logoColor=white)](https://livebook.dev)
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org)
