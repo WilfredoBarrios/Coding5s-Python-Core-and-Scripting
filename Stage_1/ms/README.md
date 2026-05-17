@@ -1,108 +1,217 @@
-# 🧪 Python Core & Scripting Interactive Lab — English 🇺🇸
+# 🧪 Lab Interaktif Python Core & Scripting — Bahasa Melayu 🇲🇾
 
 [![Livebook](https://img.shields.io/badge/Livebook-FF6B6B?logo=livebook&logoColor=white)](https://livebook.dev)
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **Learn Python by writing code, not just by reading it.**
-> This is the English version of the **Coding5s** interactive curriculum, designed to take you from core scripting to technical mastery using Livebook's interactive environment.
+> **Pelajari Python dengan menulis kod, bukan sekadar membaca.**
+> Ini ialah versi bahasa Melayu bagi kurikulum interaktif **Coding5s**, yang direka untuk membawa anda daripada skrip asas (*core scripting*) hingga penguasaan teknikal menggunakan persekitaran interaktif Livebook.
 
 ---
 
-## 🚀 How to get started?
+## 🚀 Bagaimana untuk bermula?
 
-To experience this lab interactively, you need to have **Livebook** installed on your computer with the Python runtime integration.
+Untuk merasai pengalaman lab ini secara interaktif, anda perlu memasang **Livebook** pada komputer anda bersama-sama dengan integrasi persekitaran pelaksanaan (*runtime*) Python.
 
-1. **Install Livebook:** Download it at [livebook.dev](https://livebook.dev).
-2. **Open a Lab:** Browse the folders below and click the **"Run in Livebook"** button inside each file, or import the URL directly into your Livebook session.
-
----
-
-## 📚 Coding5s Methodology (5 Stages)
-
-Our approach is based on **Controlled Cognitive Friction**. Each lab guides you through:
-
-| Stage | Name | Objective |
-|-------|------|-----------|
-| **1** | Practice | Write code from scratch |
-| **2** | Debug | Find intentional syntax and logic errors |
-| **3** | Complete | Fill in architectural and algorithmic gaps |
-| **4** | Refactor | Optimize existing scripts (flat vs. modular structure) |
-| **5** | Extend | Add new production-ready functionalities |
-
-*This repository contains **Stage 1 (Practice)**.
+1. **Pasang Livebook:** Muat turun di [livebook.dev](https://livebook.dev).
+2. **Buka Lab:** Semak imbas folder di bawah dan klik butang **"Run in Livebook"** di dalam setiap fail, atau import URL secara terus ke dalam sesi Livebook anda.
 
 ---
 
-## 🛠️ How to use each Livebook
+## 📚 Metodologi Coding5s (5 Peringkat)
 
-Inside each `.livemd` file, follow this simple workflow:
+Pendekatan kami adalah berasaskan **Geseran Kognitif Terkawal** (*Controlled Cognitive Friction*). Setiap lab membimbing anda melalui:
 
-1. Open the file in **Livebook** (desktop or browser version).
-2. Copy the **Stage 1 prompt** and paste it into your preferred AI chat (ChatGPT, Gemini, Claude, etc.).
-3. The AI will generate **3 to 5 executable micro‑examples** for that topic.
-4. Copy those examples into the Livebook's **execution cell** and run them.
-5. Modify the code, experiment, and watch the output change in real time.
+| Peringkat | Nama | Objektif |
+|-----------|------|-----------|
+| **1**     | Latihan | Menulis kod dari awal |
+| **2**     | Nyahpepijat (Debug) | Mencari ralat sintaks dan logik yang sengaja diadakan |
+| **3**     | Lengkapkan | Mengisi jurang seni bina dan algoritma |
+| **4**     | Pemfaktoran Semula (Refactor) | Mengoptimumkan skrip sedia ada (struktur rata vs. modular) |
+| **5**     | Lanjutkan | Menambah fungsi baharu yang sedia untuk pengeluaran (*production-ready*) |
 
----
-
-## 🧠 The Socratic Mentor (AI)
-
-Each Livebook also includes a **Mentor prompt**. You can paste it into the same AI chat alongside your code and a short explanation of your logic. The mentor will:
-
-- **Not give you the answer directly** (at first)
-- Ask you Socratic questions so you discover the error yourself
-- Use real‑world analogies to explain **programming concepts**
-- Help you eliminate "Vibe Coding" and build true engineering intuition
-- Provide senior‑level answers when you ask specific questions
+*Repositori ini mengandungi **Peringkat 1 (Latihan)**.*
 
 ---
 
-## 🛠️ Interactive Curriculum — Stage 1: Practice Lab
+## 🛠️ Bagaimana untuk menggunakan setiap Livebook?
 
-Click the **Run in Livebook** badge to open each lab directly in your environment.
+Di dalam setiap fail `.livemd`, ikuti aliran kerja mudah ini:
 
-| # | Level | Type | Topic / Project Name | Prereqs (#) | Priority | CPF-Risk | Interactive Lab |
-|:-:|:---|:---|:---|:-:|:---|:-:|:---|
-| 1 | 🟢 Beginner | Topic | Global Environment Diagnostics (`sys.version`, `sys.platform`) | - | Core | 1 | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](./Stage_1/en/beginner/1_sys_diagnostics.livemd) |
-| 2 | 🟢 Beginner | Topic | Variables & Dynamic Typing | 1 | Core | 1 | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](./Stage_1/en/beginner/2_variables.livemd) |
-| 3 | 🟢 Beginner | Topic | Primitive Data Types (`int`, `float`, `str`, `bool`) | 2 | Core | 1 | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](./Stage_1/en/beginner/3_data_types.livemd) |
-
-*The complete table of contents (112 topics + projects) is available inside each language folder.*
+1. Buka fail di dalam **Livebook** (versi desktop atau pelayar).
+2. Salin **prompt Peringkat 1** dan tampalkannya ke dalam sembang AI pilihan anda (ChatGPT, Gemini, Claude, dll.).
+3. AI akan menghasilkan **3 hingga 5 contoh mikro yang boleh dilaksanakan** untuk topik tersebut.
+4. Salin contoh-contoh tersebut ke dalam **sel pelaksanaan** (*execution cell*) Livebook dan jalankannya.
+5. Ubah suai kod, bereksperimen, dan lihat hasil output berubah secara masa nyata (*real-time*).
 
 ---
 
-## 🏛️ Architecture & Mentors
+## 🧠 Mentor Sokratik (AI)
 
-Each lab includes an **Explanation Gate** where a specialized AI Mentor guides you through the learning process. Each stage has its own mentor personality, designed to match the psychological and pedagogical needs of that phase:
+Setiap Livebook juga menyertakan **prompt Mentor**. Anda boleh menampalkannya ke dalam sembang AI yang sama bersama-sama dengan kod anda dan penjelasan ringkas tentang logik anda. Mentor akan:
 
-| Stage | Mentor | Personality | What It Teaches |
-|-------|--------|-------------|------------------|
-| **1** | The Safe Guide | Warm, patient, like an older sibling | Safe syntax exploration, eliminating "vibe coding" |
-| **2** | The Analytical Partner | Curious, coffee‑fueled "log detective" | Reading error traces, understanding crashes |
-| **3** | The Logical Scaffold | Methodical, encouraging "senior builder" | Visualizing data flow (Input → Transform → Output) |
-| **4** | The Elegant Critic | Sarcastic, purist, "tough love" | Idiomatic code, functional patterns, eliminating bad habits |
-| **5** | The Strategic Partner | Visionary, professional "system architect" | Edge cases, fault tolerance, business logic alignment |
-
-*This repository contains **Stage 1 (The Safe Guide)**. Stages 2–5 mentors are available in the premium version.*
+- **Tidak memberikan jawapan secara terus** (pada permulaan)
+- Bertanyakan soalan Sokratik supaya anda menemui ralat itu sendiri
+- Menggunakan analogi dunia nyata untuk menjelaskan **konsep pengaturcaraan**
+- Membantu anda menghapuskan "Vibe Coding" (menulis kod mengikut perasaan) dan membina intuisi kejuruteraan yang sebenar
+- Menyediakan jawapan bertaraf senior apabila anda bertanyakan soalan khusus
 
 ---
 
-## 🔗 Useful Links
+## 🛠️ Kurikulum Interaktif — Peringkat 1: Lab Latihan
+
+Klik lencana **Run in Livebook** untuk membuka setiap lab secara terus dalam persekitaran anda.
+
+| # |  Level |  Type |Topic Name | Interactive Lab |
+| :--- | :--- | :--- | :--- | :--- |
+| 001 | 🟢Beginner | Topic | Sintaks Asas & Output (print(), Comments, Indentation) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/beginner/001_topic_sintaks_asas_output_print_comments_indentation.livemd) |
+| 002 | 🟢Beginner | Topic | Variables & Dynamic Typing (Assignment, Naming Conventions) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/beginner/002_topic_variables_dynamic_typing_assignment_naming_conventions.livemd) |
+| 003 | 🟢Beginner | Topic | Jenis Data Primitif (int, float, str, bool) & type() | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/beginner/003_topic_jenis_data_primitif_int_float_str_bool_type.livemd) |
+| 004 | 🟢Beginner | Topic | Operasi Aritmetik (+, -, *, /, //, %, **) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/beginner/004_topic_operasi_aritmetik.livemd) |
+| 005 | 🟢Beginner | Topic | Operator Perbandingan & Identiti (==, !=, >, <, is, is not) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/beginner/005_topic_operator_perbandingan_identiti_is_is_not.livemd) |
+| 006 | 🟢Beginner | PROJECT | Kalkulator Tip & Pembahagian (Gabungan operasi Math & variables) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/beginner/006_project_kalkulator_tip_pembahagian_gabungan_operasi_math_variables.livemd) |
+| 007 | 🟢Beginner | Topic | Input Pengguna & Type Casting (input(), int(), float(), str()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/beginner/007_topic_input_pengguna_type_casting_input_int_float_str.livemd) |
+| 008 | 🟢Beginner | Topic | Operator Logik (and, or, not) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/beginner/008_topic_operator_logik_and_or_not.livemd) |
+| 009 | 🟢Beginner | Topic | Operasi String Asas (Concatenation, Repetition, Indexing []) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/beginner/009_topic_operasi_string_asas_concatenation_repetition_indexing.livemd) |
+| 010 | 🟢Beginner | Topic | Pemformatan String (f-strings, .format()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/beginner/010_topic_pemformatan_string_f_strings_format.livemd) |
+| 011 | 🟢Beginner | Topic | Kaedah String Biasa (lower(), upper(), strip(), replace(), split()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/beginner/011_topic_kaedah_string_biasa_lower_upper_strip_replace_split.livemd) |
+| 012 | 🟢Beginner | PROJECT | Penjana Profil Pengguna Interaktif (I/O, formatting, string methods) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/beginner/012_project_penjana_profil_pengguna_interaktif_i_o_formatting_string_methods.livemd) |
+| 013 | 🟢Beginner | Topic | Aliran Kawalan: Syarat Asas (if, else) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/beginner/013_topic_aliran_kawalan_syarat_asas_if_else.livemd) |
+| 014 | 🟢Beginner | Topic | Aliran Kawalan: Syarat Berantai & Bersarang (elif, nested if) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/beginner/014_topic_aliran_kawalan_syarat_berantai_bersarang_elif_nested_if.livemd) |
+| 015 | 🟢Beginner | Topic | Aliran Kawalan: Structural Pattern Matching (match/case) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/beginner/015_topic_aliran_kawalan_structural_pattern_matching_match_case.livemd) |
+| 016 | 🟢Beginner | Topic | Pengenalan kepada Lists (Creation, Indexing, Mutability concept) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/beginner/016_topic_pengenalan_kepada_lists_creation_indexing_mutability_concept.livemd) |
+| 017 | 🟢Beginner | Topic | Kaedah Modifikasi List (append(), insert(), extend(), remove(), pop()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/beginner/017_topic_kaedah_modifikasi_list_append_insert_extend_remove_pop.livemd) |
+| 018 | 🟢Beginner | Topic | Sequence Slicing & Strides ([start:stop:step]) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/beginner/018_topic_sequence_slicing_strides_start_stop_step.livemd) |
+| 019 | 🟢Beginner | PROJECT | Pengurus To-Do Asas (Syarat & manipulasi List) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/beginner/019_project_pengurus_to_do_asas_syarat_manipulasi_list.livemd) |
+| 020 | 🟢Beginner | Topic | Pengenalan kepada Tuples (Creation, Immutability, Unpacking) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/beginner/020_topic_pengenalan_kepada_tuples_creation_immutability_unpacking.livemd) |
+| 021 | 🟢Beginner | Topic | Pengenalan kepada Dictionaries (Key-Value pairs, Creation, Direct Access) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/beginner/021_topic_pengenalan_kepada_dictionaries_key_value_pairs_creation_direct_access.livemd) |
+| 022 | 🟢Beginner | Topic | Kaedah Dictionary (keys(), values(), items(), get(), update()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/beginner/022_topic_kaedah_dictionary_keys_values_items_get_update.livemd) |
+| 023 | 🟢Beginner | Topic | Pengenalan kepada Sets (Creation, Uniqueness, add(), remove()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/beginner/023_topic_pengenalan_kepada_sets_creation_uniqueness_add_remove.livemd) |
+| 024 | 🟢Beginner | Topic | Operasi Set (union(), intersection(), difference(), symmetric_difference()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/beginner/024_topic_operasi_set_union_intersection_difference_symmetric_difference.livemd) |
+| 025 | 🟢Beginner | PROJECT | Penduplikasi Kenalan & Data (Dicts, Tuples, Sets) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/beginner/025_project_penduplikasi_kenalan_data_dicts_tuples_sets.livemd) |
+| 026 | 🟢Beginner | Topic | Iterasi: Loop for (Iterasi strings, lists, tuples) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/beginner/026_topic_iterasi_loop_for_iterasi_strings_lists_tuples.livemd) |
+| 027 | 🟢Beginner | Topic | Iterasi: Loop while & Pernyataan Kawalan (break, continue, pass) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/beginner/027_topic_iterasi_loop_while_pernyataan_kawalan_break_continue_pass.livemd) |
+| 028 | 🟢Beginner | Topic | Ungkapan Tugasan dengan Walrus Operator (:=) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/beginner/028_topic_ungkapan_tugasan_dengan_walrus_operator.livemd) |
+| 029 | 🟡Intermediate | Topic | Alat Iterasi Lanjutan (range(), enumerate(), zip()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/intermediate/029_topic_alat_iterasi_lanjutan_range_enumerate_zip.livemd) |
+| 030 | 🟡Intermediate | Topic | Operator Keahlian (in, not in merentasi semua struktur data) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/intermediate/030_topic_operator_keahlian_in_not_in_merentasi_semua_struktur_data.livemd) |
+| 031 | 🟡Intermediate | Topic | List Comprehensions (Sintaks asas & penapisan bersyarat) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/intermediate/031_topic_list_comprehensions_sintaks_asas_penapisan_bersyarat.livemd) |
+| 032 | 🟡Intermediate | PROJECT | Pembersih Teks & Data Automatik (Loops, Comprehensions, Conditionals) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/intermediate/032_project_pembersih_teks_data_automatik_loops_comprehensions_conditionals.livemd) |
+| 033 | 🟡Intermediate | Topic | Dictionary & Set Comprehensions (Sintaks & penapisan) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/intermediate/033_topic_dictionary_set_comprehensions_sintaks_penapisan.livemd) |
+| 034 | 🟡Intermediate | Topic | Pengenalan kepada Functions (def, pernyataan return asas) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/intermediate/034_topic_pengenalan_kepada_functions_def_pernyataan_return_asas.livemd) |
+| 035 | 🟡Intermediate | Topic | Argumen Function: Positional, Keyword, & Default Values | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/intermediate/035_topic_argumen_function_positional_keyword_default_values.livemd) |
+| 036 | 🟡Intermediate | Topic | Argumen Fleksibel (*args, **kwargs) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/intermediate/036_topic_argumen_fleksibel_args_kwargs.livemd) |
+| 037 | 🟡Intermediate | Topic | Skop Pemboleh Ubah - Variable Scope (konsep local, global, nonlocal) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/intermediate/037_topic_skop_pemboleh_ubah_variable_scope_konsep_local_global_nonlocal.livemd) |
+| 038 | 🟡Intermediate | PROJECT | Utiliti Matematik Talian Perintah (Functions, Scope, Flexible args) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/intermediate/038_project_utiliti_matematik_talian_perintah_functions_scope_flexible_args.livemd) |
+| 039 | 🟡Intermediate | Topic | Lambda Functions (Fungsi tanpa nama ungkapan tunggal) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/intermediate/039_topic_lambda_functions_fungsi_tanpa_nama_ungkapan_tunggal.livemd) |
+| 040 | 🟡Intermediate | Topic | Higher-Order Functions (map(), filter()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/intermediate/040_topic_higher_order_functions_map_filter.livemd) |
+| 041 | 🟡Intermediate | Topic | Fungsi reduce() (Mengimport daripada functools) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/intermediate/041_topic_fungsi_reduce_mengimport_daripada_functools.livemd) |
+| 042 | 🟡Intermediate | Topic | Pengenalan kepada Modules & Pernyataan import (import, from ... import ...) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/intermediate/042_topic_pengenalan_kepada_modules_pernyataan_import_import_from_import.livemd) |
+| 043 | 🟡Intermediate | Topic | Module Math & Random Standard (utiliti math, pilihan & penjanaan random) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/intermediate/043_topic_module_math_random_standard_utiliti_math_pilihan_penjanaan_random.livemd) |
+| 044 | 🟡Intermediate | Topic | Module Datetime Standard (datetime, timedelta, pemformatan string %Y-%m-%d) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/intermediate/044_topic_module_datetime_standard_datetime_timedelta_pemformatan_string_y_m_d.livemd) |
+| 045 | 🟡Intermediate | PROJECT | Penjana Kata Laluan Berjejak Masa (Functions, Datetime, Random) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/intermediate/045_project_penjana_kata_laluan_berjejak_masa_functions_datetime_random.livemd) |
+| 046 | 🟡Intermediate | Topic | Asas Pengendalian Ralat (blok try, except) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/intermediate/046_topic_asas_pengendalian_ralat_blok_try_except.livemd) |
+| 047 | 🟡Intermediate | Topic | Pengendalian Ralat Lanjutan (finally, else, menangkap jenis exception tertentu) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/intermediate/047_topic_pengendalian_ralat_lanjutan_finally_else_menangkap_jenis_exception_tertentu.livemd) |
+| 048 | 🟡Intermediate | Topic | Membangkitkan Exception Tersuai (pernyataan raise, assert) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/intermediate/048_topic_membangkitkan_exception_tersuai_pernyataan_raise_assert.livemd) |
+| 049 | 🟡Intermediate | Topic | Pengendalian Laluan Moden (operasi fungsional & traversal dengan pathlib.Path) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/intermediate/049_topic_pengendalian_laluan_moden_operasi_fungsional_traversal_dengan_pathlib_path.livemd) |
+| 050 | 🟡Intermediate | Topic | I/O Fail Asas (Membuka, Membaca, dan Menutup Fail Teks) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/intermediate/050_topic_i_o_fail_asas_membuka_membaca_dan_menutup_fail_teks.livemd) |
+| 051 | 🟡Intermediate | Topic | Menulis & Menambah Data ke Fail Teks (mod 'w', 'a') | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/intermediate/051_topic_menulis_menambah_data_ke_fail_teks_mod_w_a.livemd) |
+| 052 | 🟡Intermediate | Topic | Context Managers (sintaks with open() untuk pengendalian fail yang selamat) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/intermediate/052_topic_context_managers_sintaks_with_open_untuk_pengendalian_fail_yang_selamat.livemd) |
+| 053 | 🟡Intermediate | PROJECT | Penganalisis Fail Log Automatik (File I/O, Pengendalian Ralat, String Parsing) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/intermediate/053_project_penganalisis_fail_log_automatik_file_i_o_pengendalian_ralat_string_parsing.livemd) |
+| 054 | 🟡Intermediate | Topic | Mengendalikan Data JSON (json.load(), json.loads(), json.dump(), json.dumps()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/intermediate/054_topic_mengendalikan_data_json_json_load_json_loads_json_dump_json_dumps.livemd) |
+| 055 | 🟡Intermediate | Topic | Bekerja dengan Fail CSV (csv.reader(), csv.DictReader(), csv.writer()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/intermediate/055_topic_bekerja_dengan_fail_csv_csv_reader_csv_dictreader_csv_writer.livemd) |
+| 056 | 🔴Advanced | Topic | Pemboleh Ubah Persekitaran & Konfigurasi (os.environ, os.getenv()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/056_topic_pemboleh_ubah_persekitaran_konfigurasi_os_environ_os_getenv.livemd) |
+| 057 | 🔴Advanced | Topic | Mengurus Rahsia dengan python-dotenv (Memuatkan fail .env dengan selamat) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/057_topic_mengurus_rahsia_dengan_python_dotenv_memuatkan_fail_env_dengan_selamat.livemd) |
+| 058 | 🔴Advanced | Topic | Asas Protokol HTTP & Module requests (requests.get(), Status Codes) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/058_topic_asas_protokol_http_module_requests_requests_get_status_codes.livemd) |
+| 059 | 🔴Advanced | Topic | Mengendalikan Respons API (Parsing JSON dengan response.json()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/059_topic_mengendalikan_respons_api_parsing_json_dengan_response_json.livemd) |
+| 060 | 🔴Advanced | Topic | Pengendalian API Lanjutan: Menavigasi Paginasi & Cursors | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/060_topic_pengendalian_api_lanjutan_menavigasi_paginasi_cursors.livemd) |
+| 061 | 🔴Advanced | PROJECT | Pengambil Data API Selamat (Requests, JSON, dotenv, File I/O) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/061_project_pengambil_data_api_selamat_requests_json_dotenv_file_i_o.livemd) |
+| 062 | 🔴Advanced | Topic | requests Lanjutan: URL Query Parameters & Custom Headers | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/062_topic_requests_lanjutan_url_query_parameters_custom_headers.livemd) |
+| 063 | 🔴Advanced | Topic | requests Lanjutan: Menghantar POST Requests & JSON Payloads | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/063_topic_requests_lanjutan_menghantar_post_requests_json_payloads.livemd) |
+| 064 | 🔴Advanced | Topic | Pengendalian Ralat dalam API (response.raise_for_status(), Request Timeouts) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/064_topic_pengendalian_ralat_dalam_api_response_raise_for_status_request_timeouts.livemd) |
+| 065 | 🔴Advanced | Topic | Module collections (Counter, defaultdict untuk pengiraan/pengelompokan yang dioptimumkan) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/065_topic_module_collections_counter_defaultdict_untuk_pengiraan_pengelompokan_yang_dioptimumkan.livemd) |
+| 066 | 🔴Advanced | Topic | Baris Gilir Berakhir Dua yang Cekap dengan collections.deque (operasi append/pop pantas) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/066_topic_baris_gilir_berakhir_dua_yang_cekap_dengan_collections_deque_operasi_append_pop_pantas.livemd) |
+| 067 | 🔴Advanced | Topic | Rekod Berstruktur Ringan dengan collections.namedtuple | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/067_topic_rekod_berstruktur_ringan_dengan_collections_namedtuple.livemd) |
+| 068 | 🔴Advanced | PROJECT | Penganalisis Respons API (Requests, Pengendalian Ralat, Collections, Namedtuples) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/068_project_penganalisis_respons_api_requests_pengendalian_ralat_collections_namedtuples.livemd) |
+| 069 | 🔴Advanced | Topic | Context Managers Tersuai dengan contextlib (dekorator @contextmanager) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/069_topic_context_managers_tersuai_dengan_contextlib_dekorator_contextmanager.livemd) |
+| 070 | 🔴Advanced | Topic | Generators & Kata Kunci yield (Konsep lazy evaluation) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/070_topic_generators_kata_kunci_yield_konsep_lazy_evaluation.livemd) |
+| 071 | 🔴Advanced | Topic | Generator Expressions (Penjanaan iterable yang cekap memori) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/071_topic_generator_expressions_penjanaan_iterable_yang_cekap_memori.livemd) |
+| 072 | 🔴Advanced | Topic | Functions Lanjutan: Closures & Nested Functions (Mengekalkan keadaan tanpa objek) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/072_topic_functions_lanjutan_closures_nested_functions_mengekalkan_keadaan_tanpa_objek.livemd) |
+| 073 | 🔴Advanced | Topic | Bekas Data Berstruktur dengan dataclasses | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/073_topic_bekas_data_berstruktur_dengan_dataclasses.livemd) |
+| 074 | 🔴Advanced | Topic | Decorators: Mencipta & Menggunakan Pembungkus Function (sintaks @wrapper) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/074_topic_decorators_mencipta_menggunakan_pembungkus_function_sintaks_wrapper.livemd) |
+| 075 | 🔴Advanced | PROJECT | Penghad Kadar API & Decorator Caching | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/075_project_penghad_kadar_api_decorator_caching.livemd) |
+| 076 | 🔴Advanced | Topic | Navigasi & Manipulasi Sistem Fail (os.listdir(), os.mkdir(), os.remove()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/076_topic_navigasi_manipulasi_sistem_fail_os_listdir_os_mkdir_os_remove.livemd) |
+| 077 | 🔴Advanced | Topic | Pengendalian Fail Sementara dengan tempfile (fail & direktori sementara yang selamat) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/077_topic_pengendalian_fail_sementara_dengan_tempfile_fail_direktori_sementara_yang_selamat.livemd) |
+| 078 | 🔴Advanced | Topic | Operasi Fail Tahap Tinggi (shutil.copy(), shutil.move(), shutil.rmtree()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/078_topic_operasi_fail_tahap_tinggi_shutil_copy_shutil_move_shutil_rmtree.livemd) |
+| 079 | 🔴Advanced | Topic | Carian Binari & Sisipan Terisih dengan bisect (mengekal senarai tertib dengan cekap) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/079_topic_carian_binari_sisipan_terisih_dengan_bisect_mengekal_senarai_tertib_dengan_cekap.livemd) |
+| 080 | 🔴Advanced | Topic | Subprocesses: Melaksanakan Perintah Sistem (subprocess.run(), menangkap output) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/080_topic_subprocesses_melaksanakan_perintah_sistem_subprocess_run_menangkap_output.livemd) |
+| 081 | 🔴Advanced | Topic | Regular Expressions: Padanan & Carian (re.search(), re.match(), corak asas) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/081_topic_regular_expressions_padanan_carian_re_search_re_match_corak_asas.livemd) |
+| 082 | 🔴Advanced | Topic | Regular Expressions: Pengekstrakan & Penggantian (re.findall(), re.sub(), capture groups) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/082_topic_regular_expressions_pengekstrakan_penggantian_re_findall_re_sub_capture_groups.livemd) |
+| 083 | 🔴Advanced | PROJECT | Penganalisis Log Sistem & Pengekstrak Regex (Regex, os, pathlib) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/083_project_penganalisis_log_sistem_pengekstrak_regex_regex_os_pathlib.livemd) |
+| 084 | 🔴Advanced | Topic | Module logging: Konfigurasi & Tahap Log (DEBUG, INFO, WARNING, ERROR) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/084_topic_module_logging_konfigurasi_tahap_log_debug_info_warning_error.livemd) |
+| 085 | 🔴Advanced | Topic | logging Lanjutan: Handlers & Formatters (Menghalakan log ke konsol dan fail secara serentak) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/085_topic_logging_lanjutan_handlers_formatters_menghalakan_log_ke_konsol_dan_fail_secara_serentak.livemd) |
+| 086 | 🔴Advanced | Topic | Itertools: Iterator Tak Terhingga & Kombinatorik (count, cycle, combinations) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/086_topic_itertools_iterator_tak_terhingga_kombinatorik_count_cycle_combinations.livemd) |
+| 087 | 🔴Advanced | Topic | Itertools: Pengelompokan & Perantaian Data (groupby, chain) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/087_topic_itertools_pengelompokan_perantaian_data_groupby_chain.livemd) |
+| 088 | 🔴Advanced | Topic | Pengenalan kepada Type Hinting (Jenis skalar: int, str, bool) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/088_topic_pengenalan_kepada_type_hinting_jenis_skalar_int_str_bool.livemd) |
+| 089 | 🔴Advanced | Topic | Type Hinting Lanjutan (List, Dict, Optional, Union, Callable) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/089_topic_type_hinting_lanjutan_list_dict_optional_union_callable.livemd) |
+| 090 | 🔴Advanced | PROJECT | Pemproses Payload Webhook Selamat-Taip (Type Hints, Logging, Itertools) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/090_project_pemproses_payload_webhook_selamat_taip_type_hints_logging_itertools.livemd) |
+| 091 | 🔴Advanced | Topic | Bootcamp Nyahpepijat Skrip: Menggunakan pdb (Menetapkan tracepoints, langkah demi langkah) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/091_topic_bootcamp_nyahpepijat_skrip_menggunakan_pdb_menetapkan_tracepoints_langkah_demi_langkah.livemd) |
+| 092 | 🔴Advanced | Topic | Cabaran Refactor Skrip: DRY & Tanggungjawab Tunggal (Memecahkan fungsi monolit) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/092_topic_cabaran_refactor_skrip_dry_tanggungjawab_tunggal_memecahkan_fungsi_monolit.livemd) |
+| 093 | 🔴Advanced | Topic | Asas Pengaturcaraan Asinkron (async def, await, konsep Event Loop) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/093_topic_asas_pengaturcaraan_asinkron_async_def_await_konsep_event_loop.livemd) |
+| 094 | 🔴Advanced | Topic | Mengurus Tugasan Asinkron (asyncio.gather(), asyncio.create_task()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/094_topic_mengurus_tugasan_asinkron_asyncio_gather_asyncio_create_task.livemd) |
+| 095 | 🔴Advanced | Topic | Timeouts & Exception Asinkron (asyncio.wait_for(), pengendalian ralat asinkron) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/095_topic_timeouts_exception_asinkron_asyncio_wait_for_pengendalian_ralat_asinkron.livemd) |
+| 096 | 🔴Advanced | Topic | Threading lwn. Asyncio (Perbezaan konsep & had thread fungsional dengan GIL) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/096_topic_threading_lwn_asyncio_perbezaan_konsep_had_thread_fungsional_dengan_gil.livemd) |
+| 097 | 🔴Advanced | PROJECT | Agregator Data Multi-API Serentak (Asyncio, Pengendalian Ralat, Logging) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/097_project_agregator_data_multi_api_serentak_asyncio_pengendalian_ralat_logging.livemd) |
+| 098 | 🔴Advanced | Topic | Pengujian Fungsional (Menulis fungsi ujian terpencil menggunakan assert asli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/098_topic_pengujian_fungsional_menulis_fungsi_ujian_terpencil_menggunakan_assert_asli.livemd) |
+| 099 | 🔴Advanced | Topic | Mocking Fungsi Asli (Menggunakan unittest.mock.patch sebagai dekorator/context manager) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/099_topic_mocking_fungsi_asli_menggunakan_unittest_mock_patch_sebagai_dekorator_context_manager.livemd) |
+| 100 | 🔴Advanced | Topic | Mengurus Keperluan Projek (penciptaan venv, pip freeze > requirements.txt) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/100_topic_mengurus_keperluan_projek_penciptaan_venv_pip_freeze_requirements_txt.livemd) |
+| 101 | 🔴Advanced | Topic | Membina CLIs yang Teguh (argparse, Argumen Kedudukan & Flags) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/101_topic_membina_clis_yang_teguh_argparse_argumen_kedudukan_flags.livemd) |
+| 102 | 🔴Advanced | Topic | Pengukuran Prestasi & Profiling (module timeit) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/102_topic_pengukuran_prestasi_profiling_module_timeit.livemd) |
+| 103 | 🔴Advanced | Topic | Penghantaran Function mengikut Jenis dengan functools.singledispatch | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/103_topic_penghantaran_function_mengikut_jenis_dengan_functools_singledispatch.livemd) |
+| 104 | 🔴Advanced | PROJECT | Utiliti CLI Gred Pengeluaran | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/104_project_utiliti_cli_gred_pengeluaran.livemd) |
+| 105 | 🔴Advanced | Topic | Hashing Data & Pengesahan Integriti (hashlib untuk SHA256) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/105_topic_hashing_data_pengesahan_integriti_hashlib_untuk_sha256.livemd) |
+| 106 | 🔴Advanced | Topic | Rujukan Lemah dengan weakref (rujukan objek selamat memori) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/106_topic_rujukan_lemah_dengan_weakref_rujukan_objek_selamat_memori.livemd) |
+| 107 | 🔴Advanced | Topic | Utiliti Fungsional Lanjutan (functools.partial, @lru_cache untuk memoization) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/107_topic_utiliti_fungsional_lanjutan_functools_partial_lru_cache_untuk_memoization.livemd) |
+| 108 | 🔴Advanced | Topic | Hook Penutupan Skrip dengan atexit (pengendali pembersihan) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/108_topic_hook_penutupan_skrip_dengan_atexit_pengendali_pembersihan.livemd) |
+| 109 | 🔴Advanced | Topic | Mengendalikan Isyarat Sistem dengan signal (penamatan skrip yang tertib) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/109_topic_mengendalikan_isyarat_sistem_dengan_signal_penamatan_skrip_yang_tertib.livemd) |
+| 110 | 🔴Advanced | Topic | Import Dinamik dengan importlib (pemuatan modul pada masa jalanan) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/110_topic_import_dinamik_dengan_importlib_pemuatan_modul_pada_masa_jalanan.livemd) |
+| 111 | 🔴Advanced | Topic | Penjanaan ID Unik dengan uuid (uuid4 untuk sistem terdistribusi) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/111_topic_penjanaan_id_unik_dengan_uuid_uuid4_untuk_sistem_terdistribusi.livemd) |
+| 112 | 🔴Advanced | PROJECT | Rangka Kerja Automasi Boleh Diperluas | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/ms/advanced/112_project_rangka_kerja_automasi_boleh_diperluas.livemd) |
+
+*Isi kandungan lengkap (112 topik + projek) boleh didapati di dalam folder folder setiap bahasa.*
+
+---
+
+## 🏛️ Seni Bina & Mentor
+
+Setiap lab merangkumi **Gerbang Penjelasan** (*Explanation Gate*) di mana Mentor AI yang khusus akan membimbing anda sepanjang proses pembelajaran. Setiap peringkat mempunyai personaliti mentornya yang tersendiri, direka khas untuk memenuhi keperluan psikologi dan pedagogi fasa tersebut:
+
+| Peringkat | Mentor | Personaliti | Apa yang Diajar |
+|-----------|--------|-------------|------------------|
+| **1**     | Pemandu yang Selamat | Mesra, sabar, seperti abang atau kakak sendiri | Penerokaan sintaks yang selamat, menghapuskan "vibe coding" |
+| **2**     | Rakan Analitikal | Ingin tahu, dipacu kopi, seorang "detektif log" | Membaca jejak ralat (*error traces*), memahami punca sistem terhenti |
+| **3**     | Perancah Logik | Berkaedah, memberi galakan, seorang "pembina senior" | Memvisualisasikan aliran data (Input → Transformasi → Output) |
+| **4**     | Pengkritik yang Elegan | Sarkastik, puris, penuh ketegasan demi kebaikan (*tough love*) | Kod idiomatik, corak fungsional, menghapuskan tabiat buruk |
+| **5**     | Rakan Strategik | Visionari, profesional, "arkitek sistem" | Kes tepi (*edge cases*), toleransi ralat, penjajaran logik perniagaan |
+
+*Repositori ini mengandungi **Peringkat 1 (Pemandu yang Selamat)**.*
+
+---
+
+## 🔗 Pautan Berguna
 
 [Coding5s.com](https://coding5s.com) | [Udemy (Coding5s Premium)](https://www.udemy.com/user/wilbarrios/) | [GitHub](https://github.com/WilfredoBarrios)
 
 ---
 
-## 🤝 Contributions
+## 🤝 Sumbangan
 
-Do you have any feedback or feature suggestions? Feel free to open an issue or contribute if you want to support the project in any way!
-
----
-
-## 📄 License
-
-MIT © [Wilfredo Barrios](https://github.com/WilfredoBarrios)
+Adakah anda mempunyai sebarang maklum balas atau cadangan ciri baharu? Jangan ragu-ragu untuk membuka *issue* atau menyumbang jika anda ingin menyokong projek ini dalam apa jua cara sekalipun!
 
 ---
-⚡ *Coding5s System — Learning designed for technical mastery.*
+
+## 📄 Lesen
+
+MIT © [Wil Barrios](https://github.com/WilfredoBarrios)
+
+---
+⚡ *Sistem Coding5s — Pembelajaran yang direka untuk penguasaan teknikal.*
