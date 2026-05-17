@@ -1,108 +1,217 @@
-# 🧪 Python Core & Scripting Interactive Lab — English 🇺🇸
+# 🧪 పైథాన్ కోర్ & స్క్రిప్టింగ్ ఇంటరాక్టివ్ ల్యాబ్ — తెలుగు 🇮🇳
 
 [![Livebook](https://img.shields.io/badge/Livebook-FF6B6B?logo=livebook&logoColor=white)](https://livebook.dev)
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **Learn Python by writing code, not just by reading it.**
-> This is the English version of the **Coding5s** interactive curriculum, designed to take you from core scripting to technical mastery using Livebook's interactive environment.
+> **పైథాన్‌ను కేవలం చదవడం ద్వారా కాదు, కోడ్ రాయడం ద్వారా నేర్చుకోండి.**
+> ఇది లైవ్‌బుక్ (Livebook) యొక్క ఇంటరాక్టివ్ వాతావరణాన్ని ఉపయోగించి, మిమ్మల్ని కోర్ స్క్రిప్టింగ్ నుండి సాంకేతిక నైపుణ్యం (technical mastery) వైపు నడిపించడానికి రూపొందించబడిన **Coding5s** ఇంటరాక్టివ్ పాఠ్యాంశాల తెలుగు వెర్షన్.
 
 ---
 
-## 🚀 How to get started?
+## 🚀 ప్రారంభించడం ఎలా?
 
-To experience this lab interactively, you need to have **Livebook** installed on your computer with the Python runtime integration.
+ఈ ల్యాబ్‌ను ఇంటరాక్టివ్‌గా అనుభవించడానికి, మీ కంప్యూటర్‌లో పైథాన్ రన్‌టైమ్ (runtime) ఇంటిగ్రేషన్‌తో కూడిన **Livebook** ఇన్‌స్టాల్ చేయబడి ఉండాలి.
 
-1. **Install Livebook:** Download it at [livebook.dev](https://livebook.dev).
-2. **Open a Lab:** Browse the folders below and click the **"Run in Livebook"** button inside each file, or import the URL directly into your Livebook session.
-
----
-
-## 📚 Coding5s Methodology (5 Stages)
-
-Our approach is based on **Controlled Cognitive Friction**. Each lab guides you through:
-
-| Stage | Name | Objective |
-|-------|------|-----------|
-| **1** | Practice | Write code from scratch |
-| **2** | Debug | Find intentional syntax and logic errors |
-| **3** | Complete | Fill in architectural and algorithmic gaps |
-| **4** | Refactor | Optimize existing scripts (flat vs. modular structure) |
-| **5** | Extend | Add new production-ready functionalities |
-
-*This repository contains **Stage 1 (Practice)**.
+1. **లైవ్‌బుక్ ఇన్‌స్టాల్ చేయండి:** దీన్ని [livebook.dev](https://livebook.dev) నుండి డౌన్‌లోడ్ చేసుకోండి.
+2. **ల్యాబ్‌ను తెరవండి:** క్రింది ఫోల్డర్‌లను బ్రౌజ్ చేయండి మరియు ప్రతి ఫైల్ లోపల ఉన్న **"Run in Livebook"** బటన్‌పై క్లిక్ చేయండి, లేదా మీ లైవ్‌బుక్ సెషన్‌లోకి URL ని నేరుగా ఇంపోర్ట్ చేయండి.
 
 ---
 
-## 🛠️ How to use each Livebook
+## 📚 Coding5s పద్ధతి (5 దశలు)
 
-Inside each `.livemd` file, follow this simple workflow:
+మా విధానం **నియంత్రిత సంజ్ఞానాత్మక ఘర్షణ** (Controlled Cognitive Friction) పై ఆధారపడి ఉంటుంది. ప్రతి ల్యాబ్ క్రింది దశల ద్వారా మీకు మార్గనిర్దేశం చేస్తుంది:
 
-1. Open the file in **Livebook** (desktop or browser version).
-2. Copy the **Stage 1 prompt** and paste it into your preferred AI chat (ChatGPT, Gemini, Claude, etc.).
-3. The AI will generate **3 to 5 executable micro‑examples** for that topic.
-4. Copy those examples into the Livebook's **execution cell** and run them.
-5. Modify the code, experiment, and watch the output change in real time.
+| దశ | పేరు | లక్ష్యం |
+|---|---|---|
+| **1** | అభ్యాసం (Practice) | మొదటి నుండి మీరే కోడ్ రాయడం |
+| **2** | డీబగ్ (Debug) | ఉద్దేశపూర్వకంగా ఉంచిన సింటాక్స్ (syntax) మరియు లాజిక్ తప్పులను కనుగొనడం |
+| **3** | పూర్తి చేయడం (Complete) | ఆర్కిటెక్చరల్ మరియు అల్గారిథమిక్ లోపాలను భర్తీ చేయడం |
+| **4** | రీఫ్యాక్టర్ (Refactor) | ఉన్న స్క్రిప్ట్‌లను మెరుగుపరచడం (ఫ్లాట్ వర్సెస్ మోడ్యులర్ నిర్మాణం) |
+| **5** | విస్తరించడం (Extend) | ప్రొడక్షన్‌కు సిద్ధంగా ఉన్న కొత్త ఫంక్షనాలిటీలను జోడించడం |
 
----
-
-## 🧠 The Socratic Mentor (AI)
-
-Each Livebook also includes a **Mentor prompt**. You can paste it into the same AI chat alongside your code and a short explanation of your logic. The mentor will:
-
-- **Not give you the answer directly** (at first)
-- Ask you Socratic questions so you discover the error yourself
-- Use real‑world analogies to explain **programming concepts**
-- Help you eliminate "Vibe Coding" and build true engineering intuition
-- Provide senior‑level answers when you ask specific questions
+*ఈ రిపోజిటరీలో **దశ 1 (అభ్యాసం)** మాత్రమే ఉంది.*
 
 ---
 
-## 🛠️ Interactive Curriculum — Stage 1: Practice Lab
+## 🛠️ ప్రతి లైవ్‌బుక్‌ను ఎలా ఉపయోగించాలి?
 
-Click the **Run in Livebook** badge to open each lab directly in your environment.
+ప్రతి `.livemd` ఫైల్ లోపల, ఈ క్రింది సరళమైన వర్క్‌ఫ్లోను అనుసరించండి:
 
-| # | Level | Type | Topic / Project Name | Prereqs (#) | Priority | CPF-Risk | Interactive Lab |
-|:-:|:---|:---|:---|:-:|:---|:-:|:---|
-| 1 | 🟢 Beginner | Topic | Global Environment Diagnostics (`sys.version`, `sys.platform`) | - | Core | 1 | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](./Stage_1/en/beginner/1_sys_diagnostics.livemd) |
-| 2 | 🟢 Beginner | Topic | Variables & Dynamic Typing | 1 | Core | 1 | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](./Stage_1/en/beginner/2_variables.livemd) |
-| 3 | 🟢 Beginner | Topic | Primitive Data Types (`int`, `float`, `str`, `bool`) | 2 | Core | 1 | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](./Stage_1/en/beginner/3_data_types.livemd) |
-
-*The complete table of contents (112 topics + projects) is available inside each language folder.*
+1. ఫైల్‌ను **Livebook** లో (డెస్క్‌టాప్ లేదా బ్రౌజర్ వెర్షన్) తెరవండి.
+2. **దశ 1 యొక్క ప్రాంప్ట్‌ను** కాపీ చేసి, మీకు నచ్చిన AI చాట్ (ChatGPT, Gemini, Claude మొదలైనవి) లో పేస్ట్ చేయండి.
+3. AI ఆ టాపిక్ కోసం **3 నుండి 5 ఎగ్జిక్యూటబుల్ మైక్రో-ఉదాహరణలను** (executable micro‑examples) తయారు చేస్తుంది.
+4. ఆ ఉదాహరణలను లైవ్‌బుక్ యొక్క **ఎగ్జిక్యూషన్ సెల్** (execution cell) లోకి కాపీ చేసి రన్ చేయండి.
+5. కోడ్‌ను మార్చండి, ప్రయోగాలు చేయండి మరియు నిజ సమయంలో అవుట్‌పుట్ మారడాన్ని గమనించండి.
 
 ---
 
-## 🏛️ Architecture & Mentors
+## 🧠 సోక్రాటిక్ మెంటార్ (AI)
 
-Each lab includes an **Explanation Gate** where a specialized AI Mentor guides you through the learning process. Each stage has its own mentor personality, designed to match the psychological and pedagogical needs of that phase:
+ప్రతి లైవ్‌బుక్‌లో ఒక **మెంటార్ ప్రాంప్ట్ (Mentor prompt)** కూడా చేర్చబడింది. దీన్ని మీ కోడ్ మరియు మీ లాజిక్ యొక్క చిన్న వివరణతో పాటు అదే AI చాట్‌లో పేస్ట్ చేయవచ్చు. మెంటార్:
 
-| Stage | Mentor | Personality | What It Teaches |
-|-------|--------|-------------|------------------|
-| **1** | The Safe Guide | Warm, patient, like an older sibling | Safe syntax exploration, eliminating "vibe coding" |
-| **2** | The Analytical Partner | Curious, coffee‑fueled "log detective" | Reading error traces, understanding crashes |
-| **3** | The Logical Scaffold | Methodical, encouraging "senior builder" | Visualizing data flow (Input → Transform → Output) |
-| **4** | The Elegant Critic | Sarcastic, purist, "tough love" | Idiomatic code, functional patterns, eliminating bad habits |
-| **5** | The Strategic Partner | Visionary, professional "system architect" | Edge cases, fault tolerance, business logic alignment |
-
-*This repository contains **Stage 1 (The Safe Guide)**. Stages 2–5 mentors are available in the premium version.*
+- (మొదట్లో) మీకు నేరుగా సమాధానాన్ని **ఇవ్వడు**
+- తప్పును మీరే కనుగొనేలా మీతో సోక్రాటిక్ (Socratic) ప్రశ్నలను అడుగుతాడు
+- **ప్రోగ్రామింగ్ భావనలను** వివరించడానికి నిజ జీవిత పోలికలను ఉపయోగిస్తాడు
+- ఊహాజనితంగా కోడ్ రాసే "వైబ్ కోడింగ్" (Vibe Coding) పద్ధతిని తొలగించి, నిజమైన ఇంజనీరింగ్ అంతర్ దృష్టిని నిర్మించడంలో సహాయపడతాడు
+- మీరు నిర్దిష్ట ప్రశ్నలు అడిగినప్పుడు సీనియర్-స్థాయి సమాధానాలను అందిస్తాడు
 
 ---
 
-## 🔗 Useful Links
+## 🛠️ ఇంటరాక్టివ్ పాఠ్యాంశాలు — దశ 1: అభ్యాస ల్యాబ్
+
+ప్రతి ల్యాబ్‌ను నేరుగా మీ వాతావరణంలో తెరవడానికి **Run in Livebook** బ్యాడ్జ్‌పై క్లిక్ చేయండి.
+
+| # |  Level |  Type |Topic Name | Interactive Lab |
+| :--- | :--- | :--- | :--- | :--- |
+| 001 | 🟢Beginner | Topic | ప్రాథమిక Syntax మరియు అవుట్‌పుట్ (print(), Comments, Indentation) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/beginner/001_topic_syntax_print_comments_indentation.livemd) |
+| 002 | 🟢Beginner | Topic | వేరియబుల్స్ మరియు Dynamic Typing (Assignment, Naming Conventions) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/beginner/002_topic_dynamic_typing_assignment_naming_conventions.livemd) |
+| 003 | 🟢Beginner | Topic | ప్రిమిటివ్ డేటా రకాలు (int, float, str, bool) మరియు type() | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/beginner/003_topic_int_float_str_bool_type.livemd) |
+| 004 | 🟢Beginner | Topic | అంకగణిత ప్రక్రియలు (+, -, *, /, //, %, **) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/beginner/004_topic.livemd) |
+| 005 | 🟢Beginner | Topic | పోలిక మరియు గుర్తింపు Operators (==, !=, >, <, is, is not) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/beginner/005_topic_operators_is_is_not.livemd) |
+| 006 | 🟢Beginner | PROJECT | టిప్ మరియు స్ప్లిట్ క్యాలిక్యులేటర్ (Math ప్రక్రియలు మరియు variables కలయిక) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/beginner/006_project_math_variables.livemd) |
+| 007 | 🟢Beginner | Topic | యూజర్ ఇన్‌పుట్ మరియు Type Casting (input(), int(), float(), str()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/beginner/007_topic_type_casting_input_int_float_str.livemd) |
+| 008 | 🟢Beginner | Topic | లాజికల్ Operators (and, or, not) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/beginner/008_topic_operators_and_or_not.livemd) |
+| 009 | 🟢Beginner | Topic | ప్రాథమిక String ప్రక్రియలు (Concatenation, Repetition, Indexing []) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/beginner/009_topic_string_concatenation_repetition_indexing.livemd) |
+| 010 | 🟢Beginner | Topic | String ఫార్మాటింగ్ (f-strings, .format()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/beginner/010_topic_string_f_strings_format.livemd) |
+| 011 | 🟢Beginner | Topic | సాధారణ String Methods (lower(), upper(), strip(), replace(), split()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/beginner/011_topic_string_methods_lower_upper_strip_replace_split.livemd) |
+| 012 | 🟢Beginner | PROJECT | ఇంటరాక్టివ్ యూజర్ ప్రొఫైల్ జనరేటర్ (I/O, formatting, string methods) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/beginner/012_project_i_o_formatting_string_methods.livemd) |
+| 013 | 🟢Beginner | Topic | కంట్రోల్ ఫ్లో: ప్రాథమిక కండిషనల్స్ (if, else) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/beginner/013_topic_if_else.livemd) |
+| 014 | 🟢Beginner | Topic | కంట్రోల్ ఫ్లో: చైన్డ్ మరియు నెస్టెడ్ కండిషనల్స్ (elif, nested if) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/beginner/014_topic_elif_nested_if.livemd) |
+| 015 | 🟢Beginner | Topic | కంట్రోల్ ఫ్లో: Structural Pattern Matching (match/case) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/beginner/015_topic_structural_pattern_matching_match_case.livemd) |
+| 016 | 🟢Beginner | Topic | Lists పరిచయం (Creation, Indexing, Mutability concept) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/beginner/016_topic_lists_creation_indexing_mutability_concept.livemd) |
+| 017 | 🟢Beginner | Topic | List సవరణ పద్ధతులు (append(), insert(), extend(), remove(), pop()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/beginner/017_topic_list_append_insert_extend_remove_pop.livemd) |
+| 018 | 🟢Beginner | Topic | సీక్వెన్స్ స్లైసింగ్ మరియు స్ట్రైడ్స్ ([start:stop:step]) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/beginner/018_topic_start_stop_step.livemd) |
+| 019 | 🟢Beginner | PROJECT | ప్రాథమిక టూ-డూ మేనేజర్ (కండిషనల్స్ మరియు List మానిప్యులేషన్) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/beginner/019_project_list.livemd) |
+| 020 | 🟢Beginner | Topic | Tuples పరిచయం (Creation, Immutability, Unpacking) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/beginner/020_topic_tuples_creation_immutability_unpacking.livemd) |
+| 021 | 🟢Beginner | Topic | Dictionaries పరిచయం (Key-Value pairs, Creation, Direct Access) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/beginner/021_topic_dictionaries_key_value_pairs_creation_direct_access.livemd) |
+| 022 | 🟢Beginner | Topic | Dictionary పద్ధతులు (keys(), values(), items(), get(), update()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/beginner/022_topic_dictionary_keys_values_items_get_update.livemd) |
+| 023 | 🟢Beginner | Topic | Sets పరిచయం (Creation, Uniqueness, add(), remove()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/beginner/023_topic_sets_creation_uniqueness_add_remove.livemd) |
+| 024 | 🟢Beginner | Topic | Set ప్రక్రియలు (union(), intersection(), difference(), symmetric_difference()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/beginner/024_topic_set_union_intersection_difference_symmetric_difference.livemd) |
+| 025 | 🟢Beginner | PROJECT | కాంటాక్ట్ మరియు డేటా డీడూప్లికేటర్ (Dicts, Tuples, Sets) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/beginner/025_project_dicts_tuples_sets.livemd) |
+| 026 | 🟢Beginner | Topic | ఐటెరేషన్: for లూప్ (strings, lists, tuples పై ఐటెరేషన్) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/beginner/026_topic_for_strings_lists_tuples.livemd) |
+| 027 | 🟢Beginner | Topic | ఐటెరేషన్: while లూప్ మరియు కంట్రోల్ స్టేట్‌మెంట్స్ (break, continue, pass) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/beginner/027_topic_while_break_continue_pass.livemd) |
+| 028 | 🟢Beginner | Topic | Walrus Operator తో అసైన్‌మెంట్ ఎక్స్‌ప్రెషన్స్ (:=) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/beginner/028_topic_walrus_operator.livemd) |
+| 029 | 🟡Intermediate | Topic | అధునాతన ఐటెరేషన్ టూల్స్ (range(), enumerate(), zip()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/intermediate/029_topic_range_enumerate_zip.livemd) |
+| 030 | 🟡Intermediate | Topic | మెంబర్‌షిప్ Operators (అన్ని డేటా స్ట్రక్చర్లలో in, not in) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/intermediate/030_topic_operators_in_not_in.livemd) |
+| 031 | 🟡Intermediate | Topic | List Comprehensions (ప్రాథమిక syntax మరియు కండిషనల్ ఫిల్టరింగ్) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/intermediate/031_topic_list_comprehensions_syntax.livemd) |
+| 032 | 🟡Intermediate | PROJECT | ఆటోమేటెడ్ టెక్స్ట్ మరియు డేటా క్లీనర్ (Loops, Comprehensions, Conditionals) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/intermediate/032_project_loops_comprehensions_conditionals.livemd) |
+| 033 | 🟡Intermediate | Topic | Dictionary మరియు Set Comprehensions (Syntax మరియు ఫిల్టరింగ్) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/intermediate/033_topic_dictionary_set_comprehensions_syntax.livemd) |
+| 034 | 🟡Intermediate | Topic | Functions పరిచయం (def, ప్రాథమిక return స్టేట్‌మెంట్స్) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/intermediate/034_topic_functions_def_return.livemd) |
+| 035 | 🟡Intermediate | Topic | Function ఆర్గ్యుమెంట్స్: Positional, Keyword, మరియు Default Values | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/intermediate/035_topic_function_positional_keyword_default_values.livemd) |
+| 036 | 🟡Intermediate | Topic | ఫ్లెక్సిబుల్ ఆర్గ్యుమెంట్స్ (*args, **kwargs) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/intermediate/036_topic_args_kwargs.livemd) |
+| 037 | 🟡Intermediate | Topic | వేరియబుల్ స్కోప్ - Variable Scope (local, global, nonlocal భావనలు) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/intermediate/037_topic_variable_scope_local_global_nonlocal.livemd) |
+| 038 | 🟡Intermediate | PROJECT | కమాండ్-లైన్ మ్యాథ్ యుటిలిటీ (Functions, Scope, Flexible args) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/intermediate/038_project_functions_scope_flexible_args.livemd) |
+| 039 | 🟡Intermediate | Topic | Lambda Functions (అనామక సింగిల్-ఎక్స్‌ప్రెషన్ ఫంక్షన్లు) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/intermediate/039_topic_lambda_functions.livemd) |
+| 040 | 🟡Intermediate | Topic | Higher-Order Functions (map(), filter()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/intermediate/040_topic_higher_order_functions_map_filter.livemd) |
+| 041 | 🟡Intermediate | Topic | reduce() ఫంక్షన్ (functools నుండి ఇంపోర్ట్ చేయడం) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/intermediate/041_topic_reduce_functools.livemd) |
+| 042 | 🟡Intermediate | Topic | Modules మరియు import స్టేట్‌మెంట్స్ పరిచయం (import, from ... import ...) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/intermediate/042_topic_modules_import_import_from_import.livemd) |
+| 043 | 🟡Intermediate | Topic | స్టాండర్డ్ Math మరియు Random మోడ్యూల్స్ (math యుటిలిటీస్, random ఎంపిక మరియు జనరేషన్) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/intermediate/043_topic_math_random_math_random.livemd) |
+| 044 | 🟡Intermediate | Topic | స్టాండర్ڈ Datetime మోడ్యూల్ (datetime, timedelta, స్ట్రింగ్ ఫార్మాటింగ్ %Y-%m-%d) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/intermediate/044_topic_datetime_datetime_timedelta_y_m_d.livemd) |
+| 045 | 🟡Intermediate | PROJECT | టైమ్-ట్రాక్డ్ పాస్‌వర్డ్ జనరేటర్ (Functions, Datetime, Random) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/intermediate/045_project_functions_datetime_random.livemd) |
+| 046 | 🟡Intermediate | Topic | ఎర్రర్ హ్యాండ్లింగ్ ప్రాథమిక అంశాలు (try, except బ్లాక్స్) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/intermediate/046_topic_try_except.livemd) |
+| 047 | 🟡Intermediate | Topic | అధునాతన ఎర్రర్ హ్యాండ్లింగ్ (finally, else, నిర్దిష్ట exception రకాలను పట్టుకోవడం) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/intermediate/047_topic_finally_else_exception.livemd) |
+| 048 | 🟡Intermediate | Topic | కస్టమ్ Exceptions పెంచడం (raise, assert స్టేట్‌మెంట్స్) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/intermediate/048_topic_exceptions_raise_assert.livemd) |
+| 049 | 🟡Intermediate | Topic | ఆధునిక పాత్ హ్యాండ్లింగ్ (pathlib.Path ఫంక్షనల్ ప్రక్రియలు మరియు ట్రావర్సల్) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/intermediate/049_topic_pathlib_path.livemd) |
+| 050 | 🟡Intermediate | Topic | ప్రాథమిక ఫైల్ I/O (టెక్స్ట్ ఫైళ్లను తెరవడం, చదవడం మరియు మూసివేయడం) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/intermediate/050_topic_i_o.livemd) |
+| 051 | 🟡Intermediate | Topic | టెక్స్ట్ ఫైళ్లకు డేటాను రాయడం మరియు జోడించడం ('w', 'a' మోడ్స్) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/intermediate/051_topic_w_a.livemd) |
+| 052 | 🟡Intermediate | Topic | Context Managers (సురక్షితమైన ఫైల్ హ్యాండ్లింగ్ కోసం with open() syntax) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/intermediate/052_topic_context_managers_with_open_syntax.livemd) |
+| 053 | 🟡Intermediate | PROJECT | ఆటోమేటెడ్ లాగ్ ఫైల్ అనలైజర్ (File I/O, ఎర్రర్ హ్యాండ్లింగ్, String Parsing) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/intermediate/053_project_file_i_o_string_parsing.livemd) |
+| 054 | 🟡Intermediate | Topic | JSON డేటాను హ్యాండిల్ చేయడం (json.load(), json.loads(), json.dump(), json.dumps()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/intermediate/054_topic_json_json_load_json_loads_json_dump_json_dumps.livemd) |
+| 055 | 🟡Intermediate | Topic | CSV ఫైళ్లతో పనిచేయడం (csv.reader(), csv.DictReader(), csv.writer()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/intermediate/055_topic_csv_csv_reader_csv_dictreader_csv_writer.livemd) |
+| 056 | 🔴Advanced | Topic | ఎన్విరాన్మెంట్ వేరియబుల్స్ మరియు కాన్ఫిగరేషన్ (os.environ, os.getenv()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/056_topic_os_environ_os_getenv.livemd) |
+| 057 | 🔴Advanced | Topic | python-dotenv తో సీక్రెట్స్ నిర్వహణ (.env ఫైళ్లను సురక్షితంగా లోడ్ చేయడం) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/057_topic_python_dotenv_env.livemd) |
+| 058 | 🔴Advanced | Topic | HTTP ప్రోటోకాల్ ప్రాథమిక అంశాలు మరియు requests మోడ్యూల్ (requests.get(), Status Codes) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/058_topic_http_requests_requests_get_status_codes.livemd) |
+| 059 | 🔴Advanced | Topic | API రెస్పాన్స్ హ్యాండ్లింగ్ (response.json() తో JSON పార్సింగ్) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/059_topic_api_response_json_json.livemd) |
+| 060 | 🔴Advanced | Topic | అధునాతన API హ్యాండ్లింగ్: పేజినేషన్ మరియు Cursors నావిగేషన్ | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/060_topic_api_cursors.livemd) |
+| 061 | 🔴Advanced | PROJECT | సురక్షితమైన API డేటా ఫెచర్ (Requests, JSON, dotenv, File I/O) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/061_project_api_requests_json_dotenv_file_i_o.livemd) |
+| 062 | 🔴Advanced | Topic | అధునాతన requests: URL Query Parameters మరియు కస్టమ్ Headers | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/062_topic_requests_url_query_parameters_headers.livemd) |
+| 063 | 🔴Advanced | Topic | అధునాతన requests: POST రిక్వెస్ట్స్ మరియు JSON Payloads పంపడం | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/063_topic_requests_post_json_payloads.livemd) |
+| 064 | 🔴Advanced | Topic | API లలో ఎర్రర్ హ్యాండ్లింగ్ (response.raise_for_status(), Request Timeouts) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/064_topic_api_response_raise_for_status_request_timeouts.livemd) |
+| 065 | 🔴Advanced | Topic | collections మోడ్యూల్ (ఆప్టిమైజ్ చేసిన కౌంటింగ్/గ్రూపింగ్ కోసం Counter, defaultdict) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/065_topic_collections_counter_defaultdict.livemd) |
+| 066 | 🔴Advanced | Topic | collections.deque తో సమర్థవంతమైన డబుల్-ఎండెడ్ క్యూలు (వేగవంతమైన append/pop ప్రక్రియలు) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/066_topic_collections_deque_append_pop.livemd) |
+| 067 | 🔴Advanced | Topic | collections.namedtuple తో తేలికపాటి స్ట్రక్చర్డ్ రికార్డులు | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/067_topic_collections_namedtuple.livemd) |
+| 068 | 🔴Advanced | PROJECT | API రెస్పాన్స్ అనలైజర్ (Requests, ఎర్రర్ హ్యాండ్లింగ్, Collections, Namedtuples) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/068_project_api_requests_collections_namedtuples.livemd) |
+| 069 | 🔴Advanced | Topic | contextlib తో కస్టమ్ Context Managers (@contextmanager డెకరేటర్) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/069_topic_contextlib_context_managers_contextmanager.livemd) |
+| 070 | 🔴Advanced | Topic | Generators మరియు yield కీవర్డ్ (Lazy evaluation భావనలు) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/070_topic_generators_yield_lazy_evaluation.livemd) |
+| 071 | 🔴Advanced | Topic | Generator Expressions (మెమరీ-సమర్థవంతమైన ఐటెరెబుల్ జనరేషన్) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/071_topic_generator_expressions.livemd) |
+| 072 | 🔴Advanced | Topic | అధునాతన ఫంక్షన్లు: Closures మరియు Nested Functions (ఆబ్జెక్ట్స్ లేకుండా స్థితిని నిలుపుకోవడం) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/072_topic_closures_nested_functions.livemd) |
+| 073 | 🔴Advanced | Topic | dataclasses తో స్ట్రక్చర్డ్ డేటా కంటైనర్లు | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/073_topic_dataclasses.livemd) |
+| 074 | 🔴Advanced | Topic | Decorators: Function వ్రాపర్లను సృష్టించడం మరియు వర్తింపజేయడం (@wrapper syntax) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/074_topic_decorators_function_wrapper_syntax.livemd) |
+| 075 | 🔴Advanced | PROJECT | API రేట్ లిమిటర్ మరియు క్యాషింగ్ Decorator | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/075_project_api_decorator.livemd) |
+| 076 | 🔴Advanced | Topic | ఫైల్ సిస్టమ్ నావిగేషన్ మరియు మానిప్యులేషన్ (os.listdir(), os.mkdir(), os.remove()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/076_topic_os_listdir_os_mkdir_os_remove.livemd) |
+| 077 | 🔴Advanced | Topic | tempfile తో తాత్కాలిక ఫైల్ హ్యాండ్లింగ్ (సురక్షితమైన తాత్కాలిక ఫైళ్లు మరియు డైరెక్టరీలు) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/077_topic_tempfile.livemd) |
+| 078 | 🔴Advanced | Topic | హై-లెవల్ ఫైల్ ప్రక్రియలు (shutil.copy(), shutil.move(), shutil.rmtree()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/078_topic_shutil_copy_shutil_move_shutil_rmtree.livemd) |
+| 079 | 🔴Advanced | Topic | bisect తో బైనరీ సెర్చ్ మరియు సార్టెడ్ ఇన్సర్షన్లు (ఆర్డర్ చేసిన లిస్టులను సమర్థవంతంగా నిర్వహించడం) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/079_topic_bisect.livemd) |
+| 080 | 🔴Advanced | Topic | Subprocesses: సిస్టమ్ కమాండ్లను అమలు చేయడం (subprocess.run(), అవుట్‌పుట్‌ను క్యాప్చర్ చేయడం) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/080_topic_subprocesses_subprocess_run.livemd) |
+| 081 | 🔴Advanced | Topic | రెగ్యులర్ ఎక్స్‌ప్రెషన్స్: మ్యాచింగ్ మరియు సెర్చింగ్ (re.search(), re.match(), ప్రాథమిక పద్ధతులు) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/081_topic_re_search_re_match.livemd) |
+| 082 | 🔴Advanced | Topic | రెగ్యులర్ ఎక్స్‌ప్రెషన్స్: ఎక్స్‌ట్రాక్టింగ్ మరియు సబ్‌స్టిట్యూటింగ్ (re.findall(), re.sub(), క్యాప్చర్ గ్రూప్స్) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/082_topic_re_findall_re_sub.livemd) |
+| 083 | 🔴Advanced | PROJECT | సిస్టమ్ లాగ్ పార్సర్ మరియు Regex ఎక్స్‌ట్రాక్టర్ (Regex, os, pathlib) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/083_project_regex_regex_os_pathlib.livemd) |
+| 084 | 🔴Advanced | Topic | logging మోడ్యూల్: కాన్ఫిగరేషన్ మరియు లాగ్ లెవల్స్ (DEBUG, INFO, WARNING, ERROR) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/084_topic_logging_debug_info_warning_error.livemd) |
+| 085 | 🔴Advanced | Topic | అధునాతన logging: Handlers మరియు Formatters (ఒకేసారి కన్సోల్ మరియు ఫైళ్లకు లాగ్లను పంపడం) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/085_topic_logging_handlers_formatters.livemd) |
+| 086 | 🔴Advanced | Topic | Itertools: అనంతమైన మరియు కాంబినేటోరిక్ ఐటెరేటర్లు (count, cycle, combinations) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/086_topic_itertools_count_cycle_combinations.livemd) |
+| 087 | 🔴Advanced | Topic | Itertools: డేటాను గ్రూపింగ్ మరియు చైనింగ్ చేయడం (groupby, chain) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/087_topic_itertools_groupby_chain.livemd) |
+| 088 | 🔴Advanced | Topic | Type Hinting పరిచయం (Scalar రకాలు: int, str, bool) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/088_topic_type_hinting_scalar_int_str_bool.livemd) |
+| 089 | 🔴Advanced | Topic | అధునాతన Type Hinting (List, Dict, Optional, Union, Callable) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/089_topic_type_hinting_list_dict_optional_union_callable.livemd) |
+| 090 | 🔴Advanced | PROJECT | టైప్-సేఫ్ వెబ్‌హుక్ పేలోడ్ ప్రాసెసర్ (Type Hints, Logging, Itertools) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/090_project_type_hints_logging_itertools.livemd) |
+| 091 | 🔴Advanced | Topic | స్క్రిప్ట్ డిబగ్గింగ్ బూట్‌క్యాంప్స్: pdb ని ఉపయోగించడం (ట్రేస్ పాయింట్లు సెట్ చేయడం, లాజిక్ ద్వారా వెళ్లడం) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/091_topic_pdb.livemd) |
+| 092 | 🔴Advanced | Topic | స్క్రిప్ట్ రిఫాక్టరింగ్ సవాళ్లు: DRY మరియు సింగిల్ రెస్పాన్సిబిలిటీ (మోనోలిత్ ఫంక్షన్లను విభజించడం) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/092_topic_dry.livemd) |
+| 093 | 🔴Advanced | Topic | అసమకాలిక ప్రోగ్రామింగ్ ప్రాథమిక అంశాలు (async def, await, Event Loop భావన) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/093_topic_async_def_await_event_loop.livemd) |
+| 094 | 🔴Advanced | Topic | అసమకాలిక పనులను నిర్వహించడం (asyncio.gather(), asyncio.create_task()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/094_topic_asyncio_gather_asyncio_create_task.livemd) |
+| 095 | 🔴Advanced | Topic | టైమౌట్లు మరియు అసమకాలిక Exceptions (asyncio.wait_for(), అసమకాలిక ఎర్రర్ హ్యాండ్లింగ్) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/095_topic_exceptions_asyncio_wait_for.livemd) |
+| 096 | 🔴Advanced | Topic | Threading vs. Asyncio (భావనాత్మక తేడాలు మరియు GIL తో ఫంక్షనల్ థ్రెడ్ పరిమితులు) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/096_topic_threading_vs_asyncio_gil.livemd) |
+| 097 | 🔴Advanced | PROJECT | కాన్కరెంట్ మల్టీ-API డేటా అగ్రిగేటర్ (Asyncio, ఎర్రర్ హ్యాండ్లింగ్, Logging) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/097_project_api_asyncio_logging.livemd) |
+| 098 | 🔴Advanced | Topic | ఫంక్షనల్ టెస్టింగ్ (నేటివ్ assert ని ఉపయోగించి ఐసోలేటెడ్ టెస్ట్ ఫంక్షన్లను రాయడం) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/098_topic_assert.livemd) |
+| 099 | 🔴Advanced | Topic | నేటివ్ ఫంక్షన్లను మ్యాకింగ్ చేయడం (unittest.mock.patch ని డెకరేటర్/context manager గా ఉపయోగించడం) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/099_topic_unittest_mock_patch_context_manager.livemd) |
+| 100 | 🔴Advanced | Topic | ప్రాజెక్ట్ డిపెండెన్సీలను నిర్వహించడం (venv సృష్టి, pip freeze > requirements.txt) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/100_topic_venv_pip_freeze_requirements_txt.livemd) |
+| 101 | 🔴Advanced | Topic | దృఢమైన CLIs నిర్మించడం (argparse, పోజిషనల్ ఆర్గ్యుమెంట్స్ మరియు ఫ్లాగ్స్) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/101_topic_clis_argparse.livemd) |
+| 102 | 🔴Advanced | Topic | పనితీరు కొలత మరియు Profiling (module timeit) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/102_topic_profiling_module_timeit.livemd) |
+| 103 | 🔴Advanced | Topic | functools.singledispatch ద్వారా రకం ప్రకారం Function డిస్పాచ్ | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/103_topic_functools_singledispatch_function.livemd) |
+| 104 | 🔴Advanced | PROJECT | ప్రొడక్షన్-గ్రేడ్ CLI యుటిలిటీ | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/104_project_cli.livemd) |
+| 105 | 🔴Advanced | Topic | డేటా హ్యాషింగ్ మరియు సమగ్రత ధ్రువీకరణ (SHA256 కోసం hashlib) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/105_topic_sha256_hashlib.livemd) |
+| 106 | 🔴Advanced | Topic | weakref తో బలహీనమైన రిఫరెన్సులు (మెమరీ-సురక్షిత ఆబ్జెక్ట్ రిఫరెన్సులు) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/106_topic_weakref.livemd) |
+| 107 | 🔴Advanced | Topic | అధునాతన ఫంక్షనల్ యుటిలిటీస్ (functools.partial, మెమోయిజేషన్ కోసం @lru_cache) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/107_topic_functools_partial_lru_cache.livemd) |
+| 108 | 🔴Advanced | Topic | atexit తో స్క్రిప్ట్ షట్‌డౌన్ హుక్స్ (క్లీనప్ హ్యాండ్లర్లు) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/108_topic_atexit.livemd) |
+| 109 | 🔴Advanced | Topic | signal తో సిస్టమ్ సిగ్నల్స్ హ్యాండిల్ చేయడం (స్క్రిప్ట్ సరైన ముగింపు) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/109_topic_signal.livemd) |
+| 110 | 🔴Advanced | Topic | importlib తో డైనమిక్ ఇంపోర్ట్స్ (రన్‌టైమ్ మోడ్యూల్ లోడింగ్) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/110_topic_importlib.livemd) |
+| 111 | 🔴Advanced | Topic | uuid తో ప్రత్యేకమైన ID జనరేషన్ (డిస్ట్రిబ్యూటెడ్ సిస్టమ్స్ కోసం uuid4) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/111_topic_uuid_id_uuid4.livemd) |
+| 112 | 🔴Advanced | PROJECT | విస్తరించదగిన ఆటోమేషన్ ఫ్రేమ్‌వర్క్ | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/te/advanced/112_project.livemd) |
+
+*పూర్తి విషయాల పట్టిక (112 టాపిక్స్ + ప్రాజెక్ట్‌లు) ప్రతి భాషా ఫోల్డర్ లోపల అందుబాటులో ఉంది.*
+
+---
+
+## 🏛️ ఆర్కిటెక్చర్ & మెంటార్స్
+
+ప్రతి ల్యాబ్‌లో ఒక **వివరణ ద్వారం** (Explanation Gate) ఉంటుంది, ఇక్కడ ఒక ప్రత్యేక AI మెంటార్ మీకు అభ్యాస ప్రక్రియలో మార్గనిర్దేశం చేస్తాడు. ప్రతి దశకు ఒక విలక్షణమైన మెంటార్ వ్యక్తిత్వం ఉంటుంది, ఇది ఆయా దశల మానసిక మరియు బోధనా అవసరాలకు అనుగుణంగా రూపొందించబడింది:
+
+| దశ | మెంటార్ | వ్యక్తిత్వం | ఏమి నేర్పుతుంది |
+|---|---|---|---|
+| **1** | సురక్షిత మార్గదర్శి | ఆప్యాయతగల, ఓపికగల, ఒక అన్న/అక్క లాంటి వ్యక్తి | సురక్షితమైన సింటాక్స్ అన్వేషణ, "వైబ్ కోడింగ్" పద్ధతిని నిర్మూలించడం |
+| **2** | విశ్లేషణాత్మక భాగస్వామి | ఉత్సుకత గల, కాఫీతో నడిచే "లాగ్ డిటెక్టివ్" | ఎర్రర్ ట్రేస్‌లను (error traces) చదవడం, సిస్టమ్ క్రాష్‌లను అర్థం చేసుకోవడం |
+| **3** | లాజికల్ స్కాఫోల్డ్ | క్రమబద్ధమైన, ప్రోత్సహించే ఒక "సీనియర్ బిల్డర్" | డేటా ప్రవాహాన్ని విజువలైజ్ చేయడం (ఇన్‌పుట్ → ట్రాన్స్‌ఫార్మ్ → అవుట్‌పుట్) |
+| **4** | సొగసైన విమర్శకుడు | వ్యంగ్యంగా మాట్లాడే, స్వచ్ఛతావాది, "కఠినమైన ప్రేమ" (tough love) | ఇడియోమాటిక్ కోడ్ (idiomatic code), ఫంక్షనల్ ప్యాటర్న్స్, చెడు అలవాట్లను వదిలించడం |
+| **5** | వ్యూహాత్మక భాగస్వామి | దూరదృష్టి గల, ప్రొఫెషనల్ "సిస్టమ్ ఆర్కిటెక్ట్" | ఎడ్జ్ కేసెస్ (edge cases), ఫాల్ట్ టాలరెన్స్, బిజినెస్ లాజిక్‌తో సమలేఖనం |
+
+*ఈ రిపోజిటరీలో **దశ 1 (సురక్షిత మార్గదర్శి)** మాత్రమే ఉంది.*
+
+---
+
+## 🔗 ఉపయోగకరమైన లింకులు
 
 [Coding5s.com](https://coding5s.com) | [Udemy (Coding5s Premium)](https://www.udemy.com/user/wilbarrios/) | [GitHub](https://github.com/WilfredoBarrios)
 
 ---
 
-## 🤝 Contributions
+## 🤝 సహకారాలు (Contributions)
 
-Do you have any feedback or feature suggestions? Feel free to open an issue or contribute if you want to support the project in any way!
-
----
-
-## 📄 License
-
-MIT © [Wilfredo Barrios](https://github.com/WilfredoBarrios)
+మీకు ఏవైనా అభిప్రాయాలు లేదా కొత్త ఫీచర్ల సూచనలు ఉన్నాయా? మీరు ఈ ప్రాజెక్ట్‌కు ఏ విధంగానైనా మద్దతు ఇవ్వాలనుకుంటే, నిస్సంకోచంగా ఒక 'issue' ని తెరవండి లేదా మీ సహకారాన్ని అందించండి!
 
 ---
-⚡ *Coding5s System — Learning designed for technical mastery.*
+
+## 📄 లైసెన్స్
+
+MIT © [Wil Barrios](https://github.com/WilfredoBarrios)
+
+---
+⚡ *Coding5s సిస్టమ్ — సాంకేతిక నైపుణ్యం కోసం రూపొందించబడిన అభ్యాసం.*
