@@ -102,6 +102,8 @@ Each lab includes an **Explanation Gate** where a specialized AI Mentor guides y
 3. **Open any `.livemd` file** in your preferred language and click **Run in Livebook**.
 
 ---
+> 🔬 **Scientific Foundation:** This curriculum's architecture is built to mitigate the accumulation of **Epistemic Debt**—a state where a developer relies blindly on AI code generation without internalizing the underlying logic. Based on recent academic research ([arXiv:2602.20206](https://arxiv.org/abs/2602.20206)), our structured *Explanation Gates* and *Socratic AI Mentors* enforce active "Teach-Back" validation, turning passive copy-pasting into independent technical mastery.
+---
 
 ## 📊 Master Curriculum Analytics & Use Cases
 
