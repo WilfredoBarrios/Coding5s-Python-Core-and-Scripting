@@ -1,108 +1,218 @@
-# 🧪 Python Core & Scripting Interactive Lab — English 🇺🇸
+# 🧪 Python Core & Scripting Interactive Lab — Náhuatl 🇲🇽
 
 [![Livebook](https://img.shields.io/badge/Livebook-FF6B6B?logo=livebook&logoColor=white)](https://livebook.dev)
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **Learn Python by writing code, not just by reading it.**
-> This is the English version of the **Coding5s** interactive curriculum, designed to take you from core scripting to technical mastery using Livebook's interactive environment.
+> **Ximomachti Python xitlahcuiloa [code] (amatlacuilolli ica tlamatiliztli), ahmo zanyeno xiamoxpohua.**
+> Inin yezqui in Ingléstlahtolli tlamantli tlen **Coding5s** tlamachtiliztli, tlen tlachihchiuhtli pampa mitzhuicaz tlen pehualiztli [scripting] (tlahcuiloa tepoztequiti) canapa hueyi tlamatiliztli ica Livebook.
 
 ---
 
-## 🚀 How to get started?
+## 🚀 ¿Quenami pehuaz?
 
-To experience this lab interactively, you need to have **Livebook** installed on your computer with the Python runtime integration.
+Pampa ticmatiz inin tlamachtiloyan, monequi ticpiyaz **Livebook** ipan motepozcuilol ica Python.
 
-1. **Install Livebook:** Download it at [livebook.dev](https://livebook.dev).
-2. **Open a Lab:** Browse the folders below and click the **"Run in Livebook"** button inside each file, or import the URL directly into your Livebook session.
+1. **Xictlali Livebook:** Xicnequi ipan [livebook.dev](https://livebook.dev).
+2. **Xictlapo ce Tlamachtiloyan:** Xiquitta in amatl tlen nican tlani huan xicpachoa in **"Run in Livebook"** ipan cece amatl, zo xiquihcuilo in URL ipan moLivebook.
 
 ---
 
-## 📚 Coding5s Methodology (5 Stages)
+## 📚 Coding5s Tlamachtiliztli (5 Tlamantli)
 
-Our approach is based on **Controlled Cognitive Friction**. Each lab guides you through:
+Totlamachtiliz mopitza ica **[Controlled Cognitive Friction] (tlamatiliztli tlen moixnamiqui)**. Cece tlamachtiloyan mitzyecanaz:
 
-| Stage | Name | Objective |
+| Tlamantli | Toca | Tlen quichihuaz |
 |-------|------|-----------|
-| **1** | Practice | Write code from scratch |
-| **2** | Debug | Find intentional syntax and logic errors |
-| **3** | Complete | Fill in architectural and algorithmic gaps |
-| **4** | Refactor | Optimize existing scripts (flat vs. modular structure) |
-| **5** | Extend | Add new production-ready functionalities |
+| **1** | Yeyecoliztli | Xitlahcuilo [code] tlen yancuic |
+| **2** | [Debug] (Yectlalia) | Xictemo ahmo cualli tlahcuilolli huan tlamatiliztli |
+| **3** | Tzonquixtia | Xictemi tlen poliui ipan [algorithms] (tlahcuilol-ohtli) |
+| **4** | [Refactor] (Yancuilia) | Xicyectlali tlen yitlahcuilolli (huehueyi zo tlamantli) |
+| **5** | Hueyiya | Xicchiua yancuic tlamantli pampa tequitl |
 
-*This repository contains **Stage 1 (Practice)**.
+*Inin amoxcalli quipiya **Tlamantli 1 (Yeyecoliztli)**.
+---
+
+## 🛠️ Quenami tictequitiltiz cece Livebook
+
+Ipan cece `.livemd` amatl, xicchihua inin:
+
+1. Xictlapo in amatl ipan **Livebook**.
+2. Xiccopina in **Tlamantli 1 [prompt] (tlahtlaniliztli)** huan xictlali ipan moAI (ChatGPT, Gemini, Claude, h.o.c.).
+3. In AI quichihuaz **3 cana 5 [micro-examples] (tepiton yeyecoliztli)**.
+4. Xiccopina inon yeyecoliztli ipan Livebook huan xictequitilti.
+5. Xicpatla in [code], xicyeyeco, huan xiquitta quenami mopatla.
 
 ---
 
-## 🛠️ How to use each Livebook
+## 🧠 In Socratic Tlamachtiani (AI)
 
-Inside each `.livemd` file, follow this simple workflow:
+Cece Livebook no quipiya ce **[Mentor prompt] (tlamachtiani tlahtlaniliztli)**. Hueliz tictequitiltiz ipan moAI ica mo[code] huan ce tepiton tlahtolli tlen motlamatiliz. In tlamachtiani:
 
-1. Open the file in **Livebook** (desktop or browser version).
-2. Copy the **Stage 1 prompt** and paste it into your preferred AI chat (ChatGPT, Gemini, Claude, etc.).
-3. The AI will generate **3 to 5 executable micro‑examples** for that topic.
-4. Copy those examples into the Livebook's **execution cell** and run them.
-5. Modify the code, experiment, and watch the output change in real time.
+- **Ahmo mitzmacaz in tlananquiliztli nimantzin**
+- Mitztlahtlaniz ica Socratic tlahtlaniliztli pampa tehhuatl tictemoz in ahmo cualli
+- Quitequitiltiz neli tlamantli pampa mitziluiz **[programming concepts] (tlahcuilolli tlamatiliztli)**
+- Mitzpalehuiz pampa ahmo ticchihuaz "Vibe Coding" huan ticpiyaz neli tlamatiliztli
+- Mitzmacaz hueyi tlananquiliztli quema tictlahtlaniz ce tlamantli
 
----
-
-## 🧠 The Socratic Mentor (AI)
-
-Each Livebook also includes a **Mentor prompt**. You can paste it into the same AI chat alongside your code and a short explanation of your logic. The mentor will:
-
-- **Not give you the answer directly** (at first)
-- Ask you Socratic questions so you discover the error yourself
-- Use real‑world analogies to explain **programming concepts**
-- Help you eliminate "Vibe Coding" and build true engineering intuition
-- Provide senior‑level answers when you ask specific questions
+⚠️ HUEYI TLAHTOLLI PAMPA MAYA ZO NATIVE TLAHTOLLI: Pampa cualli mopiyaz in tlahtolli, cualli [inline comments] (tlahtolli ipan tlahcuilolli), huan cualli [dynamic glossaries] (tlahtolamoxtli) ipan miac tlahtolli (no in Maya tlahtolli), monequi tictequitiltiz Gemini Pro. In ahmo-patiuh AI ahmo quipiya in tlamatiliztli pampa inin tlahtolli. Pampa Maya huan Native tlahtolli tlen America, ce [context seed] (xinachtli tlamatiliztli) mocahte ipan in tlahtlaniliztli pampa cualli yezqui in tlananquiliztli; pampa inin, monequi ce hueyi AI pampa cualli yezqui.
 
 ---
 
-## 🛠️ Interactive Curriculum — Stage 1: Practice Lab
+## 🛠️ Tlamachtiloyan — Tlamantli 1: Yeyecoliztli
 
-Click the **Run in Livebook** badge to open each lab directly in your environment.
+Xicpachoa in **Run in Livebook** pampa tictlapoz cece tlamachtiloyan.
 
-| # | Level | Type | Topic / Project Name | Prereqs (#) | Priority | CPF-Risk | Interactive Lab |
-|:-:|:---|:---|:---|:-:|:---|:-:|:---|
-| 1 | 🟢 Beginner | Topic | Global Environment Diagnostics (`sys.version`, `sys.platform`) | - | Core | 1 | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](./Stage_1/en/beginner/1_sys_diagnostics.livemd) |
-| 2 | 🟢 Beginner | Topic | Variables & Dynamic Typing | 1 | Core | 1 | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](./Stage_1/en/beginner/2_variables.livemd) |
-| 3 | 🟢 Beginner | Topic | Primitive Data Types (`int`, `float`, `str`, `bool`) | 2 | Core | 1 | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](./Stage_1/en/beginner/3_data_types.livemd) |
+| # |  Level |  Type |Topic Name | Interactive Lab |
+| :--- | :--- | :--- | :--- | :--- |
+| 001 | 🟢Beginner | Topic | Nelhuayotl Tlahtoltlaliliztli & Tlanextilli (print(), Tlahtolmoyahuiliztli, Tlahtoltlapechiliztli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/beginner/001_topic_nelhuayotl_tlahtoltlaliliztli_tlanextilli_print_tlahtolmoyahuiliztli_tlahtoltlapechiliztli.livemd) |
+| 002 | 🟢Beginner | Topic | Ipatlacahuan & Yoyolic Tlamantli (Tlaxtlahuiliztli, Tocaxtiliztli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/beginner/002_topic_ipatlacahuan_yoyolic_tlamantli_tlaxtlahuiliztli_tocaxtiliztli.livemd) |
+| 003 | 🟢Beginner | Topic | Yohualli Tlamantli Tlapohualiztli (int, float, str, bool) & type() | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/beginner/003_topic_yohualli_tlamantli_tlapohualiztli_int_float_str_bool_type.livemd) |
+| 004 | 🟢Beginner | Topic | Tlapohualiztli Tequitliztli (+, -, *, /, //, %, **) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/beginner/004_topic_tlapohualiztli_tequitliztli.livemd) |
+| 005 | 🟢Beginner | Topic | Tlanehnehuiliztli & Neneuhcayotl Tequitinij (==, !=, >, <, is, is not) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/beginner/005_topic_tlanehnehuiliztli_neneuhcayotl_tequitinij_is_is_not.livemd) |
+| 006 | 🟢Beginner | PROJECT | Tlamacahualiztli & Tlaxeloliztli Tlapohualoni (Tlapohualiztli tequitliztli & ipatlacahuan tlaololotl) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/beginner/006_project_tlamacahualiztli_tlaxeloliztli_tlapohualoni_tlapohualiztli_tequitliztli_ipatlacahuan_tlaololotl.livemd) |
+| 007 | 🟢Beginner | Topic | Tlatequitiltiloyan Tlaaquiliztli & Tlamantli Tlacuepaliztli (input(), int(), float(), str()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/beginner/007_topic_tlatequitiltiloyan_tlaaquiliztli_tlamantli_tlacuepaliztli_input_int_float_str.livemd) |
+| 008 | 🟢Beginner | Topic | Tlacaquiliztli Tequitinij (and, or, not) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/beginner/008_topic_tlacaquiliztli_tequitinij_and_or_not.livemd) |
+| 009 | 🟢Beginner | Topic | Nelhuayotl Mecatl Tequitliztli (Tlasaloliztli, Tlahtolcuepaliztli, Tlapohualmachiyotl []) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/beginner/009_topic_nelhuayotl_mecatl_tequitliztli_tlasaloliztli_tlahtolcuepaliztli_tlapohualmachiyotl.livemd) |
+| 010 | 🟢Beginner | Topic | Mecatl Tlachichihualiztli (f-strings, .format()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/beginner/010_topic_mecatl_tlachichihualiztli_f_strings_format.livemd) |
+| 011 | 🟢Beginner | Topic | Mecatl Tlamantiliztli (lower(), upper(), strip(), replace(), split()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/beginner/011_topic_mecatl_tlamantiliztli_lower_upper_strip_replace_split.livemd) |
+| 012 | 🟢Beginner | PROJECT | Tlatequitiltiloyan Tlachihualiztli Tlachihuani (I/O, tlachichihualiztli, mecatl tlamantiliztli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/beginner/012_project_tlatequitiltiloyan_tlachihualiztli_tlachihuani_i_o_tlachichihualiztli_mecatl_tlamantiliztli.livemd) |
+| 013 | 🟢Beginner | Topic | Tlayacanliztli Tlahtolyotl: Nelhuayotl Tlalhuiliztli (if, else) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/beginner/013_topic_tlayacanliztli_tlahtolyotl_nelhuayotl_tlalhuiliztli_if_else.livemd) |
+| 014 | 🟢Beginner | Topic | Tlayacanliztli Tlahtolyotl: Tlasalolli & Tlatepacholli Tlalhuiliztli (elif, tlatepacholli if) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/beginner/014_topic_tlayacanliztli_tlahtolyotl_tlasalolli_tlatepacholli_tlalhuiliztli_elif_tlatepacholli_if.livemd) |
+| 015 | 🟢Beginner | Topic | Tlayacanliztli Tlahtolyotl: Tlalnamiquiliztli Tlaixcopinaliztli (match/case) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/beginner/015_topic_tlayacanliztli_tlahtolyotl_tlalnamiquiliztli_tlaixcopinaliztli_match_case.livemd) |
+| 016 | 🟢Beginner | Topic | Tlaolololli Tlapehualiztli (Tlachihualiztli, Tlapohualmachiyotl, Tlapatlaliztli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/beginner/016_topic_tlaolololli_tlapehualiztli_tlachihualiztli_tlapohualmachiyotl_tlapatlaliztli.livemd) |
+| 017 | 🟢Beginner | Topic | Tlaolololli Tlapatlaliztli Tlamantiliztli (append(), insert(), extend(), remove(), pop()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/beginner/017_topic_tlaolololli_tlapatlaliztli_tlamantiliztli_append_insert_extend_remove_pop.livemd) |
+| 018 | 🟢Beginner | Topic | Tlaolololli Tlatequiztli & Tlaxotlaliztli ([start:stop:step]) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/beginner/018_topic_tlaolololli_tlatequiztli_tlaxotlaliztli_start_stop_step.livemd) |
+| 019 | 🟢Beginner | PROJECT | Nelhuayotl Tequitl Tlayacanani (Tlalhuiliztli & Tlaolololli tlachihualiztli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/beginner/019_project_nelhuayotl_tequitl_tlayacanani_tlalhuiliztli_tlaolololli_tlachihualiztli.livemd) |
+| 020 | 🟢Beginner | Topic | Tuplameh Tlapehualiztli (Tlachihualiztli, Ahpatlaliztli, Tlatlahtolaliztli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/beginner/020_topic_tuplameh_tlapehualiztli_tlachihualiztli_ahpatlaliztli_tlatlahtolaliztli.livemd) |
+| 021 | 🟢Beginner | Topic | Tlahtolamoxtli Tlapehualiztli (Tlatlapoloni-Patiuh, Tlachihualiztli, Tlahuelcactli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/beginner/021_topic_tlahtolamoxtli_tlapehualiztli_tlatlapoloni_patiuh_tlachihualiztli_tlahuelcactli.livemd) |
+| 022 | 🟢Beginner | Topic | Tlahtolamoxtli Tlamantiliztli (keys(), values(), items(), get(), update()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/beginner/022_topic_tlahtolamoxtli_tlamantiliztli_keys_values_items_get_update.livemd) |
+| 023 | 🟢Beginner | Topic | Centiliztli Tlapehualiztli (Tlachihualiztli, Iceliyotl, add(), remove()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/beginner/023_topic_centiliztli_tlapehualiztli_tlachihualiztli_iceliyotl_add_remove.livemd) |
+| 024 | 🟢Beginner | Topic | Centiliztli Tequitliztli (union(), intersection(), difference(), symmetric_difference()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/beginner/024_topic_centiliztli_tequitliztli_union_intersection_difference_symmetric_difference.livemd) |
+| 025 | 🟢Beginner | PROJECT | Tlacaicniuh & Tlamatiloyan Tlaixpanquixtiani (Dicts, Tuplameh, Sets) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/beginner/025_project_tlacaicniuh_tlamatiloyan_tlaixpanquixtiani_dicts_tuplameh_sets.livemd) |
+| 026 | 🟢Beginner | Topic | Tlahtolcuepaliztli: for malacatl (Mecatl, tlaolololli, tuplameh tlayahualoliztli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/beginner/026_topic_tlahtolcuepaliztli_for_malacatl_mecatl_tlaolololli_tuplameh_tlayahualoliztli.livemd) |
+| 027 | 🟢Beginner | Topic | Tlahtolcuepaliztli: while malacatl & Tlayacanliztli Tlahtolli (break, continue, pass) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/beginner/027_topic_tlahtolcuepaliztli_while_malacatl_tlayacanliztli_tlahtolli_break_continue_pass.livemd) |
+| 028 | 🟢Beginner | Topic | Tlaxtlahuiliztli Tlahtolli ica Walrus Tequitini (:=) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/beginner/028_topic_tlaxtlahuiliztli_tlahtolli_ica_walrus_tequitini.livemd) |
+| 029 | 🟡Intermediate | Topic | Tlaixpanquixtilli Tlahtolcuepaliztli Tlamantli (range(), enumerate(), zip()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/intermediate/029_topic_tlaixpanquixtilli_tlahtolcuepaliztli_tlamantli_range_enumerate_zip.livemd) |
+| 030 | 🟡Intermediate | Topic | Tlaquiliztli Tequitinij (in, not in panochi tlamatiloyan) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/intermediate/030_topic_tlaquiliztli_tequitinij_in_not_in_panochi_tlamatiloyan.livemd) |
+| 031 | 🟡Intermediate | Topic | Tlaolololli Tlacaquiliztli (Nelhuayotl tlahtoltlaliliztli & tlalhuiliztli tlapipiyaliztli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/intermediate/031_topic_tlaolololli_tlacaquiliztli_nelhuayotl_tlahtoltlaliliztli_tlalhuiliztli_tlapipiyaliztli.livemd) |
+| 032 | 🟡Intermediate | PROJECT | Tlahcuilolli & Tlamatiloyan Tlapahpacani (Malacameh, Tlacaquiliztli, Tlalhuiliztli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/intermediate/032_project_tlahcuilolli_tlamatiloyan_tlapahpacani_malacameh_tlacaquiliztli_tlalhuiliztli.livemd) |
+| 033 | 🟡Intermediate | Topic | Tlahtolamoxtli & Centiliztli Tlacaquiliztli (Tlahtoltlaliliztli & tlapipiyaliztli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/intermediate/033_topic_tlahtolamoxtli_centiliztli_tlacaquiliztli_tlahtoltlaliliztli_tlapipiyaliztli.livemd) |
+| 034 | 🟡Intermediate | Topic | Tequitl Tlapehualiztli (def, nelhuayotl return tlahtolli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/intermediate/034_topic_tequitl_tlapehualiztli_def_nelhuayotl_return_tlahtolli.livemd) |
+| 035 | 🟡Intermediate | Topic | Tequitl Tlahtol: Tlaixpan, Tlahtol-ilnamiqui, & Nelhuayotl Patiuh | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/intermediate/035_topic_tequitl_tlahtol_tlaixpan_tlahtol_ilnamiqui_nelhuayotl_patiuh.livemd) |
+| 036 | 🟡Intermediate | Topic | Tlamatiloyan Tlahtol (*args, **kwargs) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/intermediate/036_topic_tlamatiloyan_tlahtol_args_kwargs.livemd) |
+| 037 | 🟡Intermediate | Topic | Ipatlacahuan Tlahuelcactli (local, global, nonlocal tlamatiliztli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/intermediate/037_topic_ipatlacahuan_tlahuelcactli_local_global_nonlocal_tlamatiliztli.livemd) |
+| 038 | 🟡Intermediate | PROJECT | Tlanahuatiliztli-Mecatl Tlapohualiztli (Tequitl, Tlahuelcactli, Tlamatiloyan tlahtol) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/intermediate/038_project_tlanahuatiliztli_mecatl_tlapohualiztli_tequitl_tlahuelcactli_tlamatiloyan_tlahtol.livemd) |
+| 039 | 🟡Intermediate | Topic | Lambda Tequitl (Ahtoca centlahtol tequitl) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/intermediate/039_topic_lambda_tequitl_ahtoca_centlahtol_tequitl.livemd) |
+| 040 | 🟡Intermediate | Topic | Tlacpac-Tlamantli Tequitl (map(), filter()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/intermediate/040_topic_tlacpac_tlamantli_tequitl_map_filter.livemd) |
+| 041 | 🟡Intermediate | Topic | reduce() tequitl (Tlaquihuiliztli functools pa) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/intermediate/041_topic_reduce_tequitl_tlaquihuiliztli_functools_pa.livemd) |
+| 042 | 🟡Intermediate | Topic | Tlahtolxeliuhcayotl & import Tlahtolli Tlapehualiztli (import, from ... import ...) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/intermediate/042_topic_tlahtolxeliuhcayotl_import_tlahtolli_tlapehualiztli_import_from_import.livemd) |
+| 043 | 🟡Intermediate | Topic | Nelhuayotl math & random Tlahtolxeliuhcayotl (math, random tlapehualiztli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/intermediate/043_topic_nelhuayotl_math_random_tlahtolxeliuhcayotl_math_random_tlapehualiztli.livemd) |
+| 044 | 🟡Intermediate | Topic | Nelhuayotl datetime Tlahtolxeliuhcayotl (datetime, timedelta, mecatl tlachichihualiztli %Y-%m-%d) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/intermediate/044_topic_nelhuayotl_datetime_tlahtolxeliuhcayotl_datetime_timedelta_mecatl_tlachichihualiztli_y_m_d.livemd) |
+| 045 | 🟡Intermediate | PROJECT | Cahuitl Tlaixpiyalli Tlahtolichtacayo Tlachihuani (Tequitl, Datetime, Random) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/intermediate/045_project_cahuitl_tlaixpiyalli_tlahtolichtacayo_tlachihuani_tequitl_datetime_random.livemd) |
+| 046 | 🟡Intermediate | Topic | Tlatlacolli Tlayacanliztli Nelhuayotl (try, except tlamantli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/intermediate/046_topic_tlatlacolli_tlayacanliztli_nelhuayotl_try_except_tlamantli.livemd) |
+| 047 | 🟡Intermediate | Topic | Tlaixpanquixtilli Tlatlacolli Tlayacanliztli (finally, else, tlatlacolli tlamantli tlahaliztli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/intermediate/047_topic_tlaixpanquixtilli_tlatlacolli_tlayacanliztli_finally_else_tlatlacolli_tlamantli_tlahaliztli.livemd) |
+| 048 | 🟡Intermediate | Topic | Tlaixcahuilli Tlatlacolli Tlaquetzalli (raise, assert tlahtolli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/intermediate/048_topic_tlaixcahuilli_tlatlacolli_tlaquetzalli_raise_assert_tlahtolli.livemd) |
+| 049 | 🟡Intermediate | Topic | Yancuic Ohtli Tlayacanliztli (pathlib.Path tequitliztli & tlahuelcactli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/intermediate/049_topic_yancuic_ohtli_tlayacanliztli_pathlib_path_tequitliztli_tlahuelcactli.livemd) |
+| 050 | 🟡Intermediate | Topic | Nelhuayotl Tlahcuilolli I/O (Tlatlapoliztli, Tlaamoxpohualiztli, Tlatzacualiztli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/intermediate/050_topic_nelhuayotl_tlahcuilolli_i_o_tlatlapoliztli_tlaamoxpohualiztli_tlatzacualiztli.livemd) |
+| 051 | 🟡Intermediate | Topic | Tlahcuiloliztli & Tlasaloliztli pan Tlahcuilolli ('w', 'a' tlamantli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/intermediate/051_topic_tlahcuiloliztli_tlasaloliztli_pan_tlahcuilolli_w_a_tlamantli.livemd) |
+| 052 | 🟡Intermediate | Topic | Tlahtolpan Tlayacanani (with open() tlahtoltlaliliztli tlahcuilolli tlayacanliztli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/intermediate/052_topic_tlahtolpan_tlayacanani_with_open_tlahtoltlaliliztli_tlahcuilolli_tlayacanliztli.livemd) |
+| 053 | 🟡Intermediate | PROJECT | Tlahcuilolli Tlaixyehyecoliztli Tlachihuani (Tlahcuilolli I/O, Tlatlacolli, Mecatl Tlaxeloliztli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/intermediate/053_project_tlahcuilolli_tlaixyehyecoliztli_tlachihuani_tlahcuilolli_i_o_tlatlacolli_mecatl_tlaxeloliztli.livemd) |
+| 054 | 🟡Intermediate | Topic | JSON Tlamatiloyan Tlayacanliztli (json.load(), json.loads(), json.dump(), json.dumps()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/intermediate/054_topic_json_tlamatiloyan_tlayacanliztli_json_load_json_loads_json_dump_json_dumps.livemd) |
+| 055 | 🟡Intermediate | Topic | Tequitliztli ica CSV Tlahcuilolli (csv.reader(), csv.DictReader(), csv.writer()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/intermediate/055_topic_tequitliztli_ica_csv_tlahcuilolli_csv_reader_csv_dictreader_csv_writer.livemd) |
+| 056 | 🔴Advanced | Topic | Yeyantli Ipatlacahuan & Tlachichihualiztli (os.environ, os.getenv()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/056_topic_yeyantli_ipatlacahuan_tlachichihualiztli_os_environ_os_getenv.livemd) |
+| 057 | 🔴Advanced | Topic | Ichtacayotl Tlayacanliztli ica python-dotenv (.env tlahcuilolli tlaquihuiliztli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/057_topic_ichtacayotl_tlayacanliztli_ica_python_dotenv_env_tlahcuilolli_tlaquihuiliztli.livemd) |
+| 058 | 🔴Advanced | Topic | HTTP Nelhuayotl & requests Tlahtolxeliuhcayotl (requests.get(), Tlamantli Tlapohualiztli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/058_topic_http_nelhuayotl_requests_tlahtolxeliuhcayotl_requests_get_tlamantli_tlapohualiztli.livemd) |
+| 059 | 🔴Advanced | Topic | API Tlananquiliztli Tlayacanliztli (JSON tlaxeloliztli ica response.json()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/059_topic_api_tlananquiliztli_tlayacanliztli_json_tlaxeloliztli_ica_response_json.livemd) |
+| 060 | 🔴Advanced | Topic | Tlaixpanquixtilli API Tlayacanliztli: Tlaamoxpohualiztli & Cursors | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/060_topic_tlaixpanquixtilli_api_tlayacanliztli_tlaamoxpohualiztli_cursors.livemd) |
+| 061 | 🔴Advanced | PROJECT | Tlapieliztli API Tlamatiloyan Tlaquihuiani (Requests, JSON, dotenv, Tlahcuilolli I/O) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/061_project_tlapieliztli_api_tlamatiloyan_tlaquihuiani_requests_json_dotenv_tlahcuilolli_i_o.livemd) |
+| 062 | 🔴Advanced | Topic | Tlaixpanquixtilli requests: URL Tlahtlaniliztli Parámetros & Tlaixcahuilli Tlacpactli | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/062_topic_tlaixpanquixtilli_requests_url_tlahtlaniliztli_par_metros_tlaixcahuilli_tlacpactli.livemd) |
+| 063 | 🔴Advanced | Topic | Tlaixpanquixtilli requests: POST Tlanahuatiliztli & JSON Tlamatiloyan | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/063_topic_tlaixpanquixtilli_requests_post_tlanahuatiliztli_json_tlamatiloyan.livemd) |
+| 064 | 🔴Advanced | Topic | Tlatlacolli Tlayacanliztli pan APIs (response.raise_for_status(), Tlanahuatiliztli Cahuitl) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/064_topic_tlatlacolli_tlayacanliztli_pan_apis_response_raise_for_status_tlanahuatiliztli_cahuitl.livemd) |
+| 065 | 🔴Advanced | Topic | collections Tlahtolxeliuhcayotl (Counter, defaultdict tlapohualiztli/tlaolololiztli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/065_topic_collections_tlahtolxeliuhcayotl_counter_defaultdict_tlapohualiztli_tlaolololiztli.livemd) |
+| 066 | 🔴Advanced | Topic | Ihciuhca Ome-Cuahuiltic Tlaolololli ica collections.deque (append/pop tequitliztli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/066_topic_ihciuhca_ome_cuahuiltic_tlaolololli_ica_collections_deque_append_pop_tequitliztli.livemd) |
+| 067 | 🔴Advanced | Topic | Tlaixcahuilli Tlamatiloyan ica collections.namedtuple | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/067_topic_tlaixcahuilli_tlamatiloyan_ica_collections_namedtuple.livemd) |
+| 068 | 🔴Advanced | PROJECT | API Tlananquiliztli Tlaixyehyecoani (Requests, Tlatlacolli, Collections, Namedtuples) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/068_project_api_tlananquiliztli_tlaixyehyecoani_requests_tlatlacolli_collections_namedtuples.livemd) |
+| 069 | 🔴Advanced | Topic | Tlaixcahuilli Tlahtolpan Tlayacanani ica contextlib (@contextmanager tlamantli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/069_topic_tlaixcahuilli_tlahtolpan_tlayacanani_ica_contextlib_contextmanager_tlamantli.livemd) |
+| 070 | 🔴Advanced | Topic | Tlachihuani & yield Tlahtolli (Qullotl tlaixyehyecoliztli tlamatiliztli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/070_topic_tlachihuani_yield_tlahtolli_qullotl_tlaixyehyecoliztli_tlamatiliztli.livemd) |
+| 071 | 🔴Advanced | Topic | Tlachihuani Tlahtolli (Yolililiztli tlamatiloyan tlachihualiztli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/071_topic_tlachihuani_tlahtolli_yolililiztli_tlamatiloyan_tlachihualiztli.livemd) |
+| 072 | 🔴Advanced | Topic | Tlaixpanquixtilli Tequitl: Closures & Tlatepacholli Tequitl (Tlamantli tlapieliztli ahmo objetos) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/072_topic_tlaixpanquixtilli_tequitl_closures_tlatepacholli_tequitl_tlamantli_tlapieliztli_ahmo_objetos.livemd) |
+| 073 | 🔴Advanced | Topic | Tlamatiloyan Tlaolololli ica dataclasses | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/073_topic_tlamatiloyan_tlaolololli_ica_dataclasses.livemd) |
+| 074 | 🔴Advanced | Topic | Tlachichihuani: Tequitl Tlapiquiliztli Tlachihualiztli (@wrapper tlahtoltlaliliztli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/074_topic_tlachichihuani_tequitl_tlapiquiliztli_tlachihualiztli_wrapper_tlahtoltlaliliztli.livemd) |
+| 075 | 🔴Advanced | PROJECT | API Tlapohualiztli Tlatzacuani & Caching Tlachichihuani | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/075_project_api_tlapohualiztli_tlatzacuani_caching_tlachichihuani.livemd) |
+| 076 | 🔴Advanced | Topic | Tlahcuilolli Yeyantli Tlahuelcactli & Tlayacanliztli (os.listdir(), os.mkdir(), os.remove()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/076_topic_tlahcuilolli_yeyantli_tlahuelcactli_tlayacanliztli_os_listdir_os_mkdir_os_remove.livemd) |
+| 077 | 🔴Advanced | Topic | Achic Tlahcuilolli Tlayacanliztli ica tempfile (tlahcuilolli & yeyantli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/077_topic_achic_tlahcuilolli_tlayacanliztli_ica_tempfile_tlahcuilolli_yeyantli.livemd) |
+| 078 | 🔴Advanced | Topic | Tlacpac-Tlamantli Tlahcuilolli Tequitliztli (shutil.copy(), shutil.move(), shutil.rmtree()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/078_topic_tlacpac_tlamantli_tlahcuilolli_tequitliztli_shutil_copy_shutil_move_shutil_rmtree.livemd) |
+| 079 | 🔴Advanced | Topic | Ome Tlatemoliztli & Tlatlamantiliztli ica bisect (tlaolololli tlayacanliztli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/079_topic_ome_tlatemoliztli_tlatlamantiliztli_ica_bisect_tlaolololli_tlayacanliztli.livemd) |
+| 080 | 🔴Advanced | Topic | Tlatequitliztli: Yeyantli Tlanahuatiliztli (subprocess.run(), tlanextilli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/080_topic_tlatequitliztli_yeyantli_tlanahuatiliztli_subprocess_run_tlanextilli.livemd) |
+| 081 | 🔴Advanced | Topic | Tlaixpanquixtilli Tlahtolli: Tlanehnehuiliztli & Tlatemoliztli (re.search(), re.match(), nelhuayotl) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/081_topic_tlaixpanquixtilli_tlahtolli_tlanehnehuiliztli_tlatemoliztli_re_search_re_match_nelhuayotl.livemd) |
+| 082 | 🔴Advanced | Topic | Tlaixpanquixtilli Tlahtolli: Tlaquixtiliztli & Tlapatlaliztli (re.findall(), re.sub(), tlaolololli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/082_topic_tlaixpanquixtilli_tlahtolli_tlaquixtiliztli_tlapatlaliztli_re_findall_re_sub_tlaolololli.livemd) |
+| 083 | 🔴Advanced | PROJECT | Yeyantli Log Tlaxeloani & Regex Tlaquixtiani (Regex, os, pathlib) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/083_project_yeyantli_log_tlaxeloani_regex_tlaquixtiani_regex_os_pathlib.livemd) |
+| 084 | 🔴Advanced | Topic | logging Tlahtolxeliuhcayotl: Tlachichihualiztli & Tlamantli (DEBUG, INFO, WARNING, ERROR) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/084_topic_logging_tlahtolxeliuhcayotl_tlachichihualiztli_tlamantli_debug_info_warning_error.livemd) |
+| 085 | 🔴Advanced | Topic | Tlaixpanquixtilli logging: Tlayacanani & Tlachichihuani (Logs pan console & tlahcuilolli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/085_topic_tlaixpanquixtilli_logging_tlayacanani_tlachichihuani_logs_pan_console_tlahcuilolli.livemd) |
+| 086 | 🔴Advanced | Topic | itertools: Ahcahuiliztli & Tlaolololli Tlahtolcuepani (count, cycle, combinations) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/086_topic_itertools_ahcahuiliztli_tlaolololli_tlahtolcuepani_count_cycle_combinations.livemd) |
+| 087 | 🔴Advanced | Topic | itertools: Tlamatiloyan Tlaolololiztli & Tlasaloliztli (groupby, chain) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/087_topic_itertools_tlamatiloyan_tlaolololiztli_tlasaloliztli_groupby_chain.livemd) |
+| 088 | 🔴Advanced | Topic | Tlamantli Tlaixmachiliztli Tlapehualiztli (int, str, bool) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/088_topic_tlamantli_tlaixmachiliztli_tlapehualiztli_int_str_bool.livemd) |
+| 089 | 🔴Advanced | Topic | Tlaixpanquixtilli Tlamantli Tlaixmachiliztli (List, Dict, Optional, Union, Callable) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/089_topic_tlaixpanquixtilli_tlamantli_tlaixmachiliztli_list_dict_optional_union_callable.livemd) |
+| 090 | 🔴Advanced | PROJECT | Tlapieliztli Webhook Tlamatiloyan Tlachihuani (Type Hints, Logging, Itertools) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/090_project_tlapieliztli_webhook_tlamatiloyan_tlachihuani_type_hints_logging_itertools.livemd) |
+| 091 | 🔴Advanced | Topic | Script Tlatlacolli Tlapahpaliztli: pdb tlatequitiltiliztli (Tracepoints, tlacaquiliztli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/091_topic_script_tlatlacolli_tlapahpaliztli_pdb_tlatequitiltiliztli_tracepoints_tlacaquiliztli.livemd) |
+| 092 | 🔴Advanced | Topic | Script Tlachichihualiztli: DRY & Icel Tequitl (Tequitl tlaxeloliztli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/092_topic_script_tlachichihualiztli_dry_icel_tequitl_tequitl_tlaxeloliztli.livemd) |
+| 093 | 🔴Advanced | Topic | Ahtlacahuitl Tlatequitliztli Nelhuayotl (async def, await, Event Loop) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/093_topic_ahtlacahuitl_tlatequitliztli_nelhuayotl_async_def_await_event_loop.livemd) |
+| 094 | 🔴Advanced | Topic | Ahtlacahuitl Tequitl Tlayacanliztli (asyncio.gather(), asyncio.create_task()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/094_topic_ahtlacahuitl_tequitl_tlayacanliztli_asyncio_gather_asyncio_create_task.livemd) |
+| 095 | 🔴Advanced | Topic | Cahuitl & Async Tlatlacolli (asyncio.wait_for(), async tlatlacolli tlayacanliztli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/095_topic_cahuitl_async_tlatlacolli_asyncio_wait_for_async_tlatlacolli_tlayacanliztli.livemd) |
+| 096 | 🔴Advanced | Topic | Threading vs. asyncio (Tlahtolyotl tlatlamantiliztli & thread tlatzacuani GIL) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/096_topic_threading_vs_asyncio_tlahtolyotl_tlatlamantiliztli_thread_tlatzacuani_gil.livemd) |
+| 097 | 🔴Advanced | PROJECT | San-cahuitl Multi-API Tlamatiloyan Tlaololoni (asyncio, Tlatlacolli, Logging) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/097_project_san_cahuitl_multi_api_tlamatiloyan_tlaololoni_asyncio_tlatlacolli_logging.livemd) |
+| 098 | 🔴Advanced | Topic | Tequitl Tlaixyehyecoliztli (Tlaixcahuilli tequitl ica assert) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/098_topic_tequitl_tlaixyehyecoliztli_tlaixcahuilli_tequitl_ica_assert.livemd) |
+| 099 | 🔴Advanced | Topic | Tequitl Tlapiquiliztli (unittest.mock.patch tlatequitiltiliztli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/099_topic_tequitl_tlapiquiliztli_unittest_mock_patch_tlatequitiltiliztli.livemd) |
+| 100 | 🔴Advanced | Topic | Tequitl Tlapializtli Tlayacanliztli (venv, pip freeze > requirements.txt) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/100_topic_tequitl_tlapializtli_tlayacanliztli_venv_pip_freeze_requirements_txt.livemd) |
+| 101 | 🔴Advanced | Topic | CLIs Tlachihualiztli (argparse, Tlahtol & Banderas) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/101_topic_clis_tlachihualiztli_argparse_tlahtol_banderas.livemd) |
+| 102 | 🔴Advanced | Topic | Tequitliztli Tlatamachihualiztli (timeit tlahtolxeliuhcayotl) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/102_topic_tequitliztli_tlatamachihualiztli_timeit_tlahtolxeliuhcayotl.livemd) |
+| 103 | 🔴Advanced | Topic | Tequitl Tlanahuatiliztli ica functools.singledispatch | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/103_topic_tequitl_tlanahuatiliztli_ica_functools_singledispatch.livemd) |
+| 104 | 🔴Advanced | PROJECT | Tlachihualiztli CLI Tequitl | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/104_project_tlachihualiztli_cli_tequitl.livemd) |
+| 105 | 🔴Advanced | Topic | Tlamatiloyan Hashing & Tlapializtli Tlaixyehyecoliztli (hashlib SHA256) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/105_topic_tlamatiloyan_hashing_tlapializtli_tlaixyehyecoliztli_hashlib_sha256.livemd) |
+| 106 | 🔴Advanced | Topic | Ahchicahuac Tlahtolmatiliztli ica weakref (tlamatiloyan objetos) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/106_topic_ahchicahuac_tlahtolmatiliztli_ica_weakref_tlamatiloyan_objetos.livemd) |
+| 107 | 🔴Advanced | Topic | Tlaixpanquixtilli Tequitl Tlamantli (functools.partial, @lru_cache) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/107_topic_tlaixpanquixtilli_tequitl_tlamantli_functools_partial_lru_cache.livemd) |
+| 108 | 🔴Advanced | Topic | Script Tlatzacualiztli ica atexit (tlapahpaliztli tlayacanani) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/108_topic_script_tlatzacualiztli_ica_atexit_tlapahpaliztli_tlayacanani.livemd) |
+| 109 | 🔴Advanced | Topic | Yeyantli Tlanahuatiliztli ica signal (script tlatzacualiztli) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/109_topic_yeyantli_tlanahuatiliztli_ica_signal_script_tlatzacualiztli.livemd) |
+| 110 | 🔴Advanced | Topic | Yoyolic Tlaquihuiliztli ica importlib (tlahtolxeliuhcayotl) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/110_topic_yoyolic_tlaquihuiliztli_ica_importlib_tlahtolxeliuhcayotl.livemd) |
+| 111 | 🔴Advanced | Topic | Icel ID Tlachihualiztli ica uuid (uuid4) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/111_topic_icel_id_tlachihualiztli_ica_uuid_uuid4.livemd) |
+| 112 | 🔴Advanced | PROJECT | Tlaueyili Tlachihualiztli Yeyantli | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/nah/advanced/112_project_tlaueyili_tlachihualiztli_yeyantli.livemd) |
 
-*The complete table of contents (112 topics + projects) is available inside each language folder.*
+*In tzonquizqui tlahtolamoxtli (112 tlamantli + tequitl) ca ipan cece tlahtolli amoxcalli.*
 
 ---
 
-## 🏛️ Architecture & Mentors
+## 🏛️ Tlachihchiuhtli & Tlamachtianih
 
-Each lab includes an **Explanation Gate** where a specialized AI Mentor guides you through the learning process. Each stage has its own mentor personality, designed to match the psychological and pedagogical needs of that phase:
+Cece tlamachtiloyan quipiya ce **Explanation Gate** canin ce AI Tlamachtiani mitzyecanaz ipan motlamachtiliz. Cece tlamantli quipiya iyuhcatiliz, tlachihchiuhtli pampa motlamachtiliz:
 
-| Stage | Mentor | Personality | What It Teaches |
+| Tlamantli | Tlamachtiani | Iyuhcatiliz | Tlen Mitzmachtia |
 |-------|--------|-------------|------------------|
-| **1** | The Safe Guide | Warm, patient, like an older sibling | Safe syntax exploration, eliminating "vibe coding" |
-| **2** | The Analytical Partner | Curious, coffee‑fueled "log detective" | Reading error traces, understanding crashes |
-| **3** | The Logical Scaffold | Methodical, encouraging "senior builder" | Visualizing data flow (Input → Transform → Output) |
-| **4** | The Elegant Critic | Sarcastic, purist, "tough love" | Idiomatic code, functional patterns, eliminating bad habits |
-| **5** | The Strategic Partner | Visionary, professional "system architect" | Edge cases, fault tolerance, business logic alignment |
+| **1** | Cualli Tlayecanqui | Pacqui, quen ce teachcauh | Cualli [syntax] (tlahcuilol-ohtli), ahmo "vibe coding" |
+| **2** | Tlamatqui Icnicauh | Tlamatqui, quen "[log detective]" | Quipohua ahmo cualli [error traces], quimati tlen ahmo cualli |
+| **3** | Tlamatqui Tlachihchiuhqui | Cualli, quen "senior builder" | Quitta quenami yauh in tlamatiliztli (Input → Transform → Output) |
+| **4** | Cualli Tlahtoani | Sarcastic, "tough love" | Cualli [code], [functional patterns], quiquixtia ahmo cualli tlamantli |
+| **5** | Hueyi Icnicauh | Hueyi, "system architect" | [Edge cases], [fault tolerance], tequitl tlamatiliztli |
 
-*This repository contains **Stage 1 (The Safe Guide)**. Stages 2–5 mentors are available in the premium version.*
+*Inin amoxcalli quipiya **Tlamantli 1 (Cualli Tlayecanqui)**.
 
 ---
 
-## 🔗 Useful Links
+## 🔗 Cualli Ohtli (Useful Links)
 
 [Coding5s.com](https://coding5s.com) | [Udemy (Coding5s Premium)](https://www.udemy.com/user/wilbarrios/) | [GitHub](https://github.com/WilfredoBarrios)
 
 ---
 
-## 🤝 Contributions
+## 🤝 Tlapalehuiliztli (Contributions)
 
-Do you have any feedback or feature suggestions? Feel free to open an issue or contribute if you want to support the project in any way!
-
----
-
-## 📄 License
-
-MIT © [Wilfredo Barrios](https://github.com/WilfredoBarrios)
+¿Ticpiya ce tlahtolli zo ticnequi ticpalehuiz? ¡Hueliz tictlapoz ce issue zo ticpalehuiz quema ticnequi!
 
 ---
-⚡ *Coding5s System — Learning designed for technical mastery.*
+
+## 📄 Tlanahuatilli (License)
+
+MIT © [Wil Barrios](https://github.com/WilfredoBarrios)
+
+---
+⚡ *Coding5s System — Tlamachtiliztli tlachihchiuhtli pampa hueyi tlamatiliztli.*

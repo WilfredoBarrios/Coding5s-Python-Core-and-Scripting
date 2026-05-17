@@ -1,94 +1,203 @@
-# 🧪 Python Core & Scripting Interactive Lab — English 🇺🇸
+# 🧪 Lab Interactif Python Core & Scripting — Français 🇫🇷
 
 [![Livebook](https://img.shields.io/badge/Livebook-FF6B6B?logo=livebook&logoColor=white)](https://livebook.dev)
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **Learn Python by writing code, not just by reading it.**
-> This is the English version of the **Coding5s** interactive curriculum, designed to take you from core scripting to technical mastery using Livebook's interactive environment.
+> **Apprenez Python en écrivant du code, pas seulement en le lisant.**
+> Voici la version française du programme interactif **Coding5s**, conçu pour vous amener du scripting essentiel à la maîtrise technique en utilisant l'environnement interactif de Livebook.
 
 ---
 
-## 🚀 How to get started?
+## 🚀 Comment démarrer ?
 
-To experience this lab interactively, you need to have **Livebook** installed on your computer with the Python runtime integration.
+Pour vivre l'expérience de ce lab de manière interactive, vous devez avoir installé **Livebook** sur votre ordinateur avec l'intégration de l'environnement d'exécution (runtime) Python.
 
-1. **Install Livebook:** Download it at [livebook.dev](https://livebook.dev).
-2. **Open a Lab:** Browse the folders below and click the **"Run in Livebook"** button inside each file, or import the URL directly into your Livebook session.
+1. **Installez Livebook :** Téléchargez-le sur [livebook.dev](https://livebook.dev).
+2. **Ouvrez un Lab :** Explorez les dossiers ci-dessous et cliquez sur le bouton **"Run in Livebook"** à l'intérieur de chaque fichier, ou importez directement l'URL dans votre session Livebook.
 
 ---
 
-## 📚 Coding5s Methodology (5 Stages)
+## 📚 Méthodologie Coding5s (5 Étapes)
 
-Our approach is based on **Controlled Cognitive Friction**. Each lab guides you through:
+Notre approche repose sur la **Friction Cognitive Contrôlée**. Chaque lab vous guide à travers les étapes suivantes :
 
-| Stage | Name | Objective |
+| Étape | Nom | Objectif |
 |-------|------|-----------|
-| **1** | Practice | Write code from scratch |
-| **2** | Debug | Find intentional syntax and logic errors |
-| **3** | Complete | Fill in architectural and algorithmic gaps |
-| **4** | Refactor | Optimize existing scripts (flat vs. modular structure) |
-| **5** | Extend | Add new production-ready functionalities |
+| **1** | Pratique | Écrire du code à partir de zéro |
+| **2** | Débogage | Trouver des erreurs intentionnelles de syntaxe et de logique |
+| **3** | Complétion | Combler les manques architecturaux et algorithmiques |
+| **4** | Refactorisation | Optimiser les scripts existants (structure plate vs modulaire) |
+| **5** | Extension | Ajouter de nouvelles fonctionnalités prêtes pour la production |
 
-*This repository contains **Stage 1 (Practice)**.
-
----
-
-## 🛠️ How to use each Livebook
-
-Inside each `.livemd` file, follow this simple workflow:
-
-1. Open the file in **Livebook** (desktop or browser version).
-2. Copy the **Stage 1 prompt** and paste it into your preferred AI chat (ChatGPT, Gemini, Claude, etc.).
-3. The AI will generate **3 to 5 executable micro‑examples** for that topic.
-4. Copy those examples into the Livebook's **execution cell** and run them.
-5. Modify the code, experiment, and watch the output change in real time.
+*Ce dépôt contient l'**Étape 1 (Pratique)**.*
 
 ---
 
-## 🧠 The Socratic Mentor (AI)
+## 🛠️ Comment utiliser chaque Livebook ?
 
-Each Livebook also includes a **Mentor prompt**. You can paste it into the same AI chat alongside your code and a short explanation of your logic. The mentor will:
+À l'intérieur de chaque fichier `.livemd`, suivez ce flux de travail simple :
 
-- **Not give you the answer directly** (at first)
-- Ask you Socratic questions so you discover the error yourself
-- Use real‑world analogies to explain **programming concepts**
-- Help you eliminate "Vibe Coding" and build true engineering intuition
-- Provide senior‑level answers when you ask specific questions
+1. Ouvrez le fichier dans **Livebook** (version de bureau ou sur navigateur).
+2. Copiez le **prompt de l'Étape 1** et collez-le dans votre chat d'IA préféré (ChatGPT, Gemini, Claude, etc.).
+3. L'IA générera **3 à 5 micro-exemples exécutables** sur ce thème.
+4. Copiez ces exemples dans la **cellule d'exécution** de Livebook et lancez-les.
+5. Modifiez le code, expérimentez et observez le résultat changer en temps réel.
 
 ---
 
-## 🛠️ Interactive Curriculum — Stage 1: Practice Lab
+## 🧠 Le Mentor Socratique (IA)
 
-Click the **Run in Livebook** badge to open each lab directly in your environment.
+Chaque Livebook inclut également un **prompt de Mentor**. Vous pouvez le coller dans le même chat d'IA aux côtés de votre code et d'une brève explication de votre logique. Le mentor va :
 
-| # | Level | Type | Topic / Project Name | Prereqs (#) | Priority | CPF-Risk | Interactive Lab |
-|:-:|:---|:---|:---|:-:|:---|:-:|:---|
-| 1 | 🟢 Beginner | Topic | Global Environment Diagnostics (`sys.version`, `sys.platform`) | - | Core | 1 | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](./Stage_1/en/beginner/1_sys_diagnostics.livemd) |
-| 2 | 🟢 Beginner | Topic | Variables & Dynamic Typing | 1 | Core | 1 | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](./Stage_1/en/beginner/2_variables.livemd) |
-| 3 | 🟢 Beginner | Topic | Primitive Data Types (`int`, `float`, `str`, `bool`) | 2 | Core | 1 | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](./Stage_1/en/beginner/3_data_types.livemd) |
+- **Ne pas vous donner la réponse directement** (au début)
+- Vous poser des questions socratiques pour que vous découvriez l'erreur par vous-même
+- Utiliser des analogies du monde réel pour expliquer les **concepts de programmation**
+- Vous aider à éliminer le "Vibe Coding" et à bâtir une véritable intuition d'ingénierie
+- Fournir des réponses de niveau senior lorsque vous posez des questions spécifiques
 
-*The complete table of contents (112 topics + projects) is available inside each language folder.*
+---
+
+## 🛠️ Programme Interactif — Étape 1 : Lab de Pratique
+
+Cliquez sur le badge **Run in Livebook** pour ouvrir chaque lab directement dans votre environnement.
+
+| # |  Level |  Type |Topic Name | Interactive Lab |
+| :--- | :--- | :--- | :--- | :--- |
+| 001 | 🟢Beginner | Topic | Syntaxe de Base et Sortie (print(), Comments, Indentation) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/beginner/001_topic_syntaxe_de_base_et_sortie_print_comments_indentation.livemd) |
+| 002 | 🟢Beginner | Topic | Variables et Dynamic Typing (Assignment, Naming Conventions) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/beginner/002_topic_variables_et_dynamic_typing_assignment_naming_conventions.livemd) |
+| 003 | 🟢Beginner | Topic | Types de Données Primitifs (int, float, str, bool) et type() | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/beginner/003_topic_types_de_donn_es_primitifs_int_float_str_bool_et_type.livemd) |
+| 004 | 🟢Beginner | Topic | Opérations Arithmétiques (+, -, *, /, //, %, **) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/beginner/004_topic_op_rations_arithm_tiques.livemd) |
+| 005 | 🟢Beginner | Topic | Opérateurs de Comparaison et d'Identité (==, !=, >, <, is, is not) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/beginner/005_topic_op_rateurs_de_comparaison_et_d_identit_is_is_not.livemd) |
+| 006 | 🟢Beginner | PROJECT | Calculateur de Pourboire et Partage (Opérations Math et variables combinées) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/beginner/006_project_calculateur_de_pourboire_et_partage_op_rations_math_et_variables_combin_es.livemd) |
+| 007 | 🟢Beginner | Topic | Entrée Utilisateur et Type Casting (input(), int(), float(), str()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/beginner/007_topic_entr_e_utilisateur_et_type_casting_input_int_float_str.livemd) |
+| 008 | 🟢Beginner | Topic | Opérateurs Logiques (and, or, not) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/beginner/008_topic_op_rateurs_logiques_and_or_not.livemd) |
+| 009 | 🟢Beginner | Topic | Opérations de Base sur les Strings (Concatenation, Repetition, Indexing []) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/beginner/009_topic_op_rations_de_base_sur_les_strings_concatenation_repetition_indexing.livemd) |
+| 010 | 🟢Beginner | Topic | Formatage de Strings (f-strings, .format()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/beginner/010_topic_formatage_de_strings_f_strings_format.livemd) |
+| 011 | 🟢Beginner | Topic | Méthodes de Strings Courantes (lower(), upper(), strip(), replace(), split()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/beginner/011_topic_m_thodes_de_strings_courantes_lower_upper_strip_replace_split.livemd) |
+| 012 | 🟢Beginner | PROJECT | Générateur Interactif de Profil Utilisateur (I/O, formatting, string methods) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/beginner/012_project_g_n_rateur_interactif_de_profil_utilisateur_i_o_formatting_string_methods.livemd) |
+| 013 | 🟢Beginner | Topic | Flux de Contrôle : Conditionnelles de Base (if, else) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/beginner/013_topic_flux_de_contr_le_conditionnelles_de_base_if_else.livemd) |
+| 014 | 🟢Beginner | Topic | Flux de Contrôle : Conditionnelles Enchaînées et Imbriquées (elif, nested if) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/beginner/014_topic_flux_de_contr_le_conditionnelles_encha_n_es_et_imbriqu_es_elif_nested_if.livemd) |
+| 015 | 🟢Beginner | Topic | Flux de Contrôle : Structural Pattern Matching (match/case) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/beginner/015_topic_flux_de_contr_le_structural_pattern_matching_match_case.livemd) |
+| 016 | 🟢Beginner | Topic | Introduction aux Lists (Creation, Indexing, Mutability concept) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/beginner/016_topic_introduction_aux_lists_creation_indexing_mutability_concept.livemd) |
+| 017 | 🟢Beginner | Topic | Méthodes de Modification de Lists (append(), insert(), extend(), remove(), pop()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/beginner/017_topic_m_thodes_de_modification_de_lists_append_insert_extend_remove_pop.livemd) |
+| 018 | 🟢Beginner | Topic | Sequence Slicing et Strides ([start:stop:step]) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/beginner/018_topic_sequence_slicing_et_strides_start_stop_step.livemd) |
+| 019 | 🟢Beginner | PROJECT | Gestionnaire de Tâches Basique (Conditionnelles et manipulation de Lists) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/beginner/019_project_gestionnaire_de_t_ches_basique_conditionnelles_et_manipulation_de_lists.livemd) |
+| 020 | 🟢Beginner | Topic | Introduction aux Tuples (Creation, Immutability, Unpacking) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/beginner/020_topic_introduction_aux_tuples_creation_immutability_unpacking.livemd) |
+| 021 | 🟢Beginner | Topic | Introduction aux Dictionaries (Key-Value pairs, Creation, Direct Access) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/beginner/021_topic_introduction_aux_dictionaries_key_value_pairs_creation_direct_access.livemd) |
+| 022 | 🟢Beginner | Topic | Méthodes de Dictionaries (keys(), values(), items(), get(), update()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/beginner/022_topic_m_thodes_de_dictionaries_keys_values_items_get_update.livemd) |
+| 023 | 🟢Beginner | Topic | Introduction aux Sets (Creation, Uniqueness, add(), remove()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/beginner/023_topic_introduction_aux_sets_creation_uniqueness_add_remove.livemd) |
+| 024 | 🟢Beginner | Topic | Opérations sur les Sets (union(), intersection(), difference(), symmetric_difference()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/beginner/024_topic_op_rations_sur_les_sets_union_intersection_difference_symmetric_difference.livemd) |
+| 025 | 🟢Beginner | PROJECT | Déduplicateur de Contacts et de Données (Dicts, Tuples, Sets) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/beginner/025_project_d_duplicateur_de_contacts_et_de_donn_es_dicts_tuples_sets.livemd) |
+| 026 | 🟢Beginner | Topic | Itération : La boucle for (Itération sur strings, lists, tuples) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/beginner/026_topic_it_ration_la_boucle_for_it_ration_sur_strings_lists_tuples.livemd) |
+| 027 | 🟢Beginner | Topic | Itération : La boucle while et Instructions de Contrôle (break, continue, pass) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/beginner/027_topic_it_ration_la_boucle_while_et_instructions_de_contr_le_break_continue_pass.livemd) |
+| 028 | 🟢Beginner | Topic | Expressions d'Affectation avec le Walrus Operator (:=) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/beginner/028_topic_expressions_d_affectation_avec_le_walrus_operator.livemd) |
+| 029 | 🟡Intermediate | Topic | Outils d'Itération Avancés (range(), enumerate(), zip()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/intermediate/029_topic_outils_d_it_ration_avanc_s_range_enumerate_zip.livemd) |
+| 030 | 🟡Intermediate | Topic | Opérateurs d'Appartenance (in, not in à travers toutes les structures de données) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/intermediate/030_topic_op_rateurs_d_appartenance_in_not_in_travers_toutes_les_structures_de_donn_es.livemd) |
+| 031 | 🟡Intermediate | Topic | List Comprehensions (Syntaxe de base et filtrage conditionnel) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/intermediate/031_topic_list_comprehensions_syntaxe_de_base_et_filtrage_conditionnel.livemd) |
+| 032 | 🟡Intermediate | PROJECT | Nettoyeur Automatique de Texte et de Données (Loops, Comprehensions, Conditionals) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/intermediate/032_project_nettoyeur_automatique_de_texte_et_de_donn_es_loops_comprehensions_conditionals.livemd) |
+| 033 | 🟡Intermediate | Topic | Dictionary et Set Comprehensions (Syntaxe et filtrage) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/intermediate/033_topic_dictionary_et_set_comprehensions_syntaxe_et_filtrage.livemd) |
+| 034 | 🟡Intermediate | Topic | Introduction aux Functions (def, instructions return de base) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/intermediate/034_topic_introduction_aux_functions_def_instructions_return_de_base.livemd) |
+| 035 | 🟡Intermediate | Topic | Arguments de Function : Positional, Keyword, et Default Values | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/intermediate/035_topic_arguments_de_function_positional_keyword_et_default_values.livemd) |
+| 036 | 🟡Intermediate | Topic | Arguments Flexibles (*args, **kwargs) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/intermediate/036_topic_arguments_flexibles_args_kwargs.livemd) |
+| 037 | 🟡Intermediate | Topic | Portée des Variables - Variable Scope (concepts local, global, nonlocal) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/intermediate/037_topic_port_e_des_variables_variable_scope_concepts_local_global_nonlocal.livemd) |
+| 038 | 🟡Intermediate | PROJECT | Utilitaire Mathématique en Ligne de Commande (Functions, Scope, Flexible args) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/intermediate/038_project_utilitaire_math_matique_en_ligne_de_commande_functions_scope_flexible_args.livemd) |
+| 039 | 🟡Intermediate | Topic | Lambda Functions (Fonctions anonymes à expression unique) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/intermediate/039_topic_lambda_functions_fonctions_anonymes_expression_unique.livemd) |
+| 040 | 🟡Intermediate | Topic | Higher-Order Functions (map(), filter()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/intermediate/040_topic_higher_order_functions_map_filter.livemd) |
+| 041 | 🟡Intermediate | Topic | La fonction reduce() (Importation depuis functools) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/intermediate/041_topic_la_fonction_reduce_importation_depuis_functools.livemd) |
+| 042 | 🟡Intermediate | Topic | Introduction aux Modules et Instructions import (import, from ... import ...) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/intermediate/042_topic_introduction_aux_modules_et_instructions_import_import_from_import.livemd) |
+| 043 | 🟡Intermediate | Topic | Modules Math et Random Standards (utilitaires math, sélection et génération random) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/intermediate/043_topic_modules_math_et_random_standards_utilitaires_math_s_lection_et_g_n_ration_random.livemd) |
+| 044 | 🟡Intermediate | Topic | Module Datetime Standard (datetime, timedelta, formatage de strings %Y-%m-%d) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/intermediate/044_topic_module_datetime_standard_datetime_timedelta_formatage_de_strings_y_m_d.livemd) |
+| 045 | 🟡Intermediate | PROJECT | Générateur de Mots de Passe avec Suivi Temporel (Functions, Datetime, Random) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/intermediate/045_project_g_n_rateur_de_mots_de_passe_avec_suivi_temporel_functions_datetime_random.livemd) |
+| 046 | 🟡Intermediate | Topic | Bases de la Gestion d'Erreurs (blocs try, except) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/intermediate/046_topic_bases_de_la_gestion_d_erreurs_blocs_try_except.livemd) |
+| 047 | 🟡Intermediate | Topic | Gestion d'Erreurs Avancée (finally, else, capture de types d'exceptions spécifiques) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/intermediate/047_topic_gestion_d_erreurs_avanc_e_finally_else_capture_de_types_d_exceptions_sp_cifiques.livemd) |
+| 048 | 🟡Intermediate | Topic | Lever des Exceptions Personnalisées (instructions raise, assert) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/intermediate/048_topic_lever_des_exceptions_personnalis_es_instructions_raise_assert.livemd) |
+| 049 | 🟡Intermediate | Topic | Gestion Moderne des Chemins (opérations fonctionnelles et navigation avec pathlib.Path) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/intermediate/049_topic_gestion_moderne_des_chemins_op_rations_fonctionnelles_et_navigation_avec_pathlib_path.livemd) |
+| 050 | 🟡Intermediate | Topic | I/O de Fichiers Basique (Ouverture, Lecture et Fermeture de fichiers texte) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/intermediate/050_topic_i_o_de_fichiers_basique_ouverture_lecture_et_fermeture_de_fichiers_texte.livemd) |
+| 051 | 🟡Intermediate | Topic | Écriture et Ajout de Données dans des Fichiers Texte (modes 'w', 'a') | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/intermediate/051_topic_criture_et_ajout_de_donn_es_dans_des_fichiers_texte_modes_w_a.livemd) |
+| 052 | 🟡Intermediate | Topic | Context Managers (syntaxe with open() pour une gestion de fichiers sécurisée) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/intermediate/052_topic_context_managers_syntaxe_with_open_pour_une_gestion_de_fichiers_s_curis_e.livemd) |
+| 053 | 🟡Intermediate | PROJECT | Analyseur Automatique de Fichiers Log (File I/O, Gestion d'Erreurs, String Parsing) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/intermediate/053_project_analyseur_automatique_de_fichiers_log_file_i_o_gestion_d_erreurs_string_parsing.livemd) |
+| 054 | 🟡Intermediate | Topic | Manipulation de Données JSON (json.load(), json.loads(), json.dump(), json.dumps()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/intermediate/054_topic_manipulation_de_donn_es_json_json_load_json_loads_json_dump_json_dumps.livemd) |
+| 055 | 🟡Intermediate | Topic | Travailler avec des Fichiers CSV (csv.reader(), csv.DictReader(), csv.writer()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/intermediate/055_topic_travailler_avec_des_fichiers_csv_csv_reader_csv_dictreader_csv_writer.livemd) |
+| 056 | 🔴Advanced | Topic | Variables d'Environnement et Configuration (os.environ, os.getenv()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/056_topic_variables_d_environnement_et_configuration_os_environ_os_getenv.livemd) |
+| 057 | 🔴Advanced | Topic | Gestion des Secrets avec python-dotenv (Chargement sécurisé de fichiers .env) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/057_topic_gestion_des_secrets_avec_python_dotenv_chargement_s_curis_de_fichiers_env.livemd) |
+| 058 | 🔴Advanced | Topic | Bases du Protocole HTTP et Module requests (requests.get(), Status Codes) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/058_topic_bases_du_protocole_http_et_module_requests_requests_get_status_codes.livemd) |
+| 059 | 🔴Advanced | Topic | Gestion des Réponses API (Analyse JSON avec response.json()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/059_topic_gestion_des_r_ponses_api_analyse_json_avec_response_json.livemd) |
+| 060 | 🔴Advanced | Topic | Gestion API Avancée : Navigation par Pagination et Cursors | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/060_topic_gestion_api_avanc_e_navigation_par_pagination_et_cursors.livemd) |
+| 061 | 🔴Advanced | PROJECT | Récupérateur de Données API Sécurisé (Requests, JSON, dotenv, File I/O) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/061_project_r_cup_rateur_de_donn_es_api_s_curis_requests_json_dotenv_file_i_o.livemd) |
+| 062 | 🔴Advanced | Topic | requests Avancé : URL Query Parameters et Custom Headers | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/062_topic_requests_avanc_url_query_parameters_et_custom_headers.livemd) |
+| 063 | 🔴Advanced | Topic | requests Avancé : Envoi de Requêtes POST et JSON Payloads | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/063_topic_requests_avanc_envoi_de_requ_tes_post_et_json_payloads.livemd) |
+| 064 | 🔴Advanced | Topic | Gestion d'Erreurs dans les APIs (response.raise_for_status(), Request Timeouts) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/064_topic_gestion_d_erreurs_dans_les_apis_response_raise_for_status_request_timeouts.livemd) |
+| 065 | 🔴Advanced | Topic | Le Module collections (Counter, defaultdict pour comptage/groupement optimisés) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/065_topic_le_module_collections_counter_defaultdict_pour_comptage_groupement_optimis_s.livemd) |
+| 066 | 🔴Advanced | Topic | Files d'Attente à Double Entrée Efficaces avec collections.deque (opérations rapides append/pop) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/066_topic_files_d_attente_double_entr_e_efficaces_avec_collections_deque_op_rations_rapides_append_pop.livemd) |
+| 067 | 🔴Advanced | Topic | Enregistrements Structurés Légers avec collections.namedtuple | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/067_topic_enregistrements_structur_s_l_gers_avec_collections_namedtuple.livemd) |
+| 068 | 🔴Advanced | PROJECT | Analyseur de Réponses API (Requests, Gestion d'Erreurs, Collections, Namedtuples) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/068_project_analyseur_de_r_ponses_api_requests_gestion_d_erreurs_collections_namedtuples.livemd) |
+| 069 | 🔴Advanced | Topic | Context Managers Personnalisés avec contextlib (décorateur @contextmanager) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/069_topic_context_managers_personnalis_s_avec_contextlib_d_corateur_contextmanager.livemd) |
+| 070 | 🔴Advanced | Topic | Generators et Mot-clé yield (Concepts d'évaluation paresseuse) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/070_topic_generators_et_mot_cl_yield_concepts_d_valuation_paresseuse.livemd) |
+| 071 | 🔴Advanced | Topic | Generator Expressions (Génération d'itérables efficace en mémoire) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/071_topic_generator_expressions_g_n_ration_d_it_rables_efficace_en_m_moire.livemd) |
+| 072 | 🔴Advanced | Topic | Functions Avancées : Closures et Nested Functions (Maintien d'état sans objets) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/072_topic_functions_avanc_es_closures_et_nested_functions_maintien_d_tat_sans_objets.livemd) |
+| 073 | 🔴Advanced | Topic | Conteneurs de Données Structurées avec dataclasses | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/073_topic_conteneurs_de_donn_es_structur_es_avec_dataclasses.livemd) |
+| 074 | 🔴Advanced | Topic | Decorators : Création et Application d'Enveloppes de Functions (syntaxe @wrapper) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/074_topic_decorators_cr_ation_et_application_d_enveloppes_de_functions_syntaxe_wrapper.livemd) |
+| 075 | 🔴Advanced | PROJECT | Limiteur de Débit API et Decorator de Caching | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/075_project_limiteur_de_d_bit_api_et_decorator_de_caching.livemd) |
+| 076 | 🔴Advanced | Topic | Navigation et Manipulation du Système de Fichiers (os.listdir(), os.mkdir(), os.remove()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/076_topic_navigation_et_manipulation_du_syst_me_de_fichiers_os_listdir_os_mkdir_os_remove.livemd) |
+| 077 | 🔴Advanced | Topic | Gestion de Fichiers Temporaires avec tempfile (fichiers et répertoires temporaires sécurisés) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/077_topic_gestion_de_fichiers_temporaires_avec_tempfile_fichiers_et_r_pertoires_temporaires_s_curis_s.livemd) |
+| 078 | 🔴Advanced | Topic | Opérations de Fichiers de Haut Niveau (shutil.copy(), shutil.move(), shutil.rmtree()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/078_topic_op_rations_de_fichiers_de_haut_niveau_shutil_copy_shutil_move_shutil_rmtree.livemd) |
+| 079 | 🔴Advanced | Topic | Recherche Binaire et Insertions Ordonnées avec bisect (maintien efficace de listes ordonnées) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/079_topic_recherche_binaire_et_insertions_ordonn_es_avec_bisect_maintien_efficace_de_listes_ordonn_es.livemd) |
+| 080 | 🔴Advanced | Topic | Subprocesses : Exécution de Commandes Système (subprocess.run(), capture de sortie) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/080_topic_subprocesses_ex_cution_de_commandes_syst_me_subprocess_run_capture_de_sortie.livemd) |
+| 081 | 🔴Advanced | Topic | Regular Expressions : Correspondance et Recherche (re.search(), re.match(), motifs de base) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/081_topic_regular_expressions_correspondance_et_recherche_re_search_re_match_motifs_de_base.livemd) |
+| 082 | 🔴Advanced | Topic | Regular Expressions : Extraction et Substitution (re.findall(), re.sub(), groupes de capture) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/082_topic_regular_expressions_extraction_et_substitution_re_findall_re_sub_groupes_de_capture.livemd) |
+| 083 | 🔴Advanced | PROJECT | Analyseur de Logs Système et Extracteur Regex (Regex, os, pathlib) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/083_project_analyseur_de_logs_syst_me_et_extracteur_regex_regex_os_pathlib.livemd) |
+| 084 | 🔴Advanced | Topic | Le Module logging : Configuration et Niveaux de Log (DEBUG, INFO, WARNING, ERROR) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/084_topic_le_module_logging_configuration_et_niveaux_de_log_debug_info_warning_error.livemd) |
+| 085 | 🔴Advanced | Topic | logging Avancé : Handlers et Formatters (Routage simultané des logs vers console et fichiers) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/085_topic_logging_avanc_handlers_et_formatters_routage_simultan_des_logs_vers_console_et_fichiers.livemd) |
+| 086 | 🔴Advanced | Topic | Itertools : Itérateurs Infinis et Combinatoires (count, cycle, combinations) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/086_topic_itertools_it_rateurs_infinis_et_combinatoires_count_cycle_combinations.livemd) |
+| 087 | 🔴Advanced | Topic | Itertools : Groupement et Enchaînement de Données (groupby, chain) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/087_topic_itertools_groupement_et_encha_nement_de_donn_es_groupby_chain.livemd) |
+| 088 | 🔴Advanced | Topic | Introduction au Type Hinting (Types scalaires : int, str, bool) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/088_topic_introduction_au_type_hinting_types_scalaires_int_str_bool.livemd) |
+| 089 | 🔴Advanced | Topic | Type Hinting Avancé (List, Dict, Optional, Union, Callable) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/089_topic_type_hinting_avanc_list_dict_optional_union_callable.livemd) |
+| 090 | 🔴Advanced | PROJECT | Processeur de Payload Webhook de Type Sécurisé (Type Hints, Logging, Itertools) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/090_project_processeur_de_payload_webhook_de_type_s_curis_type_hints_logging_itertools.livemd) |
+| 091 | 🔴Advanced | Topic | Bootcamps de Débogage de Scripts : Utilisation de pdb (Points d'arrêt, exécution pas à pas) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/091_topic_bootcamps_de_d_bogage_de_scripts_utilisation_de_pdb_points_d_arr_t_ex_cution_pas_pas.livemd) |
+| 092 | 🔴Advanced | Topic | Défis de Refactorisation de Scripts : DRY et Responsabilité Unique (Division de fonctions monolithes) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/092_topic_d_fis_de_refactorisation_de_scripts_dry_et_responsabilit_unique_division_de_fonctions_monolithes.livemd) |
+| 093 | 🔴Advanced | Topic | Bases de la Programmation Asynchrone (async def, await, concept d'Event Loop) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/093_topic_bases_de_la_programmation_asynchrone_async_def_await_concept_d_event_loop.livemd) |
+| 094 | 🔴Advanced | Topic | Gestion des Tâches Asynchrones (asyncio.gather(), asyncio.create_task()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/094_topic_gestion_des_t_ches_asynchrones_asyncio_gather_asyncio_create_task.livemd) |
+| 095 | 🔴Advanced | Topic | Timeouts et Exceptions Async (asyncio.wait_for(), gestion d'erreurs async) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/095_topic_timeouts_et_exceptions_async_asyncio_wait_for_gestion_d_erreurs_async.livemd) |
+| 096 | 🔴Advanced | Topic | Threading vs. Asyncio (Différences conceptuelles et limites des threads avec le GIL) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/096_topic_threading_vs_asyncio_diff_rences_conceptuelles_et_limites_des_threads_avec_le_gil.livemd) |
+| 097 | 🔴Advanced | PROJECT | Agrégateur de Données Multi-API Concurrent (Asyncio, Gestion d'Erreurs, Logging) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/097_project_agr_gateur_de_donn_es_multi_api_concurrent_asyncio_gestion_d_erreurs_logging.livemd) |
+| 098 | 🔴Advanced | Topic | Tests Fonctionnels (Écriture de fonctions de test isolées via assert natif) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/098_topic_tests_fonctionnels_criture_de_fonctions_de_test_isol_es_via_assert_natif.livemd) |
+| 099 | 🔴Advanced | Topic | Mocking de Functions Natives (Utilisation de unittest.mock.patch comme décorateur/context manager) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/099_topic_mocking_de_functions_natives_utilisation_de_unittest_mock_patch_comme_d_corateur_context_manager.livemd) |
+| 100 | 🔴Advanced | Topic | Gestion des Dépendances de Projet (création de venv, pip freeze > requirements.txt) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/100_topic_gestion_des_d_pendances_de_projet_cr_ation_de_venv_pip_freeze_requirements_txt.livemd) |
+| 101 | 🔴Advanced | Topic | Construction de CLIs Robustes (argparse, Arguments Positionnels et Flags) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/101_topic_construction_de_clis_robustes_argparse_arguments_positionnels_et_flags.livemd) |
+| 102 | 🔴Advanced | Topic | Mesure de Performance et Profiling (module timeit) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/102_topic_mesure_de_performance_et_profiling_module_timeit.livemd) |
+| 103 | 🔴Advanced | Topic | Distribution de Function par Type avec functools.singledispatch | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/103_topic_distribution_de_function_par_type_avec_functools_singledispatch.livemd) |
+| 104 | 🔴Advanced | PROJECT | Utilitaire CLI de Grade Production | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/104_project_utilitaire_cli_de_grade_production.livemd) |
+| 105 | 🔴Advanced | Topic | Hachage de Données et Validation d'Intégrité (hashlib pour SHA256) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/105_topic_hachage_de_donn_es_et_validation_d_int_grit_hashlib_pour_sha256.livemd) |
+| 106 | 🔴Advanced | Topic | Références Faibles avec weakref (références d'objets sécurisées pour la mémoire) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/106_topic_r_f_rences_faibles_avec_weakref_r_f_rences_d_objets_s_curis_es_pour_la_m_moire.livemd) |
+| 107 | 🔴Advanced | Topic | Utilitaires Fonctionnels Avancés (functools.partial, @lru_cache pour la mémoïsation) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/107_topic_utilitaires_fonctionnels_avanc_s_functools_partial_lru_cache_pour_la_m_mo_sation.livemd) |
+| 108 | 🔴Advanced | Topic | Hooks de Fermeture de Script avec atexit (gestionnaires de nettoyage) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/108_topic_hooks_de_fermeture_de_script_avec_atexit_gestionnaires_de_nettoyage.livemd) |
+| 109 | 🔴Advanced | Topic | Gestion des Signaux Système avec signal (arrêt gracieux de script) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/109_topic_gestion_des_signaux_syst_me_avec_signal_arr_t_gracieux_de_script.livemd) |
+| 110 | 🔴Advanced | Topic | Importations Dynamiques avec importlib (chargement de modules au moment de l'exécution) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/110_topic_importations_dynamiques_avec_importlib_chargement_de_modules_au_moment_de_l_ex_cution.livemd) |
+| 111 | 🔴Advanced | Topic | Génération d'ID Unique avec uuid (uuid4 pour les systèmes distribués) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/111_topic_g_n_ration_d_id_unique_avec_uuid_uuid4_pour_les_syst_mes_distribu_s.livemd) |
+| 112 | 🔴Advanced | PROJECT | Framework d'Automatisation Extensible | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/fr/advanced/112_project_framework_d_automatisation_extensible.livemd) |
+
+*La table des matières complète (112 thèmes + projets) est disponible à l'intérieur du dossier de chaque langue.*
 
 ---
 
 ## 🏛️ Architecture & Mentors
 
-Each lab includes an **Explanation Gate** where a specialized AI Mentor guides you through the learning process. Each stage has its own mentor personality, designed to match the psychological and pedagogical needs of that phase:
+Chaque lab inclut une **Porte d'Explication** (Explanation Gate) où un Mentor d'IA spécialisé vous guide tout au long du processus d'apprentissage. Chaque étape possède sa propre personnalité de mentor, conçue pour s'aligner sur les besoins psychologiques et pédagogiques de cette phase :
 
-| Stage | Mentor | Personality | What It Teaches |
+| Étape | Mentor | Personnalité | Ce qu'il enseigne |
 |-------|--------|-------------|------------------|
-| **1** | The Safe Guide | Warm, patient, like an older sibling | Safe syntax exploration, eliminating "vibe coding" |
-| **2** | The Analytical Partner | Curious, coffee‑fueled "log detective" | Reading error traces, understanding crashes |
-| **3** | The Logical Scaffold | Methodical, encouraging "senior builder" | Visualizing data flow (Input → Transform → Output) |
-| **4** | The Elegant Critic | Sarcastic, purist, "tough love" | Idiomatic code, functional patterns, eliminating bad habits |
-| **5** | The Strategic Partner | Visionary, professional "system architect" | Edge cases, fault tolerance, business logic alignment |
+| **1** | Le Guide Rassurant | Chaleureux, patient, comme un grand frère/une grande sœur | Exploration sécurisée de la syntaxe, élimination du "vibe coding" |
+| **2** | Le Partenaire Analytique | Curieux, carburent au café, un "détective de logs" | Lecture des traces d'erreur, compréhension des plantages système |
+| **3** | L'Échafaudage Logique | Méthodique, encourageant, un "bâtisseur senior" | Visualisation du flux de données (Entrée → Transformation → Sortie) |
+| **4** | Le Critique Élégant | Sarcastique, puriste, "amour vache" (tough love) | Code idiomatique, patterns fonctionnels, élimination des mauvaises habitudes |
+| **5** | Le Partenaire Stratégique | Visionnaire, professionnel, "architecte système" | Cas limites (edge cases), tolérance aux pannes, alignement avec la logique métier |
 
-*This repository contains **Stage 1 (The Safe Guide)**. Stages 2–5 mentors are available in the premium version.*
+*Ce dépôt contient l'**Étape 1 (Le Guide Rassurant)**.*
 
 ---
 
-## 🔗 Useful Links
+## 🔗 Liens Utiles
 
 [Coding5s.com](https://coding5s.com) | [Udemy (Coding5s Premium)](https://www.udemy.com/user/wilbarrios/) | [GitHub](https://github.com/WilfredoBarrios)
 
@@ -96,13 +205,13 @@ Each lab includes an **Explanation Gate** where a specialized AI Mentor guides y
 
 ## 🤝 Contributions
 
-Do you have any feedback or feature suggestions? Feel free to open an issue or contribute if you want to support the project in any way!
+Avez-vous des commentaires ou des suggestions de fonctionnalités ? N'hésitez pas à ouvrir une 'issue' ou à contribuer si vous souhaitez soutenir le projet de quelque manière que ce soit !
 
 ---
 
-## 📄 License
+## 📄 Licence
 
-MIT © [Wilfredo Barrios](https://github.com/WilfredoBarrios)
+MIT © [Wil Barrios](https://github.com/WilfredoBarrios)
 
 ---
-⚡ *Coding5s System — Learning designed for technical mastery.*
+⚡ *Système Coding5s — L'apprentissage conçu pour la maîtrise technique.*

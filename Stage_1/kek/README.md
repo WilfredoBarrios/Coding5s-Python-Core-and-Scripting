@@ -1,108 +1,218 @@
-# 🧪 Python Core & Scripting Interactive Lab — English 🇺🇸
+# 🧪 Python Core & Scripting Na'aj chi Tz'iib'ank — Q'eqchi' 🇬🇹
 
 [![Livebook](https://img.shields.io/badge/Livebook-FF6B6B?logo=livebook&logoColor=white)](https://livebook.dev)
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **Learn Python by writing code, not just by reading it.**
-> This is the English version of the **Coding5s** interactive curriculum, designed to take you from core scripting to technical mastery using Livebook's interactive environment.
+> **Xtz'iib'amanq li [code] (tz'iib'anb'il na'leb') chi tz'ilok rix Python, moko ka'aj ta wi' xyaab'asinkil.**
+> A'an a'in li aatinob'aal sa' Q'eqchi' re li **Coding5s**, xk'uub'anb'il chi xk'amb'al aawib' chalen li [scripting] (xkanab'ankil li tz'iib'ank) toj sa' li [technical mastery] (nimal xna'leb'alil) rik'in xk'anjelankil li [interactive environment] (na'aj chi wankilal) re Livebook.
 
 ---
 
-## 🚀 How to get started?
+## 🚀 Chanru xtikib'ankil?
 
-To experience this lab interactively, you need to have **Livebook** installed on your computer with the Python runtime integration.
+Chi xk'ulb'al li na'aj a'in, aajel ru wanq **Livebook** sa' laa ch'iich' rik'in li xna'aj Python.
 
-1. **Install Livebook:** Download it at [livebook.dev](https://livebook.dev).
-2. **Open a Lab:** Browse the folders below and click the **"Run in Livebook"** button inside each file, or import the URL directly into your Livebook session.
+1. **Taqab' Livebook:** Tawil sa' [livebook.dev](https://livebook.dev).
+2. **Te' jun li na'aj:** Sik' sa' xk'ojarib'aal rub'el, ut patz' li **"Run in Livebook"** sa' xyi junjunq li hu, malaj k'am li URL sa' laa Livebook.
 
 ---
 
-## 📚 Coding5s Methodology (5 Stages)
+## 📚 Xk'uub'ankil li Coding5s (Oob' li Xraqalil)
 
-Our approach is based on **Controlled Cognitive Friction**. Each lab guides you through:
+K'ojob'anb'il li qak'anjel sa' xb'een li **[Controlled Cognitive Friction] (Xk'uub'ankil li k'a'uxlej)**. Xk'amok aawib' junjunq li na'aj chi:
 
-| Stage | Name | Objective |
+| Xraqalil | Xk'ab'a' | Xraqik |
 |-------|------|-----------|
-| **1** | Practice | Write code from scratch |
-| **2** | Debug | Find intentional syntax and logic errors |
-| **3** | Complete | Fill in architectural and algorithmic gaps |
-| **4** | Refactor | Optimize existing scripts (flat vs. modular structure) |
-| **5** | Extend | Add new production-ready functionalities |
+| **1** | Xtz'ilb'al rix | Xtz'iib'ankil li [code] (tz'iib'anb'il na'leb') chi ak' |
+| **2** | [Debug] (Xsik'b'al li palaw) | Xsik'b'al li palaw sa' li [syntax] (xb'aanuhom li tz'iib') ut [logic] (xk'uub'anjelal) |
+| **3** | Xtz'aqob'ankil | Xnujob'asinkil li [algorithms] (xb'ehil li k'anjel) ut [architectural gaps] (xtz'aqob'ankil li k'uub'anb'il) |
+| **4** | [Refactor] (Xtuqub'ankil ru) | Xchaab'ilob'resinkil li [scripts] (tz'iib'anb'il k'anjel) (perel malaj jachjo ru) |
+| **5** | Xnimob'resinkil | Xtz'aqob'ankil ak' [functionalities] (xk'anjelal) re k'anjelak |
 
-*This repository contains **Stage 1 (Practice)**.
+*Naxk'am li hu a'in li **Xraqalil 1 (Xtz'ilb'al rix)**.
+---
+
+## 🛠️ Chanru xk'anjelankil junjunq li Livebook
+
+Sa' xyi junjunq li hu `.livemd`, xb'aanum a'in chi ch'ina'us:
+
+1. Te' li hu sa' **Livebook**.
+2. K'opya li **Xraqalil 1 [prompt] (patz'om)** ut k'ojob' sa' laa AI (ChatGPT, Gemini, Claude, malaj jalan chik).
+3. Xtz'iib'amanq li AI **oxib' malaj oob' [micro-examples] (k'utb'esinkil k'anjel)** chi tz'ilok rix.
+4. K'opya li na'leb' a'in sa' li **[execution cell] (xna'aj li k'anjelak)** sa' Livebook ut k'anjela.
+5. Jal ru li [code] (tz'iib'anb'il na'leb'), tz'il rix, ut il chanru najal ru li [output] (li xraqik).
 
 ---
 
-## 🛠️ How to use each Livebook
+## 🧠 Li Xk'uhtaan Socrático (AI)
 
-Inside each `.livemd` file, follow this simple workflow:
+Naxk'am ajwi' junjunq li Livebook jun li **[Mentor prompt] (Patz'om re li k'uhtaan)**. Naruu nak'ojob' sa' li AI rik'in laa [code] ut jun li ch'ina aatin chi ch'olob'ank li [logic]. Li xk'uhtaan:
 
-1. Open the file in **Livebook** (desktop or browser version).
-2. Copy the **Stage 1 prompt** and paste it into your preferred AI chat (ChatGPT, Gemini, Claude, etc.).
-3. The AI will generate **3 to 5 executable micro‑examples** for that topic.
-4. Copy those examples into the Livebook's **execution cell** and run them.
-5. Modify the code, experiment, and watch the output change in real time.
+- **Moko tixk'e ta laa sumenk chi seeb'** (sa' xtikib'ankil)
+- Tixpatz' aawe rik'in socrático na'leb' re naq taataw li palaw chi aawu
+- Tixk'anjela li na'leb' re li ruuchich'och' chi xch'olob'ankil li **[programming concepts] (xk'uub'ankil li na'leb')**
+- Taatenq'amanq chi xrisi li "Vibe Coding" ut xb'aanunkil li [engineering intuition] (xna'leb' li noj)
+- Tixk'e li [senior-level answers] (xsuk'isinkil li nimaq na'leb') naq taapatz' junq li na'leb' chi tz'aqal
 
----
-
-## 🧠 The Socratic Mentor (AI)
-
-Each Livebook also includes a **Mentor prompt**. You can paste it into the same AI chat alongside your code and a short explanation of your logic. The mentor will:
-
-- **Not give you the answer directly** (at first)
-- Ask you Socratic questions so you discover the error yourself
-- Use real‑world analogies to explain **programming concepts**
-- Help you eliminate "Vibe Coding" and build true engineering intuition
-- Provide senior‑level answers when you ask specific questions
+⚠️ NIMLA NA'LEB' RE LI MAYA MALAJ JALAN CHIK AATINOB'AAL: Chi xkanab'ankil chi chaab'il li aatinob'aal, aajel ru li [inline comments] (ch'olob'ank sa' li tz'iib') ut li [dynamic glossaries] (xk'anjelal li aatinob'aal) sa' li Maya aatinob'aal, aajel ru xk'anjelankil li Gemini Pro. Li ch'ina AI moko naxk'ul ta li [syntactic attention] (xk'uub'ankil chi tz'aqal) re li aatinob'aal a'in. Chi xk'anjelankil li Maya ut li aatinob'aal re Abya Yala, wan jun li [context seed] (xe'tq'eel na'leb') sa' li [prompts] re xchaab'ilob'resinkil li [outputs]; jo'kan naq, aajel ru jun li nimla AI.
 
 ---
 
-## 🛠️ Interactive Curriculum — Stage 1: Practice Lab
+## 🛠️ [Interactive Curriculum] (Xk'uub'ankil li Xook) — Xraqalil 1: Na'aj chi Tz'iib'ank
 
-Click the **Run in Livebook** badge to open each lab directly in your environment.
+Patz' li **Run in Livebook** chi xteb'al junjunq li na'aj chi tz'ilok.
 
-| # | Level | Type | Topic / Project Name | Prereqs (#) | Priority | CPF-Risk | Interactive Lab |
-|:-:|:---|:---|:---|:-:|:---|:-:|:---|
-| 1 | 🟢 Beginner | Topic | Global Environment Diagnostics (`sys.version`, `sys.platform`) | - | Core | 1 | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](./Stage_1/en/beginner/1_sys_diagnostics.livemd) |
-| 2 | 🟢 Beginner | Topic | Variables & Dynamic Typing | 1 | Core | 1 | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](./Stage_1/en/beginner/2_variables.livemd) |
-| 3 | 🟢 Beginner | Topic | Primitive Data Types (`int`, `float`, `str`, `bool`) | 2 | Core | 1 | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](./Stage_1/en/beginner/3_data_types.livemd) |
+| # |  Level |  Type |Topic Name | Interactive Lab |
+| :--- | :--- | :--- | :--- | :--- |
+| 001 | 🟢Beginner | Topic | Sintaxis Básica ut Salida (print(), Comments, Indentation) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/beginner/001_topic_sintaxis_b_sica_ut_salida_print_comments_indentation.livemd) |
+| 002 | 🟢Beginner | Topic | Variables ut Dynamic Typing (Assignment, Naming Conventions) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/beginner/002_topic_variables_ut_dynamic_typing_assignment_naming_conventions.livemd) |
+| 003 | 🟢Beginner | Topic | Tipos re Datos Primitivos (int, float, str, bool) ut type() | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/beginner/003_topic_tipos_re_datos_primitivos_int_float_str_bool_ut_type.livemd) |
+| 004 | 🟢Beginner | Topic | Operaciones Aritméticas (+, -, *, /, //, %, **) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/beginner/004_topic_operaciones_aritm_ticas.livemd) |
+| 005 | 🟢Beginner | Topic | Operadores re Comparación ut Identidad (==, !=, >, <, is, is not) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/beginner/005_topic_operadores_re_comparaci_n_ut_identidad_is_is_not.livemd) |
+| 006 | 🟢Beginner | PROJECT | Calculadora re Propinas ut División (Operaciones matemáticas ut variables combinadas) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/beginner/006_project_calculadora_re_propinas_ut_divisi_n_operaciones_matem_ticas_ut_variables_combinadas.livemd) |
+| 007 | 🟢Beginner | Topic | Entrada re Usuario ut Type Casting (input(), int(), float(), str()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/beginner/007_topic_entrada_re_usuario_ut_type_casting_input_int_float_str.livemd) |
+| 008 | 🟢Beginner | Topic | Operadores Lógicos (and, or, not) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/beginner/008_topic_operadores_l_gicos_and_or_not.livemd) |
+| 009 | 🟢Beginner | Topic | Operaciones Básicas re Strings (Concatenation, Repetition, Indexing []) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/beginner/009_topic_operaciones_b_sicas_re_strings_concatenation_repetition_indexing.livemd) |
+| 010 | 🟢Beginner | Topic | Formateo re Strings (f-strings, .format()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/beginner/010_topic_formateo_re_strings_f_strings_format.livemd) |
+| 011 | 🟢Beginner | Topic | Métodos Comunes re Strings (lower(), upper(), strip(), replace(), split()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/beginner/011_topic_m_todos_comunes_re_strings_lower_upper_strip_replace_split.livemd) |
+| 012 | 🟢Beginner | PROJECT | Generador Interactivo re Perfiles re Usuario (I/O, formatting, string methods) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/beginner/012_project_generador_interactivo_re_perfiles_re_usuario_i_o_formatting_string_methods.livemd) |
+| 013 | 🟢Beginner | Topic | Flujo re Control: Condicionales Básicos (if, else) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/beginner/013_topic_flujo_re_control_condicionales_b_sicos_if_else.livemd) |
+| 014 | 🟢Beginner | Topic | Flujo re Control: Condicionales Encadenados ut Anidados (elif, nested if) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/beginner/014_topic_flujo_re_control_condicionales_encadenados_ut_anidados_elif_nested_if.livemd) |
+| 015 | 🟢Beginner | Topic | Flujo re Control: Structural Pattern Matching (match/case) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/beginner/015_topic_flujo_re_control_structural_pattern_matching_match_case.livemd) |
+| 016 | 🟢Beginner | Topic | Introducción re Lists (Creation, Indexing, Mutability concept) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/beginner/016_topic_introducci_n_re_lists_creation_indexing_mutability_concept.livemd) |
+| 017 | 🟢Beginner | Topic | Métodos re Modificación re Lists (append(), insert(), extend(), remove(), pop()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/beginner/017_topic_m_todos_re_modificaci_n_re_lists_append_insert_extend_remove_pop.livemd) |
+| 018 | 🟢Beginner | Topic | Sequence Slicing ut Strides ([start:stop:step]) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/beginner/018_topic_sequence_slicing_ut_strides_start_stop_step.livemd) |
+| 019 | 🟢Beginner | PROJECT | Gestor re Tareas Básico (Condicionales ut manipulación re Lists) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/beginner/019_project_gestor_re_tareas_b_sico_condicionales_ut_manipulaci_n_re_lists.livemd) |
+| 020 | 🟢Beginner | Topic | Introducción re Tuples (Creation, Immutability, Unpacking) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/beginner/020_topic_introducci_n_re_tuples_creation_immutability_unpacking.livemd) |
+| 021 | 🟢Beginner | Topic | Introducción re Dictionaries (Key-Value pairs, Creation, Direct Access) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/beginner/021_topic_introducci_n_re_dictionaries_key_value_pairs_creation_direct_access.livemd) |
+| 022 | 🟢Beginner | Topic | Métodos re Dictionaries (keys(), values(), items(), get(), update()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/beginner/022_topic_m_todos_re_dictionaries_keys_values_items_get_update.livemd) |
+| 023 | 🟢Beginner | Topic | Introducción re Sets (Creation, Uniqueness, add(), remove()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/beginner/023_topic_introducci_n_re_sets_creation_uniqueness_add_remove.livemd) |
+| 024 | 🟢Beginner | Topic | Operaciones re Sets (union(), intersection(), difference(), symmetric_difference()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/beginner/024_topic_operaciones_re_sets_union_intersection_difference_symmetric_difference.livemd) |
+| 025 | 🟢Beginner | PROJECT | Deduplicador re Contactos ut Datos (Dicts, Tuples, Sets) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/beginner/025_project_deduplicador_re_contactos_ut_datos_dicts_tuples_sets.livemd) |
+| 026 | 🟢Beginner | Topic | Iteración: Li bucle for (Iterando strings, lists, tuples) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/beginner/026_topic_iteraci_n_li_bucle_for_iterando_strings_lists_tuples.livemd) |
+| 027 | 🟢Beginner | Topic | Iteración: Li bucle while ut Control Statements (break, continue, pass) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/beginner/027_topic_iteraci_n_li_bucle_while_ut_control_statements_break_continue_pass.livemd) |
+| 028 | 🟢Beginner | Topic | Expresiones re Asignación rik'in li Walrus Operator (:=) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/beginner/028_topic_expresiones_re_asignaci_n_rik_in_li_walrus_operator.livemd) |
+| 029 | 🟡Intermediate | Topic | Herramientas Avanzadas re Iteración (range(), enumerate(), zip()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/intermediate/029_topic_herramientas_avanzadas_re_iteraci_n_range_enumerate_zip.livemd) |
+| 030 | 🟡Intermediate | Topic | Operadores re Membresía (in, not in sa' chixjunil li estructuras re datos) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/intermediate/030_topic_operadores_re_membres_a_in_not_in_sa_chixjunil_li_estructuras_re_datos.livemd) |
+| 031 | 🟡Intermediate | Topic | List Comprehensions (Sintaxis básica ut filtrado condicional) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/intermediate/031_topic_list_comprehensions_sintaxis_b_sica_ut_filtrado_condicional.livemd) |
+| 032 | 🟡Intermediate | PROJECT | Limpiador Automático re Tz'iib' ut Datos (Loops, Comprehensions, Conditionals) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/intermediate/032_project_limpiador_autom_tico_re_tz_iib_ut_datos_loops_comprehensions_conditionals.livemd) |
+| 033 | 🟡Intermediate | Topic | Dictionary ut Set Comprehensions (Sintaxis ut filtrado) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/intermediate/033_topic_dictionary_ut_set_comprehensions_sintaxis_ut_filtrado.livemd) |
+| 034 | 🟡Intermediate | Topic | Introducción re Functions (def, sentencias return básicas) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/intermediate/034_topic_introducci_n_re_functions_def_sentencias_return_b_sicas.livemd) |
+| 035 | 🟡Intermediate | Topic | Argumentos re Functions: Positional, Keyword, ut Default Values | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/intermediate/035_topic_argumentos_re_functions_positional_keyword_ut_default_values.livemd) |
+| 036 | 🟡Intermediate | Topic | Argumentos Flexibles (*args, **kwargs) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/intermediate/036_topic_argumentos_flexibles_args_kwargs.livemd) |
+| 037 | 🟡Intermediate | Topic | Alcance re Variables (conceptos re local, global, nonlocal) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/intermediate/037_topic_alcance_re_variables_conceptos_re_local_global_nonlocal.livemd) |
+| 038 | 🟡Intermediate | PROJECT | Utilidad Matemática re Línea re Comandos (Functions, Scope, Flexible args) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/intermediate/038_project_utilidad_matem_tica_re_l_nea_re_comandos_functions_scope_flexible_args.livemd) |
+| 039 | 🟡Intermediate | Topic | Lambda Functions (Funciones anónimas re jun expresión) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/intermediate/039_topic_lambda_functions_funciones_an_nimas_re_jun_expresi_n.livemd) |
+| 040 | 🟡Intermediate | Topic | Higher-Order Functions (map(), filter()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/intermediate/040_topic_higher_order_functions_map_filter.livemd) |
+| 041 | 🟡Intermediate | Topic | Li función reduce() (Importando desde functools) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/intermediate/041_topic_li_funci_n_reduce_importando_desde_functools.livemd) |
+| 042 | 🟡Intermediate | Topic | Introducción re Modules ut sentencias import (import, from ... import ...) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/intermediate/042_topic_introducci_n_re_modules_ut_sentencias_import_import_from_import.livemd) |
+| 043 | 🟡Intermediate | Topic | Modules Estándar Math ut Random (utilidades math, selección ut generación random) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/intermediate/043_topic_modules_est_ndar_math_ut_random_utilidades_math_selecci_n_ut_generaci_n_random.livemd) |
+| 044 | 🟡Intermediate | Topic | Module Estándar Datetime (datetime, timedelta, formateo re strings %Y-%m-%d) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/intermediate/044_topic_module_est_ndar_datetime_datetime_timedelta_formateo_re_strings_y_m_d.livemd) |
+| 045 | 🟡Intermediate | PROJECT | Generador re Contraseñas rik'in Seguimiento re Tiempo (Functions, Datetime, Random) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/intermediate/045_project_generador_re_contrase_as_rik_in_seguimiento_re_tiempo_functions_datetime_random.livemd) |
+| 046 | 🟡Intermediate | Topic | Conceptos Básicos re Manejo re Errores (bloques try, except) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/intermediate/046_topic_conceptos_b_sicos_re_manejo_re_errores_bloques_try_except.livemd) |
+| 047 | 🟡Intermediate | Topic | Manejo re Errores Avanzado (finally, else, captura re tipos re excepciones específicos) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/intermediate/047_topic_manejo_re_errores_avanzado_finally_else_captura_re_tipos_re_excepciones_espec_ficos.livemd) |
+| 048 | 🟡Intermediate | Topic | Lanzamiento re Excepciones Personalizadas (sentencias raise, assert) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/intermediate/048_topic_lanzamiento_re_excepciones_personalizadas_sentencias_raise_assert.livemd) |
+| 049 | 🟡Intermediate | Topic | Manejo Moderno re Rutas (operaciones funcionales ut recorrido rik'in pathlib.Path) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/intermediate/049_topic_manejo_moderno_re_rutas_operaciones_funcionales_ut_recorrido_rik_in_pathlib_path.livemd) |
+| 050 | 🟡Intermediate | Topic | I/O Básico re Archivos (Apertura, Lectura ut Cierre re archivos re tz'iib') | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/intermediate/050_topic_i_o_b_sico_re_archivos_apertura_lectura_ut_cierre_re_archivos_re_tz_iib.livemd) |
+| 051 | 🟡Intermediate | Topic | Escritura ut Anexado re Datos sa' Archivos re Tz'iib' (modos 'w', 'a') | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/intermediate/051_topic_escritura_ut_anexado_re_datos_sa_archivos_re_tz_iib_modos_w_a.livemd) |
+| 052 | 🟡Intermediate | Topic | Context Managers (sintaxis with open() choq' re manejo seguro re archivos) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/intermediate/052_topic_context_managers_sintaxis_with_open_choq_re_manejo_seguro_re_archivos.livemd) |
+| 053 | 🟡Intermediate | PROJECT | Analizador Automático re Archivos Log (File I/O, Manejo re Errores, String Parsing) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/intermediate/053_project_analizador_autom_tico_re_archivos_log_file_i_o_manejo_re_errores_string_parsing.livemd) |
+| 054 | 🟡Intermediate | Topic | Manejo re Datos JSON (json.load(), json.loads(), json.dump(), json.dumps()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/intermediate/054_topic_manejo_re_datos_json_json_load_json_loads_json_dump_json_dumps.livemd) |
+| 055 | 🟡Intermediate | Topic | Trabajando rik'in Archivos CSV (csv.reader(), csv.DictReader(), csv.writer()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/intermediate/055_topic_trabajando_rik_in_archivos_csv_csv_reader_csv_dictreader_csv_writer.livemd) |
+| 056 | 🔴Advanced | Topic | Variables re Entorno ut Configuración (os.environ, os.getenv()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/056_topic_variables_re_entorno_ut_configuraci_n_os_environ_os_getenv.livemd) |
+| 057 | 🔴Advanced | Topic | Gestión re Secretos rik'in python-dotenv (Carga segura re archivos .env) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/057_topic_gesti_n_re_secretos_rik_in_python_dotenv_carga_segura_re_archivos_env.livemd) |
+| 058 | 🔴Advanced | Topic | Conceptos Básicos re li Protocolo HTTP ut li Module requests (requests.get(), Status Codes) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/058_topic_conceptos_b_sicos_re_li_protocolo_http_ut_li_module_requests_requests_get_status_codes.livemd) |
+| 059 | 🔴Advanced | Topic | Manejo re Respuestas API (Parsing re JSON rik'in response.json()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/059_topic_manejo_re_respuestas_api_parsing_re_json_rik_in_response_json.livemd) |
+| 060 | 🔴Advanced | Topic | Manejo Avanzado re APIs: Navegación rik'in Paginación ut Cursors | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/060_topic_manejo_avanzado_re_apis_navegaci_n_rik_in_paginaci_n_ut_cursors.livemd) |
+| 061 | 🔴Advanced | PROJECT | Capturador Seguro re Datos re API (Requests, JSON, dotenv, File I/O) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/061_project_capturador_seguro_re_datos_re_api_requests_json_dotenv_file_i_o.livemd) |
+| 062 | 🔴Advanced | Topic | requests Avanzado: Parámetros re Consulta URL ut Custom Headers | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/062_topic_requests_avanzado_par_metros_re_consulta_url_ut_custom_headers.livemd) |
+| 063 | 🔴Advanced | Topic | requests Avanzado: Envío re Peticiones POST ut Payloads JSON | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/063_topic_requests_avanzado_env_o_re_peticiones_post_ut_payloads_json.livemd) |
+| 064 | 🔴Advanced | Topic | Manejo re Errores sa' APIs (response.raise_for_status(), Request Timeouts) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/064_topic_manejo_re_errores_sa_apis_response_raise_for_status_request_timeouts.livemd) |
+| 065 | 🔴Advanced | Topic | Li Module collections (Counter, defaultdict choq' re conteo/agrupación optimizados) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/065_topic_li_module_collections_counter_defaultdict_choq_re_conteo_agrupaci_n_optimizados.livemd) |
+| 066 | 🔴Advanced | Topic | Queues re Doble Final Eficientes rik'in collections.deque (operaciones rápidas re append/pop) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/066_topic_queues_re_doble_final_eficientes_rik_in_collections_deque_operaciones_r_pidas_re_append_pop.livemd) |
+| 067 | 🔴Advanced | Topic | Registros Estructurados Ligeros rik'in collections.namedtuple | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/067_topic_registros_estructurados_ligeros_rik_in_collections_namedtuple.livemd) |
+| 068 | 🔴Advanced | PROJECT | Analizador re Respuestas API (Requests, Manejo re Errores, Collections, Namedtuples) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/068_project_analizador_re_respuestas_api_requests_manejo_re_errores_collections_namedtuples.livemd) |
+| 069 | 🔴Advanced | Topic | Context Managers Personalizados rik'in contextlib (decorador @contextmanager) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/069_topic_context_managers_personalizados_rik_in_contextlib_decorador_contextmanager.livemd) |
+| 070 | 🔴Advanced | Topic | Generators ut li Palabra Clave yield (Conceptos re evaluación perezosa) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/070_topic_generators_ut_li_palabra_clave_yield_conceptos_re_evaluaci_n_perezosa.livemd) |
+| 071 | 🔴Advanced | Topic | Generator Expressions (Generación re iterables eficiente sa' memoria) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/071_topic_generator_expressions_generaci_n_re_iterables_eficiente_sa_memoria.livemd) |
+| 072 | 🔴Advanced | Topic | Functions Avanzadas: Closures ut Nested Functions (Retención re estado sin objetos) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/072_topic_functions_avanzadas_closures_ut_nested_functions_retenci_n_re_estado_sin_objetos.livemd) |
+| 073 | 🔴Advanced | Topic | Contenedores re Datos Estructurados rik'in dataclasses | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/073_topic_contenedores_re_datos_estructurados_rik_in_dataclasses.livemd) |
+| 074 | 🔴Advanced | Topic | Decorators: Creación ut Aplicación re Envoltorios re Functions (sintaxis @wrapper) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/074_topic_decorators_creaci_n_ut_aplicaci_n_re_envoltorios_re_functions_sintaxis_wrapper.livemd) |
+| 075 | 🔴Advanced | PROJECT | Limitador re Tasa re API ut Decorator re Caching | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/075_project_limitador_re_tasa_re_api_ut_decorator_re_caching.livemd) |
+| 076 | 🔴Advanced | Topic | Navegación ut Manipulación re li Sistema re Archivos (os.listdir(), os.mkdir(), os.remove()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/076_topic_navegaci_n_ut_manipulaci_n_re_li_sistema_re_archivos_os_listdir_os_mkdir_os_remove.livemd) |
+| 077 | 🔴Advanced | Topic | Manejo re Archivos Temporales rik'in tempfile (archivos ut directorios temporales seguros) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/077_topic_manejo_re_archivos_temporales_rik_in_tempfile_archivos_ut_directorios_temporales_seguros.livemd) |
+| 078 | 🔴Advanced | Topic | Operaciones re Archivos re Alto Nivel (shutil.copy(), shutil.move(), shutil.rmtree()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/078_topic_operaciones_re_archivos_re_alto_nivel_shutil_copy_shutil_move_shutil_rmtree.livemd) |
+| 079 | 🔴Advanced | Topic | Búsqueda Binaria ut Inserciones Ordenadas rik'in bisect (mantenimiento eficiente re listas ordenadas) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/079_topic_b_squeda_binaria_ut_inserciones_ordenadas_rik_in_bisect_mantenimiento_eficiente_re_listas_ordenadas.livemd) |
+| 080 | 🔴Advanced | Topic | Subprocesses: Ejecución re Comandos re li Sistema (subprocess.run(), captura re salida) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/080_topic_subprocesses_ejecuci_n_re_comandos_re_li_sistema_subprocess_run_captura_re_salida.livemd) |
+| 081 | 🔴Advanced | Topic | Regular Expressions: Coincidencia ut Búsqueda (re.search(), re.match(), patrones básicos) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/081_topic_regular_expressions_coincidencia_ut_b_squeda_re_search_re_match_patrones_b_sicos.livemd) |
+| 082 | 🔴Advanced | Topic | Regular Expressions: Extracción ut Sustitución (re.findall(), re.sub(), grupos re captura) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/082_topic_regular_expressions_extracci_n_ut_sustituci_n_re_findall_re_sub_grupos_re_captura.livemd) |
+| 083 | 🔴Advanced | PROJECT | Analizador re Logs re li Sistema ut Extractor Regex (Regex, os, pathlib) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/083_project_analizador_re_logs_re_li_sistema_ut_extractor_regex_regex_os_pathlib.livemd) |
+| 084 | 🔴Advanced | Topic | Li Module logging: Configuración ut Niveles re Log (DEBUG, INFO, WARNING, ERROR) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/084_topic_li_module_logging_configuraci_n_ut_niveles_re_log_debug_info_warning_error.livemd) |
+| 085 | 🔴Advanced | Topic | logging Avanzado: Handlers ut Formatters (Enrutamiento re logs re consola ut archivos simultáneamente) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/085_topic_logging_avanzado_handlers_ut_formatters_enrutamiento_re_logs_re_consola_ut_archivos_simult_neamente.livemd) |
+| 086 | 🔴Advanced | Topic | Itertools: Iteradores Infinitos ut Combinatorios (count, cycle, combinations) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/086_topic_itertools_iteradores_infinitos_ut_combinatorios_count_cycle_combinations.livemd) |
+| 087 | 🔴Advanced | Topic | Itertools: Agrupación ut Encadenamiento re Datos (groupby, chain) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/087_topic_itertools_agrupaci_n_ut_encadenamiento_re_datos_groupby_chain.livemd) |
+| 088 | 🔴Advanced | Topic | Introducción re Type Hinting (Tipos escalares: int, str, bool) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/088_topic_introducci_n_re_type_hinting_tipos_escalares_int_str_bool.livemd) |
+| 089 | 🔴Advanced | Topic | Type Hinting Avanzado (List, Dict, Optional, Union, Callable) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/089_topic_type_hinting_avanzado_list_dict_optional_union_callable.livemd) |
+| 090 | 🔴Advanced | PROJECT | Procesador re Payloads re Webhook rik'in Tipado Seguro (Type Hints, Logging, Itertools) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/090_project_procesador_re_payloads_re_webhook_rik_in_tipado_seguro_type_hints_logging_itertools.livemd) |
+| 091 | 🔴Advanced | Topic | Bootcamps re Depuración re Scripts: Uso re pdb (Configuración re tracepoints, ejecución paso a paso) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/091_topic_bootcamps_re_depuraci_n_re_scripts_uso_re_pdb_configuraci_n_re_tracepoints_ejecuci_n_paso_a_paso.livemd) |
+| 092 | 🔴Advanced | Topic | Desafíos re Refactorización re Scripts: DRY ut Responsabilidad Única (División re funciones monolíticas) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/092_topic_desaf_os_re_refactorizaci_n_re_scripts_dry_ut_responsabilidad_nica_divisi_n_re_funciones_monol_ticas.livemd) |
+| 093 | 🔴Advanced | Topic | Conceptos Básicos re Programación Asíncrona (async def, await, concepto re Event Loop) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/093_topic_conceptos_b_sicos_re_programaci_n_as_ncrona_async_def_await_concepto_re_event_loop.livemd) |
+| 094 | 🔴Advanced | Topic | Gestión re Tareas Asíncronas (asyncio.gather(), asyncio.create_task()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/094_topic_gesti_n_re_tareas_as_ncronas_asyncio_gather_asyncio_create_task.livemd) |
+| 095 | 🔴Advanced | Topic | Timeouts ut Excepciones Asíncronas (asyncio.wait_for(), manejo re errores async) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/095_topic_timeouts_ut_excepciones_as_ncronas_asyncio_wait_for_manejo_re_errores_async.livemd) |
+| 096 | 🔴Advanced | Topic | Threading vs. Asyncio (Diferencias conceptuales ut límites funcionales re hilos rik'in li GIL) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/096_topic_threading_vs_asyncio_diferencias_conceptuales_ut_l_mites_funcionales_re_hilos_rik_in_li_gil.livemd) |
+| 097 | 🔴Advanced | PROJECT | Agregador re Datos Multi-API Concurrente (Asyncio, Manejo re Errores, Logging) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/097_project_agregador_re_datos_multi_api_concurrente_asyncio_manejo_re_errores_logging.livemd) |
+| 098 | 🔴Advanced | Topic | Pruebas Funcionales (Escritura re funciones re prueba aisladas usando assert nativo) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/098_topic_pruebas_funcionales_escritura_re_funciones_re_prueba_aisladas_usando_assert_nativo.livemd) |
+| 099 | 🔴Advanced | Topic | Mocking re Functions Nativas (Uso re unittest.mock.patch como decorador/context manager) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/099_topic_mocking_re_functions_nativas_uso_re_unittest_mock_patch_como_decorador_context_manager.livemd) |
+| 100 | 🔴Advanced | Topic | Gestión re Dependencias re li Proyecto (creación re venv, pip freeze > requirements.txt) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/100_topic_gesti_n_re_dependencias_re_li_proyecto_creaci_n_re_venv_pip_freeze_requirements_txt.livemd) |
+| 101 | 🔴Advanced | Topic | Construcción re CLIs Robustas (argparse, Argumentos Posicionales ut Flags) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/101_topic_construcci_n_re_clis_robustas_argparse_argumentos_posicionales_ut_flags.livemd) |
+| 102 | 🔴Advanced | Topic | Medición re Rendimiento ut Profiling (module timeit) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/102_topic_medici_n_re_rendimiento_ut_profiling_module_timeit.livemd) |
+| 103 | 🔴Advanced | Topic | Despacho re Functions por Tipo rik'in functools.singledispatch | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/103_topic_despacho_re_functions_por_tipo_rik_in_functools_singledispatch.livemd) |
+| 104 | 🔴Advanced | PROJECT | Utilidad CLI re Grado re Producción | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/104_project_utilidad_cli_re_grado_re_producci_n.livemd) |
+| 105 | 🔴Advanced | Topic | Hashing re Datos ut Validación re Integridad (hashlib choq' re SHA256) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/105_topic_hashing_re_datos_ut_validaci_n_re_integridad_hashlib_choq_re_sha256.livemd) |
+| 106 | 🔴Advanced | Topic | Referencias Débiles rik'in weakref (referencias re objetos seguras choq' re li memoria) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/106_topic_referencias_d_biles_rik_in_weakref_referencias_re_objetos_seguras_choq_re_li_memoria.livemd) |
+| 107 | 🔴Advanced | Topic | Utilidades Funcionales Avanzadas (functools.partial, @lru_cache choq' re memoización) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/107_topic_utilidades_funcionales_avanzadas_functools_partial_lru_cache_choq_re_memoizaci_n.livemd) |
+| 108 | 🔴Advanced | Topic | Hooks re Cierre re Scripts rik'in atexit (manejadores re limpieza) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/108_topic_hooks_re_cierre_re_scripts_rik_in_atexit_manejadores_re_limpieza.livemd) |
+| 109 | 🔴Advanced | Topic | Manejo re Señales re li Sistema rik'in signal (terminación elegante re scripts) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/109_topic_manejo_re_se_ales_re_li_sistema_rik_in_signal_terminaci_n_elegante_re_scripts.livemd) |
+| 110 | 🔴Advanced | Topic | Importaciones Dinámicas rik'in importlib (carga re módulos sa' tiempo re ejecución) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/110_topic_importaciones_din_micas_rik_in_importlib_carga_re_m_dulos_sa_tiempo_re_ejecuci_n.livemd) |
+| 111 | 🔴Advanced | Topic | Generación re IDs Únicos rik'in uuid (uuid4 choq' re sistemas distribuidos) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/111_topic_generaci_n_re_ids_nicos_rik_in_uuid_uuid4_choq_re_sistemas_distribuidos.livemd) |
+| 112 | 🔴Advanced | PROJECT | Framework re Automatización Extensible | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/kek/advanced/112_project_framework_re_automatizaci_n_extensible.livemd) |
 
-*The complete table of contents (112 topics + projects) is available inside each language folder.*
+*Natawman li na'leb' (112 na'leb' + k'anjel) sa' xyi junjunq li hu re li aatinob'aal.*
 
 ---
 
-## 🏛️ Architecture & Mentors
+## 🏛️ [Architecture] (Xk'uub'ankil) ut Xk'uhtaan
 
-Each lab includes an **Explanation Gate** where a specialized AI Mentor guides you through the learning process. Each stage has its own mentor personality, designed to match the psychological and pedagogical needs of that phase:
+Naxk'am junjunq li na'aj chi tz'ilok jun li **[Explanation Gate] (Okenaab' chi ch'olob'ank)** b'ar wi' naxk'am aawib' jun li AI k'uhtaan. Wan xk'uhtaan junjunq li xraqalil, xk'uub'anb'il chi sumenk rik'in laa na'leb':
 
-| Stage | Mentor | Personality | What It Teaches |
+| Xraqalil | K'uhtaan | Xna'leb'al | K'a'ru naxk'ut |
 |-------|--------|-------------|------------------|
-| **1** | The Safe Guide | Warm, patient, like an older sibling | Safe syntax exploration, eliminating "vibe coding" |
-| **2** | The Analytical Partner | Curious, coffee‑fueled "log detective" | Reading error traces, understanding crashes |
-| **3** | The Logical Scaffold | Methodical, encouraging "senior builder" | Visualizing data flow (Input → Transform → Output) |
-| **4** | The Elegant Critic | Sarcastic, purist, "tough love" | Idiomatic code, functional patterns, eliminating bad habits |
-| **5** | The Strategic Partner | Visionary, professional "system architect" | Edge cases, fault tolerance, business logic alignment |
+| **1** | Li Chaab'il K'amolb'e | Tuulan, kuyuk, jo' jun li asb'ej | Chaab'il [syntax] (xb'aanuhom li tz'iib'), xrisinkil li "vibe coding" |
+| **2** | Li Xtz'ilol | Patz'onel, "[log detective] (xsik'ol li palaw)" | Xyaab'asinkil li [error traces] (xxe' li palaw), xtawb'al ru li [crashes] (xt'anemoqil) |
+| **3** | Li [Logical Scaffold] (Xk'uub'ankil li na'leb') | Xk'uub'anb'il, "[senior builder] (nimaq k'uub'anel)" | Xtz'ilb'al li [data flow] (xroqik li na'leb') (Input → Transform → Output) |
+| **4** | Li Xchaab'il | Sarcástico, ch'a'aj, "kuyuk na'leb'" | Chaab'il [code] (tz'iib'anb'il na'leb'), [functional patterns] (xb'aanuhom li na'leb'), xrisinkil li k'a'uxlej k'aas |
+| **5** | Li Nimaq | Nimal, "[system architect] (xb'aanuhom li k'uub'anb'il)" | [Edge cases] (Xk'anjelal li k'ulub'), [fault tolerance] (xkuyb'al li palaw), [business logic] (xk'uub'ankil li k'anjel) |
 
-*This repository contains **Stage 1 (The Safe Guide)**. Stages 2–5 mentors are available in the premium version.*
+*Naxk'am li hu a'in li **Xraqalil 1 (Li Chaab'il K'amolb'e)**.
 
 ---
 
-## 🔗 Useful Links
+## 🔗 Xk'anjelal li B'e (Useful Links)
 
 [Coding5s.com](https://coding5s.com) | [Udemy (Coding5s Premium)](https://www.udemy.com/user/wilbarrios/) | [GitHub](https://github.com/WilfredoBarrios)
 
 ---
 
-## 🤝 Contributions
+## 🤝 Tenq'ank
 
-Do you have any feedback or feature suggestions? Feel free to open an issue or contribute if you want to support the project in any way!
-
----
-
-## 📄 License
-
-MIT © [Wilfredo Barrios](https://github.com/WilfredoBarrios)
+¿Ma wan aana'leb' malaj xpatz'om? ¡Naruu nate' jun li issue malaj natenq'ank! B'antiox chi xnimal.
 
 ---
-⚡ *Coding5s System — Learning designed for technical mastery.*
+
+## 📄 [License] (Xk'ulub'al)
+
+MIT © [Wil Barrios](https://github.com/WilfredoBarrios)
+
+---
+⚡ *Coding5s System — [Technical mastery] (Nimal xna'leb'alil) xk'uub'anb'il chi tz'ilok.*

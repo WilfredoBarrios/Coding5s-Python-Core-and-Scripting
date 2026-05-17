@@ -1,108 +1,218 @@
-# 🧪 Python Core & Scripting Interactive Lab — English 🇺🇸
+# 🧪 Python Core & Scripting [Interactive Lab] (Múul xooknajil) — Maya Yucateco 🇲🇽
 
 [![Livebook](https://img.shields.io/badge/Livebook-FF6B6B?logo=livebook&logoColor=white)](https://livebook.dev)
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **Learn Python by writing code, not just by reading it.**
-> This is the English version of the **Coding5s** interactive curriculum, designed to take you from core scripting to technical mastery using Livebook's interactive environment.
+> **Kan Python táan a ts'íib [code] (meyajil ts'íib), ma' chéen táan a xookik.**
+> Lela' u t'aanil Inglés ti' **Coding5s** [interactive curriculum] (xookil bej yéetel nu'ukajil), beeta'an ti'al u k'amik a wíinkilal ti' [core scripting] (chuunil meyajil ts'íib) tak [technical mastery] (nojoch na'atil meyaj) yéetel u [interactive environment] (múul meyajil kúuchil) Livebook.
 
 ---
 
-## 🚀 How to get started?
+## 🚀 Bix je'el a káajale'?
 
-To experience this lab interactively, you need to have **Livebook** installed on your computer with the Python runtime integration.
+Ti'al a yantal te' [interactively] (múul meyajil) xooknajila', k'a'abéet a ts'áik **Livebook** tu yóok'ol a [computer] (nu'ukulil ts'íib) yéetel Python [runtime integration] (múul meyajil t'aan).
 
-1. **Install Livebook:** Download it at [livebook.dev](https://livebook.dev).
-2. **Open a Lab:** Browse the folders below and click the **"Run in Livebook"** button inside each file, or import the URL directly into your Livebook session.
+1. **Ts'áa Livebook:** Éensik ti' [livebook.dev](https://livebook.dev).
+2. **Je'ek jun p'éel [Lab] (Xooknajil):** Xook u k'u'uk'il talamil (folders) yáanal, ts'o'okole' péets' u [button] (nu'ukulil péets') **"Run in Livebook"** ichil jujun p'éel áanalte', wa ts'áa u URL tu taal a Livebook meyajil.
 
 ---
 
-## 📚 Coding5s Methodology (5 Stages)
+## 📚 U bejil Coding5s (Jo'o p'éel Xóot'ol)
 
-Our approach is based on **Controlled Cognitive Friction**. Each lab guides you through:
+K bejile' ku ts'áaik yóok'ol **[Controlled Cognitive Friction] (Nu'uktajil Tukulil K'íilkab)**. Jujun p'éel xooknajil ku beytal a bejil:
 
-| Stage | Name | Objective |
+| Xóot'ol | K'aaba' | Ba'ax k'áat beeta'al |
 |-------|------|-----------|
-| **1** | Practice | Write code from scratch |
-| **2** | Debug | Find intentional syntax and logic errors |
-| **3** | Complete | Fill in architectural and algorithmic gaps |
-| **4** | Refactor | Optimize existing scripts (flat vs. modular structure) |
-| **5** | Extend | Add new production-ready functionalities |
+| **1** | Kaambal | Ts'íib [code] (meyajil ts'íib) tu káajal |
+| **2** | [Debug] (Utstalil) | Kaxtik talamil ti' [syntax] (ts'íib bej) yéetel [logic] (na'atil tukul) |
+| **3** | Chúukpajal | Ts'áa ba'ax k'a'abéet ti' [algorithms] (nu'ukajil bej) |
+| **4** | [Refactor] (Jats'utsil) | Ma'alobkíinsik [scripts] (meyajil ts'íib) yaan (pata'al wa jats'a'an bej) |
+| **5** | Nojochkíinsik | Ts'áa túumben [functionalities] (meyajilo'ob) k'a'abéet |
 
-*This repository contains **Stage 1 (Practice)**.
+*Lela' áanalte' ku taal yéetel **Xóot'ol 1 (Kaambal)**.
+---
+
+## 🛠️ Bix u meyajil jujun p'éel Livebook
+
+Ichil jujun p'éel `.livemd` áanalte', tsay u yookol le beja':
+
+1. Je'ek le áanalte' ti' **Livebook**.
+2. Kóopya u **Xóot'ol 1 [prompt] (k'áatchi'il)** yéetel ts'áa ti' a AI (ChatGPT, Gemini, Claude, u láak'o'ob).
+3. Le AI yaan u ts'áaik **3 tak 5 [micro-examples] (chichan e'esajilo'ob)** ti'al le xooka'.
+4. Kóopya le e'esajilo'ob ti' Livebook **[execution cell] (kúuchil meyaj)** yéetel ts'áa péek.
+5. K'ex le [code] (meyajil ts'íib), yéeyej, yéetel ilawil bix u k'exik u [output] (jóok'olil).
 
 ---
 
-## 🛠️ How to use each Livebook
+## 🧠 Le J-ka'ansaj Socrático (AI)
 
-Inside each `.livemd` file, follow this simple workflow:
+Jujun p'éel Livebook ku ts'áaik xan jun p'éel **[Mentor prompt] (K'áatchi' ti' j-ka'ansaj)**. Je'el u páajtal a ts'áaik ti' le pachpa AI yéetel a [code] yéetel jun p'éel chichan t'aanil a [logic]. Le j-ka'ansaja':
 
-1. Open the file in **Livebook** (desktop or browser version).
-2. Copy the **Stage 1 prompt** and paste it into your preferred AI chat (ChatGPT, Gemini, Claude, etc.).
-3. The AI will generate **3 to 5 executable micro‑examples** for that topic.
-4. Copy those examples into the Livebook's **execution cell** and run them.
-5. Modify the code, experiment, and watch the output change in real time.
+- **Ma' yaan u ts'áaik a núukik séeba'an** (tu káajal)
+- Yaan u k'áatchi'itik socrático k'áatchi'ob ti'al a kaxtik le talamil ta wóok'lal
+- Yaan u meyajil e'esajilo'ob ti'al u tsolik **[programming concepts] (tukulil ts'íib t'aan)**
+- Yaan u yáantik a lu'sik "Vibe Coding" yéetel a ts'áaik jats'uts [engineering intuition] (na'atil j-meyaj)
+- Yaan u ts'áaik [senior-level answers] (nojoch núukilo'ob) kéen a k'áatchi'itik ba'al
 
----
-
-## 🧠 The Socratic Mentor (AI)
-
-Each Livebook also includes a **Mentor prompt**. You can paste it into the same AI chat alongside your code and a short explanation of your logic. The mentor will:
-
-- **Not give you the answer directly** (at first)
-- Ask you Socratic questions so you discover the error yourself
-- Use real‑world analogies to explain **programming concepts**
-- Help you eliminate "Vibe Coding" and build true engineering intuition
-- Provide senior‑level answers when you ask specific questions
+⚠️ NOJOCHIL T'AAN TI'AL MAYA WA LÁAK' T'AANO'OB: Ti'al u kanáanta'al le t'aano', jats'uts [inline comments] (t'aanil ts'íib), yéetel [dynamic glossaries] (t'aanil áanalte') ichil maya t'aano'ob, k'a'abéet u meyaj Gemini Pro (wa ma'alob). Le chichan AI ma' tu na'atik le [syntactic attention] (ts'íibil na'at) k'a'abéet ti'al le t'aano'oba'. Ti'al Maya t'aano'ob yéetel yiits t'aano'ob ti' Abya Yala, ts'a'an jun p'éel [context seed] (i'inajil tukul) ichil le [prompts] ti'al u ma'alobkíinsik u [outputs]; le o'olal, k'a'abéet ma'alob AI ti'al u jóok'ol ma'alob.
 
 ---
 
-## 🛠️ Interactive Curriculum — Stage 1: Practice Lab
+## 🛠️ [Interactive Curriculum] (Múul Xooknajil Bej) — Xóot'ol 1: Kaambal
 
-Click the **Run in Livebook** badge to open each lab directly in your environment.
+Péets' le **Run in Livebook** ti'al u je'ek jujun p'éel xooknajil.
 
-| # | Level | Type | Topic / Project Name | Prereqs (#) | Priority | CPF-Risk | Interactive Lab |
-|:-:|:---|:---|:---|:-:|:---|:-:|:---|
-| 1 | 🟢 Beginner | Topic | Global Environment Diagnostics (`sys.version`, `sys.platform`) | - | Core | 1 | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](./Stage_1/en/beginner/1_sys_diagnostics.livemd) |
-| 2 | 🟢 Beginner | Topic | Variables & Dynamic Typing | 1 | Core | 1 | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](./Stage_1/en/beginner/2_variables.livemd) |
-| 3 | 🟢 Beginner | Topic | Primitive Data Types (`int`, `float`, `str`, `bool`) | 2 | Core | 1 | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](./Stage_1/en/beginner/3_data_types.livemd) |
+| # |  Level |  Type |Topic Name | Interactive Lab |
+| :--- | :--- | :--- | :--- | :--- |
+| 001 | 🟢Beginner | Topic | Chuunil Sintaxis yéetel Jo'olil (print(), Comentarios, Indentación) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/beginner/001_topic_chuunil_sintaxis_y_etel_jo_olil_print_comentarios_indentaci_n.livemd) |
+| 002 | 🟢Beginner | Topic | Variables yéetel Dinámico Tipado (T'aano'ob, K'aaba'il) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/beginner/002_topic_variables_y_etel_din_mico_tipado_t_aano_ob_k_aaba_il.livemd) |
+| 003 | 🟢Beginner | Topic | Chuunil Datos (int, float, str, bool) yéetel type() | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/beginner/003_topic_chuunil_datos_int_float_str_bool_y_etel_type.livemd) |
+| 004 | 🟢Beginner | Topic | Xookil Meyajo'ob (+, -, *, /, //, %, **) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/beginner/004_topic_xookil_meyajo_ob.livemd) |
+| 005 | 🟢Beginner | Topic | Ketlam yéetel Kíilmaakil Operadores (==, !=, >, <, is, is not) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/beginner/005_topic_ketlam_y_etel_k_ilmaakil_operadores_is_is_not.livemd) |
+| 006 | 🟢Beginner | PROJECT | Xookil Propina yéetel T'oxol (Xookil meyajo'ob yéetel variables) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/beginner/006_project_xookil_propina_y_etel_t_oxol_xookil_meyajo_ob_y_etel_variables.livemd) |
+| 007 | 🟢Beginner | Topic | Oksajil Máak yéetel K'eexil Tipo (input(), int(), float(), str()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/beginner/007_topic_oksajil_m_ak_y_etel_k_eexil_tipo_input_int_float_str.livemd) |
+| 008 | 🟢Beginner | Topic | Lógico Operadores (and, or, not) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/beginner/008_topic_l_gico_operadores_and_or_not.livemd) |
+| 009 | 🟢Beginner | Topic | Chuunil meyajo'ob ti' Cadenas (Much', Kuti kuti, Indexación []) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/beginner/009_topic_chuunil_meyajo_ob_ti_cadenas_much_kuti_kuti_indexaci_n.livemd) |
+| 010 | 🟢Beginner | Topic | Ts'áa nuka'an Cadenas (f-strings, .format()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/beginner/010_topic_ts_a_nuka_an_cadenas_f_strings_format.livemd) |
+| 011 | 🟢Beginner | Topic | Suuka'an meyajil Cadenas (lower(), upper(), strip(), replace(), split()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/beginner/011_topic_suuka_an_meyajil_cadenas_lower_upper_strip_replace_split.livemd) |
+| 012 | 🟢Beginner | PROJECT | Beeta'al u tsoolol máak (I/O, ts'áa nuka'an, meyajil cadenas) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/beginner/012_project_beeta_al_u_tsoolol_m_ak_i_o_ts_a_nuka_an_meyajil_cadenas.livemd) |
+| 013 | 🟢Beginner | Topic | Nu'ukbesajil Kuxtal: Chuunil Condicionales (if, else) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/beginner/013_topic_nu_ukbesajil_kuxtal_chuunil_condicionales_if_else.livemd) |
+| 014 | 🟢Beginner | Topic | Nu'ukbesajil Kuxtal: K'axa'an yéetel Taam Condicionales (elif, taam if) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/beginner/014_topic_nu_ukbesajil_kuxtal_k_axa_an_y_etel_taam_condicionales_elif_taam_if.livemd) |
+| 015 | 🟢Beginner | Topic | Nu'ukbesajil Kuxtal: Ketlam Patrón (match/case) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/beginner/015_topic_nu_ukbesajil_kuxtal_ketlam_patr_n_match_case.livemd) |
+| 016 | 🟢Beginner | Topic | K'ajóolil Listas (Beeta'al, Indexación, K'eexil) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/beginner/016_topic_k_aj_olil_listas_beeta_al_indexaci_n_k_eexil.livemd) |
+| 017 | 🟢Beginner | Topic | Meyajil u k'eexil Listas (append(), insert(), extend(), remove(), pop()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/beginner/017_topic_meyajil_u_k_eexil_listas_append_insert_extend_remove_pop.livemd) |
+| 018 | 🟢Beginner | Topic | K'óot yéetel Xíinbal Secuencias ([start:stop:step]) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/beginner/018_topic_k_ot_y_etel_x_inbal_secuencias_start_stop_step.livemd) |
+| 019 | 🟢Beginner | PROJECT | Chuunil Nu'ukbesajil Meyajo'ob (Condicionales yéetel Listas) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/beginner/019_project_chuunil_nu_ukbesajil_meyajo_ob_condicionales_y_etel_listas.livemd) |
+| 020 | 🟢Beginner | Topic | K'ajóolil Tuplas (Beeta'al, Ma' k'eexil, Paskiyaña) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/beginner/020_topic_k_aj_olil_tuplas_beeta_al_ma_k_eexil_paskiya_a.livemd) |
+| 021 | 🟢Beginner | Topic | K'ajóolil Diccionarios (Llave-Valor, Beeta'al, Chika'an oksajil) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/beginner/021_topic_k_aj_olil_diccionarios_llave_valor_beeta_al_chika_an_oksajil.livemd) |
+| 022 | 🟢Beginner | Topic | Meyajil Diccionarios (keys(), values(), items(), get(), update()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/beginner/022_topic_meyajil_diccionarios_keys_values_items_get_update.livemd) |
+| 023 | 🟢Beginner | Topic | K'ajóolil Sets (Beeta'al, Juntúul, add(), remove()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/beginner/023_topic_k_aj_olil_sets_beeta_al_junt_ul_add_remove.livemd) |
+| 024 | 🟢Beginner | Topic | Meyajo'ob ti' Sets (union(), intersection(), difference(), symmetric_difference()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/beginner/024_topic_meyajo_ob_ti_sets_union_intersection_difference_symmetric_difference.livemd) |
+| 025 | 🟢Beginner | PROJECT | X-luk'saj ka'ap'éel Contactos yéetel Datos (Dicts, Tuplas, Sets) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/beginner/025_project_x_luk_saj_ka_ap_el_contactos_y_etel_datos_dicts_tuplas_sets.livemd) |
+| 026 | 🟢Beginner | Topic | Suut suut: for (Cadenas, listas, tuplas) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/beginner/026_topic_suut_suut_for_cadenas_listas_tuplas.livemd) |
+| 027 | 🟢Beginner | Topic | Suut suut: while yéetel T'aanil nu'ukbesaj (break, continue, pass) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/beginner/027_topic_suut_suut_while_y_etel_t_aanil_nu_ukbesaj_break_continue_pass.livemd) |
+| 028 | 🟢Beginner | Topic | Asignación t'aanil yéetel Walrus Operador (:=) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/beginner/028_topic_asignaci_n_t_aanil_y_etel_walrus_operador.livemd) |
+| 029 | 🟡Intermediate | Topic | Nojoch nu'ukulil suut suut (range(), enumerate(), zip()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/intermediate/029_topic_nojoch_nu_ukulil_suut_suut_range_enumerate_zip.livemd) |
+| 030 | 🟡Intermediate | Topic | Náats'al Operadores (in, not in ti' tuláakal datos) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/intermediate/030_topic_n_ats_al_operadores_in_not_in_ti_tul_akal_datos.livemd) |
+| 031 | 🟡Intermediate | Topic | Na'at Listas (Sintaxis yéetel ch'áa) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/intermediate/031_topic_na_at_listas_sintaxis_y_etel_ch_a.livemd) |
+| 032 | 🟡Intermediate | PROJECT | P'o'ob Ts'íib yéetel Datos (Suut suut, Na'at, Condicionales) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/intermediate/032_project_p_o_ob_ts_ib_y_etel_datos_suut_suut_na_at_condicionales.livemd) |
+| 033 | 🟡Intermediate | Topic | Na'at Diccionario yéetel Set (Sintaxis yéetel ch'áa) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/intermediate/033_topic_na_at_diccionario_y_etel_set_sintaxis_y_etel_ch_a.livemd) |
+| 034 | 🟡Intermediate | Topic | K'ajóolil Funciones (def, chuunil return) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/intermediate/034_topic_k_aj_olil_funciones_def_chuunil_return.livemd) |
+| 035 | 🟡Intermediate | Topic | T'aanil Funciones: Tu'ux, Llave, yéetel Chuunil Valores | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/intermediate/035_topic_t_aanil_funciones_tu_ux_llave_y_etel_chuunil_valores.livemd) |
+| 036 | 🟡Intermediate | Topic | Nuukil T'aanil (*args, **kwargs) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/intermediate/036_topic_nuukil_t_aanil_args_kwargs.livemd) |
+| 037 | 🟡Intermediate | Topic | U k'áaxil Variables (local, global, nonlocal) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/intermediate/037_topic_u_k_axil_variables_local_global_nonlocal.livemd) |
+| 038 | 🟡Intermediate | PROJECT | Xookil nu'ukulil Command-Line (Funciones, K'áaxil, Nuukil t'aanil) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/intermediate/038_project_xookil_nu_ukulil_command_line_funciones_k_axil_nuukil_t_aanil.livemd) |
+| 039 | 🟡Intermediate | Topic | Lambda Funciones (Ma' k'aaba' juntúul t'aanil) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/intermediate/039_topic_lambda_funciones_ma_k_aaba_junt_ul_t_aanil.livemd) |
+| 040 | 🟡Intermediate | Topic | Ka'anal Funciones (map(), filter()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/intermediate/040_topic_ka_anal_funciones_map_filter.livemd) |
+| 041 | 🟡Intermediate | Topic | reduce() función (Ch'a'ik ti' functools) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/intermediate/041_topic_reduce_funci_n_ch_a_ik_ti_functools.livemd) |
+| 042 | 🟡Intermediate | Topic | K'ajóolil Módulos yéetel import (import, from ... import ...) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/intermediate/042_topic_k_aj_olil_m_dulos_y_etel_import_import_from_import.livemd) |
+| 043 | 🟡Intermediate | Topic | Suuka'an math yéetel random Módulos (xookil, random kaxan) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/intermediate/043_topic_suuka_an_math_y_etel_random_m_dulos_xookil_random_kaxan.livemd) |
+| 044 | 🟡Intermediate | Topic | Suuka'an datetime Módulo (datetime, timedelta, ts'áa nuka'an cadenas %Y-%m-%d) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/intermediate/044_topic_suuka_an_datetime_m_dulo_datetime_timedelta_ts_a_nuka_an_cadenas_y_m_d.livemd) |
+| 045 | 🟡Intermediate | PROJECT | Beeta'al taak'in t'aan yéetel pacha k'iin (Funciones, Datetime, Random) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/intermediate/045_project_beeta_al_taak_in_t_aan_y_etel_pacha_k_iin_funciones_datetime_random.livemd) |
+| 046 | 🟡Intermediate | Topic | Chuunil nu'ukbesajil Tuubul (try, except) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/intermediate/046_topic_chuunil_nu_ukbesajil_tuubul_try_except.livemd) |
+| 047 | 🟡Intermediate | Topic | Nojoch nu'ukbesajil Tuubul (finally, else, ch'a'ik j-k'ex tuubul) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/intermediate/047_topic_nojoch_nu_ukbesajil_tuubul_finally_else_ch_a_ik_j_k_ex_tuubul.livemd) |
+| 048 | 🟡Intermediate | Topic | Lík'saj j-k'ex Excepciones (raise, assert) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/intermediate/048_topic_l_k_saj_j_k_ex_excepciones_raise_assert.livemd) |
+| 049 | 🟡Intermediate | Topic | Túumben nu'ukbesajil Bej (pathlib.Path meyajo'ob) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/intermediate/049_topic_t_umben_nu_ukbesajil_bej_pathlib_path_meyajo_ob.livemd) |
+| 050 | 🟡Intermediate | Topic | Chuunil Archivo I/O (Jeb, Xook, yéetel K'aal Archivos) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/intermediate/050_topic_chuunil_archivo_i_o_jeb_xook_y_etel_k_aal_archivos.livemd) |
+| 051 | 🟡Intermediate | Topic | Ts'íib yéetel Ts'áab Datos ti' Archivos ('w', 'a') | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/intermediate/051_topic_ts_ib_y_etel_ts_ab_datos_ti_archivos_w_a.livemd) |
+| 052 | 🟡Intermediate | Topic | Nu'ukbesajil Contexto (with open() utia'al kanan archivos) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/intermediate/052_topic_nu_ukbesajil_contexto_with_open_utia_al_kanan_archivos.livemd) |
+| 053 | 🟡Intermediate | PROJECT | Xaak'al Archivos ti' Log (Archivo I/O, Nu'ukbesajil Tuubul) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/intermediate/053_project_xaak_al_archivos_ti_log_archivo_i_o_nu_ukbesajil_tuubul.livemd) |
+| 054 | 🟡Intermediate | Topic | Nu'ukbesajil JSON Datos (json.load(), json.loads(), json.dump(), json.dumps()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/intermediate/054_topic_nu_ukbesajil_json_datos_json_load_json_loads_json_dump_json_dumps.livemd) |
+| 055 | 🟡Intermediate | Topic | Meyaj yéetel CSV Archivos (csv.reader(), csv.DictReader(), csv.writer()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/intermediate/055_topic_meyaj_y_etel_csv_archivos_csv_reader_csv_dictreader_csv_writer.livemd) |
+| 056 | 🔴Advanced | Topic | Variables ti' K'áax yéetel Nu'ukbesajil (os.environ, os.getenv()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/056_topic_variables_ti_k_ax_y_etel_nu_ukbesajil_os_environ_os_getenv.livemd) |
+| 057 | 🔴Advanced | Topic | Nu'ukbesajil Taak'in yéetel python-dotenv (Kanan ch'a'ik .env) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/057_topic_nu_ukbesajil_taak_in_y_etel_python_dotenv_kanan_ch_a_ik_env.livemd) |
+| 058 | 🔴Advanced | Topic | Chuunil HTTP yéetel requests Módulo (requests.get(), Status Códigos) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/058_topic_chuunil_http_y_etel_requests_m_dulo_requests_get_status_c_digos.livemd) |
+| 059 | 🔴Advanced | Topic | Nu'ukbesajil u núukil API (JSON xaak'al yéetel response.json()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/059_topic_nu_ukbesajil_u_n_ukil_api_json_xaak_al_y_etel_response_json.livemd) |
+| 060 | 🔴Advanced | Topic | Nojoch API Nu'ukbesajil: Paginación yéetel Cursors | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/060_topic_nojoch_api_nu_ukbesajil_paginaci_n_y_etel_cursors.livemd) |
+| 061 | 🔴Advanced | PROJECT | Kanan API Datos Ch'a'ik (Requests, JSON, dotenv, Archivo I/O) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/061_project_kanan_api_datos_ch_a_ik_requests_json_dotenv_archivo_i_o.livemd) |
+| 062 | 🔴Advanced | Topic | Nojoch requests: URL T'aanil yéetel u jo'ol | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/062_topic_nojoch_requests_url_t_aanil_y_etel_u_jo_ol.livemd) |
+| 063 | 🔴Advanced | Topic | Nojoch requests: POST Oksajil yéetel JSON | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/063_topic_nojoch_requests_post_oksajil_y_etel_json.livemd) |
+| 064 | 🔴Advanced | Topic | Nu'ukbesajil Tuubul ti' APIs (response.raise_for_status(), K'iinil) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/064_topic_nu_ukbesajil_tuubul_ti_apis_response_raise_for_status_k_iinil.livemd) |
+| 065 | 🔴Advanced | Topic | collections Módulo (Counter, defaultdict utia'al xook/much') | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/065_topic_collections_m_dulo_counter_defaultdict_utia_al_xook_much.livemd) |
+| 066 | 🔴Advanced | Topic | Séeb Colas yéetel collections.deque (Séeb append/pop) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/066_topic_s_eb_colas_y_etel_collections_deque_s_eb_append_pop.livemd) |
+| 067 | 🔴Advanced | Topic | Lées Registros yéetel collections.namedtuple | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/067_topic_l_es_registros_y_etel_collections_namedtuple.livemd) |
+| 068 | 🔴Advanced | PROJECT | Xaak'al API Núukil (Requests, Nu'ukbesajil Tuubul, Collections, Namedtuples) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/068_project_xaak_al_api_n_ukil_requests_nu_ukbesajil_tuubul_collections_namedtuples.livemd) |
+| 069 | 🔴Advanced | Topic | J-k'ex Contexto Nu'ukbesajil yéetel contextlib (@contextmanager) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/069_topic_j_k_ex_contexto_nu_ukbesajil_y_etel_contextlib_contextmanager.livemd) |
+| 070 | 🔴Advanced | Topic | Beeta'al yéetel yield T'aan (Na'at evaluación) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/070_topic_beeta_al_y_etel_yield_t_aan_na_at_evaluaci_n.livemd) |
+| 071 | 🔴Advanced | Topic | Beeta'al T'aanil (Ma' ch'a'ik ya'ab memoria) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/071_topic_beeta_al_t_aanil_ma_ch_a_ik_ya_ab_memoria.livemd) |
+| 072 | 🔴Advanced | Topic | Nojoch Funciones: K'aal yéetel Taam Funciones (Kanan estado) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/072_topic_nojoch_funciones_k_aal_y_etel_taam_funciones_kanan_estado.livemd) |
+| 073 | 🔴Advanced | Topic | Nu'ukulil Datos yéetel dataclasses | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/073_topic_nu_ukulil_datos_y_etel_dataclasses.livemd) |
+| 074 | 🔴Advanced | Topic | Decoradores: Beeta'al yéetel Ts'áab Funciones (@wrapper) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/074_topic_decoradores_beeta_al_y_etel_ts_ab_funciones_wrapper.livemd) |
+| 075 | 🔴Advanced | PROJECT | API Limiter yéetel Caching Decorador | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/075_project_api_limiter_y_etel_caching_decorador.livemd) |
+| 076 | 🔴Advanced | Topic | Bejil Archivos yéetel Meyaj (os.listdir(), os.mkdir(), os.remove()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/076_topic_bejil_archivos_y_etel_meyaj_os_listdir_os_mkdir_os_remove.livemd) |
+| 077 | 🔴Advanced | Topic | K'iinil Archivo Nu'ukbesajil yéetel tempfile (Kanan k'iinil archivos) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/077_topic_k_iinil_archivo_nu_ukbesajil_y_etel_tempfile_kanan_k_iinil_archivos.livemd) |
+| 078 | 🔴Advanced | Topic | Ka'anal Meyajo'ob ti' Archivo (shutil.copy(), shutil.move(), shutil.rmtree()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/078_topic_ka_anal_meyajo_ob_ti_archivo_shutil_copy_shutil_move_shutil_rmtree.livemd) |
+| 079 | 🔴Advanced | Topic | Tsol Kaxan yéetel bisect (Kanan tsol listas) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/079_topic_tsol_kaxan_y_etel_bisect_kanan_tsol_listas.livemd) |
+| 080 | 🔴Advanced | Topic | Subprocesos: Meyajil Kuxtal Commands (subprocess.run(), ch'a'ik jo'olil) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/080_topic_subprocesos_meyajil_kuxtal_commands_subprocess_run_ch_a_ik_jo_olil.livemd) |
+| 081 | 🔴Advanced | Topic | Regulares Expresiones: Ketlam yéetel Kaxan (re.search(), re.match()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/081_topic_regulares_expresiones_ketlam_y_etel_kaxan_re_search_re_match.livemd) |
+| 082 | 🔴Advanced | Topic | Regulares Expresiones: Ch'a' yéetel K'eex (re.findall(), re.sub()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/082_topic_regulares_expresiones_ch_a_y_etel_k_eex_re_findall_re_sub.livemd) |
+| 083 | 🔴Advanced | PROJECT | Xaak'al Kuxtal Log yéetel Regex (Regex, os, pathlib) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/083_project_xaak_al_kuxtal_log_y_etel_regex_regex_os_pathlib.livemd) |
+| 084 | 🔴Advanced | Topic | logging Módulo: Nu'ukbesajil yéetel Log Niveles (DEBUG, INFO, WARNING, ERROR) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/084_topic_logging_m_dulo_nu_ukbesajil_y_etel_log_niveles_debug_info_warning_error.livemd) |
+| 085 | 🔴Advanced | Topic | Nojoch logging: Kanan yéetel Formateadores (Console yéetel archivos) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/085_topic_nojoch_logging_kanan_y_etel_formateadores_console_y_etel_archivos.livemd) |
+| 086 | 🔴Advanced | Topic | itertools: Mina'an xuul yéetel Combinatorio (count, cycle, combinations) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/086_topic_itertools_mina_an_xuul_y_etel_combinatorio_count_cycle_combinations.livemd) |
+| 087 | 🔴Advanced | Topic | itertools: Much' yéetel K'ax Datos (groupby, chain) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/087_topic_itertools_much_y_etel_k_ax_datos_groupby_chain.livemd) |
+| 088 | 🔴Advanced | Topic | K'ajóolil Type Hinting (int, str, bool) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/088_topic_k_aj_olil_type_hinting_int_str_bool.livemd) |
+| 089 | 🔴Advanced | Topic | Nojoch Type Hinting (List, Dict, Optional, Union, Callable) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/089_topic_nojoch_type_hinting_list_dict_optional_union_callable.livemd) |
+| 090 | 🔴Advanced | PROJECT | Kanan Webhook Payload (Type Hints, Logging, Itertools) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/090_project_kanan_webhook_payload_type_hints_logging_itertools.livemd) |
+| 091 | 🔴Advanced | Topic | Kaxan Tuubul Script yéetel pdb (Tracepoints, xaak'al) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/091_topic_kaxan_tuubul_script_y_etel_pdb_tracepoints_xaak_al.livemd) |
+| 092 | 🔴Advanced | Topic | K'eexil Script: DRY yéetel Juntúul Meyaj (T'oxol meyajil) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/092_topic_k_eexil_script_dry_y_etel_junt_ul_meyaj_t_oxol_meyajil.livemd) |
+| 093 | 🔴Advanced | Topic | Chuunil Asíncrona (async def, await, Event Loop) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/093_topic_chuunil_as_ncrona_async_def_await_event_loop.livemd) |
+| 094 | 🔴Advanced | Topic | Nu'ukbesajil Asíncrona Meyajo'ob (asyncio.gather(), asyncio.create_task()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/094_topic_nu_ukbesajil_as_ncrona_meyajo_ob_asyncio_gather_asyncio_create_task.livemd) |
+| 095 | 🔴Advanced | Topic | Pacha k'iin yéetel Async Excepciones (asyncio.wait_for()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/095_topic_pacha_k_iin_y_etel_async_excepciones_asyncio_wait_for.livemd) |
+| 096 | 🔴Advanced | Topic | Hilos ket asyncio (Hilos yéetel GIL) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/096_topic_hilos_ket_asyncio_hilos_y_etel_gil.livemd) |
+| 097 | 🔴Advanced | PROJECT | Much'ik Multi-API Datos (asyncio, Nu'ukbesajil Tuubul, Logging) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/097_project_much_ik_multi_api_datos_asyncio_nu_ukbesajil_tuubul_logging.livemd) |
+| 098 | 🔴Advanced | Topic | Pruebas Funcionales (Pruebas yéetel assert) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/098_topic_pruebas_funcionales_pruebas_y_etel_assert.livemd) |
+| 099 | 🔴Advanced | Topic | Mocking (unittest.mock.patch yéetel contexto) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/099_topic_mocking_unittest_mock_patch_y_etel_contexto.livemd) |
+| 100 | 🔴Advanced | Topic | Nu'ukbesajil Dependencias (venv, pip freeze > requirements.txt) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/100_topic_nu_ukbesajil_dependencias_venv_pip_freeze_requirements_txt.livemd) |
+| 101 | 🔴Advanced | Topic | Beeta'al CLIs (argparse, T'aanil yéetel Banderas) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/101_topic_beeta_al_clis_argparse_t_aanil_y_etel_banderas.livemd) |
+| 102 | 🔴Advanced | Topic | P'isib Séeb yéetel Profiling (timeit módulo) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/102_topic_p_isib_s_eb_y_etel_profiling_timeit_m_dulo.livemd) |
+| 103 | 🔴Advanced | Topic | T'oxol Funciones yéetel functools.singledispatch | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/103_topic_t_oxol_funciones_y_etel_functools_singledispatch.livemd) |
+| 104 | 🔴Advanced | PROJECT | Ka'anal CLI Nu'ukulil | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/104_project_ka_anal_cli_nu_ukulil.livemd) |
+| 105 | 🔴Advanced | Topic | Datos Hashing yéetel Kanan (hashlib utia'al SHA256) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/105_topic_datos_hashing_y_etel_kanan_hashlib_utia_al_sha256.livemd) |
+| 106 | 🔴Advanced | Topic | Ma' chich Referencias yéetel weakref (Kanan memoria) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/106_topic_ma_chich_referencias_y_etel_weakref_kanan_memoria.livemd) |
+| 107 | 🔴Advanced | Topic | Nojoch Funcionales Nu'ukulil (functools.partial, @lru_cache) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/107_topic_nojoch_funcionales_nu_ukulil_functools_partial_lru_cache.livemd) |
+| 108 | 🔴Advanced | Topic | K'aal Script yéetel atexit (P'o'ob meyajil) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/108_topic_k_aal_script_y_etel_atexit_p_o_ob_meyajil.livemd) |
+| 109 | 🔴Advanced | Topic | Nu'ukbesajil Kuxtal T'aan yéetel signal (Utz k'aalil script) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/109_topic_nu_ukbesajil_kuxtal_t_aan_y_etel_signal_utz_k_aalil_script.livemd) |
+| 110 | 🔴Advanced | Topic | Dinámicas Importaciones yéetel importlib (Ch'a'ik módulo ti' k'iinil) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/110_topic_din_micas_importaciones_y_etel_importlib_ch_a_ik_m_dulo_ti_k_iinil.livemd) |
+| 111 | 🔴Advanced | Topic | Juntúul ID Beeta'al yéetel uuid (uuid4) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/111_topic_junt_ul_id_beeta_al_y_etel_uuid_uuid4.livemd) |
+| 112 | 🔴Advanced | PROJECT | Nojoch Automatización Framework | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/yua/advanced/112_project_nojoch_automatizaci_n_framework.livemd) |
 
-*The complete table of contents (112 topics + projects) is available inside each language folder.*
+*U nojochil xooka' (112 xooko'ob + xookmeyajo'ob) yaan ichil jujun p'éel t'aanil k'u'uk'il talamil.*
 
 ---
 
-## 🏛️ Architecture & Mentors
+## 🏛️ [Architecture] (Nu'ukajil Bej) yéetel J-ka'ansajo'ob
 
-Each lab includes an **Explanation Gate** where a specialized AI Mentor guides you through the learning process. Each stage has its own mentor personality, designed to match the psychological and pedagogical needs of that phase:
+Jujun p'éel xooknajil ku ts'áaik jun p'éel **[Explanation Gate] (Kúuchil Tsolil)** tu'ux jun p'éel AI J-ka'ansaj ku nu'uktik a xook. Jujun p'éel xóot'ol ku yantal u j-ka'ansajil, beeta'an ti'al u k'amik a k'a'abéet yéetel a tukul:
 
-| Stage | Mentor | Personality | What It Teaches |
+| Xóot'ol | J-ka'ansaj | Bix u yantal | Ba'ax ku ka'ansik |
 |-------|--------|-------------|------------------|
-| **1** | The Safe Guide | Warm, patient, like an older sibling | Safe syntax exploration, eliminating "vibe coding" |
-| **2** | The Analytical Partner | Curious, coffee‑fueled "log detective" | Reading error traces, understanding crashes |
-| **3** | The Logical Scaffold | Methodical, encouraging "senior builder" | Visualizing data flow (Input → Transform → Output) |
-| **4** | The Elegant Critic | Sarcastic, purist, "tough love" | Idiomatic code, functional patterns, eliminating bad habits |
-| **5** | The Strategic Partner | Visionary, professional "system architect" | Edge cases, fault tolerance, business logic alignment |
+| **1** | J-kanáanil | Chokoj, yuum, je'el bix jun p'éel nojoch suku'un | Ma'alob [syntax] (ts'íib bej), lu'sik "vibe coding" |
+| **2** | J-kaxtajil | K'áatchi'il, káape tukul "[log detective] (j-kaxtaj talamil)" | Xookik [error traces] (u bejil talamil), na'atik u lúubulil |
+| **3** | J-nu'uktaj | Nu'ukta'an, k'u'uk'il "[senior builder] (nojoch j-meyaj)" | Ilik u bejil [data flow] (meyajil xooknajil) (Input → Transform → Output) |
+| **4** | J-jats'uts | Sarcástico, chich, "chich yaakunaj" | Ma'alob [code] (meyajil ts'íib), [functional patterns] (bix u meyajil), lu'sik k'aas k'a'am |
+| **5** | J-nojochil | Nojoch, [professional] (na'at j-meyaj) "[system architect] (nu'ukajil bej)" | [Edge cases] (Talamil bejo'ob), [fault tolerance] (múuch' talamil), [business logic] (na'atil meyajil taak'in) |
 
-*This repository contains **Stage 1 (The Safe Guide)**. Stages 2–5 mentors are available in the premium version.*
+*Lela' áanalte' ku taal yéetel **Xóot'ol 1 (J-kanáanil)**.
 
 ---
 
-## 🔗 Useful Links
+## 🔗 K'a'am Bejo'ob (Useful Links)
 
 [Coding5s.com](https://coding5s.com) | [Udemy (Coding5s Premium)](https://www.udemy.com/user/wilbarrios/) | [GitHub](https://github.com/WilfredoBarrios)
 
 ---
 
-## 🤝 Contributions
+## 🤝 Áantajo'ob
 
-Do you have any feedback or feature suggestions? Feel free to open an issue or contribute if you want to support the project in any way!
-
----
-
-## 📄 License
-
-MIT © [Wilfredo Barrios](https://github.com/WilfredoBarrios)
+¿Yaan a wáantaj wa a k'áatchi'il? ¡Je'el u páajtal a je'ek jun p'éel issue wa áantaj kéen a wóot!
 
 ---
-⚡ *Coding5s System — Learning designed for technical mastery.*
+
+## 📄 [License] (Páajtalil)
+
+MIT © [Wil Barrios](https://github.com/WilfredoBarrios)
+
+---
+⚡ *Coding5s System — [Technical mastery] (Nojoch na'atil meyaj) beeta'an ti'al kaambalil.*

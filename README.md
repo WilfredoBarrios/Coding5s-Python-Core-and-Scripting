@@ -48,6 +48,12 @@ Select a version to explore the interactive Python curriculum and the **Socratic
 | 🇬🇹 **K'iche'** | 🟢 Active | [Explore K'iche' Lab](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/quc) |
 | 🇬🇹 **Kaqchikel** | 🟢 Active | [Explore Kaqchikel Lab](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/cak) |
 | 🇬🇹 **Mam** | 🟢 Active | [Explore Mam Lab](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/mam) |
+| 🇵🇪 **Quechua** | 🟢 Active | [Explore Quechua Lab](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/que) |
+| 🇵🇾 **Guaraní** | 🟢 Active | [Explore Guaraní Lab](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/grn) |
+| 🇲🇽 **Náhuatl** | 🟢 Active | [Explore Náhuatl Lab](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/nah) |
+| 🇧🇴 **Aymara** | 🟢 Active | [Explore Aymara Lab](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/aym) |
+| 🇲🇽 **Maya Yucateco** | 🟢 Active | [Explore Maya Yucateco Lab](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/yua) |
+| 🇨🇱 **Mapudungun** | 🟢 Active | [Explore Mapudungun Lab](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/arn) |
 
 ---
 
@@ -95,6 +101,8 @@ Each lab includes an **Explanation Gate** where a specialized AI Mentor guides y
 2. **Clone this repo.**
 3. **Open any `.livemd` file** in your preferred language and click **Run in Livebook**.
 
+---
+> 🔬 **Scientific Foundation:** This curriculum's architecture is built to mitigate the accumulation of **Epistemic Debt**—a state where a developer relies blindly on AI code generation without internalizing the underlying logic. Based on recent academic research ([arXiv:2602.20206](https://arxiv.org/abs/2602.20206)), our structured *Explanation Gates* and *Socratic AI Mentors* enforce active "Teach-Back" validation, turning passive copy-pasting into independent technical mastery.
 ---
 
 ## 📊 Master Curriculum Analytics & Use Cases

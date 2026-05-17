@@ -1,108 +1,217 @@
-# 🧪 Python Core & Scripting Interactive Lab — English 🇺🇸
+# 🧪 የፓይथन ਕੋਰ እና ስክሪፕቲንግ መስተጋብራዊ ላብራቶሪ — አማርኛ 🇪🇹
 
 [![Livebook](https://img.shields.io/badge/Livebook-FF6B6B?logo=livebook&logoColor=white)](https://livebook.dev)
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **Learn Python by writing code, not just by reading it.**
-> This is the English version of the **Coding5s** interactive curriculum, designed to take you from core scripting to technical mastery using Livebook's interactive environment.
+> **ፓይተንን ኮድ በመጻፍ ይማሩ፣ በማንበብ ብቻ አይደለም።**
+> ይህ በLivebook መስተጋብራዊ አካባቢ በመጠቀም ከዋናው የስክሪፕት ዝግጅት (core scripting) እስከ ቴክኒካል ጥበብ ለማድረስ የተነደፈው የ **Coding5s** መስተጋብራዊ ሥርዓተ-ትምህርት የአማርኛ እትም ነው።
 
 ---
 
-## 🚀 How to get started?
+## 🚀 እንዴት መጀመር ይቻላል?
 
-To experience this lab interactively, you need to have **Livebook** installed on your computer with the Python runtime integration.
+ይህንን ላብራቶሪ በመስተጋብራዊ መንገድ ለመለማመድ **Livebook** በኮምፒተርዎ ላይ ከፓይተን ራንታይም (runtime) ውህደት ጋር መጫን አለበት።
 
-1. **Install Livebook:** Download it at [livebook.dev](https://livebook.dev).
-2. **Open a Lab:** Browse the folders below and click the **"Run in Livebook"** button inside each file, or import the URL directly into your Livebook session.
+1. **Livebookን ይጫኑ፦** በ [livebook.dev](https://livebook.dev) ላይ ያውርዱት።
+2. **ላብራቶሪ ይክፈቱ፦** ከታች ያሉትን ፎልደሮች ያስሱ እና በእያንዳንዱ ፋይል ውስጥ ያለውን **"Run in Livebook"** የሚለውን ቁልፍ ጠቅ ያድርጉ ወይም URL በቀጥታ ወደ Livebook ሴሽንዎ ያመጡ።
 
 ---
 
-## 📚 Coding5s Methodology (5 Stages)
+## 📚 የ Coding5s ዘዴ (5 ደረጃዎች)
 
-Our approach is based on **Controlled Cognitive Friction**. Each lab guides you through:
+የእኛ አካሄድ በ **ቁጥጥር ስር ባለው የእውቀት ግጭት** (Controlled Cognitive Friction) ላይ የተመሰረተ ነው። እያንዳንዱ ላብራቶሪ በሚከተሉት ደረጃዎች ይመራዎታል፦
 
-| Stage | Name | Objective |
+| ደረጃ | ስም | ዓላማ |
 |-------|------|-----------|
-| **1** | Practice | Write code from scratch |
-| **2** | Debug | Find intentional syntax and logic errors |
-| **3** | Complete | Fill in architectural and algorithmic gaps |
-| **4** | Refactor | Optimize existing scripts (flat vs. modular structure) |
-| **5** | Extend | Add new production-ready functionalities |
+| **1** | ልምምድ (Practice) | ኮድን ከባዶ መጻፍ |
+| **2** | ስህተት ማረም (Debug) | ሆን ተብሎ የተቀመጡ የሲንታክስ እና የሎጂክ ስህተቶችን መፈለግ |
+| **3** | ማጠናቀቅ (Complete) | የስነ-ህንጻ (architectural) እና የአልጎሪዝም ክፍተቶችን መሙላት |
+| **4** | ኮድ ማስተካከል (Refactor) | ያሉትን ስክሪፕቶች ማሻሻል (ጠፍጣፋ vs. ሞዱላር መዋቅር) |
+| **5** | ማስፋፋት (Extend) | ለስራ ዝግጁ የሆኑ አዳዲስ ተግባራትን መጨመር |
 
-*This repository contains **Stage 1 (Practice)**.
-
----
-
-## 🛠️ How to use each Livebook
-
-Inside each `.livemd` file, follow this simple workflow:
-
-1. Open the file in **Livebook** (desktop or browser version).
-2. Copy the **Stage 1 prompt** and paste it into your preferred AI chat (ChatGPT, Gemini, Claude, etc.).
-3. The AI will generate **3 to 5 executable micro‑examples** for that topic.
-4. Copy those examples into the Livebook's **execution cell** and run them.
-5. Modify the code, experiment, and watch the output change in real time.
+*ይህ ማከማቻ (repository) **ደረጃ 1 (ልምምድ)** ብቻ ይዟል።*
 
 ---
 
-## 🧠 The Socratic Mentor (AI)
+## 🛠️ እያንዳንዱን Livebook እንዴት መጠቀም ይቻላል?
 
-Each Livebook also includes a **Mentor prompt**. You can paste it into the same AI chat alongside your code and a short explanation of your logic. The mentor will:
+በእያንዳንዱ የ `.livemd` ፋይል ውስጥ ይህንን ቀላል የስራ ሂደት ይከተሉ፦
 
-- **Not give you the answer directly** (at first)
-- Ask you Socratic questions so you discover the error yourself
-- Use real‑world analogies to explain **programming concepts**
-- Help you eliminate "Vibe Coding" and build true engineering intuition
-- Provide senior‑level answers when you ask specific questions
-
----
-
-## 🛠️ Interactive Curriculum — Stage 1: Practice Lab
-
-Click the **Run in Livebook** badge to open each lab directly in your environment.
-
-| # | Level | Type | Topic / Project Name | Prereqs (#) | Priority | CPF-Risk | Interactive Lab |
-|:-:|:---|:---|:---|:-:|:---|:-:|:---|
-| 1 | 🟢 Beginner | Topic | Global Environment Diagnostics (`sys.version`, `sys.platform`) | - | Core | 1 | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](./Stage_1/en/beginner/1_sys_diagnostics.livemd) |
-| 2 | 🟢 Beginner | Topic | Variables & Dynamic Typing | 1 | Core | 1 | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](./Stage_1/en/beginner/2_variables.livemd) |
-| 3 | 🟢 Beginner | Topic | Primitive Data Types (`int`, `float`, `str`, `bool`) | 2 | Core | 1 | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](./Stage_1/en/beginner/3_data_types.livemd) |
-
-*The complete table of contents (112 topics + projects) is available inside each language folder.*
+1. ፋይሉን በ **Livebook** (የዴስክቶፕ ወይም የብሮውዘር ስሪት) ይክፈቱ።
+2. **የደረጃ 1 ፕሮምፕትን** (prompt) ኮፒ በማድረግ ወደሚመርጡት የAI ቻት (ChatGPT, Gemini, Claude ወዘተ) ላይ ይለጥፉ።
+3. AI ለዚያ ርዕስ **ከ3 እስከ 5 የሚሆኑ ሊሰሩ የሚችሉ ጥቃቅን ምሳሌዎችን** (executable micro‑examples) ያመነጫል።
+4. እነዚያን ምሳሌዎች ወደ Livebook **ማስፈጸሚያ ሴል** (execution cell) ኮፒ በማድረግ ያሂዱ።
+5. ኮዱን ይቀይሩ፣ ይሞክሩ እና ውጤቱ በቅጽበት ሲቀየር ይመልከቱ።
 
 ---
 
-## 🏛️ Architecture & Mentors
+## 🧠 ሶቅራጣዊ አማካሪ (AI)
 
-Each lab includes an **Explanation Gate** where a specialized AI Mentor guides you through the learning process. Each stage has its own mentor personality, designed to match the psychological and pedagogical needs of that phase:
+እያንዳንዱ Livebook የ **አማካሪ ፕሮምፕት** (Mentor prompt) ያካትታል። ከእርስዎ ኮድ እና የሎጂክዎ አጭር መግለጫ ጋር በተመሳሳይ የAI ቻት ውስጥ መለጠፍ ይችላሉ። አማካሪው፦
 
-| Stage | Mentor | Personality | What It Teaches |
+- መልሱን በቀጥታ **አይሰጥዎትም** (በመጀመሪያ ላይ)
+- ስህተቱን እራስዎ እንዲያገኙት ሶቅራጣዊ (Socratic) ጥያቄዎችን ይጠይቅዎታል
+- የ **ፕሮግራሚንግ ፅንሰ-ሀሳቦችን** ለማብራራት የእውነተኛ ዓለም ተመሳሳይነቶችን ይጠቀማል
+- "በስሜት መፃፍ" (Vibe Coding) በማስወገድ እውነተኛ የኢንጂነሪንግ ግንዛቤን ለመገንባት ይረዳል
+- የተወሰኑ ጥያቄዎችን ሲጠይቁ የከፍተኛ ደረጃ (Senior-level) መልሶችን ይሰጣል
+
+---
+
+## 🛠️ መስተጋብራዊ ሥርዓተ-ትምህርት — ደረጃ 1፡ የልምምድ ላብራቶሪ
+
+እያንዳንዱን ላብራቶሪ በቀጥታ በአካባቢዎ ለመክፈት የ **Run in Livebook** ባጅን ጠቅ ያድርጉ።
+
+| # |  Level |  Type |Topic Name | Interactive Lab |
+| :--- | :--- | :--- | :--- | :--- |
+| 001 | 🟢Beginner | Topic | መሰረታዊ Syntax እና ውጤት (print(), Comments, Indentation) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/beginner/001_topic_syntax_print_comments_indentation.livemd) |
+| 002 | 🟢Beginner | Topic | Variables እና Dynamic Typing (Assignment, Naming Conventions) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/beginner/002_topic_variables_dynamic_typing_assignment_naming_conventions.livemd) |
+| 003 | 🟢Beginner | Topic | ቀዳሚ የዳታ አይነቶች (int, float, str, bool) እና type() | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/beginner/003_topic_int_float_str_bool_type.livemd) |
+| 004 | 🟢Beginner | Topic | የአርቲሜቲክ ስሌቶች (+, -, *, /, //, %, **) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/beginner/004_topic.livemd) |
+| 005 | 🟢Beginner | Topic | ንፅፅር እና ማንነት መለያ Operators (==, !=, >, <, is, is not) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/beginner/005_topic_operators_is_is_not.livemd) |
+| 006 | 🟢Beginner | PROJECT | የጉርሻ እና ክፍያ ማስያ (Math ስሌቶች እና variables ጥምረት) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/beginner/006_project_math_variables.livemd) |
+| 007 | 🟢Beginner | Topic | የተጠቃሚ ግብዓት እና Type Casting (input(), int(), float(), str()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/beginner/007_topic_type_casting_input_int_float_str.livemd) |
+| 008 | 🟢Beginner | Topic | ሎጂካዊ Operators (and, or, not) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/beginner/008_topic_operators_and_or_not.livemd) |
+| 009 | 🟢Beginner | Topic | መሰረታዊ የString ስራዎች (Concatenation, Repetition, Indexing []) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/beginner/009_topic_string_concatenation_repetition_indexing.livemd) |
+| 010 | 🟢Beginner | Topic | የString አቀራረብ (f-strings, .format()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/beginner/010_topic_string_f_strings_format.livemd) |
+| 011 | 🟢Beginner | Topic | የተለመዱ የString Methods (lower(), upper(), strip(), replace(), split()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/beginner/011_topic_string_methods_lower_upper_strip_replace_split.livemd) |
+| 012 | 🟢Beginner | PROJECT | በይነተገናኝ የተጠቃሚ መገለጫ መፍጠሪያ (I/O, formatting, string methods) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/beginner/012_project_i_o_formatting_string_methods.livemd) |
+| 013 | 🟢Beginner | Topic | የቁጥጥር ፍሰት: መሰረታዊ ቅድመ ሁኔታዎች (if, else) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/beginner/013_topic_if_else.livemd) |
+| 014 | 🟢Beginner | Topic | የቁጥጥር ፍሰት: ተከታታይ እና የተደራረቡ ቅድመ ሁኔታዎች (elif, nested if) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/beginner/014_topic_elif_nested_if.livemd) |
+| 015 | 🟢Beginner | Topic | የቁጥጥር ፍሰት: Structural Pattern Matching (match/case) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/beginner/015_topic_structural_pattern_matching_match_case.livemd) |
+| 016 | 🟢Beginner | Topic | ስለ Lists መግቢያ (Creation, Indexing, Mutability concept) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/beginner/016_topic_lists_creation_indexing_mutability_concept.livemd) |
+| 017 | 🟢Beginner | Topic | የList ማሻሻያ Methods (append(), insert(), extend(), remove(), pop()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/beginner/017_topic_list_methods_append_insert_extend_remove_pop.livemd) |
+| 018 | 🟢Beginner | Topic | የቅደም ተከተል መቆራረጥ እና እርምጃዎች ([start:stop:step]) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/beginner/018_topic_start_stop_step.livemd) |
+| 019 | 🟢Beginner | PROJECT | መሰረታዊ የስራ ዝርዝር መቆጣጠሪያ (ቅድመ ሁኔታዎች እና List አጠቃቀም) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/beginner/019_project_list.livemd) |
+| 020 | 🟢Beginner | Topic | ስለ Tuples መግቢያ (Creation, Immutability, Unpacking) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/beginner/020_topic_tuples_creation_immutability_unpacking.livemd) |
+| 021 | 🟢Beginner | Topic | ስለ Dictionaries መግቢያ (Key-Value pairs, Creation, Direct Access) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/beginner/021_topic_dictionaries_key_value_pairs_creation_direct_access.livemd) |
+| 022 | 🟢Beginner | Topic | የDictionary Methods (keys(), values(), items(), get(), update()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/beginner/022_topic_dictionary_methods_keys_values_items_get_update.livemd) |
+| 023 | 🟢Beginner | Topic | ስለ Sets መግቢያ (Creation, Uniqueness, add(), remove()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/beginner/023_topic_sets_creation_uniqueness_add_remove.livemd) |
+| 024 | 🟢Beginner | Topic | የSet ስራዎች (union(), intersection(), difference(), symmetric_difference()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/beginner/024_topic_set_union_intersection_difference_symmetric_difference.livemd) |
+| 025 | 🟢Beginner | PROJECT | የአድራሻ እና ዳታ ድግግሞሽ ማስወገጃ (Dicts, Tuples, Sets) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/beginner/025_project_dicts_tuples_sets.livemd) |
+| 026 | 🟢Beginner | Topic | ድግግሞሽ (Iteration): የ for loop (በ strings, lists, tuples ላይ የሚደረግ) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/beginner/026_topic_iteration_for_loop_strings_lists_tuples.livemd) |
+| 027 | 🟢Beginner | Topic | ድግግሞሽ (Iteration): የ while loop እና የቁጥጥር መግለጫዎች (break, continue, pass) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/beginner/027_topic_iteration_while_loop_break_continue_pass.livemd) |
+| 028 | 🟢Beginner | Topic | በ Walrus Operator የሚደረግ የምደባ መግለጫ (:=) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/beginner/028_topic_walrus_operator.livemd) |
+| 029 | 🟡Intermediate | Topic | የላቁ የድግግሞሽ መሳሪያዎች (range(), enumerate(), zip()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/intermediate/029_topic_range_enumerate_zip.livemd) |
+| 030 | 🟡Intermediate | Topic | የአባልነት መለያ (Membership) Operators (በሁሉም የዳታ መዋቅሮች ውስጥ in, not in) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/intermediate/030_topic_membership_operators_in_not_in.livemd) |
+| 031 | 🟡Intermediate | Topic | List Comprehensions (መሰረታዊ syntax እና ቅድመ ሁኔታ ማጣሪያ) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/intermediate/031_topic_list_comprehensions_syntax.livemd) |
+| 032 | 🟡Intermediate | PROJECT | ራስ-ሰር የፅሁፍ እና የዳታ ማፅጃ (Loops, Comprehensions, Conditionals) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/intermediate/032_project_loops_comprehensions_conditionals.livemd) |
+| 033 | 🟡Intermediate | Topic | Dictionary እና Set Comprehensions (Syntax እና ማጣሪያ) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/intermediate/033_topic_dictionary_set_comprehensions_syntax.livemd) |
+| 034 | 🟡Intermediate | Topic | ስለ Functions መግቢያ (def, መሰረታዊ return መግለጫዎች) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/intermediate/034_topic_functions_def_return.livemd) |
+| 035 | 🟡Intermediate | Topic | የFunction Arguments: Positional, Keyword, እና Default Values | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/intermediate/035_topic_function_arguments_positional_keyword_default_values.livemd) |
+| 036 | 🟡Intermediate | Topic | ተለዋዋጭ Arguments (*args, **kwargs) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/intermediate/036_topic_arguments_args_kwargs.livemd) |
+| 037 | 🟡Intermediate | Topic | የVariable ስፋት - Variable Scope (local, global, nonlocal ፅንሰ-ሀሳቦች) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/intermediate/037_topic_variable_variable_scope_local_global_nonlocal.livemd) |
+| 038 | 🟡Intermediate | PROJECT | የትዕዛዝ መስመር የሂሳብ መሳሪያ (Functions, Scope, Flexible args) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/intermediate/038_project_functions_scope_flexible_args.livemd) |
+| 039 | 🟡Intermediate | Topic | Lambda Functions (ስም የለሽ ነጠላ መግለጫ ተግባራት) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/intermediate/039_topic_lambda_functions.livemd) |
+| 040 | 🟡Intermediate | Topic | Higher-Order Functions (map(), filter()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/intermediate/040_topic_higher_order_functions_map_filter.livemd) |
+| 041 | 🟡Intermediate | Topic | የ reduce() function (ከ functools የሚመጣ) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/intermediate/041_topic_reduce_function_functools.livemd) |
+| 042 | 🟡Intermediate | Topic | ስለ Modules እና import መግለጫዎች መግቢያ (import, from ... import ...) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/intermediate/042_topic_modules_import_import_from_import.livemd) |
+| 043 | 🟡Intermediate | Topic | መደበኛ የ Math እና Random Modules (የሂሳብ መሳሪያዎች፣ የዘፈቀደ ምርጫ እና አመንጪ) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/intermediate/043_topic_math_random_modules.livemd) |
+| 044 | 🟡Intermediate | Topic | መደበኛ የ Datetime Module (datetime, timedelta, የፅሁፍ አቀራረብ %Y-%m-%d) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/intermediate/044_topic_datetime_module_datetime_timedelta_y_m_d.livemd) |
+| 045 | 🟡Intermediate | PROJECT | በጊዜ የተገደበ የይለፍ ቃል አመንጪ (Functions, Datetime, Random) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/intermediate/045_project_functions_datetime_random.livemd) |
+| 046 | 🟡Intermediate | Topic | የስህተት አያያዝ መሰረታዊ ነገሮች (try, except ብሎኮች) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/intermediate/046_topic_try_except.livemd) |
+| 047 | 🟡Intermediate | Topic | የላቀ የስህተት አያያዝ (finally, else, የተወሰኑ የ exception አይነቶችን መያዝ) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/intermediate/047_topic_finally_else_exception.livemd) |
+| 048 | 🟡Intermediate | Topic | ብጁ Exceptions መፍጠር (raise, assert መግለጫዎች) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/intermediate/048_topic_exceptions_raise_assert.livemd) |
+| 049 | 🟡Intermediate | Topic | ዘመናዊ የመንገድ (Path) አያያዝ (pathlib.Path ተግባራዊ ስራዎች) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/intermediate/049_topic_path_pathlib_path.livemd) |
+| 050 | 🟡Intermediate | Topic | መሰረታዊ የፋይል I/O (የፅሁፍ ፋይሎችን መክፈት፣ ማንበብ እና መዝጋት) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/intermediate/050_topic_i_o.livemd) |
+| 051 | 🟡Intermediate | Topic | መረጃን በፅሁፍ ፋይሎች ላይ መፃፍ እና መጨመር ('w', 'a' modes) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/intermediate/051_topic_w_a_modes.livemd) |
+| 052 | 🟡Intermediate | Topic | Context Managers (with open() syntax ለተሻለ የፋይል አያያዝ) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/intermediate/052_topic_context_managers_with_open_syntax.livemd) |
+| 053 | 🟡Intermediate | PROJECT | ራስ-ሰር የፋይል መዝገብ (Log) መተንተኛ (File I/O, ስህተት አያያዝ, String Parsing) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/intermediate/053_project_log_file_i_o_string_parsing.livemd) |
+| 054 | 🟡Intermediate | Topic | የ JSON ዳታ አያያዝ (json.load(), json.loads(), json.dump(), json.dumps()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/intermediate/054_topic_json_json_load_json_loads_json_dump_json_dumps.livemd) |
+| 055 | 🟡Intermediate | Topic | ከ CSV ፋይሎች ጋር መስራት (csv.reader(), csv.DictReader(), csv.writer()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/intermediate/055_topic_csv_csv_reader_csv_dictreader_csv_writer.livemd) |
+| 056 | 🔴Advanced | Topic | የአካባቢ ተለዋዋጮች እና ውቅር (os.environ, os.getenv()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/056_topic_os_environ_os_getenv.livemd) |
+| 057 | 🔴Advanced | Topic | በ python-dotenv ሚስጥሮችን ማስተዳደር (.env ፋይሎችን በደህንነት መጫን) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/057_topic_python_dotenv_env.livemd) |
+| 058 | 🔴Advanced | Topic | የ HTTP ፕሮቶኮል መሰረታዊ ነገሮች እና የ requests Module (requests.get(), Status Codes) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/058_topic_http_requests_module_requests_get_status_codes.livemd) |
+| 059 | 🔴Advanced | Topic | የ API ምላሾችን ማስተዳደር (JSON በ response.json() መተንተን) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/059_topic_api_json_response_json.livemd) |
+| 060 | 🔴Advanced | Topic | የላቀ የ API አያያዝ: በገፆች እና Cursors መጓዝ | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/060_topic_api_cursors.livemd) |
+| 061 | 🔴Advanced | PROJECT | አስተማማኝ የ API ዳታ ሰብሳቢ (Requests, JSON, dotenv, File I/O) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/061_project_api_requests_json_dotenv_file_i_o.livemd) |
+| 062 | 🔴Advanced | Topic | የላቁ requests: የ URL ጥያቄ መለኪያዎች እና Custom Headers | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/062_topic_requests_url_custom_headers.livemd) |
+| 063 | 🔴Advanced | Topic | የላቁ requests: የ POST ጥያቄዎችን እና JSON Payloads መላክ | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/063_topic_requests_post_json_payloads.livemd) |
+| 064 | 🔴Advanced | Topic | በ API ውስጥ ያሉ ስህተቶች አያያዝ (response.raise_for_status(), Request Timeouts) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/064_topic_api_response_raise_for_status_request_timeouts.livemd) |
+| 065 | 🔴Advanced | Topic | የ collections Module (Counter, defaultdict ለተሻለ ቆጠራ/ምደባ) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/065_topic_collections_module_counter_defaultdict.livemd) |
+| 066 | 🔴Advanced | Topic | ቀልጣፋ ባለሁለት አቅጣጫ ወረፋዎች በ collections.deque (ፈጣን append/pop ስራዎች) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/066_topic_collections_deque_append_pop.livemd) |
+| 067 | 🔴Advanced | Topic | ቀላል ክብደት ያላቸው መዋቅራዊ መዝገቦች በ collections.namedtuple | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/067_topic_collections_namedtuple.livemd) |
+| 068 | 🔴Advanced | PROJECT | የ API ምላሽ መተንተኛ (Requests, ስህተት አያያዝ, Collections, Namedtuples) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/068_project_api_requests_collections_namedtuples.livemd) |
+| 069 | 🔴Advanced | Topic | ብጁ Context Managers በ contextlib (@contextmanager decorator) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/069_topic_context_managers_contextlib_contextmanager_decorator.livemd) |
+| 070 | 🔴Advanced | Topic | Generators እና yield ቁልፍ ቃል (Lazy evaluation ፅንሰ-ሀሳቦች) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/070_topic_generators_yield_lazy_evaluation.livemd) |
+| 071 | 🔴Advanced | Topic | Generator Expressions (ትውስታን የማይቆጥብ የድግግሞሽ አፈጣጠር) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/071_topic_generator_expressions.livemd) |
+| 072 | 🔴Advanced | Topic | የላቁ Functions: Closures እና Nested Functions (ሁኔታን ያለ objects መያዝ) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/072_topic_functions_closures_nested_functions_objects.livemd) |
+| 073 | 🔴Advanced | Topic | መዋቅራዊ የዳታ መያዣዎች በ dataclasses | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/073_topic_dataclasses.livemd) |
+| 074 | 🔴Advanced | Topic | Decorators: የ Function መጠቅለያዎችን መፍጠር እና መጠቀም (@wrapper syntax) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/074_topic_decorators_function_wrapper_syntax.livemd) |
+| 075 | 🔴Advanced | PROJECT | የ API ፍጥነት መገደቢያ እና Caching Decorator | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/075_project_api_caching_decorator.livemd) |
+| 076 | 🔴Advanced | Topic | የፋይል ስርዓት አሰሳ እና ማሻሻያ (os.listdir(), os.mkdir(), os.remove()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/076_topic_os_listdir_os_mkdir_os_remove.livemd) |
+| 077 | 🔴Advanced | Topic | ጊዜያዊ የፋይል አያያዝ በ tempfile (ደህንነቱ የተጠበቀ ፋይሎች እና አቃፊዎች) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/077_topic_tempfile.livemd) |
+| 078 | 🔴Advanced | Topic | ከፍተኛ ደረጃ የፋይል ስራዎች (shutil.copy(), shutil.move(), shutil.rmtree()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/078_topic_shutil_copy_shutil_move_shutil_rmtree.livemd) |
+| 079 | 🔴Advanced | Topic | በ bisect ሁለትዮሽ ፍለጋ እና ቅደም ተከተላዊ ማስገቢያ (ዝርዝሮችን በብቃት መያዝ) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/079_topic_bisect.livemd) |
+| 080 | 🔴Advanced | Topic | Subprocesses: የስርዓት ትዕዛዞችን መተግበር (subprocess.run(), ውጤትን መያዝ) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/080_topic_subprocesses_subprocess_run.livemd) |
+| 081 | 🔴Advanced | Topic | Regular Expressions: ማዛመድ እና መፈለግ (re.search(), re.match(), መሰረታዊ ቅጦች) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/081_topic_regular_expressions_re_search_re_match.livemd) |
+| 082 | 🔴Advanced | Topic | Regular Expressions: ማውጣት እና መተካት (re.findall(), re.sub(), capture groups) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/082_topic_regular_expressions_re_findall_re_sub_capture_groups.livemd) |
+| 083 | 🔴Advanced | PROJECT | የስርዓት መዝገብ መተንተኛ እና Regex አውጪ (Regex, os, pathlib) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/083_project_regex_regex_os_pathlib.livemd) |
+| 084 | 🔴Advanced | Topic | የ logging Module: ውቅር እና የመዝገብ ደረጃዎች (DEBUG, INFO, WARNING, ERROR) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/084_topic_logging_module_debug_info_warning_error.livemd) |
+| 085 | 🔴Advanced | Topic | የላቀ logging: Handlers እና Formatters (መዝገቦችን ወደ ኮንሶል እና ፋይል በአንድ ጊዜ መላክ) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/085_topic_logging_handlers_formatters.livemd) |
+| 086 | 🔴Advanced | Topic | Itertools: ማለቂያ የሌላቸው እና ጥምር ድግግሞሾች (count, cycle, combinations) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/086_topic_itertools_count_cycle_combinations.livemd) |
+| 087 | 🔴Advanced | Topic | Itertools: ዳታን መመደብ እና ማገናኘት (groupby, chain) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/087_topic_itertools_groupby_chain.livemd) |
+| 088 | 🔴Advanced | Topic | ስለ Type Hinting መግቢያ (መሰረታዊ አይነቶች: int, str, bool) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/088_topic_type_hinting_int_str_bool.livemd) |
+| 089 | 🔴Advanced | Topic | የላቀ Type Hinting (List, Dict, Optional, Union, Callable) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/089_topic_type_hinting_list_dict_optional_union_callable.livemd) |
+| 090 | 🔴Advanced | PROJECT | አስተማማኝ የ Webhook Payload ፕሮሰሰር (Type Hints, Logging, Itertools) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/090_project_webhook_payload_type_hints_logging_itertools.livemd) |
+| 091 | 🔴Advanced | Topic | የኮድ ማረሚያ (Debugging): pdb መጠቀም (Tracepoints መመደብ፣ በሎጂክ ውስጥ መጓዝ) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/091_topic_debugging_pdb_tracepoints.livemd) |
+| 092 | 🔴Advanced | Topic | የኮድ መልሶ ማዋቀር (Refactoring): DRY እና ነጠላ ሀላፊነት (ትላልቅ ተግባራትን መከፋፈል) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/092_topic_refactoring_dry.livemd) |
+| 093 | 🔴Advanced | Topic | የአሲንክሮነስ (Asynchronous) ፕሮግራሚንግ መሰረታዊ ነገሮች (async def, await) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/093_topic_asynchronous_async_def_await.livemd) |
+| 094 | 🔴Advanced | Topic | የአሲንክሮነስ ስራዎችን ማስተዳደር (asyncio.gather(), asyncio.create_task()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/094_topic_asyncio_gather_asyncio_create_task.livemd) |
+| 095 | 🔴Advanced | Topic | የጊዜ ገደብ እና የአሲንክሮነስ ስህተቶች (asyncio.wait_for(), async ስህተት አያያዝ) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/095_topic_asyncio_wait_for_async.livemd) |
+| 096 | 🔴Advanced | Topic | Threading vs. Asyncio (ፅንሰ-ሀሳባዊ ልዩነቶች እና ከ GIL ጋር ያላቸው ገደብ) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/096_topic_threading_vs_asyncio_gil.livemd) |
+| 097 | 🔴Advanced | PROJECT | በአንድ ጊዜ የሚሰራ የብዙ-API ዳታ ሰብሳቢ (Asyncio, ስህተት አያያዝ, Logging) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/097_project_api_asyncio_logging.livemd) |
+| 098 | 🔴Advanced | Topic | ተግባራዊ ሙከራ (Functional Testing): ራሳቸውን የቻሉ የሙከራ ተግባራትን በ assert መፃፍ | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/098_topic_functional_testing_assert.livemd) |
+| 099 | 🔴Advanced | Topic | ነባር ተግባራትን በ Mocking መተካት (unittest.mock.patch እንደ decorator መጠቀም) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/099_topic_mocking_unittest_mock_patch_decorator.livemd) |
+| 100 | 🔴Advanced | Topic | የፕሮጀክት ጥገኞችን ማስተዳደር (venv መፍጠር, pip freeze > requirements.txt) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/100_topic_venv_pip_freeze_requirements_txt.livemd) |
+| 101 | 🔴Advanced | Topic | ጠንካራ CLIs መገንባት (argparse, Arguments እና Flags) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/101_topic_clis_argparse_arguments_flags.livemd) |
+| 102 | 🔴Advanced | Topic | የፈፃፀም ልኬት እና ፕሮፋይሊንግ (module timeit) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/102_topic_module_timeit.livemd) |
+| 103 | 🔴Advanced | Topic | በ functools.singledispatch ተግባራትን በአይነት መመደብ | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/103_topic_functools_singledispatch.livemd) |
+| 104 | 🔴Advanced | PROJECT | ለስራ ዝግጁ የሆነ የ CLI መሳሪያ | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/104_project_cli.livemd) |
+| 105 | 🔴Advanced | Topic | የዳታ ሀሺንግ እና ታማኝነት ማረጋገጫ (hashlib ለ SHA256) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/105_topic_hashlib_sha256.livemd) |
+| 106 | 🔴Advanced | Topic | ደካማ ማጣቀሻዎች (Weak References) በ weakref (ደህንነቱ የተጠበቀ ማጣቀሻ) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/106_topic_weak_references_weakref.livemd) |
+| 107 | 🔴Advanced | Topic | የላቁ ተግባራዊ መሳሪያዎች (functools.partial, @lru_cache ለ memoization) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/107_topic_functools_partial_lru_cache_memoization.livemd) |
+| 108 | 🔴Advanced | Topic | የስክሪፕት መዝጊያ መንጠቆዎች በ atexit (የማፅጃ ተግባራት) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/108_topic_atexit.livemd) |
+| 109 | 🔴Advanced | Topic | የስርዓት ምልክቶችን በ signal ማስተዳደር (ስክሪፕትን በስነስርዓት ማቆም) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/109_topic_signal.livemd) |
+| 110 | 🔴Advanced | Topic | ተለዋዋጭ ጭነት (Dynamic Imports) በ importlib (በሚሰራበት ጊዜ ሞጁል መጫን) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/110_topic_dynamic_imports_importlib.livemd) |
+| 111 | 🔴Advanced | Topic | ልዩ መለያ (Unique ID) መፍጠሪያ በ uuid (ለተሰራጩ ስርዓቶች uuid4) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/111_topic_unique_id_uuid_uuid4.livemd) |
+| 112 | 🔴Advanced | PROJECT | ሊሰፋ የሚችል አውቶሜሽን ማዕቀፍ | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/am/advanced/112_project.livemd) |
+
+*ሙሉው የይዘት ሰንጠረዥ (112 ርዕሶች + ፕሮጀክቶች) በእያንዳንዱ ቋንቋ ፎልደር ውስጥ ይገኛል።*
+
+---
+
+## 🏛️ ስነ-ህንጻ እና አማካሪዎች
+
+እያንዳንዱ ላብራቶሪ ልዩ የAI አማካሪ በምዝገባ ሂደት ውስጥ የሚመራዎት የ **ማብራሪያ በር** (Explanation Gate) ያካትታል። እያንዳንዱ ደረጃ የዚያን ምዕራፍ ስነ-ልቦናዊ እና ትምህርታዊ ፍላጎቶች ለማሟላት የተቀየሰ የራሱ የሆነ የአማካሪ ባህሪ አለው፦
+
+| ደረጃ | አማካሪ | ባህሪ | ምን ያስተምራል |
 |-------|--------|-------------|------------------|
-| **1** | The Safe Guide | Warm, patient, like an older sibling | Safe syntax exploration, eliminating "vibe coding" |
-| **2** | The Analytical Partner | Curious, coffee‑fueled "log detective" | Reading error traces, understanding crashes |
-| **3** | The Logical Scaffold | Methodical, encouraging "senior builder" | Visualizing data flow (Input → Transform → Output) |
-| **4** | The Elegant Critic | Sarcastic, purist, "tough love" | Idiomatic code, functional patterns, eliminating bad habits |
-| **5** | The Strategic Partner | Visionary, professional "system architect" | Edge cases, fault tolerance, business logic alignment |
+| **1** | አስተማማኝ መመሪያ | ሞቅ ያለ፣ ታጋሽ፣ እንደ ትልቅ ወንድም/እህት | ሲንታክስን በጥንቃቄ መመርመር፣ "vibe coding"ን ማስወገድ |
+| **2** | ትንታኔያዊ አጋር | ጉጉት ያለው፣ በቡና የሚነቃቃ፣ "የሎግ መርማሪ" | የብልሽት መከታተያዎችን (error traces) ማንበብ፣ የስርዓት መቋረጥን መረዳት |
+| **3** | ሎጂካዊ ድጋፍ | ዘዴኛ፣ አበረታች፣ "ከፍተኛ ግንቢ" | የዳታ ፍሰትን ማየት (ግቤት → ለውጥ → ውፅዓት) |
+| **4** | ውብ ተቺ | አስቂኝ፣ ጥብቅ፣ "ጠንካራ ፍቅር" (tough love) | ትክክለኛ የኮድ አጻጻፍ (idiomatic code)፣ ተግባራዊ ቅጦች፣ መጥፎ ልማዶችን ማስወገድ |
+| **5** | ስትራቴጂካዊ አጋር | ባለራዕይ፣ ባለሙያ፣ "የስርዓት አርክቴክት" | የድንበር ጉዳዮች (edge cases)፣ ስህተቶችን መቋቋም፣ ከንግድ ስራ ሎጂክ ጋር ማመጣጠን |
 
-*This repository contains **Stage 1 (The Safe Guide)**. Stages 2–5 mentors are available in the premium version.*
+*ይህ ማከማቻ **ደረጃ 1 (አስተማማኝ መመሪያ)** ያካትታል።*
 
 ---
 
-## 🔗 Useful Links
+## 🔗 ጠቃሚ ሊንኮች
 
 [Coding5s.com](https://coding5s.com) | [Udemy (Coding5s Premium)](https://www.udemy.com/user/wilbarrios/) | [GitHub](https://github.com/WilfredoBarrios)
 
 ---
 
-## 🤝 Contributions
+## 🤝 አስተዋጽኦ ማበርከት
 
-Do you have any feedback or feature suggestions? Feel free to open an issue or contribute if you want to support the project in any way!
-
----
-
-## 📄 License
-
-MIT © [Wilfredo Barrios](https://github.com/WilfredoBarrios)
+ማንኛውም ግብረመልስ ወይም አዲስ የባህሪ ጥቆማዎች አሉዎት? ፕሮጀክቱን በማንኛውም መንገድ መደገፍ ከፈለጉ እባክዎን 'issue' ለመክፈት ወይም አስተዋጽኦ ለማድረግ ነጻነት ይሰማዎት!
 
 ---
-⚡ *Coding5s System — Learning designed for technical mastery.*
+
+## 📄 ፈቃድ
+
+MIT © [Wil Barrios](https://github.com/WilfredoBarrios)
+
+---
+⚡ *የ Coding5s ስርዓት — ለቴክኒካል ብቃት የተነደፈ ትምህርት።*
