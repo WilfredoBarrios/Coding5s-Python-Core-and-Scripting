@@ -1,108 +1,218 @@
-# 🧪 Python Core & Scripting Interactive Lab — English 🇺🇸
+# 🧪 Python Core & Scripting [Interactive Lab] (explained as k'loj xnaq'tzb'il te yec'b'il) — Mam 🇬🇹
 
 [![Livebook](https://img.shields.io/badge/Livebook-FF6B6B?logo=livebook&logoColor=white)](https://livebook.dev)
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **Learn Python by writing code, not just by reading it.**
-> This is the English version of the **Coding5s** interactive curriculum, designed to take you from core scripting to technical mastery using Livebook's interactive environment.
+> **T-xnaq'tza Python tu'n t-tz'ib'inxa [code] (explained as t-tz'ib'il qe aq'untl), mya o'kx tu'n t-sch'inxa.**
+> Atzunte lu' yol Mam te **Coding5s** [interactive curriculum] (explained as xnaq'tzb'il tu'n t-yek'onte), b'incha'n tu'n t-k'amon t-txolil [core scripting] (explained as t-txe' tz'ib'il) ex ponix ti'j [technical mastery] (explained as nimalxix t-xnaq'tzb'il) tu'n [interactive environment] (explained as k'loj k'ulb'il xnaq'tzb'il) te Livebook.
 
 ---
 
-## 🚀 How to get started?
+## 🚀 Tza'n t-txolil tu'n t-tzyet?
 
-To experience this lab interactively, you need to have **Livebook** installed on your computer with the Python runtime integration.
+Tu'n t-xnaq'tzinxa tuj k'loj xnaq'tzb'il lu', il ti'j tu'n t-ten **Livebook** tuj t-k'uxb'il tuk'il Python [runtime integration] (explained as t-mojb'il aq'untl).
 
-1. **Install Livebook:** Download it at [livebook.dev](https://livebook.dev).
-2. **Open a Lab:** Browse the folders below and click the **"Run in Livebook"** button inside each file, or import the URL directly into your Livebook session.
+1. **T-kuqsa Livebook:** T-kuqsax tuj [livebook.dev](https://livebook.dev).
+2. **T-jaq'o jun Xnaq'tzb'il:** T-jyoma kyuj qe k'ub'il u'j t-xe' ex t-q'o'xa t-q'ab' ti'j **"Run in Livebook"** [button] (explained as k'uxb'il t-q'ab') tuj teyle junjun u'j, moqa t-q'o'xa URL tuj t-Livebook.
 
 ---
 
-## 📚 Coding5s Methodology (5 Stages)
+## 📚 T-txolil Coding5s (Jwe' T-xk'am)
 
-Our approach is based on **Controlled Cognitive Friction**. Each lab guides you through:
+Aju q-xnaq'tzb'il t-xol **[Controlled Cognitive Friction] (explained as k'loj xnaq'tzb'il k'ayiw ximil)**. Teyle junjun xnaq'tzb'il in xi' t-yek'un b'e:
 
-| Stage | Name | Objective |
+| T-xk'am | T-b'i | Aju t-ajb'en |
 |-------|------|-----------|
-| **1** | Practice | Write code from scratch |
-| **2** | Debug | Find intentional syntax and logic errors |
-| **3** | Complete | Fill in architectural and algorithmic gaps |
-| **4** | Refactor | Optimize existing scripts (flat vs. modular structure) |
-| **5** | Extend | Add new production-ready functionalities |
+| **1** | Xnaq'tzb'il | T-tz'ib'inxa [code] (explained as t-tz'ib'il aq'untl) ak'aj |
+| **2** | [Debug] (explained as jyol mya b'a'n) | T-jyoma [syntax] (explained as t-txolil tz'ib') ex [logic] (explained as t-ximil aq'untl) mya b'a'n |
+| **3** | Nojsab'l | T-nojsa qe [algorithms] (explained as t-txolil b'e) ex [architectural gaps] (explained as txqan jatum mya nojni) |
+| **4** | [Refactor] (explained as b'inchal majtl) | T-b'incha'xa [scripts] (explained as tz'ib'in aq'untl) atinaq (moj q'i'n moqa pa'n) |
+| **5** | Nimxix | T-q'o'xa ak'aj [functionalities] (explained as t-ajb'en aq'untl) |
 
-*This repository contains **Stage 1 (Practice)**.
+*Aju k'ub'il lu' t-k'am **T-xk'am 1 (Xnaq'tzb'il)**.
+---
+
+## 🛠️ Tza'n t-ajb'en teyle junjun Livebook
+
+Tuj teyle junjun u'j `.livemd`, t-lpeya ti'j b'e lu':
+
+1. T-jaq'o u'j tuj **Livebook**.
+2. T-k'leya **T-xk'am 1 [prompt] (explained as q'ol xnaq'tz)** ex t-tz'akb'a'xa tuj AI awaj (ChatGPT, Gemini, Claude, txqantl).
+3. Aju AI cxel t-b'incha'n ox moqa jwe' [micro-examples] (explained as ch'in yek'b'il) te xnaq'tzb'il.
+4. T-k'leya qe yek'b'il lu' tuj Livebook **[execution cell] (explained as k'loj aq'untl)** ex t-tzyu'xa.
+5. T-ch'ixpu'xa [code] (explained as tz'ib'in aq'untl), t-xnaq'tza', ex t-k'a'cha tza'n cxel ch'ixpjet [output] (explained as t-el xnaq'tzb'il).
 
 ---
 
-## 🛠️ How to use each Livebook
+## 🧠 Aju Socrático Xnaq'tzal (AI)
 
-Inside each `.livemd` file, follow this simple workflow:
+Teyle junjun Livebook at jun **[Mentor prompt] (explained as t-q'ol xnaq'tz xnaq'tzal)** tuj. B'a'n tu'n t-tz'akb'ante tuj AI tuk'il t-[code] ex jun ch'in t-ximil aju [logic] (explained as t-ximil aq'untl). Aju xnaq'tzal:
 
-1. Open the file in **Livebook** (desktop or browser version).
-2. Copy the **Stage 1 prompt** and paste it into your preferred AI chat (ChatGPT, Gemini, Claude, etc.).
-3. The AI will generate **3 to 5 executable micro‑examples** for that topic.
-4. Copy those examples into the Livebook's **execution cell** and run them.
-5. Modify the code, experiment, and watch the output change in real time.
+- **Mlay xi' t-q'o'n t-tz'aqtza'n naj** (tuj t-tzyetb'il)
+- Cxel t-q'o'n qe xjel socrático tu'n t-jyolteya aju mya b'a'n
+- Cxel t-ajb'en yek'b'il te twitz tx'otx' tu'n t-yek'un **[programming concepts] (explained as ximil tz'ib'il)**
+- Cx'el t-mojli'n tu'n t-ex "Vibe Coding" ex t-b'incha'n axix tok [engineering intuition] (explained as ximil b'inchal)
+- Cxel t-q'o'n [senior-level answers] (explained as nimalxix tz'aqtza'n) ok t-xjelinxa
 
----
-
-## 🧠 The Socratic Mentor (AI)
-
-Each Livebook also includes a **Mentor prompt**. You can paste it into the same AI chat alongside your code and a short explanation of your logic. The mentor will:
-
-- **Not give you the answer directly** (at first)
-- Ask you Socratic questions so you discover the error yourself
-- Use real‑world analogies to explain **programming concepts**
-- Help you eliminate "Vibe Coding" and build true engineering intuition
-- Provide senior‑level answers when you ask specific questions
+⚠️ NIMALXIX XIMIL TE YOL MAYA MOQA YOL NATIVE: Tu'n t-ten xq'uqb'il yol, b'a'nxix [inline comments] (explained as t-ximil tuj txolil), ex [dynamic glossaries] (explained as txolil yol) tuj qe yol maya, nimalxix tu'n t-ajb'en Gemini Pro. Qe ch'in AI mlay b'ant kyu'n aju [syntactic attention] (explained as xq'uqil tz'ib') te qe yol lu'. Te yol Maya ex native te Abya Yala, k'ub'li jun [context seed] (explained as t-xe' ximil) kyuj qe [prompts] (explained as q'ol xnaq'tz) tu'n t-ex b'a'n [outputs] (explained as t-el xnaq'tzb'il); tu'ntzunjo, il ti'j jun nimalxix AI.
 
 ---
 
-## 🛠️ Interactive Curriculum — Stage 1: Practice Lab
+## 🛠️ [Interactive Curriculum] (explained as K'loj Xnaq'tzb'il) — T-xk'am 1: Xnaq'tzb'il Xnaq'tzb'il
 
-Click the **Run in Livebook** badge to open each lab directly in your environment.
+T-q'o'xa t-q'ab' ti'j **Run in Livebook** tu'n t-jaq'et teyle junjun xnaq'tzb'il.
 
-| # | Level | Type | Topic / Project Name | Prereqs (#) | Priority | CPF-Risk | Interactive Lab |
-|:-:|:---|:---|:---|:-:|:---|:-:|:---|
-| 1 | 🟢 Beginner | Topic | Global Environment Diagnostics (`sys.version`, `sys.platform`) | - | Core | 1 | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](./Stage_1/en/beginner/1_sys_diagnostics.livemd) |
-| 2 | 🟢 Beginner | Topic | Variables & Dynamic Typing | 1 | Core | 1 | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](./Stage_1/en/beginner/2_variables.livemd) |
-| 3 | 🟢 Beginner | Topic | Primitive Data Types (`int`, `float`, `str`, `bool`) | 2 | Core | 1 | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](./Stage_1/en/beginner/3_data_types.livemd) |
+| # |  Level |  Type |Topic Name | Interactive Lab |
+| :--- | :--- | :--- | :--- | :--- |
+| 001 | 🟢Beginner | Topic | Sintaxis Básica b'ix Salida (print(), Comments, Indentation) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/beginner/001_topic_sintaxis_b_sica_b_ix_salida_print_comments_indentation.livemd) |
+| 002 | 🟢Beginner | Topic | Variables b'ix Dynamic Typing (Assignment, Naming Conventions) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/beginner/002_topic_variables_b_ix_dynamic_typing_assignment_naming_conventions.livemd) |
+| 003 | 🟢Beginner | Topic | Tipos te Datos Primitivos (int, float, str, bool) b'ix type() | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/beginner/003_topic_tipos_te_datos_primitivos_int_float_str_bool_b_ix_type.livemd) |
+| 004 | 🟢Beginner | Topic | Operaciones Aritméticas (+, -, *, /, //, %, **) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/beginner/004_topic_operaciones_aritm_ticas.livemd) |
+| 005 | 🟢Beginner | Topic | Operadores te Comparación b'ix Identidad (==, !=, >, <, is, is not) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/beginner/005_topic_operadores_te_comparaci_n_b_ix_identidad_is_is_not.livemd) |
+| 006 | 🟢Beginner | PROJECT | Calculadora te Propinas b'ix División (Operaciones matemáticas b'ix variables combinadas) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/beginner/006_project_calculadora_te_propinas_b_ix_divisi_n_operaciones_matem_ticas_b_ix_variables_combinadas.livemd) |
+| 007 | 🟢Beginner | Topic | Entrada te Usuario b'ix Type Casting (input(), int(), float(), str()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/beginner/007_topic_entrada_te_usuario_b_ix_type_casting_input_int_float_str.livemd) |
+| 008 | 🟢Beginner | Topic | Operadores Lógicos (and, or, not) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/beginner/008_topic_operadores_l_gicos_and_or_not.livemd) |
+| 009 | 🟢Beginner | Topic | Operaciones Básicas te Strings (Concatenation, Repetition, Indexing []) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/beginner/009_topic_operaciones_b_sicas_te_strings_concatenation_repetition_indexing.livemd) |
+| 010 | 🟢Beginner | Topic | Formateo te Strings (f-strings, .format()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/beginner/010_topic_formateo_te_strings_f_strings_format.livemd) |
+| 011 | 🟢Beginner | Topic | Métodos Comunes te Strings (lower(), upper(), strip(), replace(), split()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/beginner/011_topic_m_todos_comunes_te_strings_lower_upper_strip_replace_split.livemd) |
+| 012 | 🟢Beginner | PROJECT | Generador Interactivo te Perfiles te Usuario (I/O, formatting, string methods) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/beginner/012_project_generador_interactivo_te_perfiles_te_usuario_i_o_formatting_string_methods.livemd) |
+| 013 | 🟢Beginner | Topic | Flujo te Control: Condicionales Básicos (if, else) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/beginner/013_topic_flujo_te_control_condicionales_b_sicos_if_else.livemd) |
+| 014 | 🟢Beginner | Topic | Flujo te Control: Condicionales Encadenados b'ix Anidados (elif, nested if) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/beginner/014_topic_flujo_te_control_condicionales_encadenados_b_ix_anidados_elif_nested_if.livemd) |
+| 015 | 🟢Beginner | Topic | Flujo te Control: Structural Pattern Matching (match/case) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/beginner/015_topic_flujo_te_control_structural_pattern_matching_match_case.livemd) |
+| 016 | 🟢Beginner | Topic | Introducción te Lists (Creation, Indexing, Mutability concept) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/beginner/016_topic_introducci_n_te_lists_creation_indexing_mutability_concept.livemd) |
+| 017 | 🟢Beginner | Topic | Métodos te Modificación te Lists (append(), insert(), extend(), remove(), pop()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/beginner/017_topic_m_todos_te_modificaci_n_te_lists_append_insert_extend_remove_pop.livemd) |
+| 018 | 🟢Beginner | Topic | Sequence Slicing b'ix Strides ([start:stop:step]) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/beginner/018_topic_sequence_slicing_b_ix_strides_start_stop_step.livemd) |
+| 019 | 🟢Beginner | PROJECT | Gestor te Tareas Básico (Condicionales b'ix manipulación te Lists) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/beginner/019_project_gestor_te_tareas_b_sico_condicionales_b_ix_manipulaci_n_te_lists.livemd) |
+| 020 | 🟢Beginner | Topic | Introducción te Tuples (Creation, Immutability, Unpacking) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/beginner/020_topic_introducci_n_te_tuples_creation_immutability_unpacking.livemd) |
+| 021 | 🟢Beginner | Topic | Introducción te Dictionaries (Key-Value pairs, Creation, Direct Access) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/beginner/021_topic_introducci_n_te_dictionaries_key_value_pairs_creation_direct_access.livemd) |
+| 022 | 🟢Beginner | Topic | Métodos te Dictionaries (keys(), values(), items(), get(), update()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/beginner/022_topic_m_todos_te_dictionaries_keys_values_items_get_update.livemd) |
+| 023 | 🟢Beginner | Topic | Introducción te Sets (Creation, Uniqueness, add(), remove()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/beginner/023_topic_introducci_n_te_sets_creation_uniqueness_add_remove.livemd) |
+| 024 | 🟢Beginner | Topic | Operaciones te Sets (union(), intersection(), difference(), symmetric_difference()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/beginner/024_topic_operaciones_te_sets_union_intersection_difference_symmetric_difference.livemd) |
+| 025 | 🟢Beginner | PROJECT | Deduplicador te Contactos b'ix Datos (Dicts, Tuples, Sets) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/beginner/025_project_deduplicador_te_contactos_b_ix_datos_dicts_tuples_sets.livemd) |
+| 026 | 🟢Beginner | Topic | Iteración: Aju bucle for (Iterando strings, lists, tuples) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/beginner/026_topic_iteraci_n_aju_bucle_for_iterando_strings_lists_tuples.livemd) |
+| 027 | 🟢Beginner | Topic | Iteración: Aju bucle while b'ix Control Statements (break, continue, pass) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/beginner/027_topic_iteraci_n_aju_bucle_while_b_ix_control_statements_break_continue_pass.livemd) |
+| 028 | 🟢Beginner | Topic | Expresiones te Asignación tuk'il Walrus Operator (:=) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/beginner/028_topic_expresiones_te_asignaci_n_tuk_il_walrus_operator.livemd) |
+| 029 | 🟡Intermediate | Topic | Herramientas Avanzadas te Iteración (range(), enumerate(), zip()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/intermediate/029_topic_herramientas_avanzadas_te_iteraci_n_range_enumerate_zip.livemd) |
+| 030 | 🟡Intermediate | Topic | Operadores te Membresía (in, not in toj tkyaqil aju estructuras te datos) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/intermediate/030_topic_operadores_te_membres_a_in_not_in_toj_tkyaqil_aju_estructuras_te_datos.livemd) |
+| 031 | 🟡Intermediate | Topic | List Comprehensions (Sintaxis básica b'ix filtrado condicional) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/intermediate/031_topic_list_comprehensions_sintaxis_b_sica_b_ix_filtrado_condicional.livemd) |
+| 032 | 🟡Intermediate | PROJECT | Limpiador Automático te Tz'ib' b'ix Datos (Loops, Comprehensions, Conditionals) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/intermediate/032_project_limpiador_autom_tico_te_tz_ib_b_ix_datos_loops_comprehensions_conditionals.livemd) |
+| 033 | 🟡Intermediate | Topic | Dictionary b'ix Set Comprehensions (Sintaxis b'ix filtrado) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/intermediate/033_topic_dictionary_b_ix_set_comprehensions_sintaxis_b_ix_filtrado.livemd) |
+| 034 | 🟡Intermediate | Topic | Introducción te Functions (def, sentencias return básicas) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/intermediate/034_topic_introducci_n_te_functions_def_sentencias_return_b_sicas.livemd) |
+| 035 | 🟡Intermediate | Topic | Argumentos te Functions: Positional, Keyword, b'ix Default Values | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/intermediate/035_topic_argumentos_te_functions_positional_keyword_b_ix_default_values.livemd) |
+| 036 | 🟡Intermediate | Topic | Argumentos Flexibles (*args, **kwargs) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/intermediate/036_topic_argumentos_flexibles_args_kwargs.livemd) |
+| 037 | 🟡Intermediate | Topic | Alcance te Variables (conceptos te local, global, nonlocal) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/intermediate/037_topic_alcance_te_variables_conceptos_te_local_global_nonlocal.livemd) |
+| 038 | 🟡Intermediate | PROJECT | Utilidad Matemática te Línea te Comandos (Functions, Scope, Flexible args) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/intermediate/038_project_utilidad_matem_tica_te_l_nea_te_comandos_functions_scope_flexible_args.livemd) |
+| 039 | 🟡Intermediate | Topic | Lambda Functions (Funciones anónimas te jun expresión) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/intermediate/039_topic_lambda_functions_funciones_an_nimas_te_jun_expresi_n.livemd) |
+| 040 | 🟡Intermediate | Topic | Higher-Order Functions (map(), filter()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/intermediate/040_topic_higher_order_functions_map_filter.livemd) |
+| 041 | 🟡Intermediate | Topic | Aju función reduce() (Importando tu'n functools) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/intermediate/041_topic_aju_funci_n_reduce_importando_tu_n_functools.livemd) |
+| 042 | 🟡Intermediate | Topic | Introducción te Modules b'ix sentencias import (import, from ... import ...) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/intermediate/042_topic_introducci_n_te_modules_b_ix_sentencias_import_import_from_import.livemd) |
+| 043 | 🟡Intermediate | Topic | Modules Estándar Math b'ix Random (utilidades math, selección b'ix generación random) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/intermediate/043_topic_modules_est_ndar_math_b_ix_random_utilidades_math_selecci_n_b_ix_generaci_n_random.livemd) |
+| 044 | 🟡Intermediate | Topic | Module Estándar Datetime (datetime, timedelta, formateo te strings %Y-%m-%d) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/intermediate/044_topic_module_est_ndar_datetime_datetime_timedelta_formateo_te_strings_y_m_d.livemd) |
+| 045 | 🟡Intermediate | PROJECT | Generador te Contraseñas tuk'il Seguimiento te Amj (Functions, Datetime, Random) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/intermediate/045_project_generador_te_contrase_as_tuk_il_seguimiento_te_amj_functions_datetime_random.livemd) |
+| 046 | 🟡Intermediate | Topic | Conceptos Básicos te Manejo te Errores (bloques try, except) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/intermediate/046_topic_conceptos_b_sicos_te_manejo_te_errores_bloques_try_except.livemd) |
+| 047 | 🟡Intermediate | Topic | Manejo te Errores Avanzado (finally, else, captura te tipos te excepciones específicos) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/intermediate/047_topic_manejo_te_errores_avanzado_finally_else_captura_te_tipos_te_excepciones_espec_ficos.livemd) |
+| 048 | 🟡Intermediate | Topic | Lanzamiento te Excepciones Personalizadas (sentencias raise, assert) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/intermediate/048_topic_lanzamiento_te_excepciones_personalizadas_sentencias_raise_assert.livemd) |
+| 049 | 🟡Intermediate | Topic | Manejo Moderno te Rutas (operaciones funcionales b'ix recorrido tuk'il pathlib.Path) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/intermediate/049_topic_manejo_moderno_te_rutas_operaciones_funcionales_b_ix_recorrido_tuk_il_pathlib_path.livemd) |
+| 050 | 🟡Intermediate | Topic | I/O Básico te Archivos (Apertura, Lectura b'ix Cierre te archivos te tz'ib') | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/intermediate/050_topic_i_o_b_sico_te_archivos_apertura_lectura_b_ix_cierre_te_archivos_te_tz_ib.livemd) |
+| 051 | 🟡Intermediate | Topic | Escritura b'ix Anexado te Datos toj Archivos te Tz'ib' (modos 'w', 'a') | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/intermediate/051_topic_escritura_b_ix_anexado_te_datos_toj_archivos_te_tz_ib_modos_w_a.livemd) |
+| 052 | 🟡Intermediate | Topic | Context Managers (sintaxis with open() te manejo seguro te archivos) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/intermediate/052_topic_context_managers_sintaxis_with_open_te_manejo_seguro_te_archivos.livemd) |
+| 053 | 🟡Intermediate | PROJECT | Analizador Automático te Archivos Log (File I/O, Manejo te Errores, String Parsing) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/intermediate/053_project_analizador_autom_tico_te_archivos_log_file_i_o_manejo_te_errores_string_parsing.livemd) |
+| 054 | 🟡Intermediate | Topic | Manejo te Datos JSON (json.load(), json.loads(), json.dump(), json.dumps()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/intermediate/054_topic_manejo_te_datos_json_json_load_json_loads_json_dump_json_dumps.livemd) |
+| 055 | 🟡Intermediate | Topic | Trabajando tuk'il Archivos CSV (csv.reader(), csv.DictReader(), csv.writer()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/intermediate/055_topic_trabajando_tuk_il_archivos_csv_csv_reader_csv_dictreader_csv_writer.livemd) |
+| 056 | 🔴Advanced | Topic | Variables te Entorno b'ix Configuración (os.environ, os.getenv()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/056_topic_variables_te_entorno_b_ix_configuraci_n_os_environ_os_getenv.livemd) |
+| 057 | 🔴Advanced | Topic | Gestión te Secretos tuk'il python-dotenv (Carga segura te archivos .env) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/057_topic_gesti_n_te_secretos_tuk_il_python_dotenv_carga_segura_te_archivos_env.livemd) |
+| 058 | 🔴Advanced | Topic | Conceptos Básicos te aju Protocolo HTTP b'ix aju Module requests (requests.get(), Status Codes) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/058_topic_conceptos_b_sicos_te_aju_protocolo_http_b_ix_aju_module_requests_requests_get_status_codes.livemd) |
+| 059 | 🔴Advanced | Topic | Manejo te Respuestas API (Parsing te JSON tuk'il response.json()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/059_topic_manejo_te_respuestas_api_parsing_te_json_tuk_il_response_json.livemd) |
+| 060 | 🔴Advanced | Topic | Manejo Avanzado te APIs: Navegación tuk'il Paginación b'ix Cursors | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/060_topic_manejo_avanzado_te_apis_navegaci_n_tuk_il_paginaci_n_b_ix_cursors.livemd) |
+| 061 | 🔴Advanced | PROJECT | Capturador Seguro te Datos te API (Requests, JSON, dotenv, File I/O) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/061_project_capturador_seguro_te_datos_te_api_requests_json_dotenv_file_i_o.livemd) |
+| 062 | 🔴Advanced | Topic | requests Avanzado: Parámetros te Consulta URL b'ix Custom Headers | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/062_topic_requests_avanzado_par_metros_te_consulta_url_b_ix_custom_headers.livemd) |
+| 063 | 🔴Advanced | Topic | requests Avanzado: Envío te Peticiones POST b'ix Payloads JSON | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/063_topic_requests_avanzado_env_o_te_peticiones_post_b_ix_payloads_json.livemd) |
+| 064 | 🔴Advanced | Topic | Manejo te Errores toj APIs (response.raise_for_status(), Request Timeouts) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/064_topic_manejo_te_errores_toj_apis_response_raise_for_status_request_timeouts.livemd) |
+| 065 | 🔴Advanced | Topic | Aju Module collections (Counter, defaultdict te conteo/agrupación optimizados) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/065_topic_aju_module_collections_counter_defaultdict_te_conteo_agrupaci_n_optimizados.livemd) |
+| 066 | 🔴Advanced | Topic | Queues te Doble Final Eficientes tuk'il collections.deque (operaciones rápidas te append/pop) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/066_topic_queues_te_doble_final_eficientes_tuk_il_collections_deque_operaciones_r_pidas_te_append_pop.livemd) |
+| 067 | 🔴Advanced | Topic | Registros Estructurados Ligeros tuk'il collections.namedtuple | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/067_topic_registros_estructurados_ligeros_tuk_il_collections_namedtuple.livemd) |
+| 068 | 🔴Advanced | PROJECT | Analizador te Respuestas API (Requests, Manejo te Errores, Collections, Namedtuples) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/068_project_analizador_te_respuestas_api_requests_manejo_te_errores_collections_namedtuples.livemd) |
+| 069 | 🔴Advanced | Topic | Context Managers Personalizados tuk'il contextlib (decorador @contextmanager) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/069_topic_context_managers_personalizados_tuk_il_contextlib_decorador_contextmanager.livemd) |
+| 070 | 🔴Advanced | Topic | Generators b'ix aju Palabra Clave yield (Conceptos te evaluación perezosa) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/070_topic_generators_b_ix_aju_palabra_clave_yield_conceptos_te_evaluaci_n_perezosa.livemd) |
+| 071 | 🔴Advanced | Topic | Generator Expressions (Generación te iterables eficiente toj memoria) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/071_topic_generator_expressions_generaci_n_te_iterables_eficiente_toj_memoria.livemd) |
+| 072 | 🔴Advanced | Topic | Functions Avanzadas: Closures b'ix Nested Functions (Retención te estado sin objetos) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/072_topic_functions_avanzadas_closures_b_ix_nested_functions_retenci_n_te_estado_sin_objetos.livemd) |
+| 073 | 🔴Advanced | Topic | Contenedores te Datos Estructurados tuk'il dataclasses | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/073_topic_contenedores_te_datos_estructurados_tuk_il_dataclasses.livemd) |
+| 074 | 🔴Advanced | Topic | Decorators: Creación b'ix Aplicación te Envoltorios te Functions (sintaxis @wrapper) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/074_topic_decorators_creaci_n_b_ix_aplicaci_n_te_envoltorios_te_functions_sintaxis_wrapper.livemd) |
+| 075 | 🔴Advanced | PROJECT | Limitador te Tasa te API b'ix Decorator te Caching | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/075_project_limitador_te_tasa_te_api_b_ix_decorator_te_caching.livemd) |
+| 076 | 🔴Advanced | Topic | Navegación b'ix Manipulación te aju Sistema te Archivos (os.listdir(), os.mkdir(), os.remove()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/076_topic_navegaci_n_b_ix_manipulaci_n_te_aju_sistema_te_archivos_os_listdir_os_mkdir_os_remove.livemd) |
+| 077 | 🔴Advanced | Topic | Manejo te Archivos Temporales tuk'il tempfile (archivos b'ix directorios temporales seguros) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/077_topic_manejo_te_archivos_temporales_tuk_il_tempfile_archivos_b_ix_directorios_temporales_seguros.livemd) |
+| 078 | 🔴Advanced | Topic | Operaciones te Archivos te Alto Nivel (shutil.copy(), shutil.move(), shutil.rmtree()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/078_topic_operaciones_te_archivos_te_alto_nivel_shutil_copy_shutil_move_shutil_rmtree.livemd) |
+| 079 | 🔴Advanced | Topic | Búsqueda Binaria b'ix Inserciones Ordenadas tuk'il bisect (mantenimiento eficiente te listas ordenadas) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/079_topic_b_squeda_binaria_b_ix_inserciones_ordenadas_tuk_il_bisect_mantenimiento_eficiente_te_listas_ordenadas.livemd) |
+| 080 | 🔴Advanced | Topic | Subprocesses: Ejecución te Comandos te aju Sistema (subprocess.run(), captura te salida) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/080_topic_subprocesses_ejecuci_n_te_comandos_te_aju_sistema_subprocess_run_captura_te_salida.livemd) |
+| 081 | 🔴Advanced | Topic | Regular Expressions: Coincidencia b'ix Búsqueda (re.search(), re.match(), patrones básicos) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/081_topic_regular_expressions_coincidencia_b_ix_b_squeda_re_search_re_match_patrones_b_sicos.livemd) |
+| 082 | 🔴Advanced | Topic | Regular Expressions: Extracción b'ix Sustitución (re.findall(), re.sub(), grupos te captura) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/082_topic_regular_expressions_extracci_n_b_ix_sustituci_n_re_findall_re_sub_grupos_te_captura.livemd) |
+| 083 | 🔴Advanced | PROJECT | Analizador te Logs te aju Sistema b'ix Extractor Regex (Regex, os, pathlib) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/083_project_analizador_te_logs_te_aju_sistema_b_ix_extractor_regex_regex_os_pathlib.livemd) |
+| 084 | 🔴Advanced | Topic | Aju Module logging: Configuración b'ix Niveles te Log (DEBUG, INFO, WARNING, ERROR) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/084_topic_aju_module_logging_configuraci_n_b_ix_niveles_te_log_debug_info_warning_error.livemd) |
+| 085 | 🔴Advanced | Topic | logging Avanzado: Handlers b'ix Formatters (Enrutamiento te logs toj consola b'ix archivos simultáneamente) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/085_topic_logging_avanzado_handlers_b_ix_formatters_enrutamiento_te_logs_toj_consola_b_ix_archivos_simult_neamente.livemd) |
+| 086 | 🔴Advanced | Topic | Itertools: Iteradores Infinitos b'ix Combinatorios (count, cycle, combinations) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/086_topic_itertools_iteradores_infinitos_b_ix_combinatorios_count_cycle_combinations.livemd) |
+| 087 | 🔴Advanced | Topic | Itertools: Agrupación b'ix Encadenamiento te Datos (groupby, chain) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/087_topic_itertools_agrupaci_n_b_ix_encadenamiento_te_datos_groupby_chain.livemd) |
+| 088 | 🔴Advanced | Topic | Introducción te Type Hinting (Tipos escalares: int, str, bool) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/088_topic_introducci_n_te_type_hinting_tipos_escalares_int_str_bool.livemd) |
+| 089 | 🔴Advanced | Topic | Type Hinting Avanzado (List, Dict, Optional, Union, Callable) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/089_topic_type_hinting_avanzado_list_dict_optional_union_callable.livemd) |
+| 090 | 🔴Advanced | PROJECT | Procesador te Payloads te Webhook tuk'il Tipado Seguro (Type Hints, Logging, Itertools) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/090_project_procesador_te_payloads_te_webhook_tuk_il_tipado_seguro_type_hints_logging_itertools.livemd) |
+| 091 | 🔴Advanced | Topic | Bootcamps te Depuración te Scripts: Uso te pdb (Configuración te tracepoints, ejecución paso a paso) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/091_topic_bootcamps_te_depuraci_n_te_scripts_uso_te_pdb_configuraci_n_te_tracepoints_ejecuci_n_paso_a_paso.livemd) |
+| 092 | 🔴Advanced | Topic | Desafíos te Refactorización te Scripts: DRY b'ix Responsabilidad Única (División te funciones monolíticas) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/092_topic_desaf_os_te_refactorizaci_n_te_scripts_dry_b_ix_responsabilidad_nica_divisi_n_te_funciones_monol_ticas.livemd) |
+| 093 | 🔴Advanced | Topic | Conceptos Básicos te Programación Asíncrona (async def, await, concepto te Event Loop) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/093_topic_conceptos_b_sicos_te_programaci_n_as_ncrona_async_def_await_concepto_te_event_loop.livemd) |
+| 094 | 🔴Advanced | Topic | Gestión te Tareas Asíncronas (asyncio.gather(), asyncio.create_task()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/094_topic_gesti_n_te_tareas_as_ncronas_asyncio_gather_asyncio_create_task.livemd) |
+| 095 | 🔴Advanced | Topic | Timeouts b'ix Excepciones Asíncronas (asyncio.wait_for(), manejo te errores async) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/095_topic_timeouts_b_ix_excepciones_as_ncronas_asyncio_wait_for_manejo_te_errores_async.livemd) |
+| 096 | 🔴Advanced | Topic | Threading vs. Asyncio (Diferencias conceptuales b'ix límites funcionales te hilos tuk'il aju GIL) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/096_topic_threading_vs_asyncio_diferencias_conceptuales_b_ix_l_mites_funcionales_te_hilos_tuk_il_aju_gil.livemd) |
+| 097 | 🔴Advanced | PROJECT | Agregador te Datos Multi-API Concurrente (Asyncio, Manejo te Errores, Logging) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/097_project_agregador_te_datos_multi_api_concurrente_asyncio_manejo_te_errores_logging.livemd) |
+| 098 | 🔴Advanced | Topic | Pruebas Funcionales (Escritura te funciones te prueba aisladas usando assert nativo) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/098_topic_pruebas_funcionales_escritura_te_funciones_te_prueba_aisladas_usando_assert_nativo.livemd) |
+| 099 | 🔴Advanced | Topic | Mocking te Functions Nativas (Uso te unittest.mock.patch se'n decorador/context manager) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/099_topic_mocking_te_functions_nativas_uso_te_unittest_mock_patch_se_n_decorador_context_manager.livemd) |
+| 100 | 🔴Advanced | Topic | Gestión te Dependencias te aju Proyecto (creación te venv, pip freeze > requirements.txt) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/100_topic_gesti_n_te_dependencias_te_aju_proyecto_creaci_n_te_venv_pip_freeze_requirements_txt.livemd) |
+| 101 | 🔴Advanced | Topic | Construcción te CLIs Robustas (argparse, Argumentos Posicionales b'ix Flags) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/101_topic_construcci_n_te_clis_robustas_argparse_argumentos_posicionales_b_ix_flags.livemd) |
+| 102 | 🔴Advanced | Topic | Medición te Rendimiento b'ix Profiling (module timeit) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/102_topic_medici_n_te_rendimiento_b_ix_profiling_module_timeit.livemd) |
+| 103 | 🔴Advanced | Topic | Despacho te Functions tu'n Tipo tuk'il functools.singledispatch | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/103_topic_despacho_te_functions_tu_n_tipo_tuk_il_functools_singledispatch.livemd) |
+| 104 | 🔴Advanced | PROJECT | Utilidad CLI te Grado te Producción | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/104_project_utilidad_cli_te_grado_te_producci_n.livemd) |
+| 105 | 🔴Advanced | Topic | Hashing te Datos b'ix Validación te Integridad (hashlib te SHA256) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/105_topic_hashing_te_datos_b_ix_validaci_n_te_integridad_hashlib_te_sha256.livemd) |
+| 106 | 🔴Advanced | Topic | Referencias Débiles tuk'il weakref (referencias te objetos seguras te aju memoria) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/106_topic_referencias_d_biles_tuk_il_weakref_referencias_te_objetos_seguras_te_aju_memoria.livemd) |
+| 107 | 🔴Advanced | Topic | Utilidades Funcionales Avanzadas (functools.partial, @lru_cache te memoización) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/107_topic_utilidades_funcionales_avanzadas_functools_partial_lru_cache_te_memoizaci_n.livemd) |
+| 108 | 🔴Advanced | Topic | Hooks te Cierre te Scripts tuk'il atexit (manejadores te limpieza) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/108_topic_hooks_te_cierre_te_scripts_tuk_il_atexit_manejadores_te_limpieza.livemd) |
+| 109 | 🔴Advanced | Topic | Manejo te Señales te aju Sistema tuk'il signal (terminación elegante te scripts) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/109_topic_manejo_te_se_ales_te_aju_sistema_tuk_il_signal_terminaci_n_elegante_te_scripts.livemd) |
+| 110 | 🔴Advanced | Topic | Importaciones Dinámicas tuk'il importlib (carga te módulos toj tiempo te ejecución) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/110_topic_importaciones_din_micas_tuk_il_importlib_carga_te_m_dulos_toj_tiempo_te_ejecuci_n.livemd) |
+| 111 | 🔴Advanced | Topic | Generación te IDs Únicos tuk'il uuid (uuid4 te sistemas distribuidos) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/111_topic_generaci_n_te_ids_nicos_tuk_il_uuid_uuid4_te_sistemas_distribuidos.livemd) |
+| 112 | 🔴Advanced | PROJECT | Framework te Automatización Extensible | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/mam/advanced/112_project_framework_te_automatizaci_n_extensible.livemd) |
 
-*The complete table of contents (112 topics + projects) is available inside each language folder.*
+*Aju tkyaqil txolil (112 xnaq'tzb'il + aq'untl) atinaq tuj teyle junjun k'ub'il u'j te yol.*
 
 ---
 
-## 🏛️ Architecture & Mentors
+## 🏛️ [Architecture] (explained as Txolil Aq'untl) ex Xnaq'tzal
 
-Each lab includes an **Explanation Gate** where a specialized AI Mentor guides you through the learning process. Each stage has its own mentor personality, designed to match the psychological and pedagogical needs of that phase:
+Teyle junjun xnaq'tzb'il at jun **[Explanation Gate] (explained as T-tzi Yek'b'il)** jatum jun AI Xnaq'tzal cxel t-yek'un b'e. Teyle junjun t-xk'am at t-xnaq'tzal, b'incha'n tu'n t-mojli'n ti'j aju t-ajb'en:
 
-| Stage | Mentor | Personality | What It Teaches |
+| T-xk'am | Xnaq'tzal | T-mod | Tza'n cxel t-xnaq'tza'n |
 |-------|--------|-------------|------------------|
-| **1** | The Safe Guide | Warm, patient, like an older sibling | Safe syntax exploration, eliminating "vibe coding" |
-| **2** | The Analytical Partner | Curious, coffee‑fueled "log detective" | Reading error traces, understanding crashes |
-| **3** | The Logical Scaffold | Methodical, encouraging "senior builder" | Visualizing data flow (Input → Transform → Output) |
-| **4** | The Elegant Critic | Sarcastic, purist, "tough love" | Idiomatic code, functional patterns, eliminating bad habits |
-| **5** | The Strategic Partner | Visionary, professional "system architect" | Edge cases, fault tolerance, business logic alignment |
+| **1** | B'a'n Xq'uqil | Maq'li, q'uqb'a'n, tza'nx jun t-xib' | B'a'nxix [syntax] (explained as t-txolil tz'ib'), exin "vibe coding" |
+| **2** | Jyol Ximil | Jyolil, "[log detective] (explained as jyol mya b'a'n)" | Sch'il [error traces] (explained as t-txol mya b'a'n), xnaq'tzal [crashes] (explained as xitb'il) |
+| **3** | Txolil Ximil | Txolixix, "[senior builder] (explained as nimalxix b'inchal)" | K'a'chal [data flow] (explained as t-b'e ximil) (Input → Transform → Output) |
+| **4** | Q'atol Ximil | B'inchalil, "c'ixbisab'l k'u'j" | B'a'n [code] (explained as tz'ib'in aq'untl), [functional patterns] (explained as t-txolil aq'untl), exin mya b'a'n |
+| **5** | Nimalxix B'inchal | Nimalxix, "[system architect] (explained as b'inchal t-txolil)" | [Edge cases] (explained as k'ayiw t-txol), [fault tolerance] (explained as q'uqb'a'n ti'j mya b'a'n), [business logic] (explained as t-ximil aq'untl pwq) |
 
-*This repository contains **Stage 1 (The Safe Guide)**. Stages 2–5 mentors are available in the premium version.*
+*Aju k'ub'il lu' t-k'am **T-xk'am 1 (B'a'n Xq'uqil)**.
 
 ---
 
-## 🔗 Useful Links
+## 🔗 Ajb'en B'e (Useful Links)
 
 [Coding5s.com](https://coding5s.com) | [Udemy (Coding5s Premium)](https://www.udemy.com/user/wilbarrios/) | [GitHub](https://github.com/WilfredoBarrios)
 
 ---
 
-## 🤝 Contributions
+## 🤝 Onb'il (Contributions)
 
-Do you have any feedback or feature suggestions? Feel free to open an issue or contribute if you want to support the project in any way!
-
----
-
-## 📄 License
-
-MIT © [Wilfredo Barrios](https://github.com/WilfredoBarrios)
+Atpe jun t-ximil moqa t-ajb'en? B'a'n tu'n t-jaq'onte jun issue moqa t-onin qa t-ajb'en t-mojli'n! B'a'nt tu'na.
 
 ---
-⚡ *Coding5s System — Learning designed for technical mastery.*
+
+## 📄 [License] (explained as Q'o'n B'e)
+
+MIT © [Wil Barrios](https://github.com/WilfredoBarrios)
+
+---
+⚡ *Coding5s System — Xnaq'tzb'il b'incha'n tu'n [technical mastery] (explained as nimalxix t-xnaq'tzb'il).*
