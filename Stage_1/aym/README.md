@@ -63,6 +63,8 @@ Sapa Livebook ukaxa **[Mentor prompt] (Yatichiri mayiwi)** utjarakiwa. Uka pachp
 
 Sapa yatiqañ uta [environment] (pacha lurawi) ukanxa chiqa jist'arañatakixa **Run in Livebook** chimpu ñit'imawa.
 
+| # |  Level |  Type |Topic Name | Interactive Lab |
+| :--- | :--- | :--- | :--- | :--- |
 | 001 | 🟢Beginner | Topic | Qallta Kamachinaka & Mistuwi (print(), Comentarios, Indentación) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/aym/beginner/001_topic_qallta_kamachinaka_mistuwi_print_comentarios_indentaci_n.livemd) |
 | 002 | 🟢Beginner | Topic | Mayjt'irinaka & Dinámico Tipado (Churaña, Sutiyaña Kamachi) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/aym/beginner/002_topic_mayjt_irinaka_din_mico_tipado_chura_a_sutiya_a_kamachi.livemd) |
 | 003 | 🟢Beginner | Topic | Qallta Yati Kastanaka (int, float, str, bool) & type() | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/aym/beginner/003_topic_qallta_yati_kastanaka_int_float_str_bool_type.livemd) |
@@ -175,6 +177,7 @@ Sapa yatiqañ uta [environment] (pacha lurawi) ukanxa chiqa jist'arañatakixa **
 | 110 | 🔴Advanced | Topic | Dinámicas Importaciones importlib ukampi (módulo apaniña irnaqawipi) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/aym/advanced/110_topic_din_micas_importaciones_importlib_ukampi_m_dulo_apani_a_irnaqawipi.livemd) |
 | 111 | 🔴Advanced | Topic | Mayalla ID Luraña uuid ukampi (uuid4 rakita sistemanakata) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/aym/advanced/111_topic_mayalla_id_lura_a_uuid_ukampi_uuid4_rakita_sistemanakata.livemd) |
 | 112 | 🔴Advanced | PROJECT | Jach'anchayaña Automatización Framework | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/aym/advanced/112_project_jach_anchaya_a_automatizaci_n_framework.livemd) |
+
 
 *Taqpacha amtanaka uñjawi (112 amtanaka + [projects] (jach'a lurawinaka)) sapa aru k'atanxa utjiwa.*
 
