@@ -1,108 +1,217 @@
-# 🧪 Python Core & Scripting Interactive Lab — English 🇺🇸
+# 🧪 Labari Interaktiivii Python Core & Scripting — Afaan Oromoo 🇪🇹
 
 [![Livebook](https://img.shields.io/badge/Livebook-FF6B6B?logo=livebook&logoColor=white)](https://livebook.dev)
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **Learn Python by writing code, not just by reading it.**
-> This is the English version of the **Coding5s** interactive curriculum, designed to take you from core scripting to technical mastery using Livebook's interactive environment.
+> **Python koodii barreessuun baradhu, dubbisuu qofaan miti.**
+> Kun dabalata afaan Oromoo sirna barnoota interaktiivii **Coding5s** yoo ta'u, naannoo interaktiivii Livebook mijeessuun scripting bu'uuraa irraa kaasee gara beekumsa teeknikaa ol'aanaatti si ceessisuuf kan qophaa'edha.
 
 ---
 
-## 🚀 How to get started?
+## 🚀 Akkamitti jalqabama?
 
-To experience this lab interactively, you need to have **Livebook** installed on your computer with the Python runtime integration.
+Labari kana bifa interaktiivii ta'een shaakaluuf, kompiutara kee irratti **Livebook** python runtime integration waliin qabaachuu si barbaachisa.
 
-1. **Install Livebook:** Download it at [livebook.dev](https://livebook.dev).
-2. **Open a Lab:** Browse the folders below and click the **"Run in Livebook"** button inside each file, or import the URL directly into your Livebook session.
-
----
-
-## 📚 Coding5s Methodology (5 Stages)
-
-Our approach is based on **Controlled Cognitive Friction**. Each lab guides you through:
-
-| Stage | Name | Objective |
-|-------|------|-----------|
-| **1** | Practice | Write code from scratch |
-| **2** | Debug | Find intentional syntax and logic errors |
-| **3** | Complete | Fill in architectural and algorithmic gaps |
-| **4** | Refactor | Optimize existing scripts (flat vs. modular structure) |
-| **5** | Extend | Add new production-ready functionalities |
-
-*This repository contains **Stage 1 (Practice)**.
+1. **Livebook Instool godhi:** [livebook.dev](https://livebook.dev) irraa buufadhu.
+2. **Labari Bani:** Folder-oota gadii keessa deemii failii tokkoo tokkoo keessaa mallattoo **"Run in Livebook"** jedhu cuqaasi, ykn URL kallattiidhaan session Livebook keetti galchi.
 
 ---
 
-## 🛠️ How to use each Livebook
+## 📚 Loojikii Coding5s (Sadarkaa 5)
 
-Inside each `.livemd` file, follow this simple workflow:
+Adeemsi keenya **Wal-dhahiinsa Sammuu To'atame** (Controlled Cognitive Friction) irratti hunda'a. Labariin tokkoo tokkoo sadarkaalee kanaan si geggeessa:
 
-1. Open the file in **Livebook** (desktop or browser version).
-2. Copy the **Stage 1 prompt** and paste it into your preferred AI chat (ChatGPT, Gemini, Claude, etc.).
-3. The AI will generate **3 to 5 executable micro‑examples** for that topic.
-4. Copy those examples into the Livebook's **execution cell** and run them.
-5. Modify the code, experiment, and watch the output change in real time.
+| Sadarkaa | Maqaa | Kaayyoo |
+|---|---|---|
+| **1** | Shaakala (Practice) | Koodii guutuu jalaqaba irraa barreessuu |
+| **2** | Sirreessuu (Debug) | Dogoggora syntax fi loojikii ta'e jedhamee ka'ame barbaaduu |
+| **3** | Guutuu (Complete) | Hanqinoota caasaa (architectural) fi algorithm guutuu |
+| **4** | Haaromsuu (Refactor) | Koodii jiru caalaatti fooyyessuu (flat vs. modular structure) |
+| **5** | Babal'isuu (Extend) | Hojiiwwan haaraa oomishtummaaf (production-ready) qophaa'an dabaluu |
 
----
-
-## 🧠 The Socratic Mentor (AI)
-
-Each Livebook also includes a **Mentor prompt**. You can paste it into the same AI chat alongside your code and a short explanation of your logic. The mentor will:
-
-- **Not give you the answer directly** (at first)
-- Ask you Socratic questions so you discover the error yourself
-- Use real‑world analogies to explain **programming concepts**
-- Help you eliminate "Vibe Coding" and build true engineering intuition
-- Provide senior‑level answers when you ask specific questions
+*Repository-n kun **Sadarkaa 1 (Shaakala)** qofa qabata.*
 
 ---
 
-## 🛠️ Interactive Curriculum — Stage 1: Practice Lab
+## 🛠️ Livebook Tokkoo Tokkoo Akkamitti Hojjatama?
 
-Click the **Run in Livebook** badge to open each lab directly in your environment.
+Failii `.livemd` hunda keessatti, adeemsa hojii salphaa kana hordofi:
 
-| # | Level | Type | Topic / Project Name | Prereqs (#) | Priority | CPF-Risk | Interactive Lab |
-|:-:|:---|:---|:---|:-:|:---|:-:|:---|
-| 1 | 🟢 Beginner | Topic | Global Environment Diagnostics (`sys.version`, `sys.platform`) | - | Core | 1 | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](./Stage_1/en/beginner/1_sys_diagnostics.livemd) |
-| 2 | 🟢 Beginner | Topic | Variables & Dynamic Typing | 1 | Core | 1 | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](./Stage_1/en/beginner/2_variables.livemd) |
-| 3 | 🟢 Beginner | Topic | Primitive Data Types (`int`, `float`, `str`, `bool`) | 2 | Core | 1 | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](./Stage_1/en/beginner/3_data_types.livemd) |
-
-*The complete table of contents (112 topics + projects) is available inside each language folder.*
+1. Failii sanna **Livebook** (desktop ykn browser version) keessatti bani.
+2. **Prompt Sadarkaa 1** copy gochuun AI chat jaallattu (ChatGPT, Gemini, Claude, kkf) keessa paste godhi.
+3. AI-n sun dhimma sanaaf **fakkeenya koodii xixiqqoo hojjachuu danda'an 3 hanga 5** siif kenna.
+4. Fakkeenya koodii sanna Livebook **execution cell** keessa copy gochuun itti fufii hojjachiisi.
+5. Koodii jijjiiri, yaali, bu'aan isaa yeroo gadditti yommuu jijjiiramu ilaali (real-time).
 
 ---
 
-## 🏛️ Architecture & Mentors
+## 🧠 Mentora Socratic (AI)
 
-Each lab includes an **Explanation Gate** where a specialized AI Mentor guides you through the learning process. Each stage has its own mentor personality, designed to match the psychological and pedagogical needs of that phase:
+Livebook hundi **prompt Mentora (Mentor prompt)** of keessaa qaba. Koodii keetii fi ibsa gabaabaa loojikii keetii waliin AI chat sana keessa paste gochuu dandeessa. Mentorichi:
 
-| Stage | Mentor | Personality | What It Teaches |
-|-------|--------|-------------|------------------|
-| **1** | The Safe Guide | Warm, patient, like an older sibling | Safe syntax exploration, eliminating "vibe coding" |
-| **2** | The Analytical Partner | Curious, coffee‑fueled "log detective" | Reading error traces, understanding crashes |
-| **3** | The Logical Scaffold | Methodical, encouraging "senior builder" | Visualizing data flow (Input → Transform → Output) |
-| **4** | The Elegant Critic | Sarcastic, purist, "tough love" | Idiomatic code, functional patterns, eliminating bad habits |
-| **5** | The Strategic Partner | Visionary, professional "system architect" | Edge cases, fault tolerance, business logic alignment |
-
-*This repository contains **Stage 1 (The Safe Guide)**. Stages 2–5 mentors are available in the premium version.*
+- Kallattiidhaan deebii siif **hinkennu** (jalqaba irratti)
+- Dogoggora kee ofii keetiin akka argattuuf gaaffii Socratic si gaafata
+- Yaaddoo koodii (programming concepts) ibsuuf fakkeenya jireenya dhugaa fayyadama
+- "Vibe Coding" (tilmaamaan koodii barreessuu) dhiistee beekumsa engineering dhugaa akka ijaartu si gargaara
+- Gaaffii addaa yommuu gaafattu deebii sadarkaa ol'aanaa (Senior-level) siif kenna
 
 ---
 
-## 🔗 Useful Links
+## 🛠️ Sirna Barnoota Interaktiivii — Sadarkaa 1: Labari Shaakalaa
+
+Baajii **Run in Livebook** cuqaasuun labari tokkoo tokkoo kallattiidhaan naannoo keetti bani.
+
+| # |  Level |  Type |Topic Name | Interactive Lab |
+| :--- | :--- | :--- | :--- | :--- |
+| 001 | 🟢Beginner | Topic | Seera Barreessaa Bu'uuraa fi Ibsa (print(), Comments, Indentation) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/beginner/001_topic_seera_barreessaa_bu_uuraa_fi_ibsa_print_comments_indentation.livemd) |
+| 002 | 🟢Beginner | Topic | Variables fi Dynamic Typing (Assignment, Naming Conventions) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/beginner/002_topic_variables_fi_dynamic_typing_assignment_naming_conventions.livemd) |
+| 003 | 🟢Beginner | Topic | Gosa Data Bu'uuraa (int, float, str, bool) fi type() | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/beginner/003_topic_gosa_data_bu_uuraa_int_float_str_bool_fi_type.livemd) |
+| 004 | 🟢Beginner | Topic | Hojiiwwan Arimeetiki (+, -, *, /, //, %, **) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/beginner/004_topic_hojiiwwan_arimeetiki.livemd) |
+| 005 | 🟢Beginner | Topic | Opreetaroota Wal-dorgomsiisuu fi Eenyummaa (==, !=, >, <, is, is not) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/beginner/005_topic_opreetaroota_wal_dorgomsiisuu_fi_eenyummaa_is_is_not.livemd) |
+| 006 | 🟢Beginner | PROJECT | Shallaggituu Tiพii fi Hirmaannaa (Hojiiwwan Math fi variables walitti makaman) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/beginner/006_project_shallaggituu_ti_ii_fi_hirmaannaa_hojiiwwan_math_fi_variables_walitti_makaman.livemd) |
+| 007 | 🟢Beginner | Topic | Galtee Fayyadamaa fi Type Casting (input(), int(), float(), str()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/beginner/007_topic_galtee_fayyadamaa_fi_type_casting_input_int_float_str.livemd) |
+| 008 | 🟢Beginner | Topic | Opreetaroota Loojiki (and, or, not) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/beginner/008_topic_opreetaroota_loojiki_and_or_not.livemd) |
+| 009 | 🟢Beginner | Topic | Hojiiwwan String Bu'uuraa (Concatenation, Repetition, Indexing []) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/beginner/009_topic_hojiiwwan_string_bu_uuraa_concatenation_repetition_indexing.livemd) |
+| 010 | 🟢Beginner | Topic | Bocquu String (f-strings, .format()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/beginner/010_topic_bocquu_string_f_strings_format.livemd) |
+| 011 | 🟢Beginner | Topic | Tooftaawwan String Baraman (lower(), upper(), strip(), replace(), split()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/beginner/011_topic_tooftaawwan_string_baraman_lower_upper_strip_replace_split.livemd) |
+| 012 | 🟢Beginner | PROJECT | Uumaa Piroofayila Fayyadamaa Wal-qunnamtii (I/O, formatting, string methods) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/beginner/012_project_uumaa_piroofayila_fayyadamaa_wal_qunnamtii_i_o_formatting_string_methods.livemd) |
+| 013 | 🟢Beginner | Topic | Yaamicha To'annoo: Haalawwan Bu'uuraa (if, else) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/beginner/013_topic_yaamicha_to_annoo_haalawwan_bu_uuraa_if_else.livemd) |
+| 014 | 🟢Beginner | Topic | Yaamicha To'annoo: Haalawwan Wal-qabatan fi Wal-keessa Jiran (elif, nested if) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/beginner/014_topic_yaamicha_to_annoo_haalawwan_wal_qabatan_fi_wal_keessa_jiran_elif_nested_if.livemd) |
+| 015 | 🟢Beginner | Topic | Yaamicha To'annoo: Structural Pattern Matching (match/case) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/beginner/015_topic_yaamicha_to_annoo_structural_pattern_matching_match_case.livemd) |
+| 016 | 🟢Beginner | Topic | Seensa Lists (Creation, Indexing, Mutability concept) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/beginner/016_topic_seensa_lists_creation_indexing_mutability_concept.livemd) |
+| 017 | 🟢Beginner | Topic | Tooftaawwan Lists Fooyyessuu (append(), insert(), extend(), remove(), pop()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/beginner/017_topic_tooftaawwan_lists_fooyyessuu_append_insert_extend_remove_pop.livemd) |
+| 018 | 🟢Beginner | Topic | Sequence Slicing fi Strides ([start:stop:step]) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/beginner/018_topic_sequence_slicing_fi_strides_start_stop_step.livemd) |
+| 019 | 🟢Beginner | PROJECT | Bulchaa To-Do Bu'uuraa (Haalawwan fi List manipulation) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/beginner/019_project_bulchaa_to_do_bu_uuraa_haalawwan_fi_list_manipulation.livemd) |
+| 020 | 🟢Beginner | Topic | Seensa Tuples (Creation, Immutability, Unpacking) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/beginner/020_topic_seensa_tuples_creation_immutability_unpacking.livemd) |
+| 021 | 🟢Beginner | Topic | Seensa Dictionaries (Key-Value pairs, Creation, Direct Access) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/beginner/021_topic_seensa_dictionaries_key_value_pairs_creation_direct_access.livemd) |
+| 022 | 🟢Beginner | Topic | Tooftaawwan Dictionary (keys(), values(), items(), get(), update()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/beginner/022_topic_tooftaawwan_dictionary_keys_values_items_get_update.livemd) |
+| 023 | 🟢Beginner | Topic | Seensa Sets (Creation, Uniqueness, add(), remove()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/beginner/023_topic_seensa_sets_creation_uniqueness_add_remove.livemd) |
+| 024 | 🟢Beginner | Topic | Hojiiwwan Set (union(), intersection(), difference(), symmetric_difference()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/beginner/024_topic_hojiiwwan_set_union_intersection_difference_symmetric_difference.livemd) |
+| 025 | 🟢Beginner | PROJECT | Qunnamtii fi Deetaa Irra-deddeebii Hanqisu (Dicts, Tuples, Sets) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/beginner/025_project_qunnamtii_fi_deetaa_irra_deddeebii_hanqisu_dicts_tuples_sets.livemd) |
+| 026 | 🟢Beginner | Topic | Irra-deddeebii: Loop for (Strings, lists, tuples irratti irra-deddeebiuu) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/beginner/026_topic_irra_deddeebii_loop_for_strings_lists_tuples_irratti_irra_deddeebiuu.livemd) |
+| 027 | 🟢Beginner | Topic | Irra-deddeebii: Loop while fi Ibsawwan To'annoo (break, continue, pass) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/beginner/027_topic_irra_deddeebii_loop_while_fi_ibsawwan_to_annoo_break_continue_pass.livemd) |
+| 028 | 🟢Beginner | Topic | Ibsawwan Assignment Walrus Operator (:=) waliin | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/beginner/028_topic_ibsawwan_assignment_walrus_operator_waliin.livemd) |
+| 029 | 🟡Intermediate | Topic | Meeshaalee Irra-deddeebii Sadarkaa Olaanaa (range(), enumerate(), zip()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/intermediate/029_topic_meeshaalee_irra_deddeebii_sadarkaa_olaanaa_range_enumerate_zip.livemd) |
+| 030 | 🟡Intermediate | Topic | Opreetaroota Miseensummaa (in, not in caasaa deetaa hunda keessatti) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/intermediate/030_topic_opreetaroota_miseensummaa_in_not_in_caasaa_deetaa_hunda_keessatti.livemd) |
+| 031 | 🟡Intermediate | Topic | List Comprehensions (Seera barreessaa bu'uuraa fi calaluu haalaa) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/intermediate/031_topic_list_comprehensions_seera_barreessaa_bu_uuraa_fi_calaluu_haalaa.livemd) |
+| 032 | 🟡Intermediate | PROJECT | Qulqulleessituu Barreeffamaa fi Deetaa Of-danda'e (Loops, Comprehensions, Conditionals) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/intermediate/032_project_qulqulleessituu_barreeffamaa_fi_deetaa_of_danda_e_loops_comprehensions_conditionals.livemd) |
+| 033 | 🟡Intermediate | Topic | Dictionary fi Set Comprehensions (Seera barreessaa fi calaluu) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/intermediate/033_topic_dictionary_fi_set_comprehensions_seera_barreessaa_fi_calaluu.livemd) |
+| 034 | 🟡Intermediate | Topic | Seensa Functions (def, ibsawwan return bu'uuraa) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/intermediate/034_topic_seensa_functions_def_ibsawwan_return_bu_uuraa.livemd) |
+| 035 | 🟡Intermediate | Topic | Falmii Function: Positional, Keyword, fi Default Values | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/intermediate/035_topic_falmii_function_positional_keyword_fi_default_values.livemd) |
+| 036 | 🟡Intermediate | Topic | Falmiiwwan Jijjiiramoo (*args, **kwargs) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/intermediate/036_topic_falmiiwwan_jijjiiramoo_args_kwargs.livemd) |
+| 037 | 🟡Intermediate | Topic | Daangaa Variable - Variable Scope (yaad-rimee local, global, nonlocal) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/intermediate/037_topic_daangaa_variable_variable_scope_yaad_rimee_local_global_nonlocal.livemd) |
+| 038 | 🟡Intermediate | PROJECT | Meeshaa Math Command-Line (Functions, Scope, Flexible args) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/intermediate/038_project_meeshaa_math_command_line_functions_scope_flexible_args.livemd) |
+| 039 | 🟡Intermediate | Topic | Lambda Functions (Functions maqaa hin qabne kan ibsa tokko qaban) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/intermediate/039_topic_lambda_functions_functions_maqaa_hin_qabne_kan_ibsa_tokko_qaban.livemd) |
+| 040 | 🟡Intermediate | Topic | Higher-Order Functions (map(), filter()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/intermediate/040_topic_higher_order_functions_map_filter.livemd) |
+| 041 | 🟡Intermediate | Topic | Function reduce() (functools keessaa galchuu) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/intermediate/041_topic_function_reduce_functools_keessaa_galchuu.livemd) |
+| 042 | 🟡Intermediate | Topic | Seensa Modules fi Ibsawwan import (import, from ... import ...) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/intermediate/042_topic_seensa_modules_fi_ibsawwan_import_import_from_import.livemd) |
+| 043 | 🟡Intermediate | Topic | Modules Math fi Random Standard (meeshaalee math, filannoo fi uumaa random) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/intermediate/043_topic_modules_math_fi_random_standard_meeshaalee_math_filannoo_fi_uumaa_random.livemd) |
+| 044 | 🟡Intermediate | Topic | Module Datetime Standard (datetime, timedelta, bocquu string %Y-%m-%d) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/intermediate/044_topic_module_datetime_standard_datetime_timedelta_bocquu_string_y_m_d.livemd) |
+| 045 | 🟡Intermediate | PROJECT | Uumaa Jecha-darbii Yeroon To'atamu (Functions, Datetime, Random) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/intermediate/045_project_uumaa_jecha_darbii_yeroon_to_atamu_functions_datetime_random.livemd) |
+| 046 | 🟡Intermediate | Topic | Bu'uura Hanqina To'achuu (blocks try, except) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/intermediate/046_topic_bu_uura_hanqina_to_achuu_blocks_try_except.livemd) |
+| 047 | 🟡Intermediate | Topic | To'annoo Hanqina Olaanaa (finally, else, gosa exception adda baafame qabuu) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/intermediate/047_topic_to_annoo_hanqina_olaanaa_finally_else_gosa_exception_adda_baafame_qabuu.livemd) |
+| 048 | 🟡Intermediate | Topic | Exceptions Ofii Kaasuu (ibsawwan raise, assert) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/intermediate/048_topic_exceptions_ofii_kaasuu_ibsawwan_raise_assert.livemd) |
+| 049 | 🟡Intermediate | Topic | To'annoo Daandii Ammayyaa (hojiiwwan pathlib.Path fi itti fayyadama) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/intermediate/049_topic_to_annoo_daandii_ammayyaa_hojiiwwan_pathlib_path_fi_itti_fayyadama.livemd) |
+| 050 | 🟡Intermediate | Topic | I/O Faayila Bu'uuraa (Banuu, Dubbisuu, fi Cufuu Faayilota Barreeffamaa) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/intermediate/050_topic_i_o_faayila_bu_uuraa_banuu_dubbisuu_fi_cufuu_faayilota_barreeffamaa.livemd) |
+| 051 | 🟡Intermediate | Topic | Barreessuu fi Deetaa Itti Dabaluu Faayilota Barreeffamaatti (modes 'w', 'a') | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/intermediate/051_topic_barreessuu_fi_deetaa_itti_dabaluu_faayilota_barreeffamaatti_modes_w_a.livemd) |
+| 052 | 🟡Intermediate | Topic | Context Managers (seera barreessaa with open() to'annoo faayilaa amansiisaaf) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/intermediate/052_topic_context_managers_seera_barreessaa_with_open_to_annoo_faayilaa_amansiisaaf.livemd) |
+| 053 | 🟡Intermediate | PROJECT | Faayila Log Of-danda'ee Xiinxalu (File I/O, To'annoo Hanqinaa, String Parsing) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/intermediate/053_project_faayila_log_of_danda_ee_xiinxalu_file_i_o_to_annoo_hanqinaa_string_parsing.livemd) |
+| 054 | 🟡Intermediate | Topic | Deetaa JSON To'achuu (json.load(), json.loads(), json.dump(), json.dumps()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/intermediate/054_topic_deetaa_json_to_achuu_json_load_json_loads_json_dump_json_dumps.livemd) |
+| 055 | 🟡Intermediate | Topic | Faayilota CSV waliin Hojjechuu (csv.reader(), csv.DictReader(), csv.writer()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/intermediate/055_topic_faayilota_csv_waliin_hojjechuu_csv_reader_csv_dictreader_csv_writer.livemd) |
+| 056 | 🔴Advanced | Topic | Variable-wwan Naannoo fi Qindaa'ina (os.environ, os.getenv()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/056_topic_variable_wwan_naannoo_fi_qindaa_ina_os_environ_os_getenv.livemd) |
+| 057 | 🔴Advanced | Topic | Iccitiiwwan python-dotenv waliin Bulchu (Faayilota .env amanamummaan fe'uu) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/057_topic_iccitiiwwan_python_dotenv_waliin_bulchu_faayilota_env_amanamummaan_fe_uu.livemd) |
+| 058 | 🔴Advanced | Topic | Bu'uura HTTP Protocol fi Module requests (requests.get(), Status Codes) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/058_topic_bu_uura_http_protocol_fi_module_requests_requests_get_status_codes.livemd) |
+| 059 | 🔴Advanced | Topic | Deebii API To'achuu (JSON parsing response.json() waliin) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/059_topic_deebii_api_to_achuu_json_parsing_response_json_waliin.livemd) |
+| 060 | 🔴Advanced | Topic | To'annoo API Olaanaa: Pagination fi Cursors keessa deemuu | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/060_topic_to_annoo_api_olaanaa_pagination_fi_cursors_keessa_deemuu.livemd) |
+| 061 | 🔴Advanced | PROJECT | Funaantuu Deetaa API Amansiisaa (Requests, JSON, dotenv, File I/O) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/061_project_funaantuu_deetaa_api_amansiisaa_requests_json_dotenv_file_i_o.livemd) |
+| 062 | 🔴Advanced | Topic | requests Olaanaa: URL Query Parameters fi Custom Headers | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/062_topic_requests_olaanaa_url_query_parameters_fi_custom_headers.livemd) |
+| 063 | 🔴Advanced | Topic | requests Olaanaa: Ergaa POST fi JSON Payloads erguu | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/063_topic_requests_olaanaa_ergaa_post_fi_json_payloads_erguu.livemd) |
+| 064 | 🔴Advanced | Topic | To'annoo Hanqinaa API keessatti (response.raise_for_status(), Request Timeouts) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/064_topic_to_annoo_hanqinaa_api_keessatti_response_raise_for_status_request_timeouts.livemd) |
+| 065 | 🔴Advanced | Topic | Module collections (Counter, defaultdict lakkoofsa/garee fooyya'eef) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/065_topic_module_collections_counter_defaultdict_lakkoofsa_garee_fooyya_eef.livemd) |
+| 066 | 🔴Advanced | Topic | Tarreeffama Effishentii collections.deque waliin (hojiiwwan append/pop saffisaa) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/066_topic_tarreeffama_effishentii_collections_deque_waliin_hojiiwwan_append_pop_saffisaa.livemd) |
+| 067 | 🔴Advanced | Topic | Galmeewwan Caasaa Salphaa collections.namedtuple waliin | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/067_topic_galmeewwan_caasaa_salphaa_collections_namedtuple_waliin.livemd) |
+| 068 | 🔴Advanced | PROJECT | Xiinxalaa Deebii API (Requests, To'annoo Hanqinaa, Collections, Namedtuples) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/068_project_xiinxalaa_deebii_api_requests_to_annoo_hanqinaa_collections_namedtuples.livemd) |
+| 069 | 🔴Advanced | Topic | Context Managers Ofii Uumuu contextlib waliin (@contextmanager decorator) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/069_topic_context_managers_ofii_uumuu_contextlib_waliin_contextmanager_decorator.livemd) |
+| 070 | 🔴Advanced | Topic | Generators fi Jecha yield (Yaad-rimee lazy evaluation) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/070_topic_generators_fi_jecha_yield_yaad_rimee_lazy_evaluation.livemd) |
+| 071 | 🔴Advanced | Topic | Generator Expressions (Uumaa iterales kan yaadannoo qusatu) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/071_topic_generator_expressions_uumaa_iterales_kan_yaadannoo_qusatu.livemd) |
+| 072 | 🔴Advanced | Topic | Functions Olaanoo: Closures fi Nested Functions (Haala odoo object hin fayyadamin qabachuu) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/072_topic_functions_olaanoo_closures_fi_nested_functions_haala_odoo_object_hin_fayyadamin_qabachuu.livemd) |
+| 073 | 🔴Advanced | Topic | Meeshaalee Deetaa Caasaa qaban dataclasses waliin | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/073_topic_meeshaalee_deetaa_caasaa_qaban_dataclasses_waliin.livemd) |
+| 074 | 🔴Advanced | Topic | Decorators: Uumuu fi Itti Fayyadama Function Wrappers (seera @wrapper) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/074_topic_decorators_uumuu_fi_itti_fayyadama_function_wrappers_seera_wrapper.livemd) |
+| 075 | 🔴Advanced | PROJECT | Daangessituu Saffisa API fi Decorator Caching | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/075_project_daangessituu_saffisa_api_fi_decorator_caching.livemd) |
+| 076 | 🔴Advanced | Topic | Itti Fayyadama Sirna Faayilaa (os.listdir(), os.mkdir(), os.remove()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/076_topic_itti_fayyadama_sirna_faayilaa_os_listdir_os_mkdir_os_remove.livemd) |
+| 077 | 🔴Advanced | Topic | Faayila Yeroo Gabaabaa tempfile waliin (faayilota fi galmee yeroo gabaabaa amansiisaa) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/077_topic_faayila_yeroo_gabaabaa_tempfile_waliin_faayilota_fi_galmee_yeroo_gabaabaa_amansiisaa.livemd) |
+| 078 | 🔴Advanced | Topic | Hojiiwwan Faayila Olaanoo (shutil.copy(), shutil.move(), shutil.rmtree()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/078_topic_hojiiwwan_faayila_olaanoo_shutil_copy_shutil_move_shutil_rmtree.livemd) |
+| 079 | 🔴Advanced | Topic | Barbaacha Binarii fi Galchuu Tarteeffame bisect waliin (lists tarteeffame bulchuuf) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/079_topic_barbaacha_binarii_fi_galchuu_tarteeffame_bisect_waliin_lists_tarteeffame_bulchuuf.livemd) |
+| 080 | 🔴Advanced | Topic | Subprocesses: Ajaja Sirnaa Raawwachuu (subprocess.run(), deebii qabachuu) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/080_topic_subprocesses_ajaja_sirnaa_raawwachuu_subprocess_run_deebii_qabachuu.livemd) |
+| 081 | 🔴Advanced | Topic | Regular Expressions: Wal-fakkii fi Barbaacha (re.search(), re.match(), patterns bu'uuraa) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/081_topic_regular_expressions_wal_fakkii_fi_barbaacha_re_search_re_match_patterns_bu_uuraa.livemd) |
+| 082 | 🔴Advanced | Topic | Regular Expressions: Baasuu fi Bakka Buusuu (re.findall(), re.sub(), capture groups) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/082_topic_regular_expressions_baasuu_fi_bakka_buusuu_re_findall_re_sub_capture_groups.livemd) |
+| 083 | 🔴Advanced | PROJECT | Xiinxalaa Log Sirnaa fi Regex Extractor (Regex, os, pathlib) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/083_project_xiinxalaa_log_sirnaa_fi_regex_extractor_regex_os_pathlib.livemd) |
+| 084 | 🔴Advanced | Topic | Module logging: Qindaa'ina fi Sadarkaa Log (DEBUG, INFO, WARNING, ERROR) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/084_topic_module_logging_qindaa_ina_fi_sadarkaa_log_debug_info_warning_error.livemd) |
+| 085 | 🔴Advanced | Topic | logging Olaanaa: Handlers fi Formatters (Log gara console fi faayilaatti yeroo tokkotti erguu) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/085_topic_logging_olaanaa_handlers_fi_formatters_log_gara_console_fi_faayilaatti_yeroo_tokkotti_erguu.livemd) |
+| 086 | 🔴Advanced | Topic | Itertools: Irra-deddeebituu Daangaa Hin Qabne (count, cycle, combinations) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/086_topic_itertools_irra_deddeebituu_daangaa_hin_qabne_count_cycle_combinations.livemd) |
+| 087 | 🔴Advanced | Topic | Itertools: Gareessuu fi Deetaa Wal-qabsiisuu (groupby, chain) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/087_topic_itertools_gareessuu_fi_deetaa_wal_qabsiisuu_groupby_chain.livemd) |
+| 088 | 🔴Advanced | Topic | Seensa Type Hinting (Gosa scalar: int, str, bool) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/088_topic_seensa_type_hinting_gosa_scalar_int_str_bool.livemd) |
+| 089 | 🔴Advanced | Topic | Type Hinting Olaanaa (List, Dict, Optional, Union, Callable) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/089_topic_type_hinting_olaanaa_list_dict_optional_union_callable.livemd) |
+| 090 | 🔴Advanced | PROJECT | Webhook Payload Processor amansiisaa (Type Hints, Logging, Itertools) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/090_project_webhook_payload_processor_amansiisaa_type_hints_logging_itertools.livemd) |
+| 091 | 🔴Advanced | Topic | Bootcamp Script Debugging: pdb fayyadamuu (tracepoints kaa'uu, loojikii keessa deemuu) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/091_topic_bootcamp_script_debugging_pdb_fayyadamuu_tracepoints_kaa_uu_loojikii_keessa_deemuu.livemd) |
+| 092 | 🔴Advanced | Topic | Script Refactoring: DRY fi Single Responsibility (Functions gurguddaa hiruu) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/092_topic_script_refactoring_dry_fi_single_responsibility_functions_gurguddaa_hiruu.livemd) |
+| 093 | 🔴Advanced | Topic | Bu'uura Programming Asynchronous (async def, await, yaad-rimee Event Loop) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/093_topic_bu_uura_programming_asynchronous_async_def_await_yaad_rimee_event_loop.livemd) |
+| 094 | 🔴Advanced | Topic | Hojiiwwan Asynchronous Bulchu (asyncio.gather(), asyncio.create_task()) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/094_topic_hojiiwwan_asynchronous_bulchu_asyncio_gather_asyncio_create_task.livemd) |
+| 095 | 🔴Advanced | Topic | Timeouts fi Async Exceptions (asyncio.wait_for(), to'annoo hanqina async) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/095_topic_timeouts_fi_async_exceptions_asyncio_wait_for_to_annoo_hanqina_async.livemd) |
+| 096 | 🔴Advanced | Topic | Threading vs. Asyncio (Garaagarummaa yaad-rimee fi daangaa thread GIL waliin) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/096_topic_threading_vs_asyncio_garaagarummaa_yaad_rimee_fi_daangaa_thread_gil_waliin.livemd) |
+| 097 | 🔴Advanced | PROJECT | Funaantuu Deetaa Multi-API (Asyncio, To'annoo Hanqinaa, Logging) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/097_project_funaantuu_deetaa_multi_api_asyncio_to_annoo_hanqinaa_logging.livemd) |
+| 098 | 🔴Advanced | Topic | Qormaata Hojii (Function qormaataa kophaa barreessuu assert fayyadamuun) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/098_topic_qormaata_hojii_function_qormaataa_kophaa_barreessuu_assert_fayyadamuun.livemd) |
+| 099 | 🔴Advanced | Topic | Functions Nativa Mocking gochuu (unittest.mock.patch akka decorator fayyadamuu) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/099_topic_functions_nativa_mocking_gochuu_unittest_mock_patch_akka_decorator_fayyadamuu.livemd) |
+| 100 | 🔴Advanced | Topic | Bulchiinsa Dependency Piroojektii (venv uumuu, pip freeze > requirements.txt) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/100_topic_bulchiinsa_dependency_piroojektii_venv_uumuu_pip_freeze_requirements_txt.livemd) |
+| 101 | 🔴Advanced | Topic | CLIs Jabaa Ijaaruu (argparse, Positional Arguments fi Flags) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/101_topic_clis_jabaa_ijaaruu_argparse_positional_arguments_fi_flags.livemd) |
+| 102 | 🔴Advanced | Topic | Shallaggii Raawwii fi Profiling (module timeit) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/102_topic_shallaggii_raawwii_fi_profiling_module_timeit.livemd) |
+| 103 | 🔴Advanced | Topic | Function Dispatch gosaan functools.singledispatch waliin | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/103_topic_function_dispatch_gosaan_functools_singledispatch_waliin.livemd) |
+| 104 | 🔴Advanced | PROJECT | Meeshaa CLI Sadarkaa Proodaktii | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/104_project_meeshaa_cli_sadarkaa_proodaktii.livemd) |
+| 105 | 🔴Advanced | Topic | Data Hashing fi Integrity Validation (hashlib kan SHA256) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/105_topic_data_hashing_fi_integrity_validation_hashlib_kan_sha256.livemd) |
+| 106 | 🔴Advanced | Topic | weakref fayyadamuun yaadannoo amansiisaa gochuu | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/106_topic_weakref_fayyadamuun_yaadannoo_amansiisaa_gochuu.livemd) |
+| 107 | 🔴Advanced | Topic | Meeshaalee Hojii Olaanoo (functools.partial, @lru_cache memoization-f) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/107_topic_meeshaalee_hojii_olaanoo_functools_partial_lru_cache_memoization_f.livemd) |
+| 108 | 🔴Advanced | Topic | Script Shutdown Hooks atexit waliin (qulqulleessitoota) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/108_topic_script_shutdown_hooks_atexit_waliin_qulqulleessitoota.livemd) |
+| 109 | 🔴Advanced | Topic | Mallattoo Sirnaa signal waliin To'achuu (script bifa gaariin cufuu) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/109_topic_mallattoo_sirnaa_signal_waliin_to_achuu_script_bifa_gaariin_cufuu.livemd) |
+| 110 | 🔴Advanced | Topic | Import Dinamikaa importlib waliin (yeroo hojiitti module fe'uu) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/110_topic_import_dinamikaa_importlib_waliin_yeroo_hojiitti_module_fe_uu.livemd) |
+| 111 | 🔴Advanced | Topic | ID Adda Ta'e Uumuu uuid waliin (uuid4 sirna bamsiifameef) | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/111_topic_id_adda_ta_e_uumuu_uuid_waliin_uuid4_sirna_bamsiifameef.livemd) |
+| 112 | 🔴Advanced | PROJECT | Sirna Of-danda'ee Hojjetu kan Ballifamu | [![Run in Livebook](https://livebook.dev/badge/v1/blue.svg)](https://livebook.dev/run?url=https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/blob/main/Stage_1/om/advanced/112_project_sirna_of_danda_ee_hojjetu_kan_ballifamu.livemd) |
+
+*Tarreeffamni qabiyyee guutuu (mata-duree 112 + pirojektoota) folder afaan tokkoo tokkoo keessatti ni argama.*
+
+---
+
+## 🏛️ Caasaa & Mentota
+
+Labariin hundi **Karra Ibsaa** (Explanation Gate) kan AI mentor addaa si geggeessu qaba. Sadarkaa hundi amala mentor ofii qaba, kunis haala sammuu fi barnoota sadarkaa sanaa waliin akka deemuuf kan qophaa'edha:
+
+| Sadarkaa | Mentor | Amala | Maal Barsiisa |
+|---|---|---|---|
+| **1** | Geggeessaa Amansiisaa | Obsa kan qabu, akka obboleessa/obboleettii angafaa | Syntax of-eggannoon qorachuu, "vibe coding" balleessuu |
+| **2** | Hiriyyaa Xiinxalaa | Kan nama qoratu, bunatti kan dammaqu, "log detective" | Dogoggora hordofuu (error traces), sababa sirni itti dhaabbate hubachuu |
+| **3** | Deeggarsa Loojikii | Adeemsa kan hordofu, kan jajjabeessu, "senior builder" | Yaasii dataa arguun (Input → Transform → Output) |
+| **4** | Qeeqtuu Bareedduu | Kan qoostu, purist, "jaalala jabaa" (tough love) | Koodii qulqulluu (idiomatic code), barsiifata badaa dhiisuu |
+| **5** | Hiriyyaa Toftaa | Mul'ata kan qabu, ogummaa, "system architect" | Haalawwan addaa (edge cases), danda'amuu dogoggoraa, koodii loojikii daldalaa waliin deemuu |
+
+*Repository-n kun **Sadarkaa 1 (Geggeessaa Amansiisaa)** qabata.*
+
+---
+
+## 🔗 Geessitoota Addaa
 
 [Coding5s.com](https://coding5s.com) | [Udemy (Coding5s Premium)](https://www.udemy.com/user/wilbarrios/) | [GitHub](https://github.com/WilfredoBarrios)
 
 ---
 
-## 🤝 Contributions
+## 🤝 Gumaacha (Contributions)
 
-Do you have any feedback or feature suggestions? Feel free to open an issue or contribute if you want to support the project in any way!
-
----
-
-## 📄 License
-
-MIT © [Wilfredo Barrios](https://github.com/WilfredoBarrios)
+Yaada ykn yaada dabalataa qabduu? Pirojekti kana bifa kanaan deeggaruuf yoo barbaadde, mirga guutuun 'issue' banuu ykn gumaacha kee gochuu dandeessa!
 
 ---
-⚡ *Coding5s System — Learning designed for technical mastery.*
+
+## 📄 Hayyama
+
+MIT © [Wil Barrios](https://github.com/WilfredoBarrios)
+
+---
+⚡ *Sirna Coding5s — Barnoota ogummaa teeknikaaf qophaa'e.*
