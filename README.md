@@ -5,12 +5,26 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Project Status: Active](https://img.shields.io/badge/Status-Active-brightgreen)]()
 
-> **Learn Python by writing code, not just by reading it.** > Master core scripting, robust data structures, and automation. This is the official **Coding5s** curriculum designed to take you from foundational syntax to technical mastery using Livebook's interactive environment.
+> **Learn Python by writing code, not just by reading it.**
+> Master core scripting, robust data structures, and automation. This is the official **Coding5s** curriculum designed to take you from foundational syntax to technical mastery using Livebook's interactive environment.
 
 ---
 
-## 🌐 Choose Your Language & Start Your Journey
-Select a version to explore the interactive Python curriculum and the **Socratic Mentor System**:
+## 📚 The Coding5s Multi-Stage Ecosystem (English 🇺🇸)
+Mastering Python requires a fundamental shift in engineering mindset. Our 5-stage workflow is optimized to break "tutorial hell" through Controlled Cognitive Friction. Click on any active stage to explore its specialized interactive lab:
+
+| Stage | Labs & Architecture | Target Objective | Status / Link |
+| :---: | :--- | :--- | :--- |
+| **`🔹` 1** | **Practice Lab** | Write foundational syntax and structures from scratch. | 🟢 [Explore Stage 1 (All Languages)](#-choose-your-language--start-your-journey) |
+| **`🪲` 2** | **Debug Lab** | Trace machine exceptions, find runtime bugs, and hunt logic errors. | 🟢 [Explore Stage 2 (English)](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_2/en) |
+| **`🧩` 3** | **Complete Lab** | Fill architectural gaps (`# TODO` blocks) and map data pipelines. | 🟢 [Explore Stage 3 (English)](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_3/en) |
+| **`🧹` 4** | **Refactor Lab** | Clean technical debt, enforce PEP 8, and transform flat scripts into modular code. | 🟢 [Explore Stage 4 (English)](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_4/en) |
+| **`🚀` 5** | **Extend Lab** | Implement corporate Jira tickets, handle edge cases, and scale for production. | 🟢 [Explore Stage 5 (English)](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_5/en) |
+
+---
+
+## 🌐 Choose Your Language & Start Your Journey (Stage 1)
+Select a version to explore the core interactive Python curriculum and our **Socratic Mentor System**:
 
 | Language | Status | Link to Curriculum |
 | :--- | :--- | :--- |
@@ -57,17 +71,6 @@ Select a version to explore the interactive Python curriculum and the **Socratic
 
 ---
 
-## 📚 The Coding5s Python Methodology
-Mastering Python requires a fundamental shift in engineering mindset. Our 5-stage workflow is optimized to break the tutorial hell:
-
-1. **Practice:** Write syntax, manage variables, and handle data structures from scratch.
-2. **Debug:** Identify syntax errors, logical bugs, and intentional console tracebacks.
-3. **Complete:** Implement architectural gaps and standardize data flow.
-4. **Refactor:** Optimize flat scripts into modular, reusable functions.
-5. **Extend:** Add production-ready functionalities and handle edge cases.
-
----
-
 ## 🛠️ Python Roadmap — Stage 1: Practice
 This repository covers the foundational labs for Stage 1:
 - **Core Diagnostics:** Environment setup and platform constants.
@@ -86,20 +89,18 @@ Each lab includes an **Explanation Gate** where a specialized AI Mentor guides y
 
 | Stage | Mentor | Personality | What It Teaches |
 |-------|--------|-------------|------------------|
-| **1** | The Safe Guide | Warm, patient, like an older sibling | Safe syntax exploration, eliminating "vibe coding" |
-| **2** | The Analytical Partner | Curious, coffee‑fueled "log detective" | Reading error traces, understanding crashes |
-| **3** | The Logical Scaffold | Methodical, encouraging "senior builder" | Visualizing data flow (Input → Transform → Output) |
-| **4** | The Elegant Critic | Sarcastic, purist, "tough love" | Idiomatic code, functional patterns, eliminating bad habits |
-| **5** | The Strategic Partner | Visionary, professional "system architect" | Edge cases, fault tolerance, business logic alignment |
-
-*This repository contains **Stage 1 (The Safe Guide)**.
+| **`🔹` 1** | The Safe Guide | Warm, patient, like an older sibling | Safe syntax exploration, eliminating "vibe coding" |
+| **`🪲` 2** | The Analytical Partner | Curious, coffee‑fueled "log detective" | Reading error traces, understanding crashes |
+| **`🧩` 3** | The Logical Scaffold | Methodical, encouraging "senior builder" | Visualizing data flow (Input → Transform → Output) |
+| **`🧹` 4** | The Elegant Critic | Sarcastic, purist, "tough love" | Idiomatic code, functional patterns, eliminating bad habits |
+| **`🚀` 5** | The Strategic Partner | Visionary, professional "system architect" | Edge cases, fault tolerance, business logic alignment |
 
 ---
 
 ## 🚀 Get Started
 1. **Install Livebook Desktop:** [livebook.dev](https://livebook.dev) (Ensure Python runtime is configured)
-2. **Clone this repo.**
-3. **Open any `.livemd` file** in your preferred language and click **Run in Livebook**.
+2. **Clone this repo:** `git clone https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting.git`
+3. **Open any `.livemd` file** in your preferred language stage and click **Run in Livebook**.
 
 ---
 > 🔬 **Scientific Foundation:** This curriculum's architecture is built to mitigate the accumulation of **Epistemic Debt**—a state where a developer relies blindly on AI code generation without internalizing the underlying logic. Based on recent academic research ([arXiv:2602.20206](https://arxiv.org/abs/2602.20206)), our structured *Explanation Gates* and *Socratic AI Mentors* enforce active "Teach-Back" validation, turning passive copy-pasting into independent technical mastery.
