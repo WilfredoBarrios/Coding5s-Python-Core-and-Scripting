@@ -5,106 +5,64 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Project Status: Active](https://img.shields.io/badge/Status-Active-brightgreen)]()
 
-> **Learn Python by writing code, not just by reading it.**
-> Master core scripting, robust data structures, and automation. This is the official **Coding5s** curriculum designed to take you from foundational syntax to technical mastery using Livebook's interactive environment.
+> **Learn Python by writing code, not just by watching it.**
+> Master core scripting, robust data structures, and automation. This is the official **Coding5s** curriculum designed to take you from foundational syntax to engineering mastery using Livebook's interactive environment.
 
 ---
 
 ## 📚 The Coding5s Multi-Stage Ecosystem (English 🇺🇸)
-Mastering Python requires a fundamental shift in engineering mindset. Our 5-stage workflow is optimized to break "tutorial hell" through Controlled Cognitive Friction. Click on any active stage to explore its specialized interactive lab:
+Mastering Python requires a fundamental shift in engineering mindset. Our 5-stage workflow is optimized to break "tutorial hell" through **Controlled Cognitive Friction**. Click on any active stage to explore its specialized overview and select your preferred language:
 
-| Stage | Labs & Architecture | Target Objective | Status / Link |
+| Stage | Labs & Architecture | Target Objective | Status / Global Link |
 | :---: | :--- | :--- | :--- |
-| **`🔹` 1** | **Practice Lab** | Write foundational syntax and structures from scratch. | 🟢 [Explore Stage 1 (All Languages)](#-choose-your-language--start-your-journey) |
-| **`🪲` 2** | **Debug Lab** | Trace machine exceptions, find runtime bugs, and hunt logic errors. | 🟢 [Explore Stage 2 (English)](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_2/en) |
-| **`🧩` 3** | **Complete Lab** | Fill architectural gaps (`# TODO` blocks) and map data pipelines. | 🟢 [Explore Stage 3 (English)](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_3/en) |
-| **`🧹` 4** | **Refactor Lab** | Clean technical debt, enforce PEP 8, and transform flat scripts into modular code. | 🟢 [Explore Stage 4 (English)](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_4/en) |
-| **`🚀` 5** | **Extend Lab** | Implement corporate Jira tickets, handle edge cases, and scale for production. | 🟢 [Explore Stage 5 (English)](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_5/en) |
+| **`🔹` 1** | **Practice Lab** | Write foundational syntax and structures from scratch without helper functions. | 🟢 [Explore Stage 1 Overview ➔](./Stage_1/) |
+| **`🪲` 2** | **Debug Lab** | Trace machine exceptions, parse console outputs, and hunt logical bugs. | 🟢 [Explore Stage 2 Overview ➔](./Stage_2/) |
+| **`🧩` 3** | **Complete Lab** | Fill architectural gaps (`# TODO` blocks) and map complex data pipelines. | 🟢 [Explore Stage 3 Overview ➔](./Stage_3/) |
+| **`🧹` 4** | **Refactor Lab** | Clean technical debt, enforce PEP 8, and transform flat scripts into modular code. | 🟢 [Explore Stage 4 Overview ➔](./Stage_4/) |
+| **`🚀` 5** | **Extend Lab** | Implement corporate Jira tickets, handle edge cases, and scale for production. | 🟢 [Explore Stage 5 Overview ➔](./Stage_5/) |
 
 ---
 
-## 🌐 Choose Your Language & Start Your Journey (Stage 1)
-Select a version to explore the core interactive Python curriculum and our **Socratic Mentor System**:
+## 🏛️ The Architecture of AI Socratic Mentors
 
-| Language | Status | Link to Curriculum |
-| :--- | :--- | :--- |
-| 🇺🇸 **English** | 🟢 Active | [Explore English Lab](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/en) |
-| 🇪🇸 **Español** | 🟢 Active | [Explorar Lab en Español](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/es) |
-| 🇫🇷 **Français** | 🟢 Active | [Explorer le Lab en Français](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/fr) |
-| 🇧🇷 **Português** | 🟢 Active | [Explorar Lab em Português](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/pt) |
-| 🇩🇪 **Deutsch** | 🟢 Active | [Deutsches Lab erkunden](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/de) |
-| 🇮🇹 **Italiano** | 🟢 Active | [Esplora il Lab in Italiano](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/it) |
-| 🇳🇱 **Nederlands** | 🟢 Active | [Verken het Nederlandse Lab](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/nl) |
-| 🇷🇺 **Русский** | 🟢 Active | [Исследуйте русскую лабораторию](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/ru) |
-| 🇸🇦 **العربية (Arabic)** | 🟢 Active | [استكشف معمل اللغة العربية](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/ar) |
-| 🇨🇳 **中文 (Chinese)** | 🟢 Active | [查看中文实验](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/zh) |
-| 🇯🇵 **日本語 (Japanese)** | 🟢 Active | [日本語ラボを探索する](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/ja) |
-| 🇰🇷 **한국어 (Korean)** | 🟢 Active | [한국어 실습 살펴보기](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/ko) |
-| 🇮🇳 **हिन्दी (Hindi)** | 🟢 Active | [हिंदी लैब देखें](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/hi) |
-| 🇹🇷 **Türkçe** | 🟢 Active | [Türkçe Lab'ı Görüntüle](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/tr) |
-| 🇮🇩 **Bahasa Indonesia** | 🟢 Active | [Lihat Lab Indonesia](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/id) |
-| 🇻🇳 **Tiếng Việt** | 🟢 Active | [Xem Lab tiếng Việt](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/vi) |
-| 🇵🇱 **Polski** | 🟢 Active | [Zobacz polskie laboratorium](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/pl) |
-| 🇺🇦 **Українська** | 🟢 Active | [Досліджуйте українську лабораторію](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/uk) |
-| 🇰🇪 **Kiswahili** | 🟢 Active | [Chunguza Maabara ya Kiswahili](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/sw) |
-| 🇧🇩 **বাংলা (Bengali)** | 🟢 Active | [বাংলা ল্যাব এক্সপ্লোর করুন](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/bn) |
-| 🇮🇳 **தமிழ் (Tamil)** | 🟢 Active | [தமிழ் ஆய்வகத்தை ஆராயுங்கள்](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/ta) |
-| 🇮🇳 **తెలుగు (Telugu)** | 🟢 Active | [తెలుగు ల్యాబ్‌ను అన్వేషించండి](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/te) |
-| 🇹🇭 **ไทย (Thai)** | 🟢 Active | [สำรวจแล็บภาษาไทย](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/th) |
-| 🇲🇾 **Bahasa Melayu** | 🟢 Active | [Terokai Makmal Bahasa Melayu](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/ms) |
-| 🇵🇭 **Tagalog** | 🟢 Active | [I-explore ang Tagalog Lab](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/tl) |
-| 🇪🇹 **Amharic** | 🟢 Active | [Explore Amharic Lab](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/am) |
-| 🇳🇬 **Yorùbá** | 🟢 Active | [Explore Yorùbá Lab](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/yo) |
-| 🇿🇦 **isiZulu** | 🟢 Active | [Explore isiZulu Lab](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/zu) |
-| 🇳🇬 **Hausa** | 🟢 Active | [Explore Hausa Lab](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/ha) |
-| 🇪🇹 **Afaan Oromoo** | 🟢 Active | [Explore Oromo Lab](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/om) |
-| 🇬🇹 **Q'eqchi'** | 🟢 Active | [Explore Q'eqchi' Lab](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/kek) |
-| 🇬🇹 **K'iche'** | 🟢 Active | [Explore K'iche' Lab](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/quc) |
-| 🇬🇹 **Kaqchikel** | 🟢 Active | [Explore Kaqchikel Lab](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/cak) |
-| 🇬🇹 **Mam** | 🟢 Active | [Explore Mam Lab](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/mam) |
-| 🇵🇪 **Quechua** | 🟢 Active | [Explore Quechua Lab](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/que) |
-| 🇵🇾 **Guaraní** | 🟢 Active | [Explore Guaraní Lab](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/grn) |
-| 🇲🇽 **Náhuatl** | 🟢 Active | [Explore Náhuatl Lab](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/nah) |
-| 🇧🇴 **Aymara** | 🟢 Active | [Explore Aymara Lab](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/aym) |
-| 🇲🇽 **Maya Yucateco** | 🟢 Active | [Explore Maya Yucateco Lab](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/yua) |
-| 🇨🇱 **Mapudungun** | 🟢 Active | [Explore Mapudungun Lab](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting/tree/main/Stage_1/arn) |
+To escape passive copy-pasting, each interactive lab features an **Explanation Gate** backed by a specialized AI Mentor. Rather than handing you raw code solutions, these mentors enforce an active *Teach-Back* validation cycle. Each training stage introduces a unique mentor personality tailored to that phase's pedagogical friction:
+
+| Stage | Mentor | Personality Typology | Core Behavioral Blueprint |
+| :---: | :--- | :--- | :--- |
+| **`🔹` 1** | **The Safe Guide** | Warm, highly patient, like an older sibling. | Guides safe syntax exploration; ruthlessly eliminates "vibe coding" and guesswork. |
+| **`🪲` 2** | **The Analytical Partner** | Curious, coffee-fueled log detective. | Forces you to read stack traces, analyze runtime exceptions, and debug crashes. |
+| **`🧩` 3** | **The Logical Scaffold** | Methodical, highly encouraging senior builder. | Teaches you to visualize the pipeline flow: strictly mapping Input ➔ Transform ➔ Output. |
+| **`🧹` 4** | **The Elegant Critic** | Sarcastic, purist, demanding "tough love". | Eradicates anti-patterns and bad habits; enforces PEP 8 and clean modular paradigms. |
+| **`🚀` 5** | **The Strategic Partner** | Visionary, cut-throat system architect. | Tests edge cases, validates fault tolerance, and aligns logic with production scaling. |
 
 ---
 
-## 🛠️ Python Roadmap — Stage 1: Practice
-This repository covers the foundational labs for Stage 1:
-- **Core Diagnostics:** Environment setup and platform constants.
-- **Data Operations:** Safe typecasting, string formatting, and sequence interrogation.
-- **Control Flow:** Logical structures and iterative loops.
-- **Data Structures:** Lists, Dictionaries, and robust data modeling.
-- **Modular Functions:** Transitioning from flat scripts to reusable logic.
+## 🛠️ Global Curriculum Outline (55 Advanced Topics)
+The Coding5s engine scales programmatically across **40 global languages** across all stages, ensuring precise coverage of Python's scripting lifecycle:
 
-📌 **Full Curriculum Analytics.** See the Master Data Table inside each language folder for the complete curriculum mapped by CFS (Cognitive Friction Score), Industry Priority, and Prerequisites.
-
----
-
-## 🏛️ Architecture & Mentors
-
-Each lab includes an **Explanation Gate** where a specialized AI Mentor guides you through the learning process. Each stage has its own mentor personality, designed to match the psychological and pedagogical needs of that phase:
-
-| Stage | Mentor | Personality | What It Teaches |
-|-------|--------|-------------|------------------|
-| **`🔹` 1** | The Safe Guide | Warm, patient, like an older sibling | Safe syntax exploration, eliminating "vibe coding" |
-| **`🪲` 2** | The Analytical Partner | Curious, coffee‑fueled "log detective" | Reading error traces, understanding crashes |
-| **`🧩` 3** | The Logical Scaffold | Methodical, encouraging "senior builder" | Visualizing data flow (Input → Transform → Output) |
-| **`🧹` 4** | The Elegant Critic | Sarcastic, purist, "tough love" | Idiomatic code, functional patterns, eliminating bad habits |
-| **`🚀` 5** | The Strategic Partner | Visionary, professional "system architect" | Edge cases, fault tolerance, business logic alignment |
+- **Phase 1: Foundations & Diagnostics:** Local setups, runtime primitives, and environment variables.
+- **Phase 2: Advanced Data Control:** Typecasting constraints, structural formatting, and data structures (Lists, Dictionaries, Sets).
+- **Phase 3: Control Flow & Logic:** Relational evaluation, iterative loops, and exception boundaries.
+- **Phase 4: Modular Architecture:** Transitioning flat scripts into encapsulated, reusable function blocks.
+- **Phase 5: Corporate Scripting Systems:** Comprehensive CLI creation (`argparse`), native file system manipulation (`pathlib`), and production pipeline auditing.
 
 ---
 
-## 🚀 Get Started
-1. **Install Livebook Desktop:** [livebook.dev](https://livebook.dev) (Ensure Python runtime is configured)
-2. **Clone this repo:** `git clone https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting.git`
-3. **Open any `.livemd` file** in your preferred language stage and click **Run in Livebook**.
+## 🚀 Quick Start
+1. **Install Livebook Desktop:** Download and configure your local environment via [livebook.dev](https://livebook.dev). Ensure your system's Python runtime is linked.
+2. **Clone the Repository:**
+   ```bash
+   git clone [https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting.git](https://github.com/WilfredoBarrios/Coding5s-Python-Core-and-Scripting.git)
+   ```
+3. Navigate and Learn: Open any directory (stage_1 to stage_5), pick your stage overview, go into languages/ to choose your native tongue, and run the target .livemd file directly in Livebook.
+
+    🔬 Scientific Foundation & Epistemic Debt Mitigation:
+    This curriculum's architecture is explicitly built to mitigate the accumulation of Epistemic Debt—a state where a developer relies blindly on automated AI code generation without internalizing the underlying computing logic. Grounded in critical cognitive research (arXiv:2602.20206), our structured Explanation Gates and Socratic AI Mentors convert passive tutorial consumption into active, independent technical mastery.
 
 ---
-> 🔬 **Scientific Foundation:** This curriculum's architecture is built to mitigate the accumulation of **Epistemic Debt**—a state where a developer relies blindly on AI code generation without internalizing the underlying logic. Based on recent academic research ([arXiv:2602.20206](https://arxiv.org/abs/2602.20206)), our structured *Explanation Gates* and *Socratic AI Mentors* enforce active "Teach-Back" validation, turning passive copy-pasting into independent technical mastery.
+
+## ⚖️ License
+This project is licensed under the **MIT License**. You are free to use, modify, and distribute this curriculum for educational or commercial purposes, provided that the original copyright notice and this permission notice are included in all copies or substantial portions of the software.
 
 ---
-
 ⚡ *Coding5s System — Learning designed for technical mastery.*
