@@ -37,4 +37,13 @@ The interactive curriculum is programmatically mapped across **40 regional and g
 3. Browse the 55-topic syllabus table and click the `Run in Livebook` badge next to any topic.
 
 ---
+
 [⬅️ Back to Master Ecosystem](../README.md) | ⚡ *Coding5s System — Learning designed for technical mastery.*
+
+---
+
+## ⚖️ License
+This project is licensed under the **MIT License**. You are free to use, modify, and distribute this curriculum for educational or commercial purposes, provided that the original copyright notice and this permission notice are included in all copies or substantial portions of the software.
+
+---
+⚡ *Coding5s System — Learning designed for technical mastery.*

@@ -29,4 +29,13 @@ This stage forces you to attack technical debt. You will be handed functional bu
 | 🇲🇽 [Náhuatl](./languages/nah/) | 🇧🇴 [Aymara](./languages/aym/) | 🇲🇽 [Maya Yucateco](./languages/yua/) | 🇨🇱 [Mapudungun](./languages/arn/) |
 
 ---
+
 [⬅️ Back to Master Ecosystem](../README.md) | ⚡ *Coding5s System — Learning designed for technical mastery.*
+
+---
+
+## ⚖️ License
+This project is licensed under the **MIT License**. You are free to use, modify, and distribute this curriculum for educational or commercial purposes, provided that the original copyright notice and this permission notice are included in all copies or substantial portions of the software.
+
+---
+⚡ *Coding5s System — Learning designed for technical mastery.*
